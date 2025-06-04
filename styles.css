@@ -46,7 +46,12 @@ svg {
 .relationship-0 {
     stroke: #91796e; 
 }
-
+/*ONS*/
+.relationship-6 {
+    stroke: white;  /* Green for friendship */
+  stroke-dasharray: 3, 8; /* Length of dashes and gaps */
+    stroke-dashoffset: 0; /* Offset if needed */
+}
 .node-image {
     object-fit: cover;
     width: 160px;
