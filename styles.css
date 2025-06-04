@@ -1,5 +1,44 @@
+/* FRIENDS */
+.dark-mode .relationship-1 {
+    stroke: #a9a0aa;  /* Brightened for friendship */
+}
+
+/* FRENEMIES */
+.dark-mode .relationship-4 {
+    stroke: #a792cd;  /* Brightened for frenemies */
+}
+
+/* FRIENDS WITH BENEFITS */
+.dark-mode .relationship-5 {
+    stroke: #ed99b9;  /* Brightened for friends with benefits */
+}
+
+/* FAMILY */
+.dark-mode .relationship-2 {
+    stroke: #6ba06c;  /* Brightened for family */
+}
+
+/* ROMANTIC PARTNERS */
+.dark-mode .relationship-3 {
+    stroke: #c75858;  /* Brightened for romantic partners */
+    filter: drop-shadow(0 0 7px #ff8a8a);
+}
+
+/* IT'S COMPLICATED */
+.dark-mode .relationship-0 {
+    stroke: #b99f95;  /* Brightened for it's complicated */
+}
+
+/* ONS */
+.dark-mode .relationship-6 {
+    stroke: grey;  /* White for ONS */
+    stroke-dasharray: 3, 8;
+    stroke-dashoffset: 0;
+}
+
+
 .dark-mode {background: white;}
-.dark-mode .legend {background:#f5f5f5;}
+.dark-mode .legend, .dark-mode .search-results, .dark-mode .dark-mode-toggle {background:#f5f5f5; color:grey;}
 .dark-mode-toggle {
     position: fixed;
     bottom: 20px;
@@ -11,18 +50,17 @@
     font-family: 'archivo', sans-serif;
     font-size: 20px;
     color: #6E6761;
-    background-color: rgba(82, 76, 70, 0.3);
     text-align: center;
-    width: 20px; /* Increased width for better appearance */
-    height: 20px;
-    
+    width: 15px; /* Increased width for better appearance */
+    height: 15px;
+  background-color: rgba(82, 76, 70, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .dark-mode-toggle:hover {
-    color: #aba19e;
+    color: #aba19e; 
 }
 
 
