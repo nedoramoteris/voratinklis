@@ -55,8 +55,8 @@ svg {
 
 .node-circle {
     fill: none;
-    stroke: #808080;
-    stroke-width: 2px;
+    stroke: #6e6761;
+    stroke-width: 4px;
     r: 80;
 }
 
