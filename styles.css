@@ -41,7 +41,7 @@ svg {
 /*ROMANTIC PARTNERS*/
 .relationship-3 {
     stroke: #934343;  /* Pink for romantic */
-    filter: drop-shadow(0 0 9px #ff8a8a);
+    filter: drop-shadow(0 0 7px #ff8a8a);
 }
 /*IT'S COMPLICATED*/
 .relationship-0 {
