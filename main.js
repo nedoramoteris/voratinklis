@@ -56,17 +56,9 @@ function processData(pointsText, linksText) {
 
     // Initialize simulation
     simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links)
-            .id(d => d.id)
-            .distance(500)
-            .strength(0.2))
-        .force("charge", d3.forceManyBody()
-            .strength(-2000)
-            .distanceMin(200))
-        .force("collision", d3.forceCollide()
-            .radius(150)
-            .strength(0.5))
-      
+        .force("link", d3.forceLink(links).id(d => d.id).distance(500).strength(0.2))
+        .force("charge", d3.forceManyBody().strength(-2000).distanceMin(200))
+        .force("collision", d3.forceCollide().radius(150).strength(0.5));
 
     // Initialize drag behavior after simulation exists
     drag = d3.drag()
@@ -99,13 +91,32 @@ function processData(pointsText, linksText) {
 }
 
 function createVisualization() {
-    // Create links
+    // Create arrow markers for each link type
+    const defs = svg.append("defs");
+    const linkTypes = [...new Set(links.map(d => d.type))];
+    linkTypes.forEach(type => {
+        defs.append("marker")
+            .attr("viewBox", "0 -5 10 10")
+            .attr("refX", 25)
+            .attr("refY", 0)
+            .attr("orient", "auto")
+            .attr("markerWidth", 6)
+            .attr("markerHeight", 6)
+            .attr("xoverflow", "visible")
+            .append("path")
+            .attr("d", "M0,-5L10,0L0,5")
+            .attr("class", `arrowhead-${type}`);
+    });
+
+    // Create links with offsets for multiple links between same nodes
     link = container.append("g")
         .attr("class", "links")
         .selectAll("line")
         .data(links)
         .join("line")
-        .attr("class", d => `relationship-${d.type}`);
+        .attr("class", d => `relationship-${d.type}`)
+        .attr("stroke-width", 2)
+        .attr("marker-end", d => `url(#arrowhead-${d.type})`);
 
     // Create nodes
     const nodeGroup = container.append("g")
@@ -181,16 +192,46 @@ function createVisualization() {
     // Add drag behavior
     node.call(drag);
 
-    // Update the simulation's tick handler
+    // Update the simulation's tick handler with curved links for multiple connections
     simulation.on("tick", () => {
-        link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y)
-            .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y);
+        // Group links by source-target pairs to handle multiple links
+        const linkGroups = {};
+        links.forEach(link => {
+            const key = [link.source.id, link.target.id].sort().join('-');
+            if (!linkGroups[key]) {
+                linkGroups[key] = [];
+            }
+            linkGroups[key].push(link);
+        });
 
-        node
-            .attr("transform", d => `translate(${d.x},${d.y})`);
+        // Update link positions with offsets for multiple links
+        link.each(function(d) {
+            const key = [d.source.id, d.target.id].sort().join('-');
+            const group = linkGroups[key];
+            const index = group.indexOf(d);
+            const total = group.length;
+            
+            // Calculate offset based on position in group
+            const offset = (index - (total - 1) / 2) * 10;
+            
+            // Calculate angle between nodes
+            const dx = d.target.x - d.source.x;
+            const dy = d.target.y - d.source.y;
+            const angle = Math.atan2(dy, dx);
+            
+            // Calculate perpendicular offset
+            const offsetX = Math.sin(angle) * offset;
+            const offsetY = -Math.cos(angle) * offset;
+            
+            // Apply offset to line positions
+            d3.select(this)
+                .attr("x1", d.source.x + offsetX)
+                .attr("y1", d.source.y + offsetY)
+                .attr("x2", d.target.x + offsetX)
+                .attr("y2", d.target.y + offsetY);
+        });
+
+        node.attr("transform", d => `translate(${d.x},${d.y})`);
 
         // Update label positions
         labelGroups.attr("transform", d => {
@@ -209,7 +250,6 @@ Promise.all([
 }).catch(error => {
     console.error("Error loading or processing data:", error);
 });
-
 
 // Helper functions
 function calculateLabelPosition(d, nodes, existingLabels) {
