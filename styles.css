@@ -52,6 +52,11 @@ svg {
   stroke-dasharray: 3, 8; /* Length of dashes and gaps */
     stroke-dashoffset: 0; /* Offset if needed */
 }
+
+/*ENEMIES*/
+.relationship-7 {
+    stroke: #00858b;  /* Pink for romantic */
+}
 .node-image {
     object-fit: cover;
     width: 160px;
