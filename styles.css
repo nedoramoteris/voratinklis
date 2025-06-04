@@ -274,10 +274,7 @@ background:#292725;
   letter-spacing: 0.5px;
 
   color: #6E6761;
-  background: 
-    linear-gradient(#292725, #292725) padding-box, /* actual box background */
-    linear-gradient(to right, #A8B9BF, #BFA980, #b58d84) border-box; /* border gradient */
-  border: 4px solid transparent;
+  background: #292725;
   border-radius: 7px;
 }
 
