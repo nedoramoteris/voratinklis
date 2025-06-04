@@ -247,7 +247,7 @@ font-weight:bold;
   position: absolute;
   right: 0; /* <-- this aligns it to the right */
   padding-right: 10px; /* optional, for spacing */color:#6E6761;
-background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 }
+.credit a {background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
