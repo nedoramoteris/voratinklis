@@ -1,0 +1,253 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  background-color: #21211F;
+    
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+.links line {
+    stroke-opacity: 1;
+    stroke-width: 6px;
+    transition: all 0.3s;
+}
+/*FRIENDS*/
+.relationship-1 {
+    stroke: #7d697e;  /* Green for friendship */
+}
+/*FRIENEMIES*/
+.relationship-4 {
+    stroke: #736e91;
+}
+
+/*FRIENDS WITH BENEFITS*/
+.relationship-5 {
+    stroke: #c57090;
+}
+
+/*FAMILY*/
+.relationship-2 {
+    stroke: #4b6052;  /* Blue for family */
+}
+/*ROMANTIC PARTNERS*/
+.relationship-3 {
+    stroke: #934343;  /* Pink for romantic */
+}
+/*IT'S COMPLICATED*/
+.relationship-0 {
+    stroke: #91796e; 
+}
+
+.node-image {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+}
+
+.node-circle {
+    fill: none;
+    stroke: #808080;
+    stroke-width: 2px;
+    r: 80;
+}
+
+.node-label {
+    font-family: 'Lemon/Milk light', sans-serif;
+  letter-spacing:1px;
+    font-weight: 500;
+    font-size: 26px;
+    fill: #6E6761;
+    opacity: 1;
+    transition: opacity 0.3s;
+    paint-order: stroke fill;
+    background: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.node.highlighted .node-label {
+    opacity: 1;  /* Show labels for highlighted nodes */
+}
+
+.links line {
+    transition: all 0.3s;
+    stroke-opacity: 0.2;  /* Reduced default opacity */
+}
+
+.node-circle {
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.node image {
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.node.faded .node-circle,
+.node.faded image {
+    opacity: 0.2;
+}
+
+.links line.faded {
+    stroke-opacity: 0.05;
+}
+
+.node.highlighted .node-circle {
+    stroke-width: 3px;
+}
+
+.links line.highlighted {
+    stroke-opacity: 1;
+    stroke-width: 7px;
+}
+
+.node-label-background {
+    fill: white;
+    opacity: 0.95;
+}
+
+.node.highlighted .node-label-background {
+    opacity: 0.9;
+}
+
+.node-label, .node-label-background {
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.label-group.visible .node-label,
+.label-group.visible .node-label-background {
+    opacity: 1;
+}
+
+.search-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    width: 250px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 0px solid #ddd;
+    border-radius: 6px;
+    font-family: 'Lemon/Milk light', sans-serif;
+  letter-spacing:1px;
+    font-weight: 400;
+    text-transform: uppercase;  /* Display text as uppercase */
+background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+color:white;
+}
+.search-input::placeholder {
+  color: white; }
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 0px solid #ddd;
+    border-radius: 6px;
+    margin-top: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+color:white;
+background:#292725;
+}
+
+.search-result-item {
+    padding: 8px 12px;
+    cursor: pointer;
+   font-family: 'Lemon/Milk light', sans-serif;
+  letter-spacing:1px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;  /* Display suggestions as uppercase */
+}
+
+.search-result-item:hover {
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+}
+
+.legend {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  min-width: 220px;
+
+  font-family: 'Lemon/Milk light', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+
+  color: #6E6761;
+  background: 
+    linear-gradient(#292725, #292725) padding-box, /* actual box background */
+    linear-gradient(to right, #A8B9BF, #BFA980, #b58d84) border-box; /* border gradient */
+  border: 4px solid transparent;
+  border-radius: 7px;
+}
+
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.legend-color {
+    width: 30px;
+    height: 4px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.links {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.label-group {
+    pointer-events: none;
+    z-index: 3;
+}
+
+.node-label {
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.search-result-item.selected {
+    background-color: #f0f0f0;
+}
+
+.credit {
+  font-family: 'Lemon/Milk light', sans-serif;
+  letter-spacing: 1px;
+font-weight:bold;
+  font-size: 11px;
+  position: absolute;
+  right: 0; /* <-- this aligns it to the right */
+  padding-right: 10px; /* optional, for spacing */color:#6E6761;
+background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
