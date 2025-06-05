@@ -164,19 +164,27 @@ svg {
     stroke-width: 10px;
     r: 80;
 }
-.dark-mode .node-label {stroke-width: 0px;}
+.dark-mode .node-label {filter:none;}
 .node-label {
     font-family: 'Lemon/Milk light', sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 40px;
-    fill: #6E6761;           /* Text fill color */
-    stroke: #252321;           /* Border color */
-    stroke-width: 2px; /* Border thickness */
-    paint-order: stroke fill;
+    font-size: 30px;
+    fill: #6E6761;
     opacity: 1;
     transition: opacity 0.3s;
+
+    /* Remove stroke */
+    stroke: none;
+
+    /* Enhanced opaque drop shadows */
+    filter: drop-shadow(0 0 1px #252321)
+            drop-shadow(0 0 2px #252321)
+            drop-shadow(0 0 3px #252321)
+            drop-shadow(0 0 4px #252321);
 }
+
+ 
 
 
 .node.highlighted .node-label {
