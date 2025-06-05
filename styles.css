@@ -36,6 +36,10 @@
     stroke-dashoffset: 0;
 }
 
+.onsline {
+  color:white;
+position: absolute;
+margin-left:10px;}
 
 .dark-mode {background: white;}
 .dark-mode .legend, .dark-mode .search-results, .dark-mode .dark-mode-toggle {background:#f5f5f5; color:grey;}
