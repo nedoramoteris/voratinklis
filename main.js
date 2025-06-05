@@ -49,8 +49,10 @@ const raceColors = {
     'vampirehunter': '#7B403B', // Using first color for text
     'vampirewitch': '#405752', // Using first color for text
     'supernaturalhuman': '#756059', // Using first color for text
-    'hybridhunter': '#94655D' // Using first color for text
+    'hybridhunter': '#94655D', // Using first color for text
+    'pet': '#6E6761' // New race "pet" with its color
 };
+
 
 // SVG setup
 const svg = d3.select("svg")
