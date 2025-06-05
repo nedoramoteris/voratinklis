@@ -15,7 +15,7 @@ Lennon Therasia Windsor	https://i.pinimg.com/236x/ad/15/e3/ad15e36a3bd4ceb6d8a2a
 Leone Battista Dalmonte	https://i.pinimg.com/236x/c6/28/91/c6289156d4baf30320b787a9930caeee.jpg	hunter	2000-11-14	introvert
 Salvatore Edoardo Moretti	https://i.pinimg.com/enabled/236x/93/eb/a1/93eba16e0a7fc094a7f32584f0eab832.jpg	werewolf	1998-01-18	extrovert
 Theodore Percival Hayes	https://64.media.tumblr.com/4dd01d173b2940a3c3454c3a0460cd28/2f0201845eb7784d-7a/s500x750/0d957964038360793272a899e4d76b6b87a25896.png	human	2000-02-24	ambivert
-Valeria Euphemia Greco	https://i.imgur.com/EE5k5Gk.png	vegetarian	1992-01-20	ambivert
+Valeria Euphemia Greco-Whitmore	https://i.imgur.com/EE5k5Gk.png	vegetarian	1992-01-20	ambivert
 West Elliot Harlow	https://i.imgur.com/no0B1Ii.png	hunter	2002-11-17	introvert
 Rodrigo Abeyta	https://i.pinimg.com/736x/0e/88/e4/0e88e4303a9b2931cfbca4e9ecb7addb.jpg	human
 Alessandro Elio Rossi	https://i.pinimg.com/474x/d3/b0/7e/d3b07e2bb22d0684d1186bc1882fc6da.jpg	hybrid	2007-01-17	extrovert
