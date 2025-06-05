@@ -514,5 +514,5 @@ Don Canino	Leopoldas	1	1
 Sausainis	Leopoldas	1	1
 Sausainis	Miss Catherine Eleanor Earnshaw Bianchi Harlow	3	3
 Sausainis	Obsidianas	4	4
-Rupertas  Fusillo  1  1
+Rupertas	Fusillo	1	1
 Sausainis	Leopoldas	1	1
