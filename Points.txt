@@ -41,7 +41,6 @@ Joshua William Lund	West Elliot Harlow	2	2
 Joshua William Lund	Deianeira Cecilia Lund	2	2
 Joshua William Lund	Florence Elise Winslow	1	1
 Joshua William Lund	Veronique Helena Dreschler	1	1
-Joshua William Lund	Veronique Helena Dreschler	6	6
 Zachariah Gideon Lund	Deianeira Cecilia Lund	2	2
 Zachariah Gideon Lund	Joshua William Lund	2	2
 Zachariah Gideon Lund	Demetria Nadira Harlow	2	2
