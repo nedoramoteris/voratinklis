@@ -73,16 +73,78 @@ function zoomed(event) {
     container.attr("transform", event.transform);
 }
 
+// Function to calculate age from date of birth
+function calculateAge(dob) {
+    if (!dob || dob === 'Unknown') return 'Unknown';
+    
+    // Try to parse different date formats
+    const formats = [
+        { regex: /(\d{4})/, extract: (match) => ({ year: parseInt(match[1]) }) },
+        { regex: /(\d{1,2})\/(\d{1,2})\/(\d{4})/, extract: (match) => ({ year: parseInt(match[3]), month: parseInt(match[1]), day: parseInt(match[2]) }) },
+        { regex: /(\d{4})-(\d{1,2})-(\d{1,2})/, extract: (match) => ({ year: parseInt(match[1]), month: parseInt(match[2]), day: parseInt(match[3]) }) }
+    ];
+    
+    let dateInfo = null;
+    for (const format of formats) {
+        const match = dob.match(format.regex);
+        if (match) {
+            dateInfo = format.extract(match);
+            break;
+        }
+    }
+    
+    if (!dateInfo) return 'Unknown';
+    
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    
+    if (dateInfo.month && dateInfo.day) {
+        // Full date available
+        const birthDate = new Date(dateInfo.year, dateInfo.month - 1, dateInfo.day);
+        let age = currentYear - dateInfo.year;
+        
+        // Check if birthday has occurred this year
+        const currentMonth = currentDate.getMonth() + 1;
+        const currentDay = currentDate.getDate();
+        
+        if (currentMonth < dateInfo.month || (currentMonth === dateInfo.month && currentDay < dateInfo.day)) {
+            age--;
+        }
+        
+        return age.toString();
+    } else if (dateInfo.year) {
+        // Only year available
+        return (currentYear - dateInfo.year).toString();
+    }
+    
+    return 'Unknown';
+}
+
 // Separate function for data processing
 function processData(pointsText, linksText) {
     const pointsLines = pointsText.split('\n').filter(line => line.trim());
     console.log("Number of points:", pointsLines.length);
 
-    // Process nodes
+    // Process nodes - now including date of birth and personality from 4th and 5th columns
     nodes = pointsLines.map(line => {
-        const [name, image, race] = line.split('\t');
+        const parts = line.split('\t');
+        const name = parts[0];
+        const image = parts[1];
+        const race = parts[2]?.trim().toLowerCase();
+        const dob = parts[3] || 'Unknown';
+        const personality = parts[4] || 'Unknown';
+        const age = calculateAge(dob);
+        
         validNodeNames.add(name);
-        return { id: name, name: name, image: image, race: race?.trim().toLowerCase() };
+        return { 
+            id: name, 
+            name: name, 
+            image: image, 
+            race: race, 
+            dob: dob,
+            personality: personality,
+            age: age
+        };
     });
 
     // Process links
@@ -265,11 +327,13 @@ function createVisualization() {
                 // Clicking the same node deselects it
                 selectedNode = null;
                 resetNodeStates();
+                hideTooltip();
             } else {
                 // Select the new node
                 selectedNode = d;
                 highlightNodeAndConnections(d);
                 centerOnNode(d);
+                hideTooltip(); // Hide tooltip on click
             }
         })
         .on("mouseover", function(event, d) {
@@ -290,6 +354,9 @@ function createVisualization() {
                 d3.select(this).select(".node-label")
                     .style("font-weight", "bold")
                     .style("font-size", "1.2em");
+                
+                // Show tooltip on hover
+                showTooltip(d, event);
             }
         })
         .on("mouseout", function(event, d) {
@@ -299,6 +366,9 @@ function createVisualization() {
                 d3.select(this).select(".node-label")
                     .style("font-weight", "normal")
                     .style("font-size", "1em");
+                
+                // Hide tooltip
+                hideTooltip();
             }
         });
 
@@ -335,6 +405,7 @@ function createVisualization() {
         if (selectedNode) {
             selectedNode = null;
             resetNodeStates();
+            hideTooltip();
         }
     });
 
@@ -427,6 +498,35 @@ function highlightNodeAndConnections(d) {
             .style("font-weight", "bold")
             .style("font-size", "1.2em");
     }
+}
+
+// Tooltip functions
+function showTooltip(d, event) {
+    const tooltip = d3.select("#node-tooltip");
+    if (tooltip.empty()) {
+        d3.select("body").append("div")
+            .attr("id", "node-tooltip")
+            .attr("class", "node-tooltip");
+    }
+    
+    d3.select("#node-tooltip")
+        .html(`
+            <div class="tooltip-header">${d.name}</div>
+            <div class="tooltip-row"><strong>Race:</strong> ${d.race || 'Unknown'}</div>
+            <div class="tooltip-row"><strong>Age:</strong> ${d.age || 'Unknown'}</div>
+            <div class="tooltip-row"><strong>Born:</strong> ${d.dob || 'Unknown'}</div>
+            <div class="tooltip-row"><strong>Personality:</strong> ${d.personality || 'Unknown'}</div>
+        `)
+        .style("left", (event.pageX + 10) + "px")
+        .style("top", (event.pageY + 10) + "px")
+        .style("opacity", 1);
+}
+
+function hideTooltip() {
+    d3.select("#node-tooltip")
+        .style("opacity", 0)
+        .style("left", "0px")
+        .style("top", "0px");
 }
 
 // Load and process data from GitHub
