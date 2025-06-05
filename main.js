@@ -35,6 +35,23 @@ let validNodeNames = new Set();
 let drag; // Declare drag variable
 let selectedNode = null; // Track currently selected node
 
+// Race color mapping
+const raceColors = {
+    'hunter': '#94655D',
+    'werewolf': '#434F3F',
+    'hybrid': '#524047',
+    'witch': '#405752',
+    'human': '#4C4957',
+    'vampire': '#944444',
+    'volturi': '#664E64',
+    'vegetarian': '#7B403B',
+    'hunterwitch': 'url(#hunterwitch-gradient)',
+    'vampirehunter': 'url(#vampirehunter-gradient)',
+    'vampirewitch': 'url(#vampirewitch-gradient)',
+    'supernaturalhuman': 'url(#supernaturalhuman-gradient)',
+    'hybridhunter': 'url(#hybridhunter-gradient)'
+};
+
 // SVG setup
 const svg = d3.select("svg")
     .attr("width", width)
@@ -63,9 +80,9 @@ function processData(pointsText, linksText) {
 
     // Process nodes
     nodes = pointsLines.map(line => {
-        const [name, image] = line.split('\t');
+        const [name, image, race] = line.split('\t');
         validNodeNames.add(name);
-        return { id: name, name: name, image: image };
+        return { id: name, name: name, image: image, race: race?.trim().toLowerCase() };
     });
 
     // Process links
@@ -118,8 +135,80 @@ function processData(pointsText, linksText) {
 }
 
 function createVisualization() {
-    // Create arrow markers for each link type
+    // Create gradients for mixed races
     const defs = svg.append("defs");
+    
+    // Hunter-Witch gradient
+    defs.append("linearGradient")
+        .attr("id", "hunterwitch-gradient")
+        .attr("x1", "0%").attr("y1", "0%")
+        .attr("x2", "100%").attr("y2", "0%")
+        .selectAll("stop")
+        .data([
+            {offset: "0%", color: "#94655D"},
+            {offset: "100%", color: "#405752"}
+        ])
+        .enter().append("stop")
+        .attr("offset", d => d.offset)
+        .attr("stop-color", d => d.color);
+    
+    // Vampire-Hunter gradient
+    defs.append("linearGradient")
+        .attr("id", "vampirehunter-gradient")
+        .attr("x1", "0%").attr("y1", "0%")
+        .attr("x2", "100%").attr("y2", "0%")
+        .selectAll("stop")
+        .data([
+            {offset: "0%", color: "#7B403B"},
+            {offset: "100%", color: "#94655D"}
+        ])
+        .enter().append("stop")
+        .attr("offset", d => d.offset)
+        .attr("stop-color", d => d.color);
+    
+    // Vampire-Witch gradient
+    defs.append("linearGradient")
+        .attr("id", "vampirewitch-gradient")
+        .attr("x1", "0%").attr("y1", "0%")
+        .attr("x2", "100%").attr("y2", "0%")
+        .selectAll("stop")
+        .data([
+            {offset: "0%", color: "#405752"},
+            {offset: "100%", color: "#803131"}
+        ])
+        .enter().append("stop")
+        .attr("offset", d => d.offset)
+        .attr("stop-color", d => d.color);
+    
+    // Supernatural-Human gradient
+    defs.append("linearGradient")
+        .attr("id", "supernaturalhuman-gradient")
+        .attr("x1", "0%").attr("y1", "0%")
+        .attr("x2", "100%").attr("y2", "0%")
+        .selectAll("stop")
+        .data([
+            {offset: "0%", color: "#756059"},
+            {offset: "100%", color: "#4C4957"}
+        ])
+        .enter().append("stop")
+        .attr("offset", d => d.offset)
+        .attr("stop-color", d => d.color);
+    
+    // Hybrid-Hunter gradient
+    defs.append("linearGradient")
+        .attr("id", "hybridhunter-gradient")
+        .attr("x1", "0%").attr("y1", "0%")
+        .attr("x2", "100%").attr("y2", "0%")
+        .selectAll("stop")
+        .data([
+            {offset: "0%", color: "#94655D"},
+            {offset: "100%", color: "#524047"}
+        ])
+        .enter().append("stop")
+        .attr("offset", d => d.offset)
+        .attr("stop-color", d => d.color);
+
+    // Create arrow markers for each link type
     const linkTypes = [...new Set(links.map(d => d.type))];
     linkTypes.forEach(type => {
         defs.append("marker")
@@ -193,11 +282,20 @@ function createVisualization() {
                     .classed("faded", n => !connectedNodes.has(n.id));
                 link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id)
                     .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
+                
+                // Highlight the border with race color on hover
+                d3.select(this).select(".node-circle")
+                    .style("stroke", raceColors[d.race] || "#292725")
+                    .style("stroke-width", "4px");
             }
         })
-        .on("mouseout", function() {
+        .on("mouseout", function(event, d) {
             if (!selectedNode) { // Only reset if no node is selected
                 resetNodeStates();
+                // Reset the border color
+                d3.select(this).select(".node-circle")
+                    .style("stroke", "#292725")
+                    .style("stroke-width", "2px");
             }
         });
 
@@ -218,10 +316,13 @@ function createVisualization() {
         .append("circle")
         .attr("r", 80);
 
-    // Add border circles
+    // Add border circles with race-based colors
     node.append("circle")
         .attr("r", 80)
-        .attr("class", "node-circle");
+        .attr("class", "node-circle")
+        .style("stroke", "#292725")
+        .style("stroke-width", "2px")
+        .style("fill", "none");
 
     // Add drag behavior
     node.call(drag);
@@ -290,6 +391,11 @@ function resetNodeStates() {
         .classed("selected", false);
     link.classed("highlighted", false)
         .classed("faded", false);
+    
+    // Reset all node borders to default
+    node.select(".node-circle")
+        .style("stroke", "#292725")
+        .style("stroke-width", "2px");
 }
 
 function highlightNodeAndConnections(d) {
@@ -311,6 +417,13 @@ function highlightNodeAndConnections(d) {
         .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
     
     labelGroups.classed("visible", n => connectedNodes.has(n.id));
+    
+    // Highlight the selected node's border with race color
+    if (d) {
+        node.filter(n => n === d).select(".node-circle")
+            .style("stroke", raceColors[d.race] || "#292725")
+            .style("stroke-width", "4px");
+    }
 }
 
 // Load and process data from GitHub
