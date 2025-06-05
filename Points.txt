@@ -224,16 +224,16 @@ Theofania Maria Caras-Dragoumis	Hera Melody Harlow	2	2
 Theofania Maria Caras-Dragoumis	West Elliot Harlow	2	2
 Theofania Maria Caras-Dragoumis	Alastar Zander Lund	2	2
 Theofania Maria Caras-Dragoumis	Atticus Orfeas Lund	2	2
-Matthew Harlow	Thomas Harlow	3	3
-Matthew Harlow	Damir Harlow	2	2
-Matthew Harlow	Jonathan Fort Harlow	2	2
-Matthew Harlow	Nathaniel Dean Harlow	2	2
-Matthew Harlow	Oliver Noah Harlow	2	2
-Matthew Harlow	Michael Romeo Harlow	2	2
-Matthew Harlow	Bianca Juliett Harlow-Bakir	2	2
-Matthew Harlow	Hera Melody Harlow	2	2
-Matthew Harlow	West Elliot Harlow	2	2
-Matthew Harlow	Joshua William Lund	1	1
+Matthew Lúcio Harlow	Thomas Harlow	3	3
+Matthew Lúcio Harlow	Damir Harlow	2	2
+Matthew Lúcio Harlow	Jonathan Fort Harlow	2	2
+Matthew Lúcio Harlow	Nathaniel Dean Harlow	2	2
+Matthew Lúcio Harlow	Oliver Noah Harlow	2	2
+Matthew Lúcio Harlow	Michael Romeo Harlow	2	2
+Matthew Lúcio Harlow	Bianca Juliett Harlow-Bakir	2	2
+Matthew Lúcio Harlow	Hera Melody Harlow	2	2
+Matthew Lúcio Harlow	West Elliot Harlow	2	2
+Matthew Lúcio Harlow	Joshua William Lund	1	1
 Damir Harlow	Thomas Harlow	2	2
 Damir Harlow	Damir Harlow	2	2
 Damir Harlow	Jonathan Fort Harlow	2	2
@@ -243,12 +243,12 @@ Damir Harlow	Michael Romeo Harlow	2	2
 Damir Harlow	Bianca Juliett Harlow-Bakir	2	2
 Damir Harlow	Hera Melody Harlow	2	2
 Damir Harlow	West Elliot Harlow	2	2
-Damir Harlow	Matthew Harlow	2	2
+Damir Harlow	Matthew Lúcio Harlow	2	2
 Damir Harlow	Aurora Vivienne Boucher	2	2
 Damir Harlow	Daniel Apollo Dreschler	2	2
 Damir Harlow	Camille Lillian Boucher	2	2
 Damir Harlow	Veronique Helena Dreschler	2	2
-Thomas Harlow	Matthew Harlow	3	3
+Thomas Harlow	Matthew Lúcio Harlow	3	3
 Thomas Harlow	Damir Harlow	2	2
 Thomas Harlow	Joshua William Lund	1	1
 Thomas Harlow	Camille Lillian Boucher	2	2
@@ -399,10 +399,10 @@ Hera Melody Harlow	Anastasia Clara Blackwell	1	1
 Lennon Therasia Windsor	Declan Aidan Bernhard	1	1
 Harrison James Whitmore	Katrina Deva Bianchi	1	1
 Harrison James Whitmore	West Elliot Harlow	1	1
-Alessandro Rossi	Katrina Deva Bianchi	1	1
-Alessandro Rossi	Valeria Euphemia Greco	1	1
+Alessandro Elio Rossi	Katrina Deva Bianchi	1	1
+Alessandro Elio Rossi	Valeria Euphemia Greco	1	1
 Coralie Francesca Romano	Katrina Deva Bianchi	1	1
-Coralie Francesca Romano	Alessandro Rossi	1	1
+Coralie Francesca Romano	Alessandro Elio Rossi	1	1
 Hera Melody Harlow	Daniel Apollo Dreschler	6	6
 Carmen Iscariot Denali	Nathaniel Dean Harlow	6	6
 Sabrina Miranda Volturi	West Elliot Harlow	0	0
@@ -427,7 +427,7 @@ Layla Eman Bakir	Jonathan Fort Harlow	2	2
 Layla Eman Bakir	Nathaniel Dean Harlow	2	2
 Layla Eman Bakir	Michael Fort Harlow	2	2
 Layla Eman Bakir	Oliver Noah Harlow	2	2
-Layla Eman Bakir	Matthew Harlow	2	2
+Layla Eman Bakir	Matthew Lúcio Harlow	2	2
 Layla Eman Bakir	West Elliot Harlow	2	2
 Layla Eman Bakir	Hera Melody Harlow	2	2
 Layla Eman Bakir	Damir Harlow	2	2
