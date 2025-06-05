@@ -270,8 +270,8 @@ function createVisualization() {
 
 // Load and process data from GitHub
 Promise.all([
-    d3.text('https://raw.githubusercontent.com/nedoramoteris/nedoramoteris/refs/heads/main/avatarai.txt'),
-    d3.text('https://raw.githubusercontent.com/nedoramoteris/nedoramoteris/refs/heads/main/Points.txt')
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/avatarai.txt'),
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/Points.txt')
 ]).then(function([pointsText, linksText]) {
     processData(pointsText, linksText);
 }).catch(error => {
