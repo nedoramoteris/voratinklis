@@ -1,6 +1,7 @@
 /* Tooltip styles */
 .dark-mode .node-tooltip, .dark-mode .tooltip-header {color: #6E6761 !important;}
 .node-tooltip {
+      text-align:justify;
     position: absolute;
     padding: 10px;
   font-family: 'Lemon/Milk light', sans-serif;
