@@ -16,7 +16,7 @@
   font-size:10px;
   letter-spacing:1px;
 }
-
+.node-image:hover {    cursor: pointer;}
 .tooltip-header {
     font-weight: bold;
     font-size: 12px;
