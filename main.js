@@ -64,7 +64,9 @@ const zoom = d3.zoom()
 
 // Create container for zoom
 const container = svg.append("g");
-const labelContainer = container.append("g");
+const linkContainer = container.append("g"); // Separate container for links
+const nodeContainer = container.append("g"); // Separate container for nodes
+const labelContainer = container.append("g"); // Separate container for labels (will be on top)
 
 // Apply zoom to SVG
 svg.call(zoom);
@@ -225,7 +227,7 @@ function createVisualization() {
     });
 
     // Create links with offsets for multiple links between same nodes
-    link = container.append("g")
+    link = linkContainer.append("g")
         .attr("class", "links")
         .selectAll("line")
         .data(links)
@@ -235,10 +237,10 @@ function createVisualization() {
         .attr("marker-end", d => `url(#arrowhead-${d.type})`);
 
     // Create nodes
-    const nodeGroup = container.append("g")
+    const nodeGroup = nodeContainer.append("g")
         .attr("class", "nodes");
 
-    // Create labels container first
+    // Create labels container (will be on top of everything)
     labelGroups = labelContainer.selectAll("g")
         .data(nodes)
         .join("g")
