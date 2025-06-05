@@ -513,3 +513,9 @@ Volfgangas	Juozas	1	1
 Volfgangas	Hubertas	1	1
 Volfgangas	Eden	1	1
 Jazminas / Žakas	The British Royal Family	7	7
+Don Canino	Leopoldas	1	1
+Sausainis	Leopoldas	1	1
+Sausainis	Miss Catherine Eleanor Earnshaw Bianchi Harlow	3	3
+Sausainis	Obsidianas	4	4
+Rupertas	Fusillo	3	3
+Svetlana	Leopoldas	1	1
