@@ -99,7 +99,8 @@ Volfgangas	https://metro.co.uk/wp-content/uploads/2014/03/champ5.png	pet	2015	co
 Jazminas / Žakas	https://www.catster.com/wp-content/uploads/2023/11/bombay-cat-1.jpg	pet	1957	ex-rockstar, current diva, still french
 Pogo	https://www.snowypineswhitelabs.com/wp-content/uploads/2023/07/shutterstock_1917262397-scaled.jpg	pet	2020	jump first, think never
 Fusillo	https://i.imgur.com/36CWKRy.jpeg	pet	2019	small dog, big bark, zero chill
-Don Canino	https://i.imgur.com/9jUqDKu.jpeg	2013	distinguished gentleman
-Svetlana	https://www.catster.com/wp-content/uploads/2023/11/Norwegian-forest-cat-male-kitten-looking-sad_Elisa-Putti_Shutterstock.jpg	2022	purrs like a princess, slaps like a queen
-Rupertas	https://content.lyka.com.au/f/1016262/1104x676/6edc8b1b17/australian_shepherd_wide.webp/m/640x427/smart	2010	knows Latin, forgets fetch
-Sausainis	https://lonestardoodles.com/wp-content/uploads/2024/09/E82D7CA9-3B75-42CE-B3B6-BB578CC5EC11-scaled-e1727203862700.jpg	2024	short king
+Don Canino	https://i.imgur.com/9jUqDKu.jpeg	pet	2013	distinguished gentleman
+Svetlana	https://www.catster.com/wp-content/uploads/2023/11/Norwegian-forest-cat-male-kitten-looking-sad_Elisa-Putti_Shutterstock.jpg	pet	2022	purrs like a princess, slaps like a queen
+Rupertas	https://content.lyka.com.au/f/1016262/1104x676/6edc8b1b17/australian_shepherd_wide.webp/m/640x427/smart	pet	2010	knows Latin, forgets fetch
+Sausainis	https://lonestardoodles.com/wp-content/uploads/2024/09/E82D7CA9-3B75-42CE-B3B6-BB578CC5EC11-scaled-e1727203862700.jpg	pet	2024	short king
+
