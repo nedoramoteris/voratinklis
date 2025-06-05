@@ -77,7 +77,15 @@ function zoomed(event) {
 function calculateAge(dob) {
     if (!dob || dob === 'Unknown') return 'Unknown';
     
-    // Try to parse different date formats
+    // Check for BC dates first
+    const bcMatch = dob.match(/(\d+)\s*BC/i);
+    if (bcMatch) {
+        const bcYear = parseInt(bcMatch[1]);
+        const currentYear = new Date().getFullYear();
+        return (currentYear + bcYear).toString();
+    }
+    
+    // Try to parse other date formats
     const formats = [
         { regex: /(\d{4})/, extract: (match) => ({ year: parseInt(match[1]) }) },
         { regex: /(\d{1,2})\/(\d{1,2})\/(\d{4})/, extract: (match) => ({ year: parseInt(match[3]), month: parseInt(match[1]), day: parseInt(match[2]) }) },
