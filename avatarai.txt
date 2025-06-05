@@ -64,7 +64,7 @@ Matteo Rossi	https://i.pinimg.com/736x/28/0f/b1/280fb1f9042e1fd1f39b26e8c67c8f5f
 Jeremiah Rhys Sinclair	https://i.imgur.com/CoUlsJF.png	human	1995-01-10	ambivert
 Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/99/3c/02/993c023dee96c7d524c07e3850e3c84d.jpg	hunter	1974-09-30	ambivert
 Niccolò Davide Bianchi	https://i.pinimg.com/236x/e7/64/6c/e7646caeeec6256c7d6314aab684d9fa.jpg	hunter	1973-04-21	ambivert
-The British Royal Family	https://i.pinimg.com/736x/68/1b/60/681b60aa5b2909317d5701dfc52492e3.jpg	human  1066  unnecessarily pompous
+The British Royal Family	https://i.pinimg.com/736x/68/1b/60/681b60aa5b2909317d5701dfc52492e3.jpg	human	1066	unnecessarily pompous
 Sabrina Miranda Volturi	https://64.media.tumblr.com/d6ea0e7e8c554f59ee660f5090750e24/f94f4ee7603b540a-49/s500x750/0db72536ae3db35e80cca097d9352e8df0327e32.jpg	human	2004-06-15	introvert
 Dominic Lucien Harrington	https://64.media.tumblr.com/dbccb01930a2aaee966d9024be22b8ac/29eadca0c8cb9120-70/s500x750/ab62b97935ef97bb937e82e0bf70b93b26ef6187.png	human	1998-01-10	introvert
 Maxime Julien Delacroix	https://64.media.tumblr.com/353154e238534a5d05b1c47629b0369a/431b72cd21aaf1df-4e/s500x750/c844ae06f01af0b72eba25a1bf7117bf371157cd.png	human	1992-04-27	ambivert
