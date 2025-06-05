@@ -164,20 +164,20 @@ svg {
     stroke-width: 10px;
     r: 80;
 }
-
+.dark-mode .node-label {stroke-width: 0px;}
 .node-label {
     font-family: 'Lemon/Milk light', sans-serif;
-  letter-spacing:1px;
+    letter-spacing: 2px;
     font-weight: bold;
-    font-size: 30px;
-    fill: #6E6761;
+    font-size: 40px;
+    fill: #6E6761;           /* Text fill color */
+    stroke: #252321;           /* Border color */
+    stroke-width: 2px; /* Border thickness */
+    paint-order: stroke fill;
     opacity: 1;
     transition: opacity 0.3s;
-    paint-order: stroke fill;
-    background: white;
-    padding: 4px 8px;
-    border-radius: 4px;
 }
+
 
 .node.highlighted .node-label {
     opacity: 1;  /* Show labels for highlighted nodes */
