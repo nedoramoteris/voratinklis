@@ -329,8 +329,8 @@ Lennon Therasia Windsor	Katrina Deva Bianchi	1	1
 Lennon Therasia Windsor	Arya Natalie Davenport	1	1
 Lennon Therasia Windsor	Salvatore Edoardo Moretti	5	5
 Lennon Therasia Windsor	Aurora Vivienne Boucher	5	5
-Valeria Euphemia Greco	West Elliot Harlow	1	1
-Valeria Euphemia Greco	Harrison James Whitmore	3	3
+Valeria Euphemia Greco-Whitmore	West Elliot Harlow	1	1
+Valeria Euphemia Greco-Whitmore	Harrison James Whitmore	3	3
 Theodore Percival Hayes	Arya Natalie Davenport	1	1
 Theodore Percival Hayes	Felicity Gemma Montgomery	3	3
 Felicity Gemma Montgomery	Arya Natalie Davenport	1	1
@@ -371,7 +371,7 @@ Anastasia Clara Blackwell	West Elliot Harlow	1	1
 Anastasia Clara Blackwell	Deianeira Cecilia Lund	1	1
 Anastasia Clara Blackwell	Declan Aidan Bernhard	1	1
 Bernadetta Ottavia Conti	Katrina Deva Bianchi	1	1
-Bernadetta Ottavia Conti	Valeria Euphemia Greco	1	1
+Bernadetta Ottavia Conti	Valeria Euphemia Greco-Whitmore	1	1
 Chiara Ilaria Lombardi	Katrina Deva Bianchi	1	1
 Daniel Apollo Dreschler	West Elliot Harlow	1	1
 Declan Aidan Bernhard	Deianeira Cecilia Lund	3	3
@@ -379,7 +379,7 @@ Declan Aidan Bernhard	Leone Battista Dalmonte	1	1
 Declan Aidan Bernhard	Salvatore Edoardo Moretti	1	1
 Declan Aidan Bernhard	West Elliot Harlow	1	1
 Declan Aidan Bernhard	Katrina Deva Bianchi	1	1
-Valeria Euphemia Greco	Katrina Deva Bianchi	1	1
+Valeria Euphemia Greco-Whitmore	Katrina Deva Bianchi	1	1
 Harper Adriana Esposito	Katrina Deva Bianchi	1	1
 Katrina Deva Bianchi	West Elliot Harlow	3	3
 Katrina Deva Bianchi	Salvatore Edoardo Moretti	1	1
@@ -400,7 +400,7 @@ Lennon Therasia Windsor	Declan Aidan Bernhard	1	1
 Harrison James Whitmore	Katrina Deva Bianchi	1	1
 Harrison James Whitmore	West Elliot Harlow	1	1
 Alessandro Elio Rossi	Katrina Deva Bianchi	1	1
-Alessandro Elio Rossi	Valeria Euphemia Greco	1	1
+Alessandro Elio Rossi	Valeria Euphemia Greco-Whitmore	1	1
 Coralie Francesca Romano	Katrina Deva Bianchi	1	1
 Coralie Francesca Romano	Alessandro Elio Rossi	1	1
 Hera Melody Harlow	Daniel Apollo Dreschler	6	6
@@ -411,7 +411,7 @@ Sabrina Miranda Volturi	Salvatore Edoardo Moretti	6	6
 Sabrina Miranda Volturi	Arya Natalie Davenport	7	7
 Aurora Vivienne Boucher	Sabrina Miranda Volturi	7	7
 Chiara Ilaria Lombardi	West Elliot Harlow	6	6
-Valeria Euphemia Greco	Sabrina Miranda Volturi	7	7
+Valeria Euphemia Greco-Whitmore	Sabrina Miranda Volturi	7	7
 Demetria Nadira Harlow	Sabrina Miranda Volturi	7	7
 Hera Melody Harlow	Sabrina Miranda Volturi	7	7
 Arya Natalie Davenport	Dominic Lucien Harrington	5	5
