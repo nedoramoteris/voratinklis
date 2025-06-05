@@ -523,7 +523,7 @@ function showTooltip(d, event) {
             <div class="tooltip-row"><strong>Race:</strong> ${d.race || '...'}</div>
             <div class="tooltip-row"><strong>Age:</strong> ${d.age || '...'}</div>
             <div class="tooltip-row"><strong>Born:</strong> ${d.dob || '...'}</div>
-            <div class="tooltip-row"><strong>Personality:</strong> ${d.personality || '...'}</div>
+            <div class="tooltip-row"><strong>Personality type:</strong> ${d.personality || '...'}</div>
         `)
         .style("left", (event.pageX + 10) + "px")
         .style("top", (event.pageY + 10) + "px")
