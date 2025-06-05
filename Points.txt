@@ -443,9 +443,6 @@ Delilah Grace Lund	Demetria Nadira Harlow	2	2
 Delilah Grace Lund	Dante Konstantin Lund	2	2
 Delilah Grace Lund	Zachariah Gideon Lund	2	2
 
-
-
-
 Miss Catherine Eleanor Earnshaw Bianchi Harlow	Leopoldas	2	2
 Natanielis Jaunesnysis	Vištos	0	0
 Natanielis Jaunesnysis	Paslaptingoji NJ panelė iš kitapus tvoros	3	3
@@ -518,4 +515,3 @@ Sausainis	Leopoldas	1	1
 Sausainis	Miss Catherine Eleanor Earnshaw Bianchi Harlow	3	3
 Sausainis	Obsidianas	4	4
 Rupertas  Fusillo  1  1
-Svetlana	Leopoldas	1	1
