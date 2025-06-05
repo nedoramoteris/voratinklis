@@ -53,7 +53,6 @@ const raceColors = {
     'pet': '#6E6761' // New race "pet" with its color
 };
 
-
 // SVG setup
 const svg = d3.select("svg")
     .attr("width", width)
@@ -66,9 +65,6 @@ const zoom = d3.zoom()
 
 // Create container for zoom
 const container = svg.append("g");
-const linkContainer = container.append("g"); // Separate container for links
-const nodeContainer = container.append("g"); // Separate container for nodes
-const labelContainer = container.append("g"); // Separate container for labels (will be on top)
 
 // Apply zoom to SVG
 svg.call(zoom);
@@ -228,22 +224,9 @@ function createVisualization() {
             .attr("class", `arrowhead-${type}`);
     });
 
-    // Create links with offsets for multiple links between same nodes
-    link = linkContainer.append("g")
-        .attr("class", "links")
-        .selectAll("line")
-        .data(links)
-        .join("line")
-        .attr("class", d => `relationship-${d.type}`)
-        .attr("stroke-width", 2)
-        .attr("marker-end", d => `url(#arrowhead-${d.type})`);
-
-    // Create nodes
-    const nodeGroup = nodeContainer.append("g")
-        .attr("class", "nodes");
-
-    // Create labels container (will be on top of everything)
-    labelGroups = labelContainer.selectAll("g")
+    // Create labels first (will be behind links)
+    labelGroups = container.append("g")
+        .selectAll("g")
         .data(nodes)
         .join("g")
         .attr("class", "label-group");
@@ -255,6 +238,20 @@ function createVisualization() {
         .attr("text-anchor", "middle")
         .attr("dy", "40")
         .style("fill", d => raceColors[d.race] || "#292725");
+
+    // Create links (will appear on top of labels)
+    link = container.append("g")
+        .attr("class", "links")
+        .selectAll("line")
+        .data(links)
+        .join("line")
+        .attr("class", d => `relationship-${d.type}`)
+        .attr("stroke-width", 2)
+        .attr("marker-end", d => `url(#arrowhead-${d.type})`);
+
+    // Create nodes (will appear on top of both labels and links)
+    const nodeGroup = container.append("g")
+        .attr("class", "nodes");
 
     // Create nodes with updated event handlers
     node = nodeGroup
