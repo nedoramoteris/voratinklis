@@ -78,7 +78,6 @@ Antanas	https://i.pinimg.com/736x/f6/b6/fb/f6b6fba224c6ea7d6a550edb6a4a7b8b.jpg	
 Barnabas	https://i.imgur.com/mdy6594.jpeg	pet
 Miss Catherine Eleanor Earnshaw Bianchi Harlow	https://i.pinimg.com/736x/0c/53/dd/0c53ddc1f3e1e7390cd1461aac03d90f.jpg	pet	2023	Princess
 Hubertas	https://i.pinimg.com/564x/44/94/65/44946531dbb18a020ca5068e390fe314.jpg	pet
-Jazminas / Žakas	https://www.catster.com/wp-content/uploads/2023/11/bombay-cat-1.jpg	pet
 Juozas	https://i.imgur.com/TVSKj0q.jpeg	pet
 Katinas	https://i.imgur.com/DCbl6Xq.jpeg	pet
 Konstantinas	https://i.pinimg.com/564x/09/96/94/0996941baa128344f7aa9d9c48e806d4.jpg	pet
@@ -97,7 +96,7 @@ Profiterol	https://i.imgur.com/xo57LFw.jpeg	pet	2023	snowy fluff, criminal mind
 Eden	https://moderndogmagazine.com/wp-content/uploads/2017/05/bigstock-131968343_Brusnikaphoto-940x640.jpg	pet	2020	will judge you and side-eye you for free
 Pupa	https://www.hepper.com/wp-content/uploads/2022/09/grey-french-bulldog_Supakit-Wisetanuphong-Shutterstock.jpg	pet	2019	daddy’s little princess
 Volfgangas	https://metro.co.uk/wp-content/uploads/2014/03/champ5.png	pet	2015	confessed every sin, still eats socks
-Jazminas	https://www.catster.com/wp-content/uploads/2023/11/bombay-cat-1.jpg	pet	1957	ex-rockstar, current diva, still french
+Jazminas / Žakas	https://www.catster.com/wp-content/uploads/2023/11/bombay-cat-1.jpg	pet	1957	ex-rockstar, current diva, still french
 Pogo	https://www.snowypineswhitelabs.com/wp-content/uploads/2023/07/shutterstock_1917262397-scaled.jpg	pet	2020	jump first, think never
 Fusillo	https://i.imgur.com/36CWKRy.jpeg	pet	2019	small dog, big bark, zero chill
 Don Canino	https://i.imgur.com/9jUqDKu.jpeg	2013	distinguished gentleman
