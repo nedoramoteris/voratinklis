@@ -75,7 +75,7 @@ function zoomed(event) {
 
 // Function to calculate age from date of birth
 function calculateAge(dob) {
-    if (!dob || dob === 'Unknown') return 'Unknown';
+    if (!dob || dob === '...') return '...';
     
     // Check for BC dates first
     const bcMatch = dob.match(/(\d+)\s*BC/i);
@@ -101,7 +101,7 @@ function calculateAge(dob) {
         }
     }
     
-    if (!dateInfo) return 'Unknown';
+    if (!dateInfo) return '...';
     
     const currentDate = new Date();
     const currentYear = currentDate.getFullYear();
@@ -125,7 +125,7 @@ function calculateAge(dob) {
         return (currentYear - dateInfo.year).toString();
     }
     
-    return 'Unknown';
+    return '...';
 }
 
 // Separate function for data processing
@@ -139,8 +139,8 @@ function processData(pointsText, linksText) {
         const name = parts[0];
         const image = parts[1];
         const race = parts[2]?.trim().toLowerCase();
-        const dob = parts[3] || 'Unknown';
-        const personality = parts[4] || 'Unknown';
+        const dob = parts[3] || '...';
+        const personality = parts[4] || '...';
         const age = calculateAge(dob);
         
         validNodeNames.add(name);
@@ -520,10 +520,10 @@ function showTooltip(d, event) {
     d3.select("#node-tooltip")
         .html(`
             <div class="tooltip-header">${d.name}</div>
-            <div class="tooltip-row"><strong>Race:</strong> ${d.race || 'Unknown'}</div>
-            <div class="tooltip-row"><strong>Age:</strong> ${d.age || 'Unknown'}</div>
-            <div class="tooltip-row"><strong>Born:</strong> ${d.dob || 'Unknown'}</div>
-            <div class="tooltip-row"><strong>Personality:</strong> ${d.personality || 'Unknown'}</div>
+            <div class="tooltip-row"><strong>Race:</strong> ${d.race || '...'}</div>
+            <div class="tooltip-row"><strong>Age:</strong> ${d.age || '...'}</div>
+            <div class="tooltip-row"><strong>Born:</strong> ${d.dob || '...'}</div>
+            <div class="tooltip-row"><strong>Personality:</strong> ${d.personality || '...'}</div>
         `)
         .style("left", (event.pageX + 10) + "px")
         .style("top", (event.pageY + 10) + "px")
