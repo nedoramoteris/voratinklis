@@ -1,3 +1,53 @@
+
+/* Add these styles to your existing CSS */
+
+.node-circle {
+      stroke: #292725;
+    stroke-width: 5px !important;
+    fill: none;
+    transition: stroke 0s ease, stroke-width 0s ease;
+}
+
+.node.highlighted .node-circle {
+    stroke-width: 9px !important;
+}
+
+.node.selected .node-circle {
+    stroke-width: 9px !important;
+}
+
+/* Race-specific border colors */
+.node[data-race="hunter"] .node-circle {
+    stroke: #94655D;
+}
+
+.node[data-race="werewolf"] .node-circle {
+    stroke: #434F3F;
+}
+
+.node[data-race="hybrid"] .node-circle {
+    stroke: #524047;
+}
+
+.node[data-race="witch"] .node-circle {
+    stroke: #405752;
+}
+
+.node[data-race="human"] .node-circle {
+    stroke: #4C4957;
+}
+
+.node[data-race="vampire"] .node-circle {
+    stroke: #944444;
+}
+
+.node[data-race="volturi"] .node-circle {
+    stroke: #664E64;
+}
+
+.node[data-race="vegetarian"] .node-circle {
+    stroke: #7B403B;
+}
 /* FRIENDS */
 .dark-mode .relationship-1 {
     stroke: #a9a0aa;  /* Brightened for friendship */
