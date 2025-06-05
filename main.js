@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("darkMode", "enabled");
             toggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" style="width: 1em; height: 1em; vertical-align: top; fill: currentColor; overflow: hidden;" viewBox="0 0 1024 1024" version="1.1"><path d="M529.611373 1023.38565c-146.112965 0-270.826063-51.707812-374.344078-155.225827C51.74928 764.641808 0.041469 639.826318 0.041469 493.815745c0-105.053891 29.693595-202.326012 88.978393-292.22593 59.38719-89.797526 137.000103-155.942569 232.83874-198.63991 6.041111-4.607627 12.184613-3.788493 18.225724 2.252618 7.576986 4.607627 9.931996 11.365479 6.860244 20.580733C322.677735 83.736961 310.493122 142.202626 310.493122 201.589815c0 135.464227 48.328885 251.474031 144.986656 348.131801 96.657771 96.657771 212.667574 144.986656 348.131801 144.986656 74.541162 0 139.252721-11.365479 194.032283-34.19883C1003.684974 655.799424 1009.726084 656.618558 1015.767195 662.659669c7.576986 4.607627 9.931996 11.365479 6.860244 20.580733C983.104241 786.758417 918.802249 869.286132 829.721465 930.925939 740.743072 992.565746 640.706375 1023.38565 529.611373 1023.38565z"/></svg>`;
 
-       
         } else {
             localStorage.removeItem("darkMode");
             toggle.innerText = "☀︎";
@@ -34,6 +33,7 @@ let node, link, labelGroups;
 let simulation;
 let validNodeNames = new Set();
 let drag; // Declare drag variable
+let selectedNode = null; // Track currently selected node
 
 // SVG setup
 const svg = d3.select("svg")
@@ -167,31 +167,38 @@ function createVisualization() {
         .data(nodes)
         .join("g")
         .attr("class", "node")
+        .on("click", function(event, d) {
+            event.stopPropagation(); // Prevent event from bubbling to SVG
+            if (selectedNode === d) {
+                // Clicking the same node deselects it
+                selectedNode = null;
+                resetNodeStates();
+            } else {
+                // Select the new node
+                selectedNode = d;
+                highlightNodeAndConnections(d);
+                centerOnNode(d);
+            }
+        })
         .on("mouseover", function(event, d) {
-            // Get connected nodes
-            const connectedNodes = new Set([d.id]);
-            links.forEach(link => {
-                if (link.source.id === d.id) connectedNodes.add(link.target.id);
-                if (link.target.id === d.id) connectedNodes.add(link.source.id);
-            });
+            if (!selectedNode) { // Only show hover effects if no node is selected
+                const connectedNodes = new Set([d.id]);
+                links.forEach(link => {
+                    if (link.source.id === d.id) connectedNodes.add(link.target.id);
+                    if (link.target.id === d.id) connectedNodes.add(link.source.id);
+                });
 
-            // Update visibility
-            labelGroups.classed("visible", n => connectedNodes.has(n.id));
-            
-            // Update node and link highlighting
-            node.classed("highlighted", n => connectedNodes.has(n.id))
-                .classed("faded", n => !connectedNodes.has(n.id));
-            
-            link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id)
-                .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
+                labelGroups.classed("visible", n => connectedNodes.has(n.id));
+                node.classed("highlighted", n => connectedNodes.has(n.id))
+                    .classed("faded", n => !connectedNodes.has(n.id));
+                link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id)
+                    .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
+            }
         })
         .on("mouseout", function() {
-            // Reset all states
-            labelGroups.classed("visible", false);
-            node.classed("highlighted", false)
-                .classed("faded", false);
-            link.classed("highlighted", false)
-                .classed("faded", false);
+            if (!selectedNode) { // Only reset if no node is selected
+                resetNodeStates();
+            }
         });
 
     // Add images to nodes
@@ -218,6 +225,14 @@ function createVisualization() {
 
     // Add drag behavior
     node.call(drag);
+
+    // Add click handler to SVG to deselect when clicking elsewhere
+    svg.on("click", function() {
+        if (selectedNode) {
+            selectedNode = null;
+            resetNodeStates();
+        }
+    });
 
     // Update the simulation's tick handler with curved links for multiple connections
     simulation.on("tick", () => {
@@ -266,6 +281,36 @@ function createVisualization() {
             return `translate(${d.x + pos.x},${d.y + pos.y})`;
         });
     });
+}
+
+function resetNodeStates() {
+    labelGroups.classed("visible", false);
+    node.classed("highlighted", false)
+        .classed("faded", false)
+        .classed("selected", false);
+    link.classed("highlighted", false)
+        .classed("faded", false);
+}
+
+function highlightNodeAndConnections(d) {
+    const connectedNodes = new Set([d.id]);
+    links.forEach(link => {
+        if (link.source.id === d.id) connectedNodes.add(link.target.id);
+        if (link.target.id === d.id) connectedNodes.add(link.source.id);
+    });
+
+    // Reset all states first
+    resetNodeStates();
+    
+    // Then apply selected and connected states
+    node.classed("selected", n => n === d)
+        .classed("highlighted", n => connectedNodes.has(n.id))
+        .classed("faded", n => !connectedNodes.has(n.id) && n !== d);
+    
+    link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id)
+        .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
+    
+    labelGroups.classed("visible", n => connectedNodes.has(n.id));
 }
 
 // Load and process data from GitHub
@@ -530,26 +575,4 @@ function centerOnNode(selectedNode) {
         .call(zoom.transform, d3.zoomIdentity
             .translate(x, y)
             .scale(scale));
-}
-
-function highlightNodeAndConnections(d) {
-    const connectedNodes = new Set([d.id]);
-    links.forEach(link => {
-        if (link.source.id === d.id) connectedNodes.add(link.target.id);
-        if (link.target.id === d.id) connectedNodes.add(link.source.id);
-    });
-
-    // Force label visibility
-    labelGroups.each(function(n) {
-        d3.select(this)
-            .classed("visible", connectedNodes.has(n.id))
-            .select(".node-label")
-            .style("opacity", connectedNodes.has(n.id) ? 1 : 0);
-    });
-
-    node.classed("highlighted", n => connectedNodes.has(n.id))
-        .classed("faded", n => !connectedNodes.has(n.id));
-
-    link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id)
-        .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
 }
