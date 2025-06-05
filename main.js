@@ -45,11 +45,11 @@ const raceColors = {
     'vampire': '#944444',
     'volturi': '#664E64',
     'vegetarian': '#7B403B',
-    'hunterwitch': 'url(#hunterwitch-gradient)',
-    'vampirehunter': 'url(#vampirehunter-gradient)',
-    'vampirewitch': 'url(#vampirewitch-gradient)',
-    'supernaturalhuman': 'url(#supernaturalhuman-gradient)',
-    'hybridhunter': 'url(#hybridhunter-gradient)'
+    'hunterwitch': '#94655D', // Using first color for text
+    'vampirehunter': '#7B403B', // Using first color for text
+    'vampirewitch': '#405752', // Using first color for text
+    'supernaturalhuman': '#756059', // Using first color for text
+    'hybridhunter': '#94655D' // Using first color for text
 };
 
 // SVG setup
@@ -244,11 +244,13 @@ function createVisualization() {
         .join("g")
         .attr("class", "label-group");
 
+    // Add labels with race-based colors
     labelGroups.append("text")
         .attr("class", "node-label")
         .text(d => d.name)
         .attr("text-anchor", "middle")
-        .attr("dy", "40");
+        .attr("dy", "40")
+        .style("fill", d => raceColors[d.race] || "#292725");
 
     // Create nodes with updated event handlers
     node = nodeGroup
@@ -283,19 +285,19 @@ function createVisualization() {
                 link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id)
                     .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
                 
-                // Highlight the border with race color on hover
-                d3.select(this).select(".node-circle")
-                    .style("stroke", raceColors[d.race] || "#292725")
-                    .style("stroke-width", "4px");
+                // Highlight the label on hover
+                d3.select(this).select(".node-label")
+                    .style("font-weight", "bold")
+                    .style("font-size", "1.2em");
             }
         })
         .on("mouseout", function(event, d) {
             if (!selectedNode) { // Only reset if no node is selected
                 resetNodeStates();
-                // Reset the border color
-                d3.select(this).select(".node-circle")
-                    .style("stroke", "#292725")
-                    .style("stroke-width", "2px");
+                // Reset the label style
+                d3.select(this).select(".node-label")
+                    .style("font-weight", "normal")
+                    .style("font-size", "1em");
             }
         });
 
@@ -316,7 +318,7 @@ function createVisualization() {
         .append("circle")
         .attr("r", 80);
 
-    // Add border circles with race-based colors
+    // Add border circles (now just a simple border)
     node.append("circle")
         .attr("r", 80)
         .attr("class", "node-circle")
@@ -392,10 +394,10 @@ function resetNodeStates() {
     link.classed("highlighted", false)
         .classed("faded", false);
     
-    // Reset all node borders to default
-    node.select(".node-circle")
-        .style("stroke", "#292725")
-        .style("stroke-width", "2px");
+    // Reset all labels to normal style
+    labelGroups.select(".node-label")
+        .style("font-weight", "normal")
+        .style("font-size", "1em");
 }
 
 function highlightNodeAndConnections(d) {
@@ -418,11 +420,11 @@ function highlightNodeAndConnections(d) {
     
     labelGroups.classed("visible", n => connectedNodes.has(n.id));
     
-    // Highlight the selected node's border with race color
+    // Highlight the selected node's label
     if (d) {
-        node.filter(n => n === d).select(".node-circle")
-            .style("stroke", raceColors[d.race] || "#292725")
-            .style("stroke-width", "4px");
+        labelGroups.filter(n => n.id === d.id).select(".node-label")
+            .style("font-weight", "bold")
+            .style("font-size", "1.2em");
     }
 }
 
