@@ -22,27 +22,27 @@ Alessandro Rossi	https://i.pinimg.com/474x/d3/b0/7e/d3b07e2bb22d0684d1186bc1882f
 Coralie Francesca Romano	https://i.pinimg.com/736x/f4/e8/12/f4e812352728e6ddd9f0f90038acb1dc.jpg	human	2000-11-08	introvert
 Demetria Nadira Harlow	https://i.imgur.com/1FaG9ha.png	hunter	1982-11-06	ambivert
 Zachariah Gideon Lund	https://i.pinimg.com/236x/12/52/e3/1252e323eccb18b4a1ec864f55e1d08b.jpg	human	1988-08-08	
-Joshua William Lund	https://i.ibb.co/vQkY9jx/pookstar.jpg	human
+Joshua William Lund	https://i.ibb.co/vQkY9jx/pookstar.jpg	human	1990-10-01	extrovert
 Dante Konstantin Lund	https://i.pinimg.com/736x/8f/9e/e7/8f9ee7169cbf6d3589d5c45335b8cd12.jpg	human	1988-08-08	introvert
 Florence Elise Winslow	https://i.imgur.com/2kX033t.png	witch	1987-10-26	ambivert
 Carmen Iscariot Denali	https://i.pinimg.com/736x/e4/de/f3/e4def39a8d1029d397cafa468aa8f7b3.jpg	human	4256 BC	introvert
 Juliette Claire Lefèvre	https://i.ibb.co/Hdnt5k6/tumblr-dcb5b5e09491df4bd5be15eba7d207d6-7ccc6782-400.png	witch	1996-11-10
 Emery Herman Bernhard	https://i.imgur.com/Z7es2Ds.png	hybrid	1936-09-15	introvert
 Camille Lillian Boucher	https://i.imgur.com/YVG24NO.png	hybrid	1927-08-24
-Charlotte Iris Dreschler	https://i.pinimg.com/736x/cc/fd/e3/ccfde3ef72b822e89493236ee153aeb5.jpg	volturi
+Charlotte Iris Dreschler	https://i.pinimg.com/736x/cc/fd/e3/ccfde3ef72b822e89493236ee153aeb5.jpg	volturi	1425 BC
 Hazel Adeline Boucher	https://i.ibb.co/VTst6Tz/tumblr-daddc15e935b93bae7e25e825bfaed56-7152a516-1280.png	human	1791-03-09
 Søren Ragnar Lindström	https://i.imgur.com/yHRh160.png	werewolf	2007-01-07	ambivert
 Michael Romeo Harlow	https://i.pinimg.com/236x/fe/25/33/fe2533e0c735779149e7be0a247c7a3e.jpg	hunter	1985-03-17	ambivert
-Cassandra Willa Dreschler	https://i.pinimg.com/736x/ca/cd/41/cacd4187826460a108b7e620b4ebb22b.jpg	witch
+Cassandra Willa Dreschler	https://i.pinimg.com/736x/ca/cd/41/cacd4187826460a108b7e620b4ebb22b.jpg	witch	2007-02-28
 Randall Frank Dreschler	https://i.imgur.com/PAdAEcS.png	vegetarian	1427 BC	introvert
-Nathaniel Dean Harlow	https://i.ibb.co/bHvRZzP/tumblr-851888ff6d8d4d7d4b10330901ed8e62-a3a37b49-1280.png	hunter
-Demetri Lorenzo Volturi	https://i.ibb.co/bBvr44B/pw.jpg	volturi
-Veronique Helena Dreschler	https://i.ibb.co/gzG8V3h/pookiecutie.jpg	witch
-Alexis Feiyu King	https://i.pinimg.com/736x/90/76/dc/9076dc9dac2fd2ede993006c0afff771.jpg	witch
+Nathaniel Dean Harlow	https://i.ibb.co/bHvRZzP/tumblr-851888ff6d8d4d7d4b10330901ed8e62-a3a37b49-1280.png	hunter	1983-03-12	introvert
+Demetri Lorenzo Volturi	https://i.ibb.co/bBvr44B/pw.jpg	volturi	1000 BC
+Veronique Helena Dreschler	https://i.ibb.co/gzG8V3h/pookiecutie.jpg	witch	1922-02-16
+Alexis Feiyu King	https://i.pinimg.com/736x/90/76/dc/9076dc9dac2fd2ede993006c0afff771.jpg	witch	1997-05-20
 Jonathan Fort Harlow	https://i.imgur.com/HAshfY6.jpg	hunter	1960-07-24	introvert
-Felix Constantine Volturi	https://i.pinimg.com/736x/96/13/37/9613370ecbef3f66413e655986484b91.jpg	volturi
-Myrtle Maeve Gray	https://i.ibb.co/sbMkwj2/mother.jpg	vegetarian
-Bianca Juliett Harlow-Bakir	https://i.pinimg.com/236x/bc/a7/c2/bca7c253acc52d54d5609d7084ed2852.jpg	human
+Felix Constantine Volturi	https://i.pinimg.com/736x/96/13/37/9613370ecbef3f66413e655986484b91.jpg	volturi	1352-04-25
+Myrtle Maeve Gray	https://i.ibb.co/sbMkwj2/mother.jpg	vegetarian	1962-08-26
+Bianca Juliett Harlow-Bakir	https://i.pinimg.com/236x/bc/a7/c2/bca7c253acc52d54d5609d7084ed2852.jpg	human	1987-04-18	extrovert
 Oliver Noah Harlow	https://i.pinimg.com/236x/9d/17/04/9d17046bcc4d77bfb0151047c3744ec6.jpg	hunter
 Reinhardt Gustav Lund	https://i.imgur.com/P5T7kPv.png	hunter	1960-05-07	ambivert
 Isadora Vanessa Dragoumis-Lund	https://i.imgur.com/TVO9BIY.png	human	1962-11-15	extrovert
@@ -52,7 +52,7 @@ Atticus Orfeas Lund	https://i.pinimg.com/236x/7d/72/91/7d7291649696cc92ee8650e46
 Alastar Zander Lund	https://i.pinimg.com/236x/be/38/49/be384935c52c0e1314cabe6e9bd02489.jpg	human	2022-07-01	introvert
 Samir Bakir	https://i.pinimg.com/474x/79/14/31/791431dbd5f2d394e2078e00ed4b3f59.jpg	human
 Thomas Harlow	https://i.pinimg.com/236x/22/89/d9/2289d9dbf8e565df71221ada1bd3b2d3.jpg	vegetarian
-Matthew Harlow	https://i.pinimg.com/236x/05/bb/e2/05bbe25b32769fbd6343d88f3ac81e76.jpg	hunter
+Matthew Harlow	https://i.pinimg.com/236x/05/bb/e2/05bbe25b32769fbd6343d88f3ac81e76.jpg	hunter	1993-10-12
 Damir Harlow	https://i.imgur.com/2HyxmHi.jpeg	human
 Olivia Harriet Calloway	https://64.media.tumblr.com/d16c09cd46eaea87ad6bad318047a89f/5a448bfc9aad951a-4a/s500x750/481d65ea15683327bb52d5839f95a3aea1810e75.png	vampirewitch	1919-10-31
 Mariana Lucía Gonzalez	https://i.pinimg.com/736x/f9/6c/82/f96c829785c96845252cec4dd3d6ec11.jpg	witch	1990-11-04
