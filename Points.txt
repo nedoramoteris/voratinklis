@@ -619,5 +619,5 @@ Ginevra Elena Russo	Serena Giuseppina Russo	2	2
 Ginevra Elena Russo	Giacomo Giovanni Russo	2	2
 Ginevra Elena Russo	Antonio Marco Russo	2	2
 Giacomo Giovanni Russo	Antonio Marco Russo	2	2
-Antonio Marco Russo	Corinna Rosa Russo (née Cattaneo)	3	3
-Corinna Rosa Russo (née Cattaneo)	Vicente Carlo Sorrentino	0	0
+Antonio Marco Russo	Corinna Elisabetta Russo (née Milanesi)	3	3
+Corinna Elisabetta Russo (née Milanesi)	Vicente Carlo Sorrentino	0	0
