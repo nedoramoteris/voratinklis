@@ -316,7 +316,7 @@ svg {
 }
 
 .links line.faded {
-    stroke-opacity: 0.05;
+    stroke-opacity: 0.02;
 }
 
 .node.highlighted .node-circle {
