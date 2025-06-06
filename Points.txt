@@ -467,7 +467,46 @@ Emma Celestine Boucher	Camille Lillian Boucher	2	2
 Emma Celestine Boucher	Daniel Apollo Dreschler	2	2
 Emma Celestine Boucher	Aurora Vivienne Boucher	2	2
 Emma Celestine Boucher	Damir Harlow	2	2
-
+Zophia Giulia Barone / Zosė	Demetria Nadira Harlow	4	4
+Zophia Giulia Barone / Zosė	Michael Romeo Harlow	4	4
+Zophia Giulia Barone / Zosė	Nathaniel Dean Harlow	4	4
+Zophia Giulia Barone / Zosė	Veronique Helena Dreschler	4	4
+Corin Aleksandrea Volturi	Charlotte Iris Dreschler	2	2
+Corin Aleksandrea Volturi	Demetri Lorenzo Volturi	2	2
+Corin Aleksandrea Volturi	Athenodora Thea Volturi	2	2
+Corin Aleksandrea Volturi	Marcus Volturi	2	2
+Corin Aleksandrea Volturi	Jane Volturi	2	2
+Corin Aleksandrea Volturi	Renata Volturi	2	2
+Athenodora Thea Volturi		Chartolle Iris Dreschler	2	2
+Athenodora Thea Volturi	Demetri Lorenzo Volturi	2	2
+Athenodora Thea Volturi	Marcus Volturi	2	2
+Athenodora Thea Volturi	Jane Volturi	2	2
+Athenodora Thea Volturi	Renata Volturi	2	2
+Renata Volturi	Charlotte Iris Dreschler	2	2
+Renata Volturi	Demetri Lorenzo Volturi	2	2
+Renata Volturi	Marcus Volturi	2	2
+Renata Volturi	Jane Volturi	2	2
+Marcus Volturi	Charlotte Iris Dreschler	2	2
+Marcus Volturi	Demetri Lorenzo Volturi	2	2
+Marcus Volturi	Jane Volturi	2	2
+Jane	Volturi	Charlotte Iris Dreschler	2	2
+Jane Volturi	Demetri Lorenzo Volturi	2	2
+Archibald Otto Williams	Hera Melody Harlow	1	1
+Archibald Otto Williams	Søren Ragnar Lindström	1	1
+Archibald Otto Williams	Cassandra Willa Dreschler	1	1
+Alfons Janczewski	Michael Romeo Harlow	7	7
+Evelyn Brown	Katrina Dev Bianchi	1	1
+Franklin Hughes	West Elliot Harlow	1	1
+Franklin Huges	Valeria Euphemia Greco-Whitmore	1	1
+Alessio the Undressio	West Elliot Harlow	1	1
+Alessio the Undression	Valeria Euphemia Greco-Whitmore	1	1
+Zigmas	Aurora Vivienne Boucher	1	1
+Zigmas	Arya Natalie Davenport	1	1
+Zigmas	Katrina Deva Bianchi	1	1
+Zigmas	Declan Aidan Bernhard	1	1
+Zigmas	Leone Battista Dalmonte	1	1
+Emilia Leonie Richter	Beatrice Johanna Wolf	1	1
+Kurt Hartwin Lund	1	1
 
 
 -------------------------------------------------------------------------
