@@ -18,7 +18,7 @@
     pointer-events: none;
     font-size: 14px;
     min-width: 200px;
-  max-width:350px;
+  max-width:250px;
     z-index: 100;
     transition: opacity 0.2s;
     opacity: 0;
@@ -27,6 +27,7 @@
 }
 .node-image:hover {    cursor: pointer;}
 .tooltip-header {
+ text-align:left !important;
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 8px;
