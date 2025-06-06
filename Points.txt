@@ -596,28 +596,61 @@ Sausainis	Obsidianas	4	4
 Svetlana	Leopoldas	1	1
 Fusillo	Rupertas	1	1
 Don Canino	Leopoldas	1	1
+
 -------------------------------------------------------------------------
 THE ORIGINAL ITALAI
 -------------------------------------------------------------------------
+
 Salvatore Enzo Russo	Alessandra Vittoria Russo (née Castellano)	3	3
 Salvatore Enzo Russo	Francesca Lucia Russo	2	2
 Salvatore Enzo Russo	Ginevra Elena Russo	2	2
-Salvatore Enzo Russo	Serena Giuseppina Russo	2	2
-Salvatore Enzo Russo	Serena Giuseppina Russo	2	2
-Salvatore Enzo Russo	Giacomo Giovanni Russo	2	2
+Salvatore Enzo Russo	Serena Giuseppina Bianchi (née Russo)	2	2
+Salvatore Enzo Russo	Serena Giuseppina Bianchi (née Russo)	2	2
+Salvatore Enzo Russo	Giacomo Giovanni Bianchi (née Russo)	2	2
 Salvatore Enzo Russo	Antonio Marco Russo	2	2
 Alessandra Vittoria Russo (née Castellano)	Francesca Lucia Russo	2	2
 Alessandra Vittoria Russo (née Castellano)	Ginevra Elena Russo	2	2
-Alessandra Vittoria Russo (née Castellano)	Serena Giuseppina Russo	2	2
+Alessandra Vittoria Russo (née Castellano)	Serena Giuseppina Bianchi (née Russo)	2	2
 Alessandra Vittoria Russo (née Castellano)	Giacomo Giovanni Russo	2	2
 Alessandra Vittoria Russo (née Castellano)	Antonio Marco Russo	2	2
 Francesca Lucia Russo	Ginevra Elena Russo	2	2
-Francesca Lucia Russo	Serena Giuseppina Russo	2	2
+Francesca Lucia Russo	Serena Giuseppina Bianchi (née Russo)	2	2
 Francesca Lucia Russo	Giacomo Giovanni Russo	2	2
 Francesca Lucia Russo	Antonio Marco Russo	2	2
-Ginevra Elena Russo	Serena Giuseppina Russo	2	2
+Ginevra Elena Russo	Serena Giuseppina Bianchi (née Russo)	2	2
 Ginevra Elena Russo	Giacomo Giovanni Russo	2	2
 Ginevra Elena Russo	Antonio Marco Russo	2	2
 Giacomo Giovanni Russo	Antonio Marco Russo	2	2
 Antonio Marco Russo	Corinna Elisabetta Russo (née Milanesi)	3	3
 Corinna Elisabetta Russo (née Milanesi)	Vicente Carlo Sorrentino	0	0
+Paolo Matteo Sorrentino	Sofia Caterina Sorrentino (née Bernardi)	3	3
+Paolo Matteo Sorrentino	Vicente Carlo Sorrentino	2	2
+Paolo Matteo Sorrentino	Alessandra Chiara Bergamaschi (née Sorrentino)	2	2
+Paolo Matteo Sorrentino	Romeo Francesco Sorrentino	2	2
+Paolo Matteo Sorrentino	Lucia Isabella Sorrentino	2	2
+Paolo Matteo Sorrentino	Dante Marcello Sorrentino	2	2
+Sofia Caterina Sorrentino (née Bernardi)	Vicente Carlo Sorrentino	2	2
+Sofia Caterina Sorrentino (née Bernardi)	Alessandra Chiara Bergamaschi (née Sorrentino)	2	2
+Sofia Caterina Sorrentino (née Bernardi)	Romeo Francesco Sorrentino	2	2
+Sofia Caterina Sorrentino (née Bernardi)	Lucia Isabella Sorrentino	2	2
+Sofia Caterina Sorrentino (née Bernardi)	Dante Marcello Sorrentino	2	2
+Vicente Carlo Sorrentino	Alessandra Chiara Bergamaschi (née Sorrentino)	2	2
+Vicente Carlo Sorrentino	Romeo Francesco Sorrentino	2	2
+Vicente Carlo Sorrentino	Lucia Isabella Sorrentino	2	2
+Vicente Carlo Sorrentino	Dante Marcello Sorrentino	2	2
+Alessandra Chiara Bergamaschi (née Sorrentino)	Romeo Francesco Sorrentino	2	2
+Alessandra Chiara Bergamaschi (née Sorrentino)	Lucia Isabella Sorrentino	2	2
+Alessandra Chiara Bergamaschi (née Sorrentino)	Dante Marcello Sorrentino	2	2
+Lucia Isabella Sorrentino	Dante Marcello Sorrentino	2	2
+Alessandra Chiara Bergamaschi (née Sorrentino)	Aurelio Andrea Bergamaschi	3	3
+Alessandra Chiara Bergamaschi (née Sorrentino)	Serena Giuseppina Russo	3	3
+Niccolò Davide Bianchi	Serena Giuseppina Bianchi (née Russo)	2	2
+Niccolò Davide Bianchi	Aurelio Andrea Bergamaschi	2	2
+Katrina Deva Bianchi	Paolo Matteo Sorrentino	2	2
+Katrina Deva Bianchi	Sofia Caterina Sorrentino (née Bernardi)	2	2
+Katrina Deva Bianchi	Vicente Carlo Sorrentino	2	2
+Katrina Deva Bianchi	Alessandra Chiara Bergamaschi (née Sorrentino)	2	2
+Katrina Deva Bianchi	Romeo Francesco Sorrentino	2	2
+Katrina Deva Bianchi	Lucia Isabella Sorrentino	2	2
+Katrina Deva Bianchi	Dante Marcello Sorrentino	2	2
+Katrina Deva Bianchi	Aurelio Andrea Bergamaschi	2	2
