@@ -19,25 +19,25 @@ Valeria Euphemia Greco-Whitmore	https://i.imgur.com/EE5k5Gk.png	vegetarian	1992-
 West Elliot Harlow	https://i.imgur.com/no0B1Ii.png	hunter	2002-11-17	introvert
 Rodrigo Abeyta	https://i.pinimg.com/736x/0e/88/e4/0e88e4303a9b2931cfbca4e9ecb7addb.jpg	human
 Alessandro Elio Rossi	https://i.pinimg.com/474x/d3/b0/7e/d3b07e2bb22d0684d1186bc1882fc6da.jpg	hybrid	2007-01-17	extrovert
-Coralie Francesca Romano	https://i.pinimg.com/736x/f4/e8/12/f4e812352728e6ddd9f0f90038acb1dc.jpg	human	2000-11-08	introvert
+Coralie Francesca Romano	https://i.pinimg.com/736x/f4/e8/12/f4e812352728e6ddd9f0f90038acb1dc.jpg	supernaturalhuman	2000-11-08	introvert
 Demetria Nadira Harlow	https://i.imgur.com/1FaG9ha.png	hunter	1982-11-06	ambivert
 Zachariah Gideon Lund	https://i.pinimg.com/236x/12/52/e3/1252e323eccb18b4a1ec864f55e1d08b.jpg	human	1988-08-08	ambivert
 Joshua William Lund	https://i.ibb.co/vQkY9jx/pookstar.jpg	human	1990-10-01	extrovert
 Dante Konstantin Lund	https://i.pinimg.com/736x/8f/9e/e7/8f9ee7169cbf6d3589d5c45335b8cd12.jpg	human	1988-08-08	introvert
 Florence Elise Winslow	https://i.imgur.com/2kX033t.png	witch	1987-10-26	ambivert
-Carmen Iscariot Denali	https://i.pinimg.com/736x/e4/de/f3/e4def39a8d1029d397cafa468aa8f7b3.jpg	human	4256 BC	introvert
+Carmen Iscariot Denali	https://i.pinimg.com/736x/e4/de/f3/e4def39a8d1029d397cafa468aa8f7b3.jpg	supernaturalhuman	4256 BC	introvert
 Juliette Claire Lefèvre	https://i.ibb.co/Hdnt5k6/tumblr-dcb5b5e09491df4bd5be15eba7d207d6-7ccc6782-400.png	witch	1996-11-10	extrovert
 Emery Herman Bernhard	https://i.imgur.com/Z7es2Ds.png	hybrid	1936-09-15	introvert
 Camille Lillian Boucher	https://i.imgur.com/YVG24NO.png	hybrid	1927-08-24	ambivert
 Charlotte Iris Dreschler	https://i.pinimg.com/736x/cc/fd/e3/ccfde3ef72b822e89493236ee153aeb5.jpg	volturi	1425 BC
-Hazel Adeline Boucher	https://i.ibb.co/VTst6Tz/tumblr-daddc15e935b93bae7e25e825bfaed56-7152a516-1280.png	human	1791-03-09	ambivert
+Hazel Adeline Boucher	https://i.ibb.co/VTst6Tz/tumblr-daddc15e935b93bae7e25e825bfaed56-7152a516-1280.png	supernaturalhuman	1791-03-09	ambivert
 Søren Ragnar Lindström	https://i.imgur.com/yHRh160.png	werewolf	2007-01-07	ambivert
 Michael Romeo Harlow	https://i.pinimg.com/236x/fe/25/33/fe2533e0c735779149e7be0a247c7a3e.jpg	hunter	1985-03-17	ambivert
 Cassandra Willa Dreschler	https://i.pinimg.com/736x/ca/cd/41/cacd4187826460a108b7e620b4ebb22b.jpg	witch	2007-02-28
 Randall Frank Dreschler	https://i.imgur.com/PAdAEcS.png	vegetarian	1427 BC	introvert
 Nathaniel Dean Harlow	https://i.ibb.co/bHvRZzP/tumblr-851888ff6d8d4d7d4b10330901ed8e62-a3a37b49-1280.png	hunter	1983-03-12	introvert
 Demetri Lorenzo Volturi	https://i.ibb.co/bBvr44B/pw.jpg	volturi	1000 BC
-Veronique Helena Dreschler	https://i.ibb.co/gzG8V3h/pookiecutie.jpg	witch	1922-02-16
+Veronique Helena Dreschler	https://i.ibb.co/gzG8V3h/pookiecutie.jpg	vampirewitch	1922-02-16
 Alexis Feiyu King	https://i.pinimg.com/736x/90/76/dc/9076dc9dac2fd2ede993006c0afff771.jpg	witch	1997-05-20
 Jonathan Fort Harlow	https://i.imgur.com/HAshfY6.jpg	hunter	1960-07-24	introvert
 Felix Constantine Volturi	https://i.pinimg.com/736x/96/13/37/9613370ecbef3f66413e655986484b91.jpg	volturi	1352-04-25
