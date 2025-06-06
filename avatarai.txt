@@ -1,4 +1,4 @@
-Anastasia Clara Blackwell	https://i.pinimg.com/474x/f2/a1/7b/f2a17b5e684e2e97ae692d3c1c66d2b0.jpg	witch	2001-07-16	introvert	...	she cute
+Anastasia Clara Blackwell	https://i.pinimg.com/474x/f2/a1/7b/f2a17b5e684e2e97ae692d3c1c66d2b0.jpg	witch	2001-07-16	introvert
 Arya Natalie Davenport	https://i.imgur.com/8dOMba1.png	hunterwitch	2000-06-28	extrovert
 Aurora Vivienne Boucher	https://i.pinimg.com/236x/70/9c/97/709c97dad12251db8c8ef556398dac03.jpg	hybrid	2007-09-20	ambivert
 Bernadetta Ottavia Conti	https://64.media.tumblr.com/443cadc7d93a586bf8874590b0f2f5a7/d0fb60db947dcfcc-5e/s400x600/12c2dafa94b36825f3299d0cdaae9cac494adae1.png	vegetarian	1905-12-28	ambivert
@@ -90,7 +90,7 @@ Jane Volturi	https://64.media.tumblr.com/390a684cf458e62b775500b5443eecd4/ad7f2c
 Athenodora Thea Volturi	https://i.ibb.co/KLy1pmf/tumblr-e85e51b86858d0c9fbdc53f3bc890ae7-9873503a-500.webp	volturi	47 BC
 Alfons Janczewski	https://i.pinimg.com/564x/1f/b6/12/1fb612032246129f42613cf24ffb03bc.jpg	human	1981-06-13	extrovert
 Evelyn Brown	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1957-09-17	ambivert
-Franklin Hughes	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1998-10-15	extrovert
+Franklin Hughes	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1998-10-15	extrovert	...	pasidarė berniuką netyčiuką (gim. 2024 m. pabaigoje), bet santykiai su baby mamma labai prasti, todėl dabar teismuose aršiai kovoja dėl vaiko globos
 Alessio the Undressio	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1998-04-26	extrovert
 Zigmas	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1943-06-06  ambivert
 Emilia Leonie Richter	https://i.imgur.com/Mjm8svZ.png	witch	1990-11-11	ambivert
