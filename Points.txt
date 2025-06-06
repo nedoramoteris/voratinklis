@@ -477,11 +477,16 @@ Corin Aleksandrea Volturi	Athenodora Thea Volturi	2	2
 Corin Aleksandrea Volturi	Marcus Volturi	2	2
 Corin Aleksandrea Volturi	Jane Volturi	2	2
 Corin Aleksandrea Volturi	Renata Volturi	2	2
-Athenodora Thea Volturi		Chartolle Iris Dreschler	2	2
+Athenodora Thea Volturi		Charlotte Iris Dreschler	2	2
 Athenodora Thea Volturi	Demetri Lorenzo Volturi	2	2
 Athenodora Thea Volturi	Marcus Volturi	2	2
 Athenodora Thea Volturi	Jane Volturi	2	2
 Athenodora Thea Volturi	Renata Volturi	2	2
+Felix Constantine Volturi	Athenodora Thea Volturi	2	2
+Felix Constantine Volturi	Jane Volturi	2	2
+Felix Constantine Volturi	Renata Volturi	2	2
+Felix Constantine Volturi	Corin Aleksandrea Volturi	2	2
+Felix Constantine Volturi	Marcus Volturi	2	2
 Renata Volturi	Charlotte Iris Dreschler	2	2
 Renata Volturi	Demetri Lorenzo Volturi	2	2
 Renata Volturi	Marcus Volturi	2	2
@@ -495,7 +500,7 @@ Archibald Otto Williams	Hera Melody Harlow	1	1
 Archibald Otto Williams	Søren Ragnar Lindström	1	1
 Archibald Otto Williams	Cassandra Willa Dreschler	1	1
 Alfons Janczewski	Michael Romeo Harlow	7	7
-Evelyn Brown	Katrina Dev Bianchi	1	1
+Evelyn Brown	Katrina Deva Bianchi	1	1
 Franklin Hughes	West Elliot Harlow	1	1
 Franklin Huges	Valeria Euphemia Greco-Whitmore	1	1
 Alessio the Undressio	West Elliot Harlow	1	1
