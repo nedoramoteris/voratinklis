@@ -653,3 +653,25 @@ Katrina Deva Bianchi	Romeo Francesco Sorrentino	2	2
 Katrina Deva Bianchi	Lucia Isabella Sorrentino	2	2
 Katrina Deva Bianchi	Dante Marcello Sorrentino	2	2
 Katrina Deva Bianchi	Aurelio Andrea Bergamaschi	2	2
+Riccardo Fabrizio Bianchi	Serena Giuseppina Bianchi (née Russo)	2	2
+Riccardo Fabrizio Bianchi	Giada Marcella Bianchi (née Allegretti)	3	3
+Riccardo Fabrizio Bianchi	Niccolò Davide Bianchi	2	2
+Riccardo Fabrizio Bianchi	Katrina Deva Bianchi	2	2
+Paolo Matteo Sorrentino	Riccardo Fabrizio Bianchi	2	2
+Sofia Caterina Sorrentino (née Bernardi)	Riccardo Fabrizio Bianchi	2	2
+Vicente Carlo Sorrentino	Riccardo Fabrizio Bianchi	2	2
+Alessandra Chiara Bergamaschi (née Sorrentino)	Riccardo Fabrizio Bianchi	2	2
+Romeo Francesco Sorrentino	Riccardo Fabrizio Bianchi	2	2
+Lucia Isabella Sorrentino	Riccardo Fabrizio Bianchi	2	2
+Dante Marcello Sorrentino	Riccardo Fabrizio Bianchi	2	2
+Aurelio Andrea Bergamaschi	Riccardo Fabrizio Bianchi	2	2
+Paolo Matteo Sorrentino	Niccolò Davide Bianchi	2	2
+Sofia Caterina Sorrentino (née Bernardi)	Niccolò Davide Bianchi	2	2
+Vicente Carlo Sorrentino	Niccolò Davide Bianchi	2	2
+Alessandra Chiara Bergamaschi (née Sorrentino)	Niccolò Davide Bianchi2	2
+Romeo Francesco Sorrentino	Niccolò Davide Bianchi	2	2
+Lucia Isabella Sorrentino	Niccolò Davide Bianchi	2	2
+Dante Marcello Sorrentino	Niccolò Davide Bianchi	2	2
+Aurelio Andrea Bergamaschi	Niccolò Davide Bianchi	2	2
+Giada Marcella Bianchi (née Allegretti)	Niccolò Davide Bianchi	2	2
+Giada Marcella Bianchi (née Allegretti)	Katrina Deva Bianchi	2	2
