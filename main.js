@@ -73,8 +73,8 @@ function zoomed(event) {
     container.attr("transform", event.transform);
 }
 
-// Function to calculate age from date of birth
-function calculateAge(dob) {
+// Function to calculate age from date of birth and date of death
+function calculateAge(dob, dod) {
     if (!dob || dob === '...') return '...';
     
     // Check for BC dates first
@@ -86,43 +86,70 @@ function calculateAge(dob) {
     }
     
     // Try to parse other date formats
-    const formats = [
-        { regex: /(\d{4})/, extract: (match) => ({ year: parseInt(match[1]) }) },
-        { regex: /(\d{1,2})\/(\d{1,2})\/(\d{4})/, extract: (match) => ({ year: parseInt(match[3]), month: parseInt(match[1]), day: parseInt(match[2]) }) },
-        { regex: /(\d{4})-(\d{1,2})-(\d{1,2})/, extract: (match) => ({ year: parseInt(match[1]), month: parseInt(match[2]), day: parseInt(match[3]) }) }
-    ];
-    
-    let dateInfo = null;
-    for (const format of formats) {
-        const match = dob.match(format.regex);
-        if (match) {
-            dateInfo = format.extract(match);
-            break;
+    const parseDate = (dateStr) => {
+        const formats = [
+            { regex: /(\d{4})/, extract: (match) => ({ year: parseInt(match[1]) }) },
+            { regex: /(\d{1,2})\/(\d{1,2})\/(\d{4})/, extract: (match) => ({ year: parseInt(match[3]), month: parseInt(match[1]), day: parseInt(match[2]) }) },
+            { regex: /(\d{4})-(\d{1,2})-(\d{1,2})/, extract: (match) => ({ year: parseInt(match[1]), month: parseInt(match[2]), day: parseInt(match[3]) }) }
+        ];
+        
+        for (const format of formats) {
+            const match = dateStr.match(format.regex);
+            if (match) {
+                return format.extract(match);
+            }
         }
+        return null;
+    };
+    
+    const birthInfo = parseDate(dob);
+    if (!birthInfo) return '...';
+    
+    // If there's a date of death, calculate age at death
+    if (dod && dod !== '...') {
+        const deathInfo = parseDate(dod);
+        if (!deathInfo) return '...';
+        
+        // If both dates have full information
+        if (birthInfo.month && birthInfo.day && deathInfo.month && deathInfo.day) {
+            let age = deathInfo.year - birthInfo.year;
+            
+            // Check if birthday had occurred by death date
+            if (deathInfo.month < birthInfo.month || 
+                (deathInfo.month === birthInfo.month && deathInfo.day < birthInfo.day)) {
+                age--;
+            }
+            
+            return age.toString();
+        } else if (birthInfo.year && deathInfo.year) {
+            // Only years available
+            return (deathInfo.year - birthInfo.year).toString();
+        }
+        
+        return '...';
     }
     
-    if (!dateInfo) return '...';
-    
+    // No date of death - calculate current age
     const currentDate = new Date();
     const currentYear = currentDate.getFullYear();
     
-    if (dateInfo.month && dateInfo.day) {
+    if (birthInfo.month && birthInfo.day) {
         // Full date available
-        const birthDate = new Date(dateInfo.year, dateInfo.month - 1, dateInfo.day);
-        let age = currentYear - dateInfo.year;
+        let age = currentYear - birthInfo.year;
         
         // Check if birthday has occurred this year
         const currentMonth = currentDate.getMonth() + 1;
         const currentDay = currentDate.getDate();
         
-        if (currentMonth < dateInfo.month || (currentMonth === dateInfo.month && currentDay < dateInfo.day)) {
+        if (currentMonth < birthInfo.month || 
+            (currentMonth === birthInfo.month && currentDay < birthInfo.day)) {
             age--;
         }
         
         return age.toString();
-    } else if (dateInfo.year) {
+    } else if (birthInfo.year) {
         // Only year available
-        return (currentYear - dateInfo.year).toString();
+        return (currentYear - birthInfo.year).toString();
     }
     
     return '...';
@@ -133,15 +160,16 @@ function processData(pointsText, linksText) {
     const pointsLines = pointsText.split('\n').filter(line => line.trim());
     console.log("Number of points:", pointsLines.length);
 
-    // Process nodes - now including date of birth and personality from 4th and 5th columns
+    // Process nodes - now including date of birth, personality, and date of death
     nodes = pointsLines.map(line => {
         const parts = line.split('\t');
         const name = parts[0];
         const image = parts[1];
         const race = parts[2]?.trim().toLowerCase();
         const dob = parts[3] || '...';
-        const personality = parts[4] || '...';
-        const age = calculateAge(dob);
+        const dod = parts[5] || '...';  // Changed from parts[5] to parts[4]
+        const personality = parts[4] || '...';  // Changed from parts[4] to parts[5]
+        const age = calculateAge(dob, dod);
         
         validNodeNames.add(name);
         return { 
@@ -151,6 +179,7 @@ function processData(pointsText, linksText) {
             race: race, 
             dob: dob,
             personality: personality,
+            dod: dod,
             age: age
         };
     });
@@ -517,12 +546,19 @@ function showTooltip(d, event) {
             .attr("class", "node-tooltip");
     }
     
+    // Prepare date of death display
+    let dodDisplay = '';
+    if (d.dod && d.dod !== '...') {
+        dodDisplay = `<div class="tooltip-row"><strong>Died:</strong> ${d.dod}</div>`;
+    }
+    
     d3.select("#node-tooltip")
         .html(`
             <div class="tooltip-header">${d.name}</div>
             <div class="tooltip-row"><strong>Race:</strong> ${d.race || '...'}</div>
-            <div class="tooltip-row"><strong>Age:</strong> ${d.age || '...'}</div>
             <div class="tooltip-row"><strong>Born:</strong> ${d.dob || '...'}</div>
+            ${dodDisplay}
+            <div class="tooltip-row"><strong>Age:</strong> ${d.age || '...'}</div>
             <div class="tooltip-row"><strong>Personality type:</strong> ${d.personality || '...'}</div>
         `)
         .style("left", (event.pageX + 10) + "px")
