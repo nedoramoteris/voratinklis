@@ -513,7 +513,7 @@ Zigmas	Katrina Deva Bianchi	1	1
 Zigmas	Declan Aidan Bernhard	1	1
 Zigmas	Leone Battista Dalmonte	1	1
 Emilia Leonie Richter	Beatrice Johanna Wolf	1	1
-Emilia Leonie Richter	Beatrice	Kurt Hartwin Lund	1	1
+Emilia Leonie Richter	Hurt Hartwin Lund	1	1
 Magdalena Judi Cadorna	Theodosius Valerian Barca	7	7
 Magdalena Judi Cadorna	Theodosius Valerian Barca	6	6
 Magdalena Judi Cadorna	Demetria Nadira Harlow	4	4
