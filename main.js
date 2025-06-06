@@ -87,21 +87,47 @@ function calculateAge(dob, dod) {
     }
     
     // Try to parse other date formats
-    const parseDate = (dateStr) => {
-        const formats = [
-            { regex: /(\d{4})/, extract: (match) => ({ year: parseInt(match[1]) }) },
-            { regex: /(\d{1,2})\/(\d{1,2})\/(\d{4})/, extract: (match) => ({ year: parseInt(match[3]), month: parseInt(match[1]), day: parseInt(match[2]) }) },
-            { regex: /(\d{4})-(\d{1,2})-(\d{1,2})/, extract: (match) => ({ year: parseInt(match[1]), month: parseInt(match[2]), day: parseInt(match[3]) }) }
-        ];
-        
-        for (const format of formats) {
-            const match = dateStr.match(format.regex);
-            if (match) {
-                return format.extract(match);
-            }
-        }
-        return null;
-    };
+   const parseDate = (dateStr) => {
+    if (!dateStr) return null;
+
+    // Normalize string (e.g., trim, uppercase)
+    const trimmed = dateStr.trim().toUpperCase();
+
+    // Check for BC
+    const bcMatch = trimmed.match(/^(\d+)\s*BC$/);
+    if (bcMatch) {
+        return { year: -parseInt(bcMatch[1], 10) };
+    }
+
+    // Check for AD (optional suffix)
+    const adMatch = trimmed.match(/^(\d+)\s*(AD)?$/);
+    if (adMatch) {
+        return { year: parseInt(adMatch[1], 10) };
+    }
+
+    // Check for MM/DD/YYYY
+    const usDate = trimmed.match(/^(\d{1,2})\/(\d{1,2})\/(\d{1,4})$/);
+    if (usDate) {
+        return {
+            year: parseInt(usDate[3], 10),
+            month: parseInt(usDate[1], 10),
+            day: parseInt(usDate[2], 10)
+        };
+    }
+
+    // Check for YYYY-MM-DD
+    const isoDate = trimmed.match(/^(\d{1,4})-(\d{1,2})-(\d{1,2})$/);
+    if (isoDate) {
+        return {
+            year: parseInt(isoDate[1], 10),
+            month: parseInt(isoDate[2], 10),
+            day: parseInt(isoDate[3], 10)
+        };
+    }
+
+    return null;
+};
+
     
     const birthInfo = parseDate(dob);
     if (!birthInfo) return '...';
