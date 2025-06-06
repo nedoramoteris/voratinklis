@@ -596,4 +596,28 @@ Sausainis	Obsidianas	4	4
 Svetlana	Leopoldas	1	1
 Fusillo	Rupertas	1	1
 Don Canino	Leopoldas	1	1
-
+-------------------------------------------------------------------------
+THE ORIGINAL ITALAI
+-------------------------------------------------------------------------
+Salvatore Enzo Russo	Alessandra Vittoria Russo (née Castellano)	3	3
+Salvatore Enzo Russo	Francesca Lucia Russo	2	2
+Salvatore Enzo Russo	Ginevra Elena Russo	2	2
+Salvatore Enzo Russo	Serena Giuseppina Russo	2	2
+Salvatore Enzo Russo	Serena Giuseppina Russo	2	2
+Salvatore Enzo Russo	Giacomo Giovanni Russo	2	2
+Salvatore Enzo Russo	Antonio Marco Russo	2	2
+Alessandra Vittoria Russo (née Castellano)	Francesca Lucia Russo	2	2
+Alessandra Vittoria Russo (née Castellano)	Ginevra Elena Russo	2	2
+Alessandra Vittoria Russo (née Castellano)	Serena Giuseppina Russo	2	2
+Alessandra Vittoria Russo (née Castellano)	Giacomo Giovanni Russo	2	2
+Alessandra Vittoria Russo (née Castellano)	Antonio Marco Russo	2	2
+Francesca Lucia Russo	Ginevra Elena Russo	2	2
+Francesca Lucia Russo	Serena Giuseppina Russo	2	2
+Francesca Lucia Russo	Giacomo Giovanni Russo	2	2
+Francesca Lucia Russo	Antonio Marco Russo	2	2
+Ginevra Elena Russo	Serena Giuseppina Russo	2	2
+Ginevra Elena Russo	Giacomo Giovanni Russo	2	2
+Ginevra Elena Russo	Antonio Marco Russo	2	2
+Giacomo Giovanni Russo	Antonio Marco Russo	2	2
+Antonio Marco Russo	Corinna Rosa Russo (née Cattaneo)	3	3
+Corinna Rosa Russo (née Cattaneo)	Vicente Carlo Sorrentino	0	0
