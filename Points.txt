@@ -502,16 +502,16 @@ Archibald Otto Williams	Cassandra Willa Dreschler	1	1
 Alfons Janczewski	Michael Romeo Harlow	7	7
 Evelyn Brown	Katrina Deva Bianchi	1	1
 Franklin Hughes	West Elliot Harlow	1	1
-Franklin Huges	Valeria Euphemia Greco-Whitmore	1	1
+Franklin Hughes	Valeria Euphemia Greco-Whitmore	1	1
 Alessio the Undressio	West Elliot Harlow	1	1
-Alessio the Undression	Valeria Euphemia Greco-Whitmore	1	1
+Alessio the Undressio	Valeria Euphemia Greco-Whitmore	1	1
 Zigmas	Aurora Vivienne Boucher	1	1
 Zigmas	Arya Natalie Davenport	1	1
 Zigmas	Katrina Deva Bianchi	1	1
 Zigmas	Declan Aidan Bernhard	1	1
 Zigmas	Leone Battista Dalmonte	1	1
 Emilia Leonie Richter	Beatrice Johanna Wolf	1	1
-Kurt Hartwin Lund	1	1
+Emilia Leonie Richter	Beatrice Kurt Hartwin Lund	1	1
 
 
 
