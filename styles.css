@@ -272,7 +272,7 @@ svg {
     font-family: 'Lemon/Milk light', sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.5em !important;
     fill: #6E6761;
     opacity: 1;
     transition: opacity 0.3s;
