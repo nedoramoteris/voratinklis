@@ -45,7 +45,7 @@ Myrtle Maeve Gray	https://i.ibb.co/sbMkwj2/mother.jpg	vegetarian	1962-08-26
 Bianca Juliett Harlow-Bakir	https://i.pinimg.com/236x/bc/a7/c2/bca7c253acc52d54d5609d7084ed2852.jpg	human	1987-04-18	extrovert
 Oliver Noah Harlow	https://i.pinimg.com/236x/9d/17/04/9d17046bcc4d77bfb0151047c3744ec6.jpg	hunter
 Reinhardt Gustav Lund	https://i.imgur.com/P5T7kPv.png	hunter	1960-05-07	ambivert
-Isadora Vanessa Dragoumis-Lund	https://i.imgur.com/TVO9BIY.png	human	1962-11-15	extrovert
+Isadora Vanessa Dragoumis-Lund	https://i.imgur.com/TVO9BIY.png	human	1962-11-15	extrovert  1998-06-10
 Theofania Maria Caras-Dragoumis	https://i.imgur.com/KzLGgOx.png	human	1941-07-02	extrovert
 Eleni Karissa Aetós-Lund	https://i.imgur.com/KAeRwqP.png	human	1988-10-08	extrovert
 Atticus Orfeas Lund	https://i.pinimg.com/236x/7d/72/91/7d7291649696cc92ee8650e46fdb3850.jpg	human	2022-07-01	extrovert
