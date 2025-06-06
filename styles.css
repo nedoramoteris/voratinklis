@@ -17,7 +17,7 @@
     border-radius: 5px;
     pointer-events: none;
     font-size: 14px;
-    min-width: 200px;
+    min-width: 350px;
   max-width:250px;
     z-index: 100;
     transition: opacity 0.2s;
