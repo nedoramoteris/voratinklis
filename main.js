@@ -167,8 +167,11 @@ function processData(pointsText, linksText) {
         const image = parts[1];
         const race = parts[2]?.trim().toLowerCase();
         const dob = parts[3] || '...';
-        const dod = parts[5] || '...';  // Changed from parts[5] to parts[4]
+        const dod = parts[5] || '...'; 
+      // Changed from parts[5] to parts[4]
         const personality = parts[4] || '...';  // Changed from parts[4] to parts[5]
+        const additional = parts[6] || '...'; // New additional field from column 6
+
         const age = calculateAge(dob, dod);
         
         validNodeNames.add(name);
@@ -180,7 +183,9 @@ function processData(pointsText, linksText) {
             dob: dob,
             personality: personality,
             dod: dod,
-            age: age
+            age: age,
+            additional: additional // Added as the last field
+
         };
     });
 
@@ -546,21 +551,39 @@ function showTooltip(d, event) {
             .attr("class", "node-tooltip");
     }
     
-    // Prepare date of death display
-    let dodDisplay = '';
+    // Prepare tooltip content
+    let tooltipContent = `<div class="tooltip-header">${d.name}</div>`;
+    
+    // Add race if available
+    if (d.race && d.race !== '...') {
+        tooltipContent += `<div class="tooltip-row"><i>${d.race}</i></div>`;
+    }
+    
+    // Add date of birth if available
+    if (d.dob && d.dob !== '...') {
+        tooltipContent += `<div class="tooltip-row"><strong>Born:</strong> ${d.dob}</div>`;
+    }
+    
+    // Add date of death if available
     if (d.dod && d.dod !== '...') {
-        dodDisplay = `<div class="tooltip-row"><strong>Died:</strong> ${d.dod}</div>`;
+        tooltipContent += `<div class="tooltip-row"><strong>Died:</strong> ${d.dod}</div>`;
+    }
+    
+    // Add age if available
+    if (d.age && d.age !== '...') {
+        tooltipContent += `<div class="tooltip-row"><strong>Age:</strong> ${d.age}</div>`;
+    }
+    
+    // Add personality type if available
+    if (d.personality && d.personality !== '...') {
+        tooltipContent += `<div class="tooltip-row"><strong>Personality type:</strong> ${d.personality}</div>`;
+    }
+  if (d.additional && d.additional !== '...') {
+        tooltipContent += `<div class="tooltip-row"><strong><div class="styled-line"></div></strong><div class="additional-content">${d.additional}</div>`;
     }
     
     d3.select("#node-tooltip")
-        .html(`
-            <div class="tooltip-header">${d.name}</div>
-            <div class="tooltip-row"><strong>Race:</strong> ${d.race || '...'}</div>
-            <div class="tooltip-row"><strong>Born:</strong> ${d.dob || '...'}</div>
-            ${dodDisplay}
-            <div class="tooltip-row"><strong>Age:</strong> ${d.age || '...'}</div>
-            <div class="tooltip-row"><strong>Personality type:</strong> ${d.personality || '...'}</div>
-        `)
+        .html(tooltipContent)
         .style("left", (event.pageX + 10) + "px")
         .style("top", (event.pageY + 10) + "px")
         .style("opacity", 1);
