@@ -456,7 +456,7 @@ Leonard Bastian Lund	Atticus Orfeas Lund	2	2
 Leonard Bastian Lund	Alastar Zander Lund	2	2
 
 
-
+/*AUGINTINIAI*/
 
 Miss Catherine Eleanor Earnshaw Bianchi Harlow	Leopoldas	2	2
 Natanielis Jaunesnysis	Vištos	0	0
@@ -528,6 +528,7 @@ Jazminas / Žakas	The British Royal Family	7	7
 Sausainis	Leopoldas	1	1
 Sausainis	Miss Catherine Eleanor Earnshaw Bianchi Harlow	3	3
 Sausainis	Obsidianas	4	4
+Svetlana	Leopoldas	1	1
 Fusillo	Rupertas	1	1
 Don Canino	Leopoldas	1	1
 
