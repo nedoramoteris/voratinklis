@@ -68,7 +68,7 @@ const container = svg.append("g");
 
 // Apply zoom to SVG with slower transition
 svg.call(zoom)
-    .call(zoom.transform, d3.zoomIdentity.scale(0.3).translate(width/4, height/4));
+    .call(zoom.transform, d3.zoomIdentity.scale(0.2).translate(width/4, height/4));
 
 function zoomed(event) {
     container.attr("transform", event.transform);
