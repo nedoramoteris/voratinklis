@@ -48,7 +48,7 @@ const raceColors = {
     'hunterwitch': '#94655D', // Using first color for text
     'vampirehunter': '#7B403B', // Using first color for text
     'vampirewitch': '#405752', // Using first color for text
-    'supernaturalhuman': '#4C4957', // Using first color for text
+    'supernaturalhuman': '#756059', // Using first color for text
     'hybridhunter': '#94655D', // Using first color for text
     'pet': '#6E6761' // New race "pet" with its color
 };
@@ -58,7 +58,7 @@ const svg = d3.select("svg")
     .attr("width", width)
     .attr("height", height);
 
-// Initialize zoom behavior
+// Initialize zoom behavior with slower, smoother transitions
 const zoom = d3.zoom()
     .scaleExtent([0.1, 4])
     .on("zoom", zoomed);
@@ -66,8 +66,9 @@ const zoom = d3.zoom()
 // Create container for zoom
 const container = svg.append("g");
 
-// Apply zoom to SVG
-svg.call(zoom);
+// Apply zoom to SVG with slower transition
+svg.call(zoom)
+    .call(zoom.transform, d3.zoomIdentity.scale(0.3).translate(width/4, height/4));
 
 function zoomed(event) {
     container.attr("transform", event.transform);
@@ -202,11 +203,12 @@ function processData(pointsText, linksText) {
         return isValid;
     });
 
-    // Initialize simulation
+    // Initialize simulation with less force for smoother movement
     simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(500).strength(0.2))
-        .force("charge", d3.forceManyBody().strength(-2000).distanceMin(200))
-        .force("collision", d3.forceCollide().radius(150).strength(0.5));
+        .force("link", d3.forceLink(links).id(d => d.id).distance(500).strength(0.1)) // Reduced strength
+        .force("charge", d3.forceManyBody().strength(-1500).distanceMin(200)) // Reduced strength
+        .force("collision", d3.forceCollide().radius(150).strength(0.3)) // Reduced strength
+        .alphaDecay(0.02); // Slower decay for smoother settling
 
     // Initialize drag behavior after simulation exists
     drag = d3.drag()
@@ -215,7 +217,7 @@ function processData(pointsText, linksText) {
         .on("end", dragended);
 
     function dragstarted(event, d) {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
+        if (!event.active) simulation.alphaTarget(0.2).restart(); // Reduced alpha target
         d.fx = d.x;
         d.fy = d.y;
     }
@@ -841,7 +843,7 @@ function centerOnNode(selectedNode) {
     const scale = Math.min(
         width / boxWidth,
         height / boxHeight,
-        2  // Maximum zoom level
+        1.5  // Reduced maximum zoom level
     );
 
     // Calculate center of the bounding box
@@ -852,9 +854,9 @@ function centerOnNode(selectedNode) {
     const x = width/2 - centerX * scale;
     const y = height/2 - centerY * scale;
 
-    // Animate to the new view
+    // Animate to the new view with slower transition
     svg.transition()
-        .duration(750)
+        .duration(1000) // Increased duration for smoother transition
         .call(zoom.transform, d3.zoomIdentity
             .translate(x, y)
             .scale(scale));
