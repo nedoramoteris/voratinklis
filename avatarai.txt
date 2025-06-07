@@ -97,9 +97,10 @@ Emilia Leonie Richter	https://i.imgur.com/Mjm8svZ.png	witch	1990-11-11	ambivert
 Monique Seraphine Marlowe	https://i.pinimg.com/736x/02/eb/b8/02ebb881597416f317773c840483f2e5.jpg	hybrid	1874-08-07	introvert	...	literally iš paralelinės visatos
 
 
--------------------------------------------------------------------------
-AUGINTINIAI
--------------------------------------------------------------------------
+<!-- AUGINTINIAI -->
+
+
+
 Miss Catherine Eleanor Earnshaw Bianchi Harlow	https://i.pinimg.com/736x/0c/53/dd/0c53ddc1f3e1e7390cd1461aac03d90f.jpg	pet	2023	...	...	Prim in pearls, pink bling, sleeps on dad. But cross her brother and she’s back on her alley cat grind
 Leopoldas	https://i.pinimg.com/474x/1f/58/7f/1f587f09cb522761d9ec022e10520726.jpg	pet	2022	...	...	mamma's clingy boy
 Obsidianas	https://i.pinimg.com/736x/ba/35/0a/ba350a06c4473437d41fc96b38659883.jpg	pet	2020	...	...	does not have time for bullshit
@@ -131,9 +132,8 @@ Rupertas	https://content.lyka.com.au/f/1016262/1104x676/6edc8b1b17/australian_sh
 Sausainis	https://lonestardoodles.com/wp-content/uploads/2024/09/E82D7CA9-3B75-42CE-B3B6-BB578CC5EC11-scaled-e1727203862700.jpg	pet	2024	...	...	short king
 
 
--------------------------------------------------------------------------
-THE ORIGINAL ITALIANS
--------------------------------------------------------------------------
+<!-- THE OG ITALIANS -->
+
 
 Salvatore Enzo Russo	https://i.pinimg.com/736x/2b/96/34/2b9634798a8282f3dc13a61fe4a642c3.jpg	hybrid	1898	...	2005	...
 Alessandra Vittoria Russo (née Castellano)	https://i.pinimg.com/736x/af/40/a5/af40a53c64b3f3ae3f94dba8dc755cb8.jpg	hybrid	1900	...	1996	...
