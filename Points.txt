@@ -628,6 +628,7 @@ Antonio Marco Russo	Corinna Elisabetta Russo (née Milanesi)	0	0
 Antonio Marco Russo	Serena Teresa Bianchi (née Russo)	2	2
 Corinna Elisabetta Russo (née Milanesi)	Vicente Carlo Sorrentino	0	0
 Corinna Elisabetta Russo (née Milanesi)	Serena Teresa Bianchi (née Russo)	1	1
+Corinna Elisabetta Russo (née Milanesi)	Alessandra Vittoria Russo (née Castellano)	7	7
 Paolo Matteo Sorrentino	Sofia Caterina Sorrentino (née Bernardi)	3	3
 Paolo Matteo Sorrentino	Vicente Carlo Sorrentino	2	2
 Paolo Matteo Sorrentino	Alessandra Chiara Bergamaschi (née Sorrentino)	2	2
