@@ -624,7 +624,7 @@ Ginevra Elena Russo	Antonio Marco Russo	2	2
 Giacomo Giovanni Russo	Antonio Marco Russo	2	2
 Giacomo Giovanni Russo	Serena Giuseppina Bianchi (née Russo)	2	2
 Antonio Marco Russo	Corinna Elisabetta Russo (née Milanesi)	3	3
-Antonio Marco Russo  Serena Giuseppina Bianchi (née Russo)  2  2
+Antonio Marco Russo	Serena Giuseppina Bianchi (née Russo)	2	2
 Corinna Elisabetta Russo (née Milanesi)	Vicente Carlo Sorrentino	0	0
 Paolo Matteo Sorrentino	Sofia Caterina Sorrentino (née Bernardi)	3	3
 Paolo Matteo Sorrentino	Vicente Carlo Sorrentino	2	2
