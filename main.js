@@ -44,7 +44,7 @@ const raceColors = {
     'human': '#4C4957',
     'vampire': '#944444',
     'volturi': '#664E64',
-    'vegetarian': '#7B403B',
+    'vampire': '#7B403B',
     'hunterwitch': '#94655D', // Using first color for text
     'vampirehunter': '#7B403B', // Using first color for text
     'vampirewitch': '#405752', // Using first color for text
@@ -630,9 +630,87 @@ Promise.all([
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/Points.txt')
 ]).then(function([pointsText, linksText]) {
     processData(pointsText, linksText);
+    // After processing data, populate the character list
+    populateCharacterList();
 }).catch(error => {
     console.error("Error loading or processing data:", error);
 });
+
+// Function to populate the character list
+function populateCharacterList() {
+    const container = d3.select("#characters-container");
+    
+    // Clear existing content
+    container.html("");
+    
+    // Group characters by race for filtering
+    const charactersByRace = {};
+    nodes.forEach(node => {
+        if (!charactersByRace[node.race]) {
+            charactersByRace[node.race] = [];
+        }
+        charactersByRace[node.race].push(node);
+    });
+    
+    // Sort characters alphabetically
+    const sortedNodes = [...nodes].sort((a, b) => a.name.localeCompare(b.name));
+    
+    // Create character cards
+    const characterCards = container.selectAll(".character-card")
+        .data(sortedNodes)
+        .enter()
+        .append("div")
+        .attr("class", "character-card")
+        .on("click", function(event, d) {
+            // Remove selected class from all cards
+            d3.selectAll(".character-card").classed("selected", false);
+            // Add selected class to clicked card
+            d3.select(this).classed("selected", true);
+            // Select the node in the visualization
+            selectNode(d);
+        });
+    
+    // Add character images
+    characterCards.append("img")
+        .attr("class", "character-image")
+        .attr("src", d => d.image)
+        .attr("alt", d => d.name);
+    
+    // Add character info
+    const infoDivs = characterCards.append("div")
+        .attr("class", "character-info");
+    
+    infoDivs.append("div")
+        .attr("class", "character-name")
+        .text(d => d.name);
+    
+    const detailsDivs = infoDivs.append("div")
+        .attr("class", "character-details");
+    
+    detailsDivs.append("span")
+        .attr("class", "character-race")
+        .text(d => d.race || "unknown")
+        .style("background-color", d => raceColors[d.race] || "#666")
+        .style("color", "white");
+    
+    detailsDivs.append("span")
+        .text(d => {
+            if (d.dob && d.dob !== '...') {
+                return `Age: ${d.age}`;
+            }
+            return "";
+        });
+    
+    // Set up race filter
+    d3.select("#race-filter").on("change", function() {
+        const selectedRace = this.value;
+        container.selectAll(".character-card")
+            .style("display", d => {
+                if (selectedRace === "all") return "flex";
+                return d.race === selectedRace ? "flex" : "none";
+            });
+    });
+}
 
 // Helper functions
 function calculateLabelPosition(d, nodes, existingLabels) {
@@ -702,109 +780,115 @@ function doLabelsOverlap(rect1, rect2, padding = 5) {
             rect1.y > rect2.y + rect2.height + padding);
 }
 
+// ... (keep all the previous code until the search functionality section)
+
 // Add search functionality
 const searchInput = document.querySelector('.search-input');
-const searchResults = document.querySelector('.search-results');
-let currentSuggestions = [];
-let selectedIndex = -1;
+const charactersContainer = document.querySelector('#characters-container');
 
 searchInput.addEventListener('input', (e) => {
     const value = e.target.value.toLowerCase();
+    
+    // Get all character cards
+    const characterCards = charactersContainer.querySelectorAll('.character-card');
+    
     if (!value) {
-        searchResults.style.display = 'none';
-        currentSuggestions = [];
-        selectedIndex = -1;
+        // If search is empty, show all characters
+        characterCards.forEach(card => {
+            card.style.display = 'flex';
+        });
         return;
     }
 
-    currentSuggestions = nodes
-        .filter(node => node.name.toLowerCase().includes(value))
-        .slice(0, 5);
-
-    if (currentSuggestions.length > 0) {
-        selectedIndex = -1;
-        renderSuggestions();
-        searchResults.style.display = 'block';
-    } else {
-        searchResults.style.display = 'none';
-    }
-});
-
-// Keyboard navigation
-searchInput.addEventListener('keydown', (e) => {
-    if (!currentSuggestions.length) return;
-
-    switch(e.key) {
-        case 'ArrowDown':
-            e.preventDefault();
-            selectedIndex = selectedIndex < currentSuggestions.length - 1 ? selectedIndex + 1 : 0;
-            renderSuggestions();
-            highlightSelected();
-            break;
-        case 'ArrowUp':
-            e.preventDefault();
-            selectedIndex = selectedIndex > 0 ? selectedIndex - 1 : currentSuggestions.length - 1;
-            renderSuggestions();
-            highlightSelected();
-            break;
-        case 'Enter':
-            e.preventDefault();
-            if (selectedIndex >= 0) {
-                selectNode(currentSuggestions[selectedIndex]);
-            } else if (currentSuggestions.length > 0) {
-                selectNode(currentSuggestions[0]);
-            }
-            break;
-    }
-});
-
-function highlightSelected() {
-    const items = searchResults.querySelectorAll('.search-result-item');
-    items.forEach((item, index) => {
-        if (index === selectedIndex) {
-            item.classList.add('selected');
-            item.scrollIntoView({ block: 'nearest' });
+    // Filter and show only matching characters
+    characterCards.forEach(card => {
+        const characterName = card.querySelector('.character-name').textContent.toLowerCase();
+        if (characterName.includes(value)) {
+            card.style.display = 'flex';
         } else {
-            item.classList.remove('selected');
+            card.style.display = 'none';
         }
+    });
+});
+
+// Update the character card click handler to highlight in network
+function populateCharacterList() {
+    const container = d3.select("#characters-container");
+    
+    // Clear existing content
+    container.html("");
+    
+    // Group characters by race for filtering
+    const charactersByRace = {};
+    nodes.forEach(node => {
+        if (!charactersByRace[node.race]) {
+            charactersByRace[node.race] = [];
+        }
+        charactersByRace[node.race].push(node);
+    });
+    
+    // Sort characters alphabetically
+    const sortedNodes = [...nodes].sort((a, b) => a.name.localeCompare(b.name));
+    
+    // Create character cards
+    const characterCards = container.selectAll(".character-card")
+        .data(sortedNodes)
+        .enter()
+        .append("div")
+        .attr("class", "character-card")
+        .on("click", function(event, d) {
+            event.stopPropagation();
+            // Remove selected class from all cards
+            d3.selectAll(".character-card").classed("selected", false);
+            // Add selected class to clicked card
+            d3.select(this).classed("selected", true);
+            // Select the node in the visualization
+            selectNode(d);
+        });
+    
+    // Add character images
+    characterCards.append("img")
+        .attr("class", "character-image")
+        .attr("src", d => d.image)
+        .attr("alt", d => d.name);
+    
+    // Add character info
+    const infoDivs = characterCards.append("div")
+        .attr("class", "character-info");
+    
+    infoDivs.append("div")
+        .attr("class", "character-name")
+        .text(d => d.name);
+    
+    const detailsDivs = infoDivs.append("div")
+        .attr("class", "character-details");
+    
+    detailsDivs.append("span")
+        .attr("class", "character-race")
+        .text(d => d.race || "unknown")
+        .style("background-color", d => raceColors[d.race] || "#666")
+        .style("color", "white");
+    
+    detailsDivs.append("span")
+        .text(d => {
+            if (d.dob && d.dob !== '...') {
+                return `Age: ${d.age}`;
+            }
+            return "";
+        });
+    
+    // Set up race filter
+    d3.select("#race-filter").on("change", function() {
+        const selectedRace = this.value;
+        container.selectAll(".character-card")
+            .style("display", d => {
+                if (selectedRace === "all") return "flex";
+                return d.race === selectedRace ? "flex" : "none";
+            });
     });
 }
 
-function renderSuggestions() {
-    searchResults.innerHTML = currentSuggestions
-        .map((node, index) => `
-            <div class="search-result-item${index === selectedIndex ? ' selected' : ''}"
-                 data-index="${index}">
-                ${node.name}
-            </div>
-        `).join('');
-}
 
-// Mouse hover handler
-searchResults.addEventListener('mousemove', (e) => {
-    if (e.target.classList.contains('search-result-item')) {
-        selectedIndex = parseInt(e.target.dataset.index);
-        renderSuggestions();
-    }
-});
-
-// Click handler
-searchResults.addEventListener('mousedown', (e) => {
-    if (e.target.classList.contains('search-result-item')) {
-        const selectedName = e.target.textContent.trim();
-        const selectedNode = nodes.find(n => n.name === selectedName);
-        if (selectedNode) {
-            selectNode(selectedNode);
-        }
-    }
-});
-
-// Handle blur event
-searchInput.addEventListener('blur', (e) => {
-    setTimeout(() => {
-        searchResults.style.display = 'none';
-    }, 200);
-});
 
 function selectNode(node) {
     // Highlight the node and its connections
