@@ -672,6 +672,8 @@ Alessandra Chiara Bergamaschi (née Sorrentino)	Riccardo Fabrizio Bianchi	2	2
 Romeo Francesco Sorrentino	Riccardo Fabrizio Bianchi	2	2
 Romeo Francesco Sorrentino	Ginevra Elena Russo	6	6
 Romeo Francesco Sorrentino	Francesca Lucia Russo	6	6
+Romeo Francesco Sorrentino	Giacomo Giovanni Russo	6	6
+Romeo Francesco Sorrentino	Giacomo Giovanni Russo	4	4
 Lucia Isabella Sorrentino	Riccardo Fabrizio Bianchi	2	2
 Dante Marcello Sorrentino	Riccardo Fabrizio Bianchi	2	2
 Aurelio Andrea Bergamaschi	Riccardo Fabrizio Bianchi	2	2
