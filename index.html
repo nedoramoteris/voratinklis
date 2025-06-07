@@ -1,8 +1,8 @@
 <link rel="icon" href="https://i.servimg.com/u/f57/13/40/85/94/untitl13.png" type="image/x-icon">
-
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
      
-<div class="credit">base code by <a href="https://github.com/grumpynight/d3network">grumpynight</a></div>
+<div class="credit">base code by <a href="https://github.com/grumpynight/d3network">grumpynight</a></div>.
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +11,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <div class="character-list">
+            <h2>Personažai</h2>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Ieškoti personažo...">
+                <div class="search-results"></div>
+            </div>
+            <div class="race-filter">
+                <select id="race-filter">
+                    <option value="all">All Races</option>
+                    <option value="hunter">Hunters</option>
+                    <option value="werewolf">Werewolves</option>
+                    <option value="hybrid">Hybrids</option>
+                    <option value="witch">Witches</option>
+                    <option value="human">Humans</option>
+                    <option value="volturi">Volturis</option>
+                    <option value="vampire">Vampires</option>
+                    <option value="hunterwitch">Hunter-witches</option>
+                    <option value="vampirewitch">Vampire-witches</option>
+                    <option value="supernaturalhuman">Supernatural humans</option>
+                    <option value="pet">Pets</option>
+                </select>
+            </div>
+            <div id="characters-container"></div>
+        </div>
+        <div class="visualization-container">
+            <svg></svg>
+        </div>
+    </div>
     <div class="search-container">
         <input type="text" class="search-input" placeholder="IEŠKOTI">
         <div class="search-results"></div>
@@ -50,7 +79,7 @@
             
         </div>
     </div>
-  
+
     <script src="main.js"></script>
  
 </body>
