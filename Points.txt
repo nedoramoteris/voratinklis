@@ -111,8 +111,8 @@ Hazel Adeline Boucher	Camille Lillian Boucher	2	2
 Hazel Adeline Boucher	Florence Elise Winslow	1	1
 Søren Ragnar Lindström	Hera Melody Harlow	1	1
 Søren Ragnar Lindström	Cassandra Willa Dreschler	1	1
-Søren Ragnar Lindström	Danila Lindström	2	2
-Joshua William Lund	Danila Lindström	0	0
+Søren Ragnar Lindström	Danila Halle Lindström	2	2
+Joshua William Lund	Danila Halle Lindström	0	0
 Michael Romeo Harlow	Florence Elise Winslow	1	1
 Michael Romeo Harlow	Deianeira Cecilia Lund	1	1
 Michael Romeo Harlow	Demetria Nadira Harlow	1	1
