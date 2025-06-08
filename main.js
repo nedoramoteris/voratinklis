@@ -939,3 +939,33 @@ document.querySelectorAll('.search-input').forEach(input => {
         }
     });
 });
+
+// Add scroll functionality for the up and down buttons
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollUpButton = document.querySelector('.scroll-up-button');
+    const scrollDownButton = document.querySelector('.scroll-down-button');
+    const characterList = document.querySelector('.character-list');
+
+    // Make sure buttons exist
+    if (scrollUpButton && scrollDownButton && characterList) {
+        // Make buttons visible all the time
+        scrollUpButton.style.display = 'flex';
+        scrollDownButton.style.display = 'flex';
+
+        // Scroll to top when up button is clicked
+        scrollUpButton.addEventListener('click', function() {
+            characterList.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Scroll to bottom when down button is clicked
+        scrollDownButton.addEventListener('click', function() {
+            characterList.scrollTo({
+                top: characterList.scrollHeight,
+                behavior: 'smooth'
+            });
+        });
+    }
+});
