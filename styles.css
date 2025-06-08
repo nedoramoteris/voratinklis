@@ -1058,3 +1058,21 @@ additionalinfo {font-size:8px;margin-top:5px;}
     background-color: rgba(245, 245, 245, 1);
 }
 
+
+.character-card.search-highlight {
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: 2px solid #94655D;
+}
+
+.character-description-below {
+    margin: 0.5em 0;
+    padding: 0.6em 1em;
+    border-left: 4px solid #333330;
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #6E6761;
+  text-align:justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size:11px;
+}
+.dark-mode .character-description-below { border-left: 4px solid #f1f1f1;}
