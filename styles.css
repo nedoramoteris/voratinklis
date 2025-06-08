@@ -355,7 +355,9 @@ svg {
 
 
 .search-input {
-    font-size: 14px;
+    font-size: 13px;
+  width: 80%;
+  text-overflow: ellipsis;
     border: 0px solid #ddd;
     border-radius: 6px;
     font-family: 'Lemon/Milk light', sans-serif;
@@ -597,7 +599,9 @@ body.dark-mode .character-details {
 }
 
 .search-input {
-    width: 100%;
+  font-size:13px;
+    width: 80%;
+  text-overflow: ellipsis;
     padding: 10px;
     border: 1px solid #444;
     border-radius: 4px;
