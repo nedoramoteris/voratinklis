@@ -1,11 +1,5 @@
-// Ensure only one search input exists
-if (document.querySelectorAll('.search-input').length > 1) {
-    console.warn('Multiple search inputs detected - removing duplicates');
-    const inputs = document.querySelectorAll('.search-input');
-    for (let i = 1; i < inputs.length; i++) {
-        inputs[i].remove();
-    }
-}
+if (window.searchInitialized) return;
+window.searchInitialized = true;
 
 document.addEventListener("DOMContentLoaded", function () {
     let toggle = document.createElement("div");
@@ -842,32 +836,6 @@ function doLabelsOverlap(rect1, rect2, padding = 5) {
 
 // Add search functionality
 const searchInput = document.querySelector('.search-input');
-const charactersContainer = document.querySelector('#characters-container');
-
-searchInput.addEventListener('input', (e) => {
-    const value = e.target.value.toLowerCase();
-    
-    // Get all character cards
-    const characterCards = charactersContainer.querySelectorAll('.character-card');
-    
-    if (!value) {
-        // If search is empty, show all characters
-        characterCards.forEach(card => {
-            card.style.display = 'flex';
-        });
-        return;
-    }
-
-    // Filter and show only matching characters
-    characterCards.forEach(card => {
-        const characterName = card.querySelector('.character-name').textContent.toLowerCase();
-        if (characterName.includes(value)) {
-            card.style.display = 'flex';
-        } else {
-            card.style.display = 'none';
-        }
-    });
-});
 
 // Update the character card click handler to highlight in network
 
