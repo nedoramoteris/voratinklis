@@ -176,7 +176,7 @@ margin-left:10px;}
 .dark-mode-toggle {
     position: fixed;
     bottom: 10px;
-    left: 350px;
+    left: 250px;
     padding: 10px;
     border-radius: 7px;
     cursor: pointer;
@@ -541,8 +541,8 @@ body.dark-mode .character-card.selected {
 }
 
 .character-image {
-    width: 50px !important;
-    height: 50px !important;
+    width: 40px !important;
+    height: 40px !important;
     border-radius: 100%;
     object-fit: cover !important;
     margin-right: 15px;
