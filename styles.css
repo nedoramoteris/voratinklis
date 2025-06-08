@@ -470,7 +470,7 @@ font-weight:bold;
 /* Character list styles */
 .character-list {
   margin-top:-20px;
-    width: 300px;
+    width: 200px;
     height: 100vh;
     overflow-y: auto;
     padding: 20px;
@@ -478,7 +478,8 @@ font-weight:bold;
     color: #6E6761;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, color 0.3s ease;
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+font-size:11px;}
 .character-name {
   max-width: 220px;
   max-height:80px;
@@ -585,7 +586,7 @@ body.dark-mode .character-details {
 
 .search-container {
     margin-bottom: 30px;
-  width: 95%;
+  width: 92%;
     position: relative;
 }
 
