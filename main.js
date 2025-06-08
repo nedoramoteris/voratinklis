@@ -637,6 +637,7 @@ Promise.all([
 });
 
 // Function to populate the character list
+// Replace both versions of populateCharacterList with this single version:
 function populateCharacterList() {
     const container = d3.select("#characters-container");
     
@@ -662,6 +663,7 @@ function populateCharacterList() {
         .append("div")
         .attr("class", "character-card")
         .on("click", function(event, d) {
+            event.stopPropagation();
             // Remove selected class from all cards
             d3.selectAll(".character-card").classed("selected", false);
             // Add selected class to clicked card
@@ -693,13 +695,22 @@ function populateCharacterList() {
         .style("background-color", d => raceColors[d.race] || "#666")
         .style("color", "white");
     
-    detailsDivs.append("span")
-        .text(d => {
-            if (d.dob && d.dob !== '...') {
-                return `Age: ${d.age}`;
+    // Add age display with deceased indicator if applicable
+    const ageSpans = detailsDivs.append("span")
+        .attr("class", "age-display");
+
+    ageSpans.each(function(d) {
+        const span = d3.select(this);
+        if (d.dob && d.dob !== '...') {
+            if (d.dod && d.dod !== '...') {
+                span.append("span")
+                    .attr("class", "deceased")
+                    .text("✟ ");
             }
-            return "";
-        });
+            span.append("span")
+                .text(`Age: ${d.age}`);
+        }
+    });
     
     // Set up race filter
     d3.select("#race-filter").on("change", function() {
@@ -812,81 +823,7 @@ searchInput.addEventListener('input', (e) => {
 });
 
 // Update the character card click handler to highlight in network
-function populateCharacterList() {
-    const container = d3.select("#characters-container");
-    
-    // Clear existing content
-    container.html("");
-    
-    // Group characters by race for filtering
-    const charactersByRace = {};
-    nodes.forEach(node => {
-        if (!charactersByRace[node.race]) {
-            charactersByRace[node.race] = [];
-        }
-        charactersByRace[node.race].push(node);
-    });
-    
-    // Sort characters alphabetically
-    const sortedNodes = [...nodes].sort((a, b) => a.name.localeCompare(b.name));
-    
-    // Create character cards
-    const characterCards = container.selectAll(".character-card")
-        .data(sortedNodes)
-        .enter()
-        .append("div")
-        .attr("class", "character-card")
-        .on("click", function(event, d) {
-            event.stopPropagation();
-            // Remove selected class from all cards
-            d3.selectAll(".character-card").classed("selected", false);
-            // Add selected class to clicked card
-            d3.select(this).classed("selected", true);
-            // Select the node in the visualization
-            selectNode(d);
-        });
-    
-    // Add character images
-    characterCards.append("img")
-        .attr("class", "character-image")
-        .attr("src", d => d.image)
-        .attr("alt", d => d.name);
-    
-    // Add character info
-    const infoDivs = characterCards.append("div")
-        .attr("class", "character-info");
-    
-    infoDivs.append("div")
-        .attr("class", "character-name")
-        .text(d => d.name);
-    
-    const detailsDivs = infoDivs.append("div")
-        .attr("class", "character-details");
-    
-    detailsDivs.append("span")
-        .attr("class", "character-race")
-        .text(d => d.race || "unknown")
-        .style("background-color", d => raceColors[d.race] || "#666")
-        .style("color", "white");
-    
-    detailsDivs.append("span")
-        .text(d => {
-            if (d.dob && d.dob !== '...') {
-                return `Age: ${d.age}`;
-            }
-            return "";
-        });
-    
-    // Set up race filter
-    d3.select("#race-filter").on("change", function() {
-        const selectedRace = this.value;
-        container.selectAll(".character-card")
-            .style("display", d => {
-                if (selectedRace === "all") return "flex";
-                return d.race === selectedRace ? "flex" : "none";
-            });
-    });
-}
+
 
 
 
