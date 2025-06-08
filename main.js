@@ -36,6 +36,8 @@ let simulation;
 let validNodeNames = new Set();
 let drag; // Declare drag variable
 let selectedNode = null; // Track currently selected node
+let characterDescriptions = {}; // name -> description
+
 
 // Race color mapping
 const raceColors = {
@@ -667,14 +669,23 @@ function hideTooltip() {
 // Load and process data from GitHub
 Promise.all([
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/avatarai.txt'),
-    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/Points.txt')
-]).then(function([pointsText, linksText]) {
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/Points.txt'),
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/aprasymai.txt')
+]).then(function([pointsText, linksText, descriptionText]) {
+    const lines = descriptionText.split('\n').filter(line => line.trim());
+    lines.forEach(line => {
+        const [name, description] = line.split('\t');
+        if (name && description) {
+            characterDescriptions[name.trim()] = description.trim();
+        }
+    });
+
     processData(pointsText, linksText);
-    // After processing data, populate the character list
     populateCharacterList();
 }).catch(error => {
     console.error("Error loading or processing data:", error);
 });
+
 
 // Function to populate the character list
 // Replace both versions of populateCharacterList with this single version:
@@ -870,7 +881,28 @@ const searchInput = document.querySelector('.search-input');
 function selectNode(node) {
     // Highlight the node and its connections
     highlightNodeAndConnections(node);
-    
+    // Show description below the selected character card
+const container = document.getElementById('characters-container');
+
+// Remove previous description element if any
+const oldDesc = document.querySelector('.character-description-below');
+if (oldDesc) oldDesc.remove();
+
+// Find the selected card's DOM element
+document.querySelectorAll(".character-card").forEach(card => {
+    const nameEl = card.querySelector(".character-name");
+    if (nameEl && nameEl.textContent.trim() === node.name) {
+        const desc = characterDescriptions[node.name] || "No description available.";
+
+        const descEl = document.createElement("div");
+        descEl.className = "character-description-below";
+        descEl.textContent = desc;
+
+        // Insert description directly after the card
+        card.insertAdjacentElement('afterend', descEl);
+    }
+});
+
     // Center the view on the node
     centerOnNode(node);
     
@@ -927,11 +959,10 @@ function centerOnNode(selectedNode) {
     // Calculate required scale to fit the bounding box
     const boxWidth = maxX - minX;
     const boxHeight = maxY - minY;
-    const scale = Math.min(
-        width / boxWidth,
-        height / boxHeight,
-        1.5  // Reduced maximum zoom level
-    );
+    const scale = Math.max(
+    0.5,  // Minimum zoom level (prevent zooming out too far)
+    Math.min(width / boxWidth, height / boxHeight, 1.5)  // Max zoom-in cap
+);
 
     // Calculate center of the bounding box
     const centerX = (minX + maxX) / 2;
@@ -1015,5 +1046,25 @@ document.addEventListener("DOMContentLoaded", function() {
                 behavior: 'smooth'
             });
         });
+    }
+});
+
+document.addEventListener("click", function(event) {
+    const isCard = event.target.closest(".character-card");
+    const isDesc = event.target.closest(".character-description-below");
+
+    if (!isCard && !isDesc) {
+        const oldDesc = document.querySelector('.character-description-below');
+        if (oldDesc) oldDesc.remove();
+
+        // Also remove card highlight
+        d3.selectAll(".character-card").classed("selected", false);
+
+        // Clear selected node state if needed
+        if (selectedNode) {
+            selectedNode = null;
+            resetNodeStates();
+            hideTooltip();
+        }
     }
 });
