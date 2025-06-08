@@ -387,25 +387,52 @@ function createVisualization() {
 
     // Create nodes with updated event handlers
     node = nodeGroup
-        .selectAll("g")
-        .data(nodes)
-        .join("g")
-        .attr("class", "node")
-        .on("click", function(event, d) {
-            event.stopPropagation(); // Prevent event from bubbling to SVG
-            if (selectedNode === d) {
-                // Clicking the same node deselects it
-                selectedNode = null;
-                resetNodeStates();
-                hideTooltip();
-            } else {
-                // Select the new node
-                selectedNode = d;
-                highlightNodeAndConnections(d);
-                centerOnNode(d);
-                hideTooltip(); // Hide tooltip on click
+    .selectAll("g")
+    .data(nodes)
+    .join("g")
+    .attr("class", "node")
+    .on("click", function(event, d) {
+    event.stopPropagation();
+
+    if (selectedNode === d) {
+        selectedNode = null;
+        resetNodeStates();
+        hideTooltip();
+        d3.selectAll(".character-card").classed("selected", false);
+        
+        // Clear search input
+        const input = document.querySelector('.search-input');
+        if (input) {
+            input.value = '';
+            input.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+    } else {
+        selectedNode = d;
+        highlightNodeAndConnections(d);
+        centerOnNode(d);
+        hideTooltip();
+
+        // Highlight the matching character card
+        d3.selectAll(".character-card").classed("selected", card => card.name === d.name);
+
+        // Scroll the selected card into view
+        document.querySelectorAll(".character-card").forEach(card => {
+            const nameEl = card.querySelector(".character-name");
+            if (nameEl && nameEl.textContent.trim() === d.name) {
+                card.scrollIntoView({ behavior: "smooth", block: "center" });
             }
-        })
+        });
+
+        // Update the search input with the selected name
+        const input = document.querySelector('.search-input');
+        if (input) {
+            input.value = d.name;
+            input.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+    }
+})
+
+
         .on("mouseover", function(event, d) {
             if (!selectedNode) { // Only show hover effects if no node is selected
                 const connectedNodes = new Set([d.id]);
@@ -472,12 +499,26 @@ function createVisualization() {
 
     // Add click handler to SVG to deselect when clicking elsewhere
     svg.on("click", function() {
-        if (selectedNode) {
-            selectedNode = null;
-            resetNodeStates();
-            hideTooltip();
-        }
-    });
+    if (selectedNode) {
+        selectedNode = null;
+        resetNodeStates();
+        hideTooltip();
+    }
+    d3.selectAll(".character-card").classed("selected", false);
+
+    const searchInput = document.querySelector('.search-input');
+    if (searchInput) {
+        searchInput.value = '';
+        const inputEvent = new Event('input', { bubbles: true, cancelable: true });
+        searchInput.dispatchEvent(inputEvent);
+    }
+
+    const searchResults = document.querySelector('.search-results');
+    if (searchResults) {
+        searchResults.style.display = 'none';
+    }
+});
+
 
     // Update the simulation's tick handler with curved links for multiple connections
     simulation.on("tick", () => {
@@ -967,5 +1008,34 @@ document.addEventListener("DOMContentLoaded", function() {
                 behavior: 'smooth'
             });
         });
+    }
+});
+
+// Deselect everything and clear search input when clicking outside nodes or cards
+document.addEventListener('click', function(event) {
+    const isCard = event.target.closest('.character-card');
+    const isNode = event.target.closest('svg');
+    const isSearchInput = event.target.closest('.search-container');
+
+    if (!isCard && !isNode && !isSearchInput) {
+        // Deselect node and card
+        selectedNode = null;
+        resetNodeStates();
+        hideTooltip();
+        d3.selectAll(".character-card").classed("selected", false);
+
+        // Clear search input
+        const searchInput = document.querySelector('.search-input');
+        if (searchInput) {
+            searchInput.value = '';
+            const inputEvent = new Event('input', { bubbles: true, cancelable: true });
+            searchInput.dispatchEvent(inputEvent);
+        }
+
+        // Hide search results container if it exists
+        const searchResults = document.querySelector('.search-results');
+        if (searchResults) {
+            searchResults.style.display = 'none';
+        }
     }
 });
