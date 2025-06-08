@@ -950,7 +950,7 @@ function centerOnNode(selectedNode) {
     });
 
     // Add padding around the bounding box
-    const padding = 50;
+    const padding = 150; // Increased padding to reduce zoom level
     minX -= padding;
     maxX += padding;
     minY -= padding;
@@ -959,10 +959,10 @@ function centerOnNode(selectedNode) {
     // Calculate required scale to fit the bounding box
     const boxWidth = maxX - minX;
     const boxHeight = maxY - minY;
-    const scale = Math.max(
-    0.5,  // Minimum zoom level (prevent zooming out too far)
-    Math.min(width / boxWidth, height / boxHeight, 1.5)  // Max zoom-in cap
-);
+    const scale = Math.min(
+        Math.max(0.2, Math.min(width / boxWidth, height / boxHeight)), // Minimum zoom level of 0.2
+        0.8 // Maximum zoom level of 0.8 (prevents zooming in too much)
+    );
 
     // Calculate center of the bounding box
     const centerX = (minX + maxX) / 2;
@@ -974,7 +974,7 @@ function centerOnNode(selectedNode) {
 
     // Animate to the new view with slower transition
     svg.transition()
-        .duration(1000) // Increased duration for smoother transition
+        .duration(1000)
         .call(zoom.transform, d3.zoomIdentity
             .translate(x, y)
             .scale(scale));
