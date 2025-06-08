@@ -498,13 +498,24 @@ function createVisualization() {
     node.call(drag);
 
     // Add click handler to SVG to deselect when clicking elsewhere
-    svg.on("click", function() {
-        if (selectedNode) {
-            selectedNode = null;
-            resetNodeStates();
-            hideTooltip();
+    svg.on("click", function () {
+    if (selectedNode) {
+        selectedNode = null;
+        resetNodeStates();
+        hideTooltip();
+
+        // Clear search input
+        const input = document.querySelector('.search-input');
+        if (input) {
+            input.value = '';
+            input.dispatchEvent(new Event('input', { bubbles: true }));
         }
-    });
+
+        // Remove highlight from character cards
+        d3.selectAll(".character-card").classed("selected", false);
+    }
+});
+
 
     // Update the simulation's tick handler with curved links for multiple connections
     simulation.on("tick", () => {
