@@ -1,5 +1,11 @@
-if (window.searchInitialized) return;
-window.searchInitialized = true;
+// Ensure only one search input exists
+if (document.querySelectorAll('.search-input').length > 1) {
+    console.warn('Multiple search inputs detected - removing duplicates');
+    const inputs = document.querySelectorAll('.search-input');
+    for (let i = 1; i < inputs.length; i++) {
+        inputs[i].remove();
+    }
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     let toggle = document.createElement("div");
