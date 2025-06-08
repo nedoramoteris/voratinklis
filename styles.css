@@ -600,7 +600,7 @@ body.dark-mode .character-details {
 
 .search-input {
   font-size:13px;
-    width: 80%;
+    width: 100%;
   text-overflow: ellipsis;
     padding: 10px;
     border: 1px solid #444;
