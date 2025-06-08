@@ -531,12 +531,19 @@ body.dark-mode .character-card:hover {
 }
 
 .character-card.selected {
-    background-color: #444;
-    font-weight: 500;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  color:white;
+}
+.character-card.selected .character-details {
+    color: white;
+}
+
+body.dark-mode .character-card.selected .character-details {
+    color: white;
 }
 
 body.dark-mode .character-card.selected {
-    background-color: #e0e0e0;
+    background-color: #353330;
 }
 
 .character-image {
@@ -545,7 +552,7 @@ body.dark-mode .character-card.selected {
     border-radius: 100%;
     object-fit: cover !important;
     margin-right: 15px;
-    border: 2px solid #555;
+    border: 0px solid #555;
     transition: border-color 0.3s ease;
 }
 
@@ -668,6 +675,16 @@ body.dark-mode .search-result-item.selected {
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+.race-filter select {
+    background-color: #333;
+  color:white;
+}
+.dark-mode .race-filter select {
+    background-color: #333;
+  color:grey;
+}
+
 
 body.dark-mode .race-filter select {
     background-color: white;
@@ -1020,7 +1037,7 @@ additionalinfo {font-size:8px;margin-top:5px;}
 }
 
 .scroll-up-button {
-    bottom: 74px; /* Position above dark mode button */
+    bottom: 73px; /* Position above dark mode button */
 }
 
 .scroll-down-button {
