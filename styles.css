@@ -20,7 +20,7 @@
     pointer-events: none;
     font-size: 14px;
     min-width: 200px;
-  max-width:350px;
+  max-width: 250px;
     z-index: 100;
     transition: opacity 0.2s;
     opacity: 0;
@@ -29,6 +29,7 @@
 }
 additionalinfo {font-size:8px;margin-top:5px;}
 .tooltip-header { 
+    text-align:left !important;
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 8px;
@@ -470,7 +471,7 @@ font-weight:bold;
 
 .character-list {
   margin-top:-20px;
-    width: 200px;
+    width: 220px;
     overflow-y: auto;
     padding: 20px;
     background-color: #292725;
@@ -497,7 +498,9 @@ body.dark-mode .character-list {
     transition: color 0.3s ease, border-color 0.3s ease;
     font-family: 'Lemon/Milk light', sans-serif;
     letter-spacing: 1px;
-
+background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 }
 
@@ -648,6 +651,9 @@ body.dark-mode .search-result-item.selected {
 
 .race-filter {
     margin-bottom: 15px;
+  background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .race-filter select {
@@ -657,14 +663,18 @@ body.dark-mode .search-result-item.selected {
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
-    color: #f0f0f0;
     transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 body.dark-mode .race-filter select {
     background-color: white;
     border-color: #ddd;
-    color: #333;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 /* Visualization area styles */
@@ -705,3 +715,32 @@ body.dark-mode ::-webkit-scrollbar-thumb:hover {
     background: #aaa;
 }
 
+/* Clear search button styles */
+.clear-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 5px;
+    display: none; /* Hidden by default */
+    z-index: 2;
+}
+
+.search-container:hover .clear-search,
+.search-input:focus ~ .clear-search,
+.search-input:not(:placeholder-shown) ~ .clear-search {
+    display: block;
+}
+
+body.dark-mode .clear-search {
+    color: #666;
+}
+
+body.dark-mode .clear-search:hover {
+    color: #333;
+}
