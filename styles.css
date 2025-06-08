@@ -1020,7 +1020,7 @@ additionalinfo {font-size:8px;margin-top:5px;}
 }
 
 .scroll-up-button {
-    bottom: 75px; /* Position above dark mode button */
+    bottom: 74px; /* Position above dark mode button */
 }
 
 .scroll-down-button {
