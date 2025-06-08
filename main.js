@@ -50,7 +50,7 @@ const raceColors = {
     'vampirewitch': '#405752', // Using first color for text
     'supernaturalhuman': '#756059', // Using first color for text
     'hybridhunter': '#94655D', // Using first color for text
-    'pet': '#6E6761' // New race "pet" with its color
+    'pet': '#d4bc85' // New race "pet" with its color
 };
 
 // SVG setup
@@ -908,3 +908,34 @@ function centerOnNode(selectedNode) {
             .translate(x, y)
             .scale(scale));
 }
+// Add clear search functionality
+document.querySelectorAll('.clear-search').forEach(button => {
+    button.addEventListener('click', function() {
+        const searchContainer = this.closest('.search-container');
+        const searchInput = searchContainer.querySelector('.search-input');
+        searchInput.value = '';
+        searchInput.focus();
+        
+        // Trigger the input event to update the search results
+        const event = new Event('input', {
+            bubbles: true,
+            cancelable: true,
+        });
+        searchInput.dispatchEvent(event);
+        
+        // Hide the clear button
+        this.style.display = 'none';
+    });
+});
+
+// Show/hide clear button based on input
+document.querySelectorAll('.search-input').forEach(input => {
+    input.addEventListener('input', function() {
+        const clearButton = this.nextElementSibling;
+        if (this.value.length > 0) {
+            clearButton.style.display = 'block';
+        } else {
+            clearButton.style.display = 'none';
+        }
+    });
+});
