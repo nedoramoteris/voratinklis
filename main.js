@@ -1,11 +1,4 @@
-// Ensure only one search input exists
-if (document.querySelectorAll('.search-input').length > 1) {
-    console.warn('Multiple search inputs detected - removing duplicates');
-    const inputs = document.querySelectorAll('.search-input');
-    for (let i = 1; i < inputs.length; i++) {
-        inputs[i].remove();
-    }
-}
+
 
 document.addEventListener("DOMContentLoaded", function () {
     let toggle = document.createElement("div");
@@ -821,7 +814,33 @@ function calculateLabelPosition(d, nodes, existingLabels) {
         y: basePosition.y + 5
     };
 }
+function searchCharacters(query) {
+    if (!query) {
+        // If search is empty, hide results and show all characters
+        d3.selectAll(".character-card").style("display", "flex");
+        return;
+    }
 
+    const lowerQuery = query.toLowerCase();
+    
+    // Filter nodes that match the search query
+    const matches = nodes.filter(node => 
+        node.name.toLowerCase().includes(lowerQuery) ||
+        (node.race && node.race.toLowerCase().includes(lowerQuery)) ||
+        (node.personality && node.personality.toLowerCase().includes(lowerQuery))
+    );
+
+    // Update character cards visibility
+    d3.selectAll(".character-card")
+        .style("display", d => 
+            matches.some(match => match.id === d.id) ? "flex" : "none"
+        );
+
+    // If there's exactly one match, select it
+    if (matches.length === 1) {
+        selectNode(matches[0]);
+    }
+}
 function getLabelRect(x, y, width = 100, height = 20) {
     return {
         x: x - width/2,
@@ -955,8 +974,16 @@ document.querySelectorAll('.search-input').forEach(input => {
         const clearButton = this.nextElementSibling;
         if (this.value.length > 0) {
             clearButton.style.display = 'block';
+            searchCharacters(this.value);
         } else {
             clearButton.style.display = 'none';
+            // Reset view when search is cleared
+            searchCharacters('');
+            if (selectedNode) {
+                selectedNode = null;
+                resetNodeStates();
+                hideTooltip();
+            }
         }
     });
 });
