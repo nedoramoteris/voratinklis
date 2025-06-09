@@ -10,28 +10,27 @@
 /* Tooltip styles */
 .dark-mode .node-tooltip, .dark-mode .tooltip-header {color: #6E6761 !important;}
 .node-tooltip {
+  max-width:600px !important;
   text-align:justify;
     position: absolute;
     padding: 10px;
   font-family: 'Lemon/Milk light', sans-serif;
   color: #6E6761;
-  background: none !important;
+  background: #292725;
     border-radius: 5px;
     pointer-events: none;
-    font-size: 14px;
-    width: 600px !important;
+    font-size: 12px;
     z-index: 100;
     transition: opacity 0.2s;
     opacity: 0;
-  font-size:10px;
   letter-spacing:1px;
 }
 additionalinfo {font-size:8px;margin-top:5px;}
 .tooltip-header { 
     text-align:left !important;
     font-weight: bold;
-    font-size: 12px;
-    margin-bottom: -8px;
+    font-size: 10px;
+    margin-bottom: 8px;
     color: #fff;
   letter-spacing:1px;
    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
@@ -42,11 +41,9 @@ additionalinfo {font-size:8px;margin-top:5px;}
 .tooltip-row {
 font-size:8px;
   float:left;
-  padding-right:8px;
-  color:white;
+  padding-right:5px;
+  margin-top:-6px;
 }
-.dark-mode .tooltip-row {color:black;}
-
 .tooltip-row strong {}
 
 /* Node info panel styles */
@@ -777,44 +774,6 @@ body.dark-mode .clear-search:hover {
 .additional-content {font-size:7px;}
 .dark-mode .styled-line {background-color:#dccdcc;}
 
-/* Tooltip styles */
-.dark-mode .node-tooltip, .dark-mode .tooltip-header {color: #6E6761 !important;}
-.node-tooltip {
-  text-align:justify;
-    position: absolute;
-    padding: 10px;
-  font-family: 'Lemon/Milk light', sans-serif;
-  color: #6E6761;
-  background: #292725;
-    border-radius: 5px;
-    pointer-events: none;
-    font-size: 14px;
-    min-width: 200px;
-  max-width: 250px;
-    z-index: 100;
-    transition: opacity 0.2s;
-    opacity: 0;
-  font-size:10px;
-  letter-spacing:1px;
-}
-additionalinfo {font-size:8px;margin-top:5px;}
-.tooltip-header { 
-    text-align:left !important;
-    font-weight: bold;
-    font-size: 12px;
-    margin-bottom: 8px;
-    color: #fff;
-  letter-spacing:1px;
-   background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-
-.tooltip-row {
-    margin: 5px 0;
-    line-height: 1.4;
-
-}
 
 /* Node info panel styles */
 .node-info-panel {
@@ -901,44 +860,6 @@ additionalinfo {font-size:8px;margin-top:5px;}
 .additional-content {font-size:7px;}
 .dark-mode .styled-line {background-color:#dccdcc;}
 
-/* Tooltip styles */
-.dark-mode .node-tooltip, .dark-mode .tooltip-header {color: #6E6761 !important;}
-.node-tooltip {
-  text-align:justify;
-    position: absolute;
-    padding: 10px;
-  font-family: 'Lemon/Milk light', sans-serif;
-  color: #6E6761;
-  background: #292725;
-    border-radius: 5px;
-    pointer-events: none;
-    font-size: 14px;
-    min-width: 200px;
-  max-width: 250px;
-    z-index: 100;
-    transition: opacity 0.2s;
-    opacity: 0;
-  font-size:10px;
-  letter-spacing:1px;
-}
-additionalinfo {font-size:8px;margin-top:5px;}
-.tooltip-header { 
-    text-align:left !important;
-    font-weight: bold;
-    font-size: 12px;
-    margin-bottom: 8px;
-    color: #fff;
-  letter-spacing:1px;
-   background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-
-.tooltip-row {
-    margin: 5px 0;
-    line-height: 1.4;
-
-}
 
 /* Node info panel styles */
 .node-info-panel {
