@@ -763,7 +763,7 @@ William Arthur Atkins	Dreschler Academy	8	8
 
 
 
-Katrinos draugai	Katrina Deva Bianchi	1	1
+Katrinos Draugai	Katrina Deva Bianchi	1	1
 Aisha Malik	Katrinos Draugai	1	1
 Amara Ndlovu	Katrinos Draugai	1	1
 Amelia Clarke	Katrinos Draugai	1	1
@@ -787,50 +787,50 @@ Marta Valli	Katrinos Draugai	1	1
 Matteo „Teo“ Ricci	Katrinos Draugai	1	1
 Natalia Vargas	Katrinos Draugai	1	1
 Oliver „Ollie“ Brown	Katrinos Draugai	1	1
-Ravi Kapoor	Katrinos draugai	1	1
-Simone Pellegrini	Katrina Katrinos draugai	1	1
-Vittoria Mancini	Katrina Katrinos draugai	1	1
-Charlotte „Charlie“ Woods	Katrinos draugai	1	1
+Ravi Kapoor	Katrinos Draugai	1	1
+Simone Pellegrini	Katrina Katrinos Draugai	1	1
+Vittoria Mancini	Katrina Katrinos Draugai	1	1
+Charlotte „Charlie“ Woods	Katrinos Draugai	1	1
 Clara Moretti	Elena Moretti	2	2
 Charlotte „Charlie“ Woods	James „Jamie“ Edwards	3	3
 
-Archie Hayes	Leono draugai	1	1
-Clara Santini	Leono draugai	1	1
-Davide Russo	Leono draugai	1	1
-Enzo Mazzetti	Leono draugai	1	1
-Finn O’Connor	Leono draugai	1	1
-Francesco Ferri	Leono draugai	1	1
-Giulia Rinaldi	Leono draugai	1	1
-James Carter	Leono draugai	1	1
-Leone Battista Dalmonte	Leono draugai	1	1
+Archie Hayes	Leono Draugai	1	1
+Clara Santini	Leono Draugai	1	1
+Davide Russo	Leono Draugai	1	1
+Enzo Mazzetti	Leono Draugai	1	1
+Finn O’Connor	Leono Draugai	1	1
+Francesco Ferri	Leono Draugai	1	1
+Giulia Rinaldi	Leono Draugai	1	1
+James Carter	Leono Draugai	1	1
+Leone Battista Dalmonte	Leono Draugai	1	1
 
 
-Giovanni "Gio" Rinaldi	Vesto draugai	1	1
-Gustav "Gus" Kaiser	Vesto draugai	1	1
-Luke Collins	Vesto draugai	1	1
-Livia Costa	Vesto draugai	1	1
-Paul Robinson	Vesto draugai	1	1
-Mariska Schmidt	Vesto draugai	1	1
-West Elliot Harlow	Vesto draugai	1	1
+Giovanni "Gio" Rinaldi	Vesto Draugai	1	1
+Gustav "Gus" Kaiser	Vesto Draugai	1	1
+Luke Collins	Vesto Draugai	1	1
+Livia Costa	Vesto Draugai	1	1
+Paul Robinson	Vesto Draugai	1	1
+Mariska Schmidt	Vesto Draugai	1	1
+West Elliot Harlow	Vesto Draugai	1	1
 
 
-Amara Evers	Lenon draugai	1	1
-Evie Hartwell	Lenon draugai	1	1
-Diego Montoya	Lenon draugai	1	1
-Duncan Hayes	Lenon draugai	1	1
-Malik Bennett	Lenon draugai	1	1
-Kaiya Fletcher	Lenon draugai	1	1
-Lennon Therasia Windsor	Lenon draugai	1	1
+Amara Evers	Lenon Draugai	1	1
+Evie Hartwell	Lenon Draugai	1	1
+Diego Montoya	Lenon Draugai	1	1
+Duncan Hayes	Lenon Draugai	1	1
+Malik Bennett	Lenon Draugai	1	1
+Kaiya Fletcher	Lenon Draugai	1	1
+Lennon Therasia Windsor	Lenon Draugai	1	1
 
 
-Archibald "Archie" Lennox	Arijos draugai	1	1
-Horacio "Horcrux" Rodriguez	Arijos draugai	1	1
-Kenji Takahashi	Arijos draugai	1	1
-Layla Massoud	Arijos draugai	1	1
-Morgan Bellamy	Arijos draugai	1	1
-Noor Rahmant	Arijos draugai	1	1
-Quinn O'Leary	Arijos draugai	1	1
-William "Wil.I.Am" Harper	Arijos draugai	1	1
-William "Will.I.Can't" Cavendish	Arijos draugai	1	1
-Zhen Liu	Arijos draugai	1	1
-Arya Natalie Davenport	Arijos draugai	1	1
+Archibald "Archie" Lennox	Arijos Draugai	1	1
+Horacio "Horcrux" Rodriguez	Arijos Draugai	1	1
+Kenji Takahashi	Arijos Draugai	1	1
+Layla Massoud	Arijos Draugai	1	1
+Morgan Bellamy	Arijos Draugai	1	1
+Noor Rahmant	Arijos Draugai	1	1
+Quinn O'Leary	Arijos Draugai	1	1
+William "Wil.I.Am" Harper	Arijos Draugai	1	1
+William "Will.I.Can't" Cavendish	Arijos Draugai	1	1
+Zhen Liu	Arijos Draugai	1	1
+Arya Natalie Davenport	Arijos Draugai	1	1
