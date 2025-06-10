@@ -4,8 +4,7 @@ margin-top:-25px;
   padding-top:15px;
 width:220px;} 
 .dark-mode .prilipdytas {background:#f5f5f5;}
-
-#characters-container{margin-top:150px;}
+#characters-container{margin-top:180px;}
 
 .styled-line {
       width: 100%;
@@ -1008,4 +1007,82 @@ body.dark-mode .clear-search:hover {
   font-family: 'Montserrat', sans-serif;
   font-size:11px;
 }
-.dark-mode .character-description-below {border-left: 4px solid #f1f1f1;}
+.dark-mode .character-description-below {border-left: 4px solid #f1f1f1 !important;}
+
+/* In styles.css, add this after the .race-filter styles */
+.institution-filter {
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.institution-filter select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+    transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.institution-filter select {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .institution-filter select {
+    background-color: #333;
+    color: grey;
+}
+
+body.dark-mode .institution-filter select {
+    background-color: white;
+    border-color: #ddd;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* In styles.css, add this after the .race-filter styles */
+.institution-filter {
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.institution-filter select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+    transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.institution-filter select {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .institution-filter select {
+    background-color: #333;
+    color: grey;
+}
+
+body.dark-mode .institution-filter select {
+    background-color: white;
+    border-color: #ddd;
+    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
