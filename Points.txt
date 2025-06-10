@@ -792,6 +792,7 @@ Simone Pellegrini	Katrina Katrinos draugai	1	1
 Vittoria Mancini	Katrina Katrinos draugai	1	1
 Charlotte „Charlie“ Woods	Katrinos draugai	1	1
 Clara Moretti	Elena Moretti	2	2
+Charlotte „Charlie“ Woods	James „Jamie“ Edwards	3	3
 
 Archie Hayes	Leono draugai	1	1
 Clara Santini	Leono draugai	1	1
