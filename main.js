@@ -774,7 +774,7 @@ function populateCharacterList() {
         .style("color", "white");
     
     // Add institution if available
-    detailsDivs.each(function(d) {
+    /*detailsDivs.each(function(d) {
         const details = d3.select(this);
         if (institutionsData[d.name]) {
             details.append("span")
@@ -783,7 +783,7 @@ function populateCharacterList() {
                 .style("margin-left", "8px")
                 .style("font-style", "italic");
         }
-    });
+    }); */
     
     // Add age display with deceased indicator if applicable
     const ageSpans = detailsDivs.append("span")
