@@ -1068,3 +1068,26 @@ document.addEventListener("click", function(event) {
         }
     }
 });
+
+
+
+// Prevent duplicate search bars
+(function() {
+    // Check if search elements already exist
+    const existingSearchContainers = document.querySelectorAll('.search-container');
+    
+    // If there's more than one search container, remove the extras
+    if (existingSearchContainers.length > 1) {
+        for (let i = 1; i < existingSearchContainers.length; i++) {
+            existingSearchContainers[i].remove();
+        }
+    }
+    
+    // Also check for duplicate event listeners
+    const searchInputs = document.querySelectorAll('.search-input');
+    if (searchInputs.length > 1) {
+        for (let i = 1; i < searchInputs.length; i++) {
+            searchInputs[i].remove();
+        }
+    }
+})();
