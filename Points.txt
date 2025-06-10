@@ -98,6 +98,7 @@ Carmen Iscariot Denali	Randall Frank Dreschler	1	1
 Carmen Iscariot Denali	Demetri Lorenzo Volturi	0	0
 Carmen Iscariot Denali	Nathaniel Dean Harlow	4	4
 Carmen Iscariot Denali	Demetria Nadira Harlow	4	4
+Carmen Iscariot Denali	Eleazar Silas Denali	0	0
 Declan Aidan Bernhard	Emery Herman Bernhard	2	2
 Emery Herman Bernhard	Florence Elise Winslow	1	1
 Emery Herman Bernhard	Juliette Claire Lefèvre	1	1
@@ -733,7 +734,7 @@ Edward William Richmond	Citadel Commons	8	8
 
 
 Leonardo Marco Belmonte	Dreschler Academy	8	8
-Eleazar Matteo Denali	Dreschler Academy	8	8
+Eleazar Silas Denali	Dreschler Academy	8	8
 Tommaso Luca Benedetti	Dreschler Academy	8	8
 Akira Kenji Sato	Dreschler Academy	8	8
 Asterios Nikos Franopoulos	Dreschler Academy	8	8
