@@ -1,4 +1,11 @@
- .styled-line {
+.prilipdytas {position: absolute;
+background:#292725;
+margin-top:-20px;
+  padding-top:5px;
+width:220px;} 
+#characters-container{margin-top:150px;}
+
+.styled-line {
       width: 100%;
       height: 2px;
       background-color: #333;
