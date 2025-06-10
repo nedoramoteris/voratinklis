@@ -137,7 +137,14 @@ font-size:8px;
 .dark-mode .relationship-1 {
     stroke: #a9a0aa;  /* Brightened for friendship */
 }
+/* COLLEAGUES */
+.relationship-8 {
+    stroke: #80938e;
+}
 
+.dark-mode .relationship-8 {
+    stroke: #52a791;
+}
 /* FRENEMIES */
 .dark-mode .relationship-4 {
     stroke: #a792cd;  /* Brightened for frenemies */
