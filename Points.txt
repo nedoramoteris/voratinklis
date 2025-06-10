@@ -762,3 +762,33 @@ William Arthur Atkins	Dreschler Academy	8	8
 
 
 
+
+
+Aisha Malik	Katrina Deva Bianchi	1	1
+Amara Ndlovu	Katrina Deva Bianchi	1	1
+Amelia Clarke	Katrina Deva Bianchi	1	1
+Antonio „Toni“ Greco	Katrina Deva Bianchi	1	1
+Chiara Fontana	Katrina Deva Bianchi	1	1
+Clara Moretti	Katrina Deva Bianchi	1	1
+Claudio Vitale	Katrina Deva Bianchi	1	1
+Diego Caruso	Katrina Deva Bianchi	1	1
+Elena Moretti	Katrina Deva Bianchi	1	1
+Emanuela „Ella“ Fiore	Katrina Deva Bianchi	1	1
+Enzo Marchetti	Katrina Deva Bianchi	1	1
+Fabio Neri	Katrina Deva Bianchi	1	1
+Giulia Carbone	Katrina Deva Bianchi	1	1
+Hanna Lindström	Katrina Deva Bianchi	1	1
+Henry Mills	Katrina Deva Bianchi	1	1
+James „Jamie“ Edwards	Katrina Deva Bianchi	1	1
+Katarzyna Zielińska	Katrina Deva Bianchi	1	1
+Luca Ferraro	Katrina Deva Bianchi	1	1
+Luisa De Luca	Katrina Deva Bianchi	1	1
+Marta Valli	Katrina Deva Bianchi	1	1
+Matteo „Teo“ Ricci	Katrina Deva Bianchi	1	1
+Natalia Vargas	Katrina Deva Bianchi	1	1
+Oliver „Ollie“ Brown	Katrina Deva Bianchi	1	1
+Ravi Kapoor	Katrina Deva Bianchi	1	1
+Simone Pellegrini	Katrina Deva Bianchi	1	1
+Vittoria Mancini	Katrina Deva Bianchi	1	1
+Charlotte „Charlie“ Woods	Katrina Deva Bianchi	1	1
+Clara Moretti	Elena Moretti	2	2
