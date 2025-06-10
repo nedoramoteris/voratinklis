@@ -1,4 +1,10 @@
-Demetrija Nadira Harlow	Citadel
+Demetrija Nadira Harlow	Citadel	Dreschler Academy
+Demetri Lorenzo Volturi	The Duskborn Legion	Dreschler Academy
+Oscar Alejandro Cadorna	Citadel	Reserve Hunters
+Florence Elise Winslow	Citadel	Dreschler Academy
+Camille Lillian Boucher	Citadel	Dreschler Academy
+
+
 Florence Elise Winslow	Citadel
 Camille Lillian Boucher	Citadel
 Emery Herman Bernhard	Citadel
@@ -34,7 +40,6 @@ Nico Ross Matthews	Citadel
 Lila Grace Thompson	Citadel
 Selene Elena Dimitriou	Citadel
 Edward William Richmond	Citadel
-Oscar Alejandro Cadorna	Citadel
 
 
 
@@ -42,20 +47,14 @@ Leone Battista Dalmonte	Reserve Hunters
 Michael Romeo Harlow	Reserve Hunters
 Camille Lillian Boucher	Reserve Hunters
 Arya Natalie Davenport	Reserve Hunters
-Oscar Alejandro Cadorna	Reserve Hunters
 
 
 
-
-Demetria Nadira Harlow	Dreschler Academy
 Felix Constantine Volturi	Dreschler Academy
-Demetri Lorenzo Volturi	Dreschler Academy
 Jonathan Fort Harlow	Dreschler Academy
 Michael Romeo Harlow	Dreschler Academy
-Florence Elise Winslow	Dreschler Academy
 Randall Frank Dreschler	Dreschler Academy
 Daniel Apollo Dreschler	Dreschler Academy
-Camille Lillian Boucher	Dreschler Academy
 Leonardo Marco Belmonte	Dreschler Academy
 Eleazar Matteo Denali	Dreschler Academy
 Tommaso Luca Benedetti	Dreschler Academy
@@ -88,4 +87,3 @@ William Arthur Atkins	Dreschler Academy
 Nathaniel Dean Harlow	The Duskborn Legion
 Felix Constantine Volturi	The Duskborn Legion
 Marcus Volturi	The Duskborn Legion
-Demetri Lorenzo Volturi	The Duskborn Legion
