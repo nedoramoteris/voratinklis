@@ -817,7 +817,7 @@ Livia Costa	Vesto Draugai	1	1
 Paul Robinson	Vesto Draugai	1	1
 Mariska Schmidt	Vesto Draugai	1	1
 West Elliot Harlow	Vesto Draugai	1	1
-
+Gustav "Gus" Kaiser	Mariska Schmidt	1	1
 
 Amara Evers	Lenon Draugai	1	1
 Evie Hartwell	Lenon Draugai	1	1
