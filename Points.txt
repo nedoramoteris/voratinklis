@@ -873,3 +873,22 @@ Ioanna Sophia Antoniou	Georgios Panagiotis Ioannou	1	1
 Bernadette Elizabeth Jones	Charlie William Brown	1	1
 Bernadette Elizabeth Jones	Sabrina Louise Clarke	1	1
 Charlie William Brown	Sabrina Louise Clarke	1	1
+
+
+
+Dominic Alexandru Popescu	Dreschler Academy Class of 2025
+Ethan James Carter	Dreschler Academy Class of 2025
+Henry William Thompson	Dreschler Academy Class of 2025
+Hubert Frank Bernhard	Dreschler Academy Class of 2025
+Isabelle Marie Johnson	Dreschler Academy Class of 2025
+Kaya Elina Virtanen	Dreschler Academy Class of 2025
+Lars Kristian Sørensen	Dreschler Academy Class of 2025
+Leonard Friedrich Bauer	Dreschler Academy Class of 2025
+Nikolai Ivanov Petrov	Dreschler Academy Class of 2025
+Silvia Claire Dubois	Dreschler Academy Class of 2025
+Vasilios Dimitriou Papadopoulos	Dreschler Academy Class of 2025
+Yennifer Katarína Horváth	Dreschler Academy Class of 2025
+Hubert Frank Bernhard	Dreschler Academy Class of 2025
+Hubert Frank Bernhard	Emery Herman Bernhard	2	2
+Declan Aidan	Bernhard	2	2
+Ethan James Carter	Isabelle Marie Carter	2	2
