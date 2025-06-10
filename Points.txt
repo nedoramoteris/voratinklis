@@ -887,7 +887,10 @@ Nikolai Ivanov Petrov	Dreschler Academy Class of 2025	8	8
 Silvia Claire Dubois	Dreschler Academy Class of 2025	8	8
 Vasilios Dimitriou Papadopoulos	Dreschler Academy Class of 2025	8	8
 Yennifer Katarína Horváth	Dreschler Academy Class of 2025	8	8
-Hubert Frank Bernhard	Dreschler Academy Class of 2025	8	8
 Hubert Frank Bernhard	Emery Herman Bernhard	2	2
 Declan Aidan	Bernhard	Hubert Frank Bernhard	2	2
+Hubert Frank Bernhard	Hera Melody Harlow	6	6
+Hubert Frank Bernhard	Søren Ragnar Lindström	1	1
+
+
 Ethan James Carter	Isabelle Marie Carter	2	2
