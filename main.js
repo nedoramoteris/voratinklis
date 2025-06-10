@@ -35,7 +35,7 @@ let validNodeNames = new Set();
 let drag; // Declare drag variable
 let selectedNode = null; // Track currently selected node
 let characterDescriptions = {}; // name -> description
-let institutionsData = {}; // name -> institution
+let institutionsData = {}; // name -> [institutions] (now supports multiple)
 let institutionsList = new Set(); // unique institutions
 
 // Race color mapping
@@ -627,9 +627,10 @@ function showTooltip(d, event) {
     }
     
     // Add institution if available
-    if (institutionsData[d.name]) {
-        tooltipContent += `<div class="tooltip-row"><strong>Institution:</strong> ${institutionsData[d.name]}</div>`;
-    }
+    /*if (institutionsData[d.name] && institutionsData[d.name].length > 0) {
+        const institutions = institutionsData[d.name].join(", ");
+        tooltipContent += `<div class="tooltip-row"><strong>Institution(s):</strong> ${institutions}</div>`;
+    }*/
     
     // Add date of birth if available
     if (d.dob && d.dob !== '...') {
@@ -684,13 +685,18 @@ Promise.all([
         }
     });
 
-    // Process institutions
+    // Process institutions - now supports multiple institutions per person
     const instLines = institutionsText.split('\n').filter(line => line.trim());
     instLines.forEach(line => {
-        const [name, institution] = line.split('\t');
-        if (name && institution) {
-            institutionsData[name.trim()] = institution.trim();
-            institutionsList.add(institution.trim());
+        const parts = line.split('\t');
+        const name = parts[0]?.trim();
+        const institutions = parts.slice(1).filter(x => x.trim());
+        
+        if (name && institutions.length > 0) {
+            institutionsData[name] = institutions.map(i => i.trim());
+            institutions.forEach(institution => {
+                institutionsList.add(institution.trim());
+            });
         }
     });
 
@@ -715,15 +721,29 @@ function populateInstitutionFilter() {
             .text(institution);
     });
     
-    // Set up filter handler
+    // Set up filter handler that works with race filter
     institutionFilter.on("change", function() {
-        const selectedInstitution = this.value;
-        d3.select("#characters-container").selectAll(".character-card")
-            .style("display", d => {
-                if (selectedInstitution === "all") return "flex";
-                return institutionsData[d.name] === selectedInstitution ? "flex" : "none";
-            });
+        applyFilters();
     });
+}
+
+// Function to apply both race and institution filters
+function applyFilters() {
+    const selectedRace = d3.select("#race-filter").node().value;
+    const selectedInstitution = d3.select("#institution-filter").node().value;
+    
+    d3.select("#characters-container").selectAll(".character-card")
+        .style("display", d => {
+            // Check race filter
+            const raceMatch = selectedRace === "all" || d.race === selectedRace;
+            
+            // Check institution filter
+            const institutionMatch = selectedInstitution === "all" || 
+                (institutionsData[d.name] && 
+                 institutionsData[d.name].includes(selectedInstitution));
+            
+            return raceMatch && institutionMatch ? "flex" : "none";
+        });
 }
 
 // Function to populate the character list
@@ -773,17 +793,17 @@ function populateCharacterList() {
         .style("background-color", d => raceColors[d.race] || "#666")
         .style("color", "white");
     
-    // Add institution if available
-    /*detailsDivs.each(function(d) {
+   /* // Add institution(s) if available
+    detailsDivs.each(function(d) {
         const details = d3.select(this);
-        if (institutionsData[d.name]) {
+        if (institutionsData[d.name] && institutionsData[d.name].length > 0) {
             details.append("span")
                 .attr("class", "character-institution")
-                .text(institutionsData[d.name])
+                .text(institutionsData[d.name].join(", "))
                 .style("margin-left", "8px")
                 .style("font-style", "italic");
         }
-    }); */
+    });*/
     
     // Add age display with deceased indicator if applicable
     const ageSpans = detailsDivs.append("span")
@@ -802,14 +822,9 @@ function populateCharacterList() {
         }
     });
     
-    // Set up race filter
+    // Set up race filter to work with institution filter
     d3.select("#race-filter").on("change", function() {
-        const selectedRace = this.value;
-        container.selectAll(".character-card")
-            .style("display", d => {
-                if (selectedRace === "all") return "flex";
-                return d.race === selectedRace ? "flex" : "none";
-            });
+        applyFilters();
     });
 }
 
@@ -879,7 +894,8 @@ function searchCharacters(query) {
         node.name.toLowerCase().includes(lowerQuery) ||
         (node.race && node.race.toLowerCase().includes(lowerQuery)) ||
         (node.personality && node.personality.toLowerCase().includes(lowerQuery)) ||
-        (institutionsData[node.name] && institutionsData[node.name].toLowerCase().includes(lowerQuery))
+        (institutionsData[node.name] && 
+         institutionsData[node.name].some(i => i.toLowerCase().includes(lowerQuery)))
     );
 
     // Update character cards visibility
