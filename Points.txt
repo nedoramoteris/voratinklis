@@ -731,7 +731,6 @@ Nijolė Laima Davolienė	Nico Ross Matthews	8	8
 Nijolė Laima Davolienė	Lila Grace Thompson	8	8
 Nijolė Laima Davolienė	Selene Elena Dimitriou	8	8
 Nijolė Laima Davolienė	Edward William Richmond	8	8
-Nijolė Laima Davolienė	Oscar Alejandro Cadorna	8	8
 Barbara Eugenia Franks	Matilda Sophia Andersen	8	8
 Barbara Eugenia Franks	Stella Maria Santos	8	8
 Barbara Eugenia Franks	Leah Marie Clearwater	8	8
@@ -757,7 +756,6 @@ Barbara Eugenia Franks	Nico Ross Matthews	8	8
 Barbara Eugenia Franks	Lila Grace Thompson	8	8
 Barbara Eugenia Franks	Selene Elena Dimitriou	8	8
 Barbara Eugenia Franks	Edward William Richmond	8	8
-Barbara Eugenia Franks	Oscar Alejandro Cadorna	8	8
 Matilda Sophia Andersen	Stella Maria Santos	8	8
 Matilda Sophia Andersen	Leah Marie Clearwater	8	8
 Matilda Sophia Andersen	Ananya Devi Patel	8	8
@@ -782,7 +780,6 @@ Matilda Sophia Andersen	Nico Ross Matthews	8	8
 Matilda Sophia Andersen	Lila Grace Thompson	8	8
 Matilda Sophia Andersen	Selene Elena Dimitriou	8	8
 Matilda Sophia Andersen	Edward William Richmond	8	8
-Matilda Sophia Andersen	Oscar Alejandro Cadorna	8	8
 Stella Maria Santos	Leah Marie Clearwater	8	8
 Stella Maria Santos	Ananya Devi Patel	8	8
 Stella Maria Santos	Leila Alarya Singh	8	8
@@ -806,7 +803,6 @@ Stella Maria Santos	Nico Ross Matthews	8	8
 Stella Maria Santos	Lila Grace Thompson	8	8
 Stella Maria Santos	Selene Elena Dimitriou	8	8
 Stella Maria Santos	Edward William Richmond	8	8
-Stella Maria Santos	Oscar Alejandro Cadorna	8	8
 Leah Marie Clearwater	Ananya Devi Patel	8	8
 Leah Marie Clearwater	Leila Alarya Singh	8	8
 Leah Marie Clearwater	Finn Alexander O'Connor	8	8
@@ -829,7 +825,6 @@ Leah Marie Clearwater	Nico Ross Matthews	8	8
 Leah Marie Clearwater	Lila Grace Thompson	8	8
 Leah Marie Clearwater	Selene Elena Dimitriou	8	8
 Leah Marie Clearwater	Edward William Richmond	8	8
-Leah Marie Clearwater	Oscar Alejandro Cadorna	8	8
 Ananya Devi Patel	Leila Alarya Singh	8	8
 Ananya Devi Patel	Finn Alexander O'Connor	8	8
 Ananya Devi Patel	Yara Amina Nasser	8	8
@@ -851,7 +846,6 @@ Ananya Devi Patel	Nico Ross Matthews	8	8
 Ananya Devi Patel	Lila Grace Thompson	8	8
 Ananya Devi Patel	Selene Elena Dimitriou	8	8
 Ananya Devi Patel	Edward William Richmond	8	8
-Ananya Devi Patel	Oscar Alejandro Cadorna	8	8
 Leila Alarya Singh	Finn Alexander O'Connor	8	8
 Leila Alarya Singh	Yara Amina Nasser	8	8
 Leila Alarya Singh	Freya Sofia Bergström	8	8
@@ -872,7 +866,6 @@ Leila Alarya Singh	Nico Ross Matthews	8	8
 Leila Alarya Singh	Lila Grace Thompson	8	8
 Leila Alarya Singh	Selene Elena Dimitriou	8	8
 Leila Alarya Singh	Edward William Richmond	8	8
-Leila Alarya Singh	Oscar Alejandro Cadorna	8	8
 Finn Alexander O'Connor	Yara Amina Nasser	8	8
 Finn Alexander O'Connor	Freya Sofia Bergström	8	8
 Finn Alexander O'Connor	Liam James O'Brien	8	8
@@ -892,7 +885,6 @@ Finn Alexander O'Connor	Nico Ross Matthews	8	8
 Finn Alexander O'Connor	Lila Grace Thompson	8	8
 Finn Alexander O'Connor	Selene Elena Dimitriou	8	8
 Finn Alexander O'Connor	Edward William Richmond	8	8
-Finn Alexander O'Connor	Oscar Alejandro Cadorna	8	8
 Yara Amina Nasser	Freya Sofia Bergström	8	8
 Yara Amina Nasser	Liam James O'Brien	8	8
 Yara Amina Nasser	Zara Elizabeth Lennox	8	8
@@ -911,7 +903,6 @@ Yara Amina Nasser	Nico Ross Matthews	8	8
 Yara Amina Nasser	Lila Grace Thompson	8	8
 Yara Amina Nasser	Selene Elena Dimitriou	8	8
 Yara Amina Nasser	Edward William Richmond	8	8
-Yara Amina Nasser	Oscar Alejandro Cadorna	8	8
 Freya Sofia Bergström	Liam James O'Brien	8	8
 Freya Sofia Bergström	Zara Elizabeth Lennox	8	8
 Freya Sofia Bergström	Aisha Fatima Khan	8	8
@@ -929,7 +920,6 @@ Freya Sofia Bergström	Nico Ross Matthews	8	8
 Freya Sofia Bergström	Lila Grace Thompson	8	8
 Freya Sofia Bergström	Selene Elena Dimitriou	8	8
 Freya Sofia Bergström	Edward William Richmond	8	8
-Freya Sofia Bergström	Oscar Alejandro Cadorna	8	8
 Liam James O'Brien	Zara Elizabeth Lennox	8	8
 Liam James O'Brien	Aisha Fatima Khan	8	8
 Liam James O'Brien	Matteo Alberto Lombardi	8	8
@@ -946,7 +936,6 @@ Liam James O'Brien	Nico Ross Matthews	8	8
 Liam James O'Brien	Lila Grace Thompson	8	8
 Liam James O'Brien	Selene Elena Dimitriou	8	8
 Liam James O'Brien	Edward William Richmond	8	8
-Liam James O'Brien	Oscar Alejandro Cadorna	8	8
 Zara Elizabeth Lennox	Aisha Fatima Khan	8	8
 Zara Elizabeth Lennox	Matteo Alberto Lombardi	8	8
 Zara Elizabeth Lennox	Esmeralda Isabella Rodriguez	8	8
@@ -962,7 +951,6 @@ Zara Elizabeth Lennox	Nico Ross Matthews	8	8
 Zara Elizabeth Lennox	Lila Grace Thompson	8	8
 Zara Elizabeth Lennox	Selene Elena Dimitriou	8	8
 Zara Elizabeth Lennox	Edward William Richmond	8	8
-Zara Elizabeth Lennox	Oscar Alejandro Cadorna	8	8
 Aisha Fatima Khan	Matteo Alberto Lombardi	8	8
 Aisha Fatima Khan	Esmeralda Isabella Rodriguez	8	8
 Aisha Fatima Khan	Sandra Maria Núñez	8	8
@@ -977,7 +965,6 @@ Aisha Fatima Khan	Nico Ross Matthews	8	8
 Aisha Fatima Khan	Lila Grace Thompson	8	8
 Aisha Fatima Khan	Selene Elena Dimitriou	8	8
 Aisha Fatima Khan	Edward William Richmond	8	8
-Aisha Fatima Khan	Oscar Alejandro Cadorna	8	8
 Matteo Alberto Lombardi	Esmeralda Isabella Rodriguez	8	8
 Matteo Alberto Lombardi	Sandra Maria Núñez	8	8
 Matteo Alberto Lombardi	Anders Erik Nilsson	8	8
@@ -991,7 +978,6 @@ Matteo Alberto Lombardi	Nico Ross Matthews	8	8
 Matteo Alberto Lombardi	Lila Grace Thompson	8	8
 Matteo Alberto Lombardi	Selene Elena Dimitriou	8	8
 Matteo Alberto Lombardi	Edward William Richmond	8	8
-Matteo Alberto Lombardi	Oscar Alejandro Cadorna	8	8
 Esmeralda Isabella Rodriguez	Sandra Maria Núñez	8	8
 Esmeralda Isabella Rodriguez	Anders Erik Nilsson	8	8
 Esmeralda Isabella Rodriguez	Maya Sofia Patel	8	8
@@ -1004,7 +990,6 @@ Esmeralda Isabella Rodriguez	Nico Ross Matthews	8	8
 Esmeralda Isabella Rodriguez	Lila Grace Thompson	8	8
 Esmeralda Isabella Rodriguez	Selene Elena Dimitriou	8	8
 Esmeralda Isabella Rodriguez	Edward William Richmond	8	8
-Esmeralda Isabella Rodriguez	Oscar Alejandro Cadorna	8	8
 Sandra Maria Núñez	Anders Erik Nilsson	8	8
 Sandra Maria Núñez	Maya Sofia Patel	8	8
 Sandra Maria Núñez	Julian Sebastian Garcia	8	8
@@ -1016,7 +1001,6 @@ Sandra Maria Núñez	Nico Ross Matthews	8	8
 Sandra Maria Núñez	Lila Grace Thompson	8	8
 Sandra Maria Núñez	Selene Elena Dimitriou	8	8
 Sandra Maria Núñez	Edward William Richmond	8	8
-Sandra Maria Núñez	Oscar Alejandro Cadorna	8	8
 Anders Erik Nilsson	Maya Sofia Patel	8	8
 Anders Erik Nilsson	Julian Sebastian Garcia	8	8
 Anders Erik Nilsson	Tessa Louise Johnson	8	8
@@ -1027,7 +1011,6 @@ Anders Erik Nilsson	Nico Ross Matthews	8	8
 Anders Erik Nilsson	Lila Grace Thompson	8	8
 Anders Erik Nilsson	Selene Elena Dimitriou	8	8
 Anders Erik Nilsson	Edward William Richmond	8	8
-Anders Erik Nilsson	Oscar Alejandro Cadorna	8	8
 Maya Sofia Patel	Julian Sebastian Garcia	8	8
 Maya Sofia Patel	Tessa Louise Johnson	8	8
 Maya Sofia Patel	Rosita Maria Alvarez	8	8
@@ -1037,7 +1020,6 @@ Maya Sofia Patel	Nico Ross Matthews	8	8
 Maya Sofia Patel	Lila Grace Thompson	8	8
 Maya Sofia Patel	Selene Elena Dimitriou	8	8
 Maya Sofia Patel	Edward William Richmond	8	8
-Maya Sofia Patel	Oscar Alejandro Cadorna	8	8
 Julian Sebastian Garcia	Tessa Louise Johnson	8	8
 Julian Sebastian Garcia	Rosita Maria Alvarez	8	8
 Julian Sebastian Garcia	Haruto Hiroshi Adachi	8	8
@@ -1046,7 +1028,6 @@ Julian Sebastian Garcia	Nico Ross Matthews	8	8
 Julian Sebastian Garcia	Lila Grace Thompson	8	8
 Julian Sebastian Garcia	Selene Elena Dimitriou	8	8
 Julian Sebastian Garcia	Edward William Richmond	8	8
-Julian Sebastian Garcia	Oscar Alejandro Cadorna	8	8
 Tessa Louise Johnson	Rosita Maria Alvarez	8	8
 Tessa Louise Johnson	Haruto Hiroshi Adachi	8	8
 Tessa Louise Johnson	Elias Gabriel Costa	8	8
@@ -1054,33 +1035,25 @@ Tessa Louise Johnson	Nico Ross Matthews	8	8
 Tessa Louise Johnson	Lila Grace Thompson	8	8
 Tessa Louise Johnson	Selene Elena Dimitriou	8	8
 Tessa Louise Johnson	Edward William Richmond	8	8
-Tessa Louise Johnson	Oscar Alejandro Cadorna	8	8
 Rosita Maria Alvarez	Haruto Hiroshi Adachi	8	8
 Rosita Maria Alvarez	Elias Gabriel Costa	8	8
 Rosita Maria Alvarez	Nico Ross Matthews	8	8
 Rosita Maria Alvarez	Lila Grace Thompson	8	8
 Rosita Maria Alvarez	Selene Elena Dimitriou	8	8
 Rosita Maria Alvarez	Edward William Richmond	8	8
-Rosita Maria Alvarez	Oscar Alejandro Cadorna	8	8
 Haruto Hiroshi Adachi	Elias Gabriel Costa	8	8
 Haruto Hiroshi Adachi	Nico Ross Matthews	8	8
 Haruto Hiroshi Adachi	Lila Grace Thompson	8	8
 Haruto Hiroshi Adachi	Selene Elena Dimitriou	8	8
 Haruto Hiroshi Adachi	Edward William Richmond	8	8
-Haruto Hiroshi Adachi	Oscar Alejandro Cadorna	8	8
 Elias Gabriel Costa	Nico Ross Matthews	8	8
 Elias Gabriel Costa	Lila Grace Thompson	8	8
 Elias Gabriel Costa	Selene Elena Dimitriou	8	8
 Elias Gabriel Costa	Edward William Richmond	8	8
-Elias Gabriel Costa	Oscar Alejandro Cadorna	8	8
 Nico Ross Matthews	Lila Grace Thompson	8	8
 Nico Ross Matthews	Selene Elena Dimitriou	8	8
 Nico Ross Matthews	Edward William Richmond	8	8
-Nico Ross Matthews	Oscar Alejandro Cadorna	8	8
 Lila Grace Thompson	Selene Elena Dimitriou	8	8
 Lila Grace Thompson	Edward William Richmond	8	8
-Lila Grace Thompson	Oscar Alejandro Cadorna	8	8
 Selene Elena Dimitriou	Edward William Richmond	8	8
-Selene Elena Dimitriou	Oscar Alejandro Cadorna	8	8
-Edward William Richmond	Oscar Alejandro Cadorna	8	8
 
