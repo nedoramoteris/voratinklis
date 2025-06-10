@@ -93,7 +93,7 @@ Alfons Janczewski	https://i.pinimg.com/564x/1f/b6/12/1fb612032246129f42613cf24ff
 Evelyn Brown	https://i.pinimg.com/736x/01/f2/ef/01f2efc63ef4f61ce9dc4046d1017006.jpg	human	1957-09-17	ambivert
 Franklin Hughes	https://i.pinimg.com/736x/c5/ea/c7/c5eac793019da0415cc5f8b9bb74ac14.jpg	human	1998-10-15	extrovert
 Alessio the Undressio	https://i.pinimg.com/736x/f5/e8/86/f5e886b9e6718c93cbf170eead7706ea.jpg	human	1998-04-26	extrovert
-Zigmas	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	human	1943-06-06	ambivert
+Zigmas	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1943-06-06	ambivert
 Emilia Leonie Richter	https://i.imgur.com/Mjm8svZ.png	witch	1990-11-11	ambivert
 Monique Seraphine Marlowe	https://i.pinimg.com/736x/02/eb/b8/02ebb881597416f317773c840483f2e5.jpg	hybrid	1874-08-07	introvert
 Kenneth James Sinclair	https://i.pinimg.com/736x/9e/52/83/9e528330c23348bd5da0d6d60b84cc0c.jpg	human	1982-08-14
@@ -164,61 +164,61 @@ Lorenzo Amadeo Bellini	https://i.pinimg.com/736x/0b/80/13/0b8013997987fbc0f61643
 
 
 
-Nijolė Laima Davolienė	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1980-11-05
-Barbara Eugenia Franks	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	human	1971-09-17
-Matilda Sophia Andersen	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hybrid	1899-10-27
-Stella Maria Santos	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hybrid	1922-05-14
+Nijolė Laima Davolienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1980-11-05
+Barbara Eugenia Franks	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1971-09-17
+Matilda Sophia Andersen	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1899-10-27
+Stella Maria Santos	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1922-05-14
 Leah Marie Clearwater	https://i.pinimg.com/736x/3a/d6/af/3ad6af1f2da73f882bc42a7bad95eb41.jpg	werewolf	1985-03-12
-Ananya Devi Patel	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1990-07-19
-Leila Alarya Singh	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1989-02-03
-Finn Alexander O'Connor	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1994-08-21
-Yara Amina Nasser	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1996-12-10
-Freya Sofia Bergström	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1979-06-01
-Liam James O'Brien	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	witch	1984-01-30
-Zara Elizabeth Lennox	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1985-04-09
-Aisha Fatima Khan	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1990-11-17
-Matteo Alberto Lombardi	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1982-07-26
-Esmeralda Isabella Rodriguez	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1978-02-13
-Sandra Maria Núñez	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hybrid	1911-03-03
-Anders Erik Nilsson	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1736-09-06
-Maya Sofia Patel	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1869-04-25
-Julian Sebastian Garcia	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1802-01-18
-Tessa Louise Johnson	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1895-12-30
-Rosita Maria Alvarez	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1764-06-22
-Haruto Hiroshi Adachi	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1997-01-02
-Elias Gabriel Costa	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1988-09-04
-Nico Ross Matthews	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1993-06-28
-Lila Grace Thompson	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1995-12-08
-Selene Elena Dimitriou	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	witch	1997-05-05
-Edward William Richmond	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1743-03-20
-Oscar Alejandro Cadorna	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1980-08-11
+Ananya Devi Patel	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1990-07-19
+Leila Alarya Singh	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1989-02-03
+Finn Alexander O'Connor	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1994-08-21
+Yara Amina Nasser	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1996-12-10
+Freya Sofia Bergström	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1979-06-01
+Liam James O'Brien	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1984-01-30
+Zara Elizabeth Lennox	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1985-04-09
+Aisha Fatima Khan	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1990-11-17
+Matteo Alberto Lombardi	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1982-07-26
+Esmeralda Isabella Rodriguez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1978-02-13
+Sandra Maria Núñez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1911-03-03
+Anders Erik Nilsson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1736-09-06
+Maya Sofia Patel	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1869-04-25
+Julian Sebastian Garcia	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1802-01-18
+Tessa Louise Johnson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1895-12-30
+Rosita Maria Alvarez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1764-06-22
+Haruto Hiroshi Adachi	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1997-01-02
+Elias Gabriel Costa	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1988-09-04
+Nico Ross Matthews	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1993-06-28
+Lila Grace Thompson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1995-12-08
+Selene Elena Dimitriou	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1997-05-05
+Edward William Richmond	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1743-03-20
+Oscar Alejandro Cadorna	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1980-08-11
 
 Citadel Commons	https://i.pinimg.com/564x/5b/2b/ae/5b2bae0c38bd9c49b776ff591f9ddf71.jpg	Basically God
 Dreschler Academy	https://i.pinimg.com/564x/5d/27/49/5d27497f6654c6b99386718b37a00e0c.jpg	Mokykla antgamtiškiems vaikams
 
 
-Leonardo Marco Belmonte	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1850-05-15
+Leonardo Marco Belmonte	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1850-05-15
 Eleazar Silas Denali	https://i.pinimg.com/736x/0d/2e/e0/0d2ee067c63afff3d4c94067b7300b61.jpg	vampire	1803-09-28
-Tommaso Luca Benedetti	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1970-03-12
-Akira Kenji Sato	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	witch	1965-11-02
-Asterios Nikos Franopoulos	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hybrid	1725-08-20
-Sofía Isabel Domínguez	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1836-12-04
-Valentina Inés Duarte	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1845-07-19
-Engel Tobias Müller	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hybrid	1710-06-30
-Kristaps Andris Berzins	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1968-08-14
-Birutė Elena Žukauskienė	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1965-04-27
-Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1963-11-11
-Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1967-02-03
-Juniper Mae Forrester	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1888-10-07
-Damian Lee Roberts	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	witch	1973-09-21
-Lavinia Grace Hendricks	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hybrid	1745-03-18
-Virginie Claire Moulin	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1961-12-30
-Bernard Lucien Hopkins	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1955-06-08
-Henrik Jürgen Schneider	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	werewolf	1962-05-24
-Pauline Estelle Morrison	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hybrid	1730-11-29
-Gaelle Amélie Deveraux	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	hunter	1950-04-17
-Luisa Carmen Ramirez	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	witch	1971-02-14
-Abigail Rose Collins	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	witch	1972-07-23
-Suzuki Kyo Haruka	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	witch	1969-10-11
-Gertrude Miriam Nicholson	https://i.pinimg.com/736x/4f/b6/d2/4fb6d2cd4cf89e32b0bb39758f2d776a.jpg	vampire	1825-06-03
+Tommaso Luca Benedetti	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1970-03-12
+Akira Kenji Sato	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1965-11-02
+Asterios Nikos Franopoulos	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1725-08-20
+Sofía Isabel Domínguez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1836-12-04
+Valentina Inés Duarte	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1845-07-19
+Engel Tobias Müller	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1710-06-30
+Kristaps Andris Berzins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1968-08-14
+Birutė Elena Žukauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1965-04-27
+Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1963-11-11
+Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1967-02-03
+Juniper Mae Forrester	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1888-10-07
+Damian Lee Roberts	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1973-09-21
+Lavinia Grace Hendricks	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1745-03-18
+Virginie Claire Moulin	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1961-12-30
+Bernard Lucien Hopkins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1955-06-08
+Henrik Jürgen Schneider	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1962-05-24
+Pauline Estelle Morrison	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1730-11-29
+Gaelle Amélie Deveraux	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1950-04-17
+Luisa Carmen Ramirez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1971-02-14
+Abigail Rose Collins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1972-07-23
+Suzuki Kyo Haruka	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1969-10-11
+Gertrude Miriam Nicholson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1825-06-03
 William Arthur Atkins	https://i.pinimg.com/736x/4c/b0/0c/4cb00c28525bb092620fc87dd8b957fe.jpg	werewolf	1966-09-05
