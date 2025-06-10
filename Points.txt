@@ -788,8 +788,8 @@ Matteo „Teo“ Ricci	Katrinos Draugai	1	1
 Natalia Vargas	Katrinos Draugai	1	1
 Oliver „Ollie“ Brown	Katrinos Draugai	1	1
 Ravi Kapoor	Katrinos Draugai	1	1
-Simone Pellegrini	Katrina Katrinos Draugai	1	1
-Vittoria Mancini	Katrina Katrinos Draugai	1	1
+Simone Pellegrini	Katrinos Draugai	1	1
+Vittoria Mancini	Katrinos Draugai	1	1
 Charlotte „Charlie“ Woods	Katrinos Draugai	1	1
 Clara Moretti	Elena Moretti	2	2
 Charlotte „Charlie“ Woods	James „Jamie“ Edwards	3	3
