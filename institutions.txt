@@ -3,11 +3,12 @@ Demetri Lorenzo Volturi	The Duskborn Legion	Dreschler Academy
 Oscar Alejandro Cadorna	Citadel	Reserve Hunters
 Florence Elise Winslow	Citadel	Dreschler Academy
 Camille Lillian Boucher	Citadel	Dreschler Academy
-Arya Natalie Davenport	Paws for Purpose	Westminster Heights University
+Arya Natalie Davenport	Reserve Hunters	Paws for Purpose	Westminster Heights University
+Katrina Deva Bianchi	Citadel	Westminster Heights University
 
 
 
-Katrina Deva Bianchi	Westminster Heights University
+Rodrigo Abeyta	Westminster Heights University
 Sabrina Miranda Volturi	Westminster Heights University
 Anastasia Clara Blackwell	Westminster Heights University
 Aurora Vivienne Boucher	Westminster Heights University
@@ -19,7 +20,6 @@ Theodore Percival Hayes	Westminster Heights University
 Emery Herman Bernhard	Citadel
 Myrtle Maeve Gray	Citadel
 West Elliot Harlow	Citadel
-Katrina Deva Bianchi	Citadel
 Zachariah Gideon Lund	Citadel
 Juliette Claire Lefèvre	Citadel
 Nijolė Laima Davolienė	Citadel
@@ -55,7 +55,6 @@ Edward William Richmond	Citadel
 Leone Battista Dalmonte	Reserve Hunters
 Michael Romeo Harlow	Reserve Hunters
 Camille Lillian Boucher	Reserve Hunters
-Arya Natalie Davenport	Reserve Hunters
 
 
 
