@@ -793,6 +793,11 @@ Vittoria Mancini	Katrinos Draugai	1	1
 Charlotte „Charlie“ Woods	Katrinos Draugai	1	1
 Clara Moretti	Elena Moretti	2	2
 Charlotte „Charlie“ Woods	James „Jamie“ Edwards	3	3
+Luisa De Luca	Natalia Vargas	1	1
+Luisa De Luca	Hanna Lindström	1	1
+Natalia Vargas	Hanna Lindström	1	1
+
+
 
 Archie Hayes	Leono Draugai	1	1
 Clara Santini	Leono Draugai	1	1
