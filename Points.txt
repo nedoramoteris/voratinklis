@@ -840,10 +840,12 @@ William "Will.I.Can't" Cavendish	Arijos Draugai	1	1
 Zhen Liu	Arijos Draugai	1	1
 Arya Natalie Davenport	Arijos Draugai	1	1
 
-Demetrijos Draugai	Demetria Nadira Harlow
+Demetrijos Draugai	Demetria Nadira Harlow	1	1
 Irida Anastasia Papadopoulos	Demetrijos Draugai	1	1
 Robert James Johnson	Demetrijos Draugai	1	1
-Albert Edward Smith	Demetrijos Draugai	1	1
+Albert Edward Smith	Bernadette Elizabeth Jones	1	1
+Albert Edward Smith	Charlie William Brown	1	1
+Albert Edward Smith	Sabrina Louise Clarke	1	1
 Bernadette Elizabeth Jones	Demetrijos Draugai	1	1
 Charlie William Brown	Demetrijos Draugai	1	1
 Sabrina Louise Clarke	Demetrijos Draugai	1	1
