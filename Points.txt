@@ -763,32 +763,32 @@ William Arthur Atkins	Dreschler Academy	8	8
 
 
 
-
-Aisha Malik	Katrina Deva Bianchi	1	1
-Amara Ndlovu	Katrina Deva Bianchi	1	1
-Amelia Clarke	Katrina Deva Bianchi	1	1
-Antonio „Toni“ Greco	Katrina Deva Bianchi	1	1
-Chiara Fontana	Katrina Deva Bianchi	1	1
-Clara Moretti	Katrina Deva Bianchi	1	1
-Claudio Vitale	Katrina Deva Bianchi	1	1
-Diego Caruso	Katrina Deva Bianchi	1	1
-Elena Moretti	Katrina Deva Bianchi	1	1
-Emanuela „Ella“ Fiore	Katrina Deva Bianchi	1	1
-Enzo Marchetti	Katrina Deva Bianchi	1	1
-Fabio Neri	Katrina Deva Bianchi	1	1
-Giulia Carbone	Katrina Deva Bianchi	1	1
-Hanna Lindström	Katrina Deva Bianchi	1	1
-Henry Mills	Katrina Deva Bianchi	1	1
-James „Jamie“ Edwards	Katrina Deva Bianchi	1	1
-Katarzyna Zielińska	Katrina Deva Bianchi	1	1
-Luca Ferraro	Katrina Deva Bianchi	1	1
-Luisa De Luca	Katrina Deva Bianchi	1	1
-Marta Valli	Katrina Deva Bianchi	1	1
-Matteo „Teo“ Ricci	Katrina Deva Bianchi	1	1
-Natalia Vargas	Katrina Deva Bianchi	1	1
-Oliver „Ollie“ Brown	Katrina Deva Bianchi	1	1
-Ravi Kapoor	Katrina Deva Bianchi	1	1
-Simone Pellegrini	Katrina Deva Bianchi	1	1
-Vittoria Mancini	Katrina Deva Bianchi	1	1
-Charlotte „Charlie“ Woods	Katrina Deva Bianchi	1	1
+Katrinos draugai	Katrina Deva Bianchi	1	1
+Aisha Malik	Katrinos Draugai	1	1
+Amara Ndlovu	Katrinos Draugai	1	1
+Amelia Clarke	Katrinos Draugai	1	1
+Antonio „Toni“ Greco	Katrinos Draugai	1	1
+Chiara Fontana	Katrinos Draugai	1	1
+Clara Moretti	Katrinos Draugai	1	1
+Claudio Vitale	Katrinos Draugai	1	1
+Diego Caruso	Katrinos Draugai	1	1
+Elena Moretti	Katrinos Draugai	1	1
+Emanuela „Ella“ Fiore	Katrinos Draugai	1	1
+Enzo Marchetti	Katrinos Draugai	1	1
+Fabio Neri	Katrinos Draugai	1	1
+Giulia Carbone	Katrinos Draugai	1	1
+Hanna Lindström	Katrinos Draugai	1	1
+Henry Mills	Katrinos Draugai	1	1
+James „Jamie“ Edwards	Katrinos Draugai	1	1
+Katarzyna Zielińska	Katrinos Draugai	1	1
+Luca Ferraro	Katrinos Draugai	1	1
+Luisa De Luca	Katrinos Draugai	1	1
+Marta Valli	Katrinos Draugai	1	1
+Matteo „Teo“ Ricci	Katrinos Draugai	1	1
+Natalia Vargas	Katrinos Draugai	1	1
+Oliver „Ollie“ Brown	Katrinos Draugai	1	1
+Ravi Kapoor	Katrinos draugai	1	1
+Simone Pellegrini	Katrina Katrinos draugai	1	1
+Vittoria Mancini	Katrina Katrinos draugai	1	1
+Charlotte „Charlie“ Woods	Katrinos draugai	1	1
 Clara Moretti	Elena Moretti	2	2
