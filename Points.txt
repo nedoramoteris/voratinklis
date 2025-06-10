@@ -879,7 +879,6 @@ Dreschler Academy	Dreschler Academy Class of 2025	8	8
 Dominic Alexandru Popescu	Dreschler Academy Class of 2025	8	8
 Ethan James Carter	Dreschler Academy Class of 2025	8	8
 Henry William Thompson	Dreschler Academy Class of 2025	8	8
-Hubert Frank Bernhard	Dreschler Academy Class of 2025	8	8
 Isabelle Marie Johnson	Dreschler Academy Class of 2025	8	8
 Kaya Elina Virtanen	Dreschler Academy Class of 2025	8	8
 Lars Kristian Sørensen	Dreschler Academy Class of 2025	8	8
@@ -890,5 +889,5 @@ Vasilios Dimitriou Papadopoulos	Dreschler Academy Class of 2025	8	8
 Yennifer Katarína Horváth	Dreschler Academy Class of 2025	8	8
 Hubert Frank Bernhard	Dreschler Academy Class of 2025	8	8
 Hubert Frank Bernhard	Emery Herman Bernhard	2	2
-Declan Aidan	Bernhard	2	2
+Declan Aidan	Bernhard	Hubert Frank Bernhard	2	2
 Ethan James Carter	Isabelle Marie Carter	2	2
