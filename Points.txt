@@ -803,7 +803,7 @@ Francesco Ferri	Leono Draugai	1	1
 Giulia Rinaldi	Leono Draugai	1	1
 James Carter	Leono Draugai	1	1
 Leone Battista Dalmonte	Leono Draugai	1	1
-
+Archie Hayes	Finn O’Connor	1	1
 
 Giovanni "Gio" Rinaldi	Vesto Draugai	1	1
 Gustav "Gus" Kaiser	Vesto Draugai	1	1
