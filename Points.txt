@@ -820,3 +820,16 @@ Duncan Hayes	Lenon draugai	1	1
 Malik Bennett	Lenon draugai	1	1
 Kaiya Fletcher	Lenon draugai	1	1
 Lennon Therasia Windsor	Lenon draugai	1	1
+
+
+Archibald "Archie" Lennox	Arijos draugai	1	1
+Horacio "Horcrux" Rodriguez	Arijos draugai	1	1
+Kenji Takahashi	Arijos draugai	1	1
+Layla Massoud	Arijos draugai	1	1
+Morgan Bellamy	Arijos draugai	1	1
+Noor Rahmant	Arijos draugai	1	1
+Quinn O'Leary	Arijos draugai	1	1
+William "Wil.I.Am" Harper	Arijos draugai	1	1
+William "Will.I.Can't" Cavendish	Arijos draugai	1	1
+Zhen Liu	Arijos draugai	1	1
+Arya Natalie Davenport	Arijos draugai	1	1
