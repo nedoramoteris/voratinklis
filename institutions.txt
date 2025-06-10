@@ -1,12 +1,21 @@
-Demetria Nadira Harlow	Citadel	Dreschler Academy
+Demetria Nadira Harlow	Citadel	Dreschler Academy	Paws for Purpose
 Demetri Lorenzo Volturi	The Duskborn Legion	Dreschler Academy
 Oscar Alejandro Cadorna	Citadel	Reserve Hunters
 Florence Elise Winslow	Citadel	Dreschler Academy
 Camille Lillian Boucher	Citadel	Dreschler Academy
+Arya Natalie Davenport	Paws for Purpose	Westminster Heights University
 
 
-Florence Elise Winslow	Citadel
-Camille Lillian Boucher	Citadel
+
+Katrina Deva Bianchi	Westminster Heights University
+Sabrina Miranda Volturi	Westminster Heights University
+Anastasia Clara Blackwell	Westminster Heights University
+Aurora Vivienne Boucher	Westminster Heights University
+Declan Aidan Bernhard	Westminster Heights University
+Harper Adriana Esposito	Westminster Heights University
+Theodore Percival Hayes	Westminster Heights University
+
+
 Emery Herman Bernhard	Citadel
 Myrtle Maeve Gray	Citadel
 West Elliot Harlow	Citadel
