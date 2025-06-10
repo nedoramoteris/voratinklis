@@ -222,3 +222,34 @@ Abigail Rose Collins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85
 Suzuki Kyo Haruka	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1969-10-11
 Gertrude Miriam Nicholson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1825-06-03
 William Arthur Atkins	https://i.pinimg.com/736x/4c/b0/0c/4cb00c28525bb092620fc87dd8b957fe.jpg	werewolf	1966-09-05
+
+
+
+
+Aisha Malik	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Amara Ndlovu	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch
+Amelia Clarke	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Antonio „Toni“ Greco	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid
+Chiara Fontana	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Clara Moretti	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Claudio Vitale	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Diego Caruso	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Elena Moretti	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Emanuela „Ella“ Fiore	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Enzo Marchetti	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Fabio Neri	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Giulia Carbone	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Hanna Lindström	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch
+Henry Mills	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+James „Jamie“ Edwards	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Katarzyna Zielińska	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Luca Ferraro	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Luisa De Luca	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Marta Valli	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Matteo „Teo“ Ricci	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Natalia Vargas	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Oliver „Ollie“ Brown	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Ravi Kapoor	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Simone Pellegrini	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Vittoria Mancini	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Charlotte „Charlie“ Woods	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
