@@ -412,7 +412,7 @@ Hera Melody Harlow	Daniel Apollo Dreschler	6	6
 Carmen Iscariot Denali	Nathaniel Dean Harlow	6	6
 Sabrina Miranda Volturi	West Elliot Harlow	0	0
 Katrina Deva Bianchi	Sabrina Miranda Volturi	7	7
-Katrina Deva Bianchi	Rodrigo Abeyta	7	7
+Sabrina Miranda Volturi	Rodrigo Abeyta	7	7
 Sabrina Miranda Volturi	Salvatore Edoardo Moretti	6	6
 Sabrina Miranda Volturi	Arya Natalie Davenport	7	7
 Aurora Vivienne Boucher	Sabrina Miranda Volturi	7	7
