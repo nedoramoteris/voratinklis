@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", function () {
     let toggle = document.createElement("div");
     toggle.classList.add("dark-mode-toggle");
@@ -37,7 +35,8 @@ let validNodeNames = new Set();
 let drag; // Declare drag variable
 let selectedNode = null; // Track currently selected node
 let characterDescriptions = {}; // name -> description
-
+let institutionsData = {}; // name -> institution
+let institutionsList = new Set(); // unique institutions
 
 // Race color mapping
 const raceColors = {
@@ -131,7 +130,6 @@ function calculateAge(dob, dod) {
 
     return null;
 };
-
     
     const birthInfo = parseDate(dob);
     if (!birthInfo) return '...';
@@ -435,7 +433,6 @@ function createVisualization() {
         }
     }
 })
-
   
         .on("mouseover", function(event, d) {
             if (!selectedNode) { // Only show hover effects if no node is selected
@@ -629,6 +626,11 @@ function showTooltip(d, event) {
         tooltipContent += `<div class="tooltip-row"><i>${d.race}</i></div>`;
     }
     
+    // Add institution if available
+    if (institutionsData[d.name]) {
+        tooltipContent += `<div class="tooltip-row"><strong>Institution:</strong> ${institutionsData[d.name]}</div>`;
+    }
+    
     // Add date of birth if available
     if (d.dob && d.dob !== '...') {
         tooltipContent += `<div class="tooltip-row"><strong>Born:</strong> ${d.dob}</div>`;
@@ -670,39 +672,66 @@ function hideTooltip() {
 Promise.all([
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/avatarai.txt'),
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/Points.txt'),
-    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/aprasymai.txt')
-]).then(function([pointsText, linksText, descriptionText]) {
-    const lines = descriptionText.split('\n').filter(line => line.trim());
-    lines.forEach(line => {
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/aprasymai.txt'),
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/institutions.txt')
+]).then(function([pointsText, linksText, descriptionText, institutionsText]) {
+    // Process descriptions
+    const descLines = descriptionText.split('\n').filter(line => line.trim());
+    descLines.forEach(line => {
         const [name, description] = line.split('\t');
         if (name && description) {
             characterDescriptions[name.trim()] = description.trim();
         }
     });
 
+    // Process institutions
+    const instLines = institutionsText.split('\n').filter(line => line.trim());
+    instLines.forEach(line => {
+        const [name, institution] = line.split('\t');
+        if (name && institution) {
+            institutionsData[name.trim()] = institution.trim();
+            institutionsList.add(institution.trim());
+        }
+    });
+
     processData(pointsText, linksText);
     populateCharacterList();
+    populateInstitutionFilter();
 }).catch(error => {
     console.error("Error loading or processing data:", error);
 });
 
+// Function to populate the institution filter
+function populateInstitutionFilter() {
+    const institutionFilter = d3.select("#institution-filter");
+    
+    // Clear existing options except the first one
+    institutionFilter.selectAll("option:not(:first-child)").remove();
+    
+    // Add options for each unique institution
+    Array.from(institutionsList).sort().forEach(institution => {
+        institutionFilter.append("option")
+            .attr("value", institution)
+            .text(institution);
+    });
+    
+    // Set up filter handler
+    institutionFilter.on("change", function() {
+        const selectedInstitution = this.value;
+        d3.select("#characters-container").selectAll(".character-card")
+            .style("display", d => {
+                if (selectedInstitution === "all") return "flex";
+                return institutionsData[d.name] === selectedInstitution ? "flex" : "none";
+            });
+    });
+}
 
 // Function to populate the character list
-// Replace both versions of populateCharacterList with this single version:
 function populateCharacterList() {
     const container = d3.select("#characters-container");
     
     // Clear existing content
     container.html("");
-    
-    // Group characters by race for filtering
-    const charactersByRace = {};
-    nodes.forEach(node => {
-        if (!charactersByRace[node.race]) {
-            charactersByRace[node.race] = [];
-        }
-        charactersByRace[node.race].push(node);
-    });
     
     // Sort characters alphabetically
     const sortedNodes = [...nodes].sort((a, b) => a.name.localeCompare(b.name));
@@ -715,11 +744,8 @@ function populateCharacterList() {
         .attr("class", "character-card")
         .on("click", function(event, d) {
             event.stopPropagation();
-            // Remove selected class from all cards
             d3.selectAll(".character-card").classed("selected", false);
-            // Add selected class to clicked card
             d3.select(this).classed("selected", true);
-            // Select the node in the visualization
             selectNode(d);
         });
     
@@ -740,11 +766,24 @@ function populateCharacterList() {
     const detailsDivs = infoDivs.append("div")
         .attr("class", "character-details");
     
+    // Add race
     detailsDivs.append("span")
         .attr("class", "character-race")
         .text(d => d.race || "unknown")
         .style("background-color", d => raceColors[d.race] || "#666")
         .style("color", "white");
+    
+    // Add institution if available
+    detailsDivs.each(function(d) {
+        const details = d3.select(this);
+        if (institutionsData[d.name]) {
+            details.append("span")
+                .attr("class", "character-institution")
+                .text(institutionsData[d.name])
+                .style("margin-left", "8px")
+                .style("font-style", "italic");
+        }
+    });
     
     // Add age display with deceased indicator if applicable
     const ageSpans = detailsDivs.append("span")
@@ -825,6 +864,7 @@ function calculateLabelPosition(d, nodes, existingLabels) {
         y: basePosition.y + 5
     };
 }
+
 function searchCharacters(query) {
     if (!query) {
         // If search is empty, hide results and show all characters
@@ -838,7 +878,8 @@ function searchCharacters(query) {
     const matches = nodes.filter(node => 
         node.name.toLowerCase().includes(lowerQuery) ||
         (node.race && node.race.toLowerCase().includes(lowerQuery)) ||
-        (node.personality && node.personality.toLowerCase().includes(lowerQuery))
+        (node.personality && node.personality.toLowerCase().includes(lowerQuery)) ||
+        (institutionsData[node.name] && institutionsData[node.name].toLowerCase().includes(lowerQuery))
     );
 
     // Update character cards visibility
@@ -852,6 +893,7 @@ function searchCharacters(query) {
         selectNode(matches[0]);
     }
 }
+
 function getLabelRect(x, y, width = 100, height = 20) {
     return {
         x: x - width/2,
@@ -868,63 +910,39 @@ function doLabelsOverlap(rect1, rect2, padding = 5) {
             rect1.y > rect2.y + rect2.height + padding);
 }
 
-// ... (keep all the previous code until the search functionality section)
-
-// Add search functionality
-const searchInput = document.querySelector('.search-input');
-
-// Update the character card click handler to highlight in network
-
-
-
-
 function selectNode(node) {
     // Highlight the node and its connections
     highlightNodeAndConnections(node);
     // Show description below the selected character card
-const container = document.getElementById('characters-container');
+    const container = document.getElementById('characters-container');
 
-// Remove previous description element if any
-const oldDesc = document.querySelector('.character-description-below');
-if (oldDesc) oldDesc.remove();
+    // Remove previous description element if any
+    const oldDesc = document.querySelector('.character-description-below');
+    if (oldDesc) oldDesc.remove();
 
-// Find the selected card's DOM element
-document.querySelectorAll(".character-card").forEach(card => {
-    const nameEl = card.querySelector(".character-name");
-    if (nameEl && nameEl.textContent.trim() === node.name) {
-        const desc = characterDescriptions[node.name] || "No description available.";
+    // Find the selected card's DOM element
+    document.querySelectorAll(".character-card").forEach(card => {
+        const nameEl = card.querySelector(".character-name");
+        if (nameEl && nameEl.textContent.trim() === node.name) {
+            const desc = characterDescriptions[node.name] || "No description available.";
 
-        const descEl = document.createElement("div");
-        descEl.className = "character-description-below";
-        descEl.textContent = desc;
+            const descEl = document.createElement("div");
+            descEl.className = "character-description-below";
+            descEl.textContent = desc;
 
-        // Insert description directly after the card
-        card.insertAdjacentElement('afterend', descEl);
-    }
-});
+            // Insert description directly after the card
+            card.insertAdjacentElement('afterend', descEl);
+        }
+    });
 
     // Center the view on the node
     centerOnNode(node);
     
     // Update search input and hide results
-    searchInput.value = node.name;
-    searchResults.style.display = 'none';
-    selectedIndex = -1;
-    
-    // Clear the search input after a short delay
-    setTimeout(() => {
-        searchInput.value = '';
-    }, 1500);
-    
-    // Ensure labels stay visible for selected node and its connections
-    const connectedNodes = new Set();
-    links.forEach(link => {
-        if (link.source.id === node.id) connectedNodes.add(link.target.id);
-        if (link.target.id === node.id) connectedNodes.add(link.source.id);
-    });
-
-    labelGroups
-        .classed("visible", n => n.id === node.id || connectedNodes.has(n.id));
+    const searchInput = document.querySelector('.search-input');
+    const searchResults = document.querySelector('.search-results');
+    if (searchInput) searchInput.value = node.name;
+    if (searchResults) searchResults.style.display = 'none';
 }
 
 function centerOnNode(selectedNode) {
@@ -979,6 +997,7 @@ function centerOnNode(selectedNode) {
             .translate(x, y)
             .scale(scale));
 }
+
 // Add clear search functionality
 document.querySelectorAll('.clear-search').forEach(button => {
     button.addEventListener('click', function() {
@@ -1068,26 +1087,3 @@ document.addEventListener("click", function(event) {
         }
     }
 });
-
-
-
-// Prevent duplicate search bars
-(function() {
-    // Check if search elements already exist
-    const existingSearchContainers = document.querySelectorAll('.search-container');
-    
-    // If there's more than one search container, remove the extras
-    if (existingSearchContainers.length > 1) {
-        for (let i = 1; i < existingSearchContainers.length; i++) {
-            existingSearchContainers[i].remove();
-        }
-    }
-    
-    // Also check for duplicate event listeners
-    const searchInputs = document.querySelectorAll('.search-input');
-    if (searchInputs.length > 1) {
-        for (let i = 1; i < searchInputs.length; i++) {
-            searchInputs[i].remove();
-        }
-    }
-})();
