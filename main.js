@@ -422,10 +422,13 @@ function createVisualization() {
         d3.selectAll(".character-card").classed("selected", card => card.name === d.name);
 
         // Scroll the selected card into view
-        document.querySelectorAll(".character-card").forEach(card => {
+ document.querySelectorAll(".character-card").forEach(card => {
             const nameEl = card.querySelector(".character-name");
-            if (nameEl && nameEl.textContent.trim() === d.name) {
-                card.scrollIntoView({ behavior: "smooth", block: "center" });
+             if (nameEl && nameEl.textContent.trim() === d.name) {
+        const rect = card.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const offset = rect.top + scrollTop - 250; // Scroll so the element is 260px from the top
+        window.scrollTo({ top: offset, behavior: "smooth" });
             }
         });
 
