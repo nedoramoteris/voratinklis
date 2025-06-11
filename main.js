@@ -836,9 +836,34 @@ function populateCharacterList() {
         .attr("class", "character-card")
         .on("click", function(event, d) {
             event.stopPropagation();
+            
+            // Check if this card is already selected
+            const isSelected = d3.select(this).classed("selected");
+            
+            // Toggle selection state
             d3.selectAll(".character-card").classed("selected", false);
-            d3.select(this).classed("selected", true);
-            selectNode(d);
+            d3.select(this).classed("selected", !isSelected);
+            
+            // Remove any existing description
+            const oldDesc = document.querySelector('.character-description-below');
+            if (oldDesc) oldDesc.remove();
+            
+            // If the card is now selected, show description
+            if (!isSelected) {
+                selectNode(d);
+            } else {
+                // If deselected, reset the view
+                selectedNode = null;
+                resetNodeStates();
+                hideTooltip();
+                
+                // Clear search input
+                const input = document.querySelector('.search-input');
+                if (input) {
+                    input.value = '';
+                    input.dispatchEvent(new Event('input', { bubbles: true }));
+                }
+            }
         });
     
     // Add character images
