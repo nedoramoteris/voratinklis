@@ -663,6 +663,7 @@ Lucia Isabella Sorrentino	Dante Marcello Sorrentino	2	2
 Alessandra Chiara Bergamaschi (née Sorrentino)	Aurelio Andrea Bergamaschi	3	3
 Alessandra Chiara Bergamaschi (née Sorrentino)	Aurelio Andrea Bergamaschi	0	0
 Alessandra Chiara Bergamaschi (née Sorrentino)	Serena Teresa Bianchi (née Russo)	3	3
+Alessandra Chiara Bergamaschi (née Sorrentino)	Serena Teresa Bianchi (née Russo)	0	0
 Niccolò Davide Bianchi	Aurelio Andrea Bergamaschi	2	2
 Niccolò Davide Bianchi	Alessandra Chiara Bergamaschi (née Sorrentino)	2	2
 Katrina Deva Bianchi	Paolo Matteo Sorrentino	2	2
