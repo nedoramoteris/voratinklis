@@ -37,6 +37,8 @@ let selectedNode = null; // Track currently selected node
 let characterDescriptions = {}; // name -> description
 let institutionsData = {}; // name -> [institutions] (now supports multiple)
 let institutionsList = new Set(); // unique institutions
+let friendshipsData = {}; // name -> [friendships] (supports multiple)
+let friendshipsList = new Set(); // unique friendships
 
 // Race color mapping
 const raceColors = {
@@ -200,6 +202,7 @@ function processData(pointsText, linksText) {
       // Changed from parts[5] to parts[4]
         const personality = parts[4] || '...';  // Changed from parts[4] to parts[5]
         const additional = parts[6] || '...'; // New additional field from column 6
+const job = parts[7] || '';
 
         const age = calculateAge(dob, dod);
         
@@ -213,7 +216,8 @@ function processData(pointsText, linksText) {
             personality: personality,
             dod: dod,
             age: age,
-            additional: additional // Added as the last field
+            additional: additional,
+            job: job// Added as the last field
 
         };
     });
@@ -674,8 +678,9 @@ Promise.all([
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/avatarai.txt'),
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/Points.txt'),
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/aprasymai.txt'),
-    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/institutions.txt')
-]).then(function([pointsText, linksText, descriptionText, institutionsText]) {
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/institutions.txt'),
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/sort%20by%20friends.txt')
+]).then(function([pointsText, linksText, descriptionText, institutionsText, friendshipsText]) {
     // Process descriptions
     const descLines = descriptionText.split('\n').filter(line => line.trim());
     descLines.forEach(line => {
@@ -700,9 +705,26 @@ Promise.all([
         }
     });
 
+    // Process friendships data - supports multiple friendships per person
+    const friendshipLines = friendshipsText.split('\n').filter(line => line.trim());
+    friendshipLines.forEach(line => {
+        const parts = line.split('\t');
+        const name = parts[0]?.trim();
+        const friendships = parts.slice(1).filter(x => x.trim());
+        
+        if (name && friendships.length > 0) {
+            friendshipsData[name] = friendships.map(f => f.trim());
+            friendships.forEach(friendship => {
+                friendshipsList.add(friendship.trim());
+            });
+        }
+    });
+
     processData(pointsText, linksText);
     populateCharacterList();
     populateInstitutionFilter();
+    populateFriendshipFilter();
+    setupClearFiltersButton();
 }).catch(error => {
     console.error("Error loading or processing data:", error);
 });
@@ -727,10 +749,52 @@ function populateInstitutionFilter() {
     });
 }
 
-// Function to apply both race and institution filters
+// Function to populate the friendship filter
+function populateFriendshipFilter() {
+    const friendshipFilter = d3.select("#friendship-filter");
+    
+    // Clear existing options except the first one
+    friendshipFilter.selectAll("option:not(:first-child)").remove();
+    
+    // Add options for each unique friendship
+    Array.from(friendshipsList).sort().forEach(friendship => {
+        friendshipFilter.append("option")
+            .attr("value", friendship)
+            .text(friendship);
+    });
+    
+    // Set up filter handler
+    friendshipFilter.on("change", function() {
+        applyFilters();
+    });
+}
+
+// Function to set up the clear filters button
+function setupClearFiltersButton() {
+    const clearFiltersButton = d3.select("#clear-filters");
+    if (clearFiltersButton.empty()) {
+        // Add the button if it doesn't exist
+        d3.select(".prilipdytas").append("button")
+            .attr("id", "clear-filters")
+            .attr("class", "clear-filters-button")
+            .text("Clear Filters")
+            .on("click", function() {
+                // Reset all filters to "all"
+                d3.select("#race-filter").node().value = "all";
+                d3.select("#institution-filter").node().value = "all";
+                d3.select("#friendship-filter").node().value = "all";
+                
+                // Apply filters (which will show all characters)
+                applyFilters();
+            });
+    }
+}
+
+// Function to apply all filters (race, institution, and friendship)
 function applyFilters() {
     const selectedRace = d3.select("#race-filter").node().value;
     const selectedInstitution = d3.select("#institution-filter").node().value;
+    const selectedFriendship = d3.select("#friendship-filter").node().value;
     
     d3.select("#characters-container").selectAll(".character-card")
         .style("display", d => {
@@ -742,7 +806,12 @@ function applyFilters() {
                 (institutionsData[d.name] && 
                  institutionsData[d.name].includes(selectedInstitution));
             
-            return raceMatch && institutionMatch ? "flex" : "none";
+            // Check friendship filter
+            const friendshipMatch = selectedFriendship === "all" || 
+                (friendshipsData[d.name] && 
+                 friendshipsData[d.name].includes(selectedFriendship));
+            
+            return raceMatch && institutionMatch && friendshipMatch ? "flex" : "none";
         });
 }
 
@@ -821,7 +890,12 @@ function populateCharacterList() {
                 .text(`Age: ${d.age}`);
         }
     });
-    
+    // Add job
+    detailsDivs.append("span")
+    .attr("class", "job")
+    .text(d => d.job || "")
+    .style("color", "grey") // Changing color to grey
+    .style("margin-top", "5px"); // Adding margin-top of 5 pixels
     // Set up race filter to work with institution filter
     d3.select("#race-filter").on("change", function() {
         applyFilters();
@@ -895,7 +969,9 @@ function searchCharacters(query) {
         (node.race && node.race.toLowerCase().includes(lowerQuery)) ||
         (node.personality && node.personality.toLowerCase().includes(lowerQuery)) ||
         (institutionsData[node.name] && 
-         institutionsData[node.name].some(i => i.toLowerCase().includes(lowerQuery)))
+         institutionsData[node.name].some(i => i.toLowerCase().includes(lowerQuery))) ||
+        (friendshipsData[node.name] && 
+         friendshipsData[node.name].some(f => f.toLowerCase().includes(lowerQuery)))
     );
 
     // Update character cards visibility
