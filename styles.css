@@ -4,7 +4,7 @@ margin-top:-25px;
   padding-top:15px;
 width:220px;} 
 .dark-mode .prilipdytas {background:#f5f5f5;}
-#characters-container{margin-top:240px;}
+#characters-container{margin-top:260px;}
 
 .styled-line {
       width: 100%;
@@ -500,7 +500,6 @@ font-size:11px;}
   max-width: 220px;
   max-height:80px;
   margin-bottom:5px;
-  color:#a2988e;
 }
 
 
@@ -1149,9 +1148,11 @@ body.dark-mode .friendship-filter select {
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
-    color: white;
+    color: #6E6761;
+  font-weight:bold;
     cursor: pointer;
     transition: all 0.3s ease;
+  margin-bottom:5px;
 }
 
 .clear-filters-button:hover {
