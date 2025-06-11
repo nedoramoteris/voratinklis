@@ -197,7 +197,7 @@ Dreschler Academy	https://i.pinimg.com/564x/5d/27/49/5d27497f6654c6b99386718b37a
 
 
 Leonardo Marco Belmonte	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1850-05-15	...	...	...	Italų kalbos mokytojas
-Eleazar Silas Denali	https://i.pinimg.com/736x/0d/2e/e0/0d2ee067c63afff3d4c94067b7300b61.jpg	vampire	1803-09-28	...	...	...	Psichologijos ir savikontrolės mokytojas
+Eleazar Silas Denali	https://i.pinimg.com/736x/0d/2e/e0/0d2ee067c63afff3d4c94067b7300b61.jpg	vampire	1009-09-28	...	...	...	Psichologijos ir savikontrolės mokytojas
 Tommaso Luca Benedetti	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1970-03-12	...	...	...	Geografijos mokytojas
 Akira Kenji Sato	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1965-11-02	...	...	...	Muzikos mokytoja
 Asterios Nikos Franopoulos	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1725-08-20	...	...	...	Dailės mokytojas
