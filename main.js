@@ -405,13 +405,7 @@ function createVisualization() {
         resetNodeStates();
         hideTooltip();
         d3.selectAll(".character-card").classed("selected", false);
-        
-        // Clear search input
-        const input = document.querySelector('.search-input');
-        if (input) {
-            input.value = '';
-            input.dispatchEvent(new Event('input', { bubbles: true }));
-        }
+        applyFilters(); // Reapply filters instead of clearing search
     } else {
         selectedNode = d;
         highlightNodeAndConnections(d);
@@ -511,13 +505,7 @@ function createVisualization() {
         selectedNode = null;
         resetNodeStates();
         hideTooltip();
-
-        // Clear search input
-        const input = document.querySelector('.search-input');
-        if (input) {
-            input.value = '';
-            input.dispatchEvent(new Event('input', { bubbles: true }));
-        }
+        applyFilters(); // Reapply filters instead of clearing search
 
         // Remove highlight from character cards
         d3.selectAll(".character-card").classed("selected", false);
@@ -632,12 +620,6 @@ function showTooltip(d, event) {
     if (d.race && d.race !== '...') {
         tooltipContent += `<div class="tooltip-row"><i>${d.race}</i></div>`;
     }
-    
-    // Add institution if available
-    /*if (institutionsData[d.name] && institutionsData[d.name].length > 0) {
-        const institutions = institutionsData[d.name].join(", ");
-        tooltipContent += `<div class="tooltip-row"><strong>Institution(s):</strong> ${institutions}</div>`;
-    }*/
     
     // Add date of birth if available
     if (d.dob && d.dob !== '...') {
@@ -852,17 +834,11 @@ function populateCharacterList() {
             if (!isSelected) {
                 selectNode(d);
             } else {
-                // If deselected, reset the view
+                // If deselected, reset the view but maintain filters
                 selectedNode = null;
                 resetNodeStates();
                 hideTooltip();
-                
-                // Clear search input
-                const input = document.querySelector('.search-input');
-                if (input) {
-                    input.value = '';
-                    input.dispatchEvent(new Event('input', { bubbles: true }));
-                }
+                applyFilters(); // Reapply filters instead of clearing search
             }
         });
     
