@@ -25,3 +25,59 @@ Ravi Kapoor	Katrina's Friends
 Simone Pellegrini	Katrina's Friends
 Vittoria Mancini	Katrina's Friends
 Charlotte „Charlie“ Woods	Katrina's Friends
+Evelyn Brown	Katrina's Friends
+
+
+Archie Hayes	Leone's Friends
+Clara Santini	Leone's Friends
+Davide Russo	Leone's Friends
+Enzo Mazzetti	Leone's Friends
+Finn O’Connor	Leone's Friends
+Francesco Ferri	Leone's Friends
+Giulia Rinaldi	Leone's Friends
+James Carter	Leone's Friends
+
+
+Amara Evers	Lennon's Friends
+Evie Hartwell	Lennon's Friends
+Diego Montoya	Lennon's Friends
+Duncan Hayes	Lennon's Friends
+Malik Bennett	Lennon's Friends
+Kaiya Fletcher	Lennon's Friends
+
+
+
+Giovanni "Gio" Rinaldi	West's Friends
+Gustav "Gus" Kaiser	West's Friends
+Luke Collins	West's Friends
+Livia Costa	West's Friends
+Paul Robinson	West's Friends
+Mariska Schmidt	West's Friends
+
+
+
+Archibald "Archie" Lennox	Arya's Friends
+Horacio "Horcrux" Rodriguez	Arya's Friends
+Kenji Takahashi	Arya's Friends
+Layla Massoud	Arya's Friends
+Morgan Bellamy	Arya's Friends
+Noor Rahmant	Arya's Friends
+Quinn O'Leary	Arya's Friends
+William "Wil.I.Am" Harper	Arya's Friends
+William "Will.I.Can't" Cavendish	Arya's Friends
+Zhen Liu	Arya's Friends
+
+
+
+Irida Anastasia Papadopoulos	Demetria's Friends
+Robert James Johnson	Demetria's Friends
+Albert Edward Smith	Demetria's Friends
+Bernadette Elizabeth Jones	Demetria's Friends
+Charlie William Brown	Demetria's Friends
+Sabrina Louise Clarke	Demetria's Friends
+Theodora Eleftheria Constantinou	Demetria's Friends	Florence's Friends
+Despina Eleni Papadakis	Demetria's Friends	Florence's Friends
+Andreas Nikolaos Papadopoulos	Demetria's Friends	Florence's Friends
+Maria Christina Georgiou	Demetria's Friends	Florence's Friends
+Ioanna Sophia Antoniou	Demetria's Friends	Florence's Friends
+Georgios Panagiotis Ioannou	Demetria's Friends	Florence's Friends
