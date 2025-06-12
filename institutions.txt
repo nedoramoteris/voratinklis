@@ -6,7 +6,10 @@ Camille Lillian Boucher	Citadel	Dreschler Academy	Reserve Hunters
 Arya Natalie Davenport	Reserve Hunters	Paws for Purpose	Westminster Heights University
 Katrina Deva Bianchi	Citadel	Westminster Heights University
 Felix Constantine Volturi	Dreschler Academy	The Duskborn Legion
+Michael Romeo Harlow	Reserve Hunters	Celestial Haven
 
+
+Veronique Helena Dreschler	Celestial Haven
 
 
 Rodrigo Abeyta	Westminster Heights University
@@ -24,46 +27,44 @@ Quinn O'Leary	Westminster Heights University
 
 
 
-Emery Herman Bernhard	Citadel
-Myrtle Maeve Gray	Citadel
-West Elliot Harlow	Citadel
-Zachariah Gideon Lund	Citadel
-Juliette Claire Lefèvre	Citadel
-Nijolė Laima Davolienė	Citadel
-Barbara Eugenia Franks	Citadel
-Matilda Sophia Andersen	Citadel
-Stella Maria Santos	Citadel
-Leah Marie Clearwater	Citadel
-Ananya Devi Patel	Citadel
-Leila Alarya Singh	Citadel
-Finn Alexander O'Connor	Citadel
-Yara Amina Nasser	Citadel
-Freya Sofia Bergström	Citadel
-Liam James O'Brien	Citadel
-Zara Elizabeth Lennox	Citadel
-Aisha Fatima Khan	Citadel
-Matteo Alberto Lombardi	Citadel
-Esmeralda Isabella Rodriguez	Citadel
-Sandra Maria Núñez	Citadel
-Anders Erik Nilsson	Citadel
-Maya Sofia Patel	Citadel
-Julian Sebastian Garcia	Citadel
-Tessa Louise Johnson	Citadel
-Rosita Maria Alvarez	Citadel
-Haruto Hiroshi Adachi	Citadel
-Elias Gabriel Costa	Citadel
-Nico Ross Matthews	Citadel
-Lila Grace Thompson	Citadel
-Selene Elena Dimitriou	Citadel
-Edward William Richmond	Citadel
-Natanielis Jaunesnysis	Citadel
-Paslaptingoji NJ panelė iš kitapus tvoros	Citadel
+Emery Herman Bernhard	Citadel Commons
+Myrtle Maeve Gray	Citadel Commons
+West Elliot Harlow	Citadel Commons
+Zachariah Gideon Lund	Citadel Commons
+Juliette Claire Lefèvre	Citadel Commons
+Nijolė Laima Davolienė	Citadel Commons
+Barbara Eugenia Franks	Citadel Commons
+Matilda Sophia Andersen	Citadel Commons
+Stella Maria Santos	Citadel Commons
+Leah Marie Clearwater	Citadel Commons
+Ananya Devi Patel	Citadel Commons
+Leila Alarya Singh	Citadel Commons
+Finn Alexander O'Connor	Citadel Commons
+Yara Amina Nasser	Citadel Commons
+Freya Sofia Bergström	Citadel Commons
+Liam James O'Brien	Citadel Commons
+Zara Elizabeth Lennox	Citadel Commons
+Aisha Fatima Khan	Citadel Commons
+Matteo Alberto Lombardi	Citadel Commons
+Esmeralda Isabella Rodriguez	Citadel Commons
+Sandra Maria Núñez	Citadel Commons
+Anders Erik Nilsson	Citadel Commons
+Maya Sofia Patel	Citadel Commons
+Julian Sebastian Garcia	Citadel Commons
+Tessa Louise Johnson	Citadel Commons
+Rosita Maria Alvarez	Citadel Commons
+Haruto Hiroshi Adachi	Citadel Commons
+Elias Gabriel Costa	Citadel Commons
+Nico Ross Matthews	Citadel Commons
+Lila Grace Thompson	Citadel Commons
+Selene Elena Dimitriou	Citadel Commons
+Edward William Richmond	Citadel Commons
+
 
 
 
 
 Leone Battista Dalmonte	Reserve Hunters
-Michael Romeo Harlow	Reserve Hunters
 Enzo Mazzetti	Reserve Hunters
 Duncan Hayes	Reserve Hunters
 
