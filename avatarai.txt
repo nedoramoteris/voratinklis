@@ -165,7 +165,7 @@ Lorenzo Amadeo Bellini	https://i.pinimg.com/736x/0b/80/13/0b8013997987fbc0f61643
 
 
 Nijolė Laima Davolienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1980-11-05	...	...	...	Citadelės buhalterė
-Barbara Eugenia Franks	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human	1971-09-17	...	...	...	Citadelės administratorė
+Barbara Eugenia Franks	https://i.pinimg.com/736x/f9/f9/10/f9f91083644dc859c9a36a782854b7fe.jpg	human	1971-09-17	...	...	...	Citadelės administratorė
 Matilda Sophia Andersen	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1899-10-27	...	...	...	Citadelės senior lawyer; teisės skyriaus praktikantų vadovė
 Stella Maria Santos	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1922-05-14	...	...	...	Kamilės sekretorė
 Leah Marie Clearwater	https://i.pinimg.com/736x/3a/d6/af/3ad6af1f2da73f882bc42a7bad95eb41.jpg	werewolf	1990-03-12	...	...	...	Head of Werewolf Affairs
@@ -210,13 +210,13 @@ Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df
 Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1967-02-03	...	...	...	Virėja
 Juniper Mae Forrester	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1888-10-07	...	...	...	Fotografijos būrelio mokytoja
 Damian Lee Roberts	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1973-09-21	...	...	...	Drabužių dizaino ir modeliavimo būrelio mokytojas
-Lavinia Grace Hendricks	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1745-03-18	...	...	...	Keramikos būrelio mokytoja
+Lavinia Grace Hendricks	https://i.pinimg.com/736x/9f/87/35/9f8735c534114b72dabe625d8eaad253.jpg	hybrid	1745-03-18	...	...	...	Keramikos būrelio mokytoja
 Virginie Claire Moulin	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1961-12-30	...	...	...	Piešimo ir tapybos būrelio mokytoja
 Bernard Lucien Hopkins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1955-06-08	...	...	...	Dainavimo būrelio mokytojas
 Henrik Jürgen Schneider	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1962-05-24	...	...	...	Choro vadovas
 Pauline Estelle Morrison	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1730-11-29	...	...	...	Šokių mokytoja
 Gaelle Amélie Deveraux	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1950-04-17	...	...	...	Baleto mokytoja
-Luisa Carmen Ramirez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1971-02-14	...	...	...	Maisto gaminimo būrelio mokytoja
+Luisa Carmen Ramirez	https://i.pinimg.com/736x/72/73/f2/7273f224e93999fef70572a86dcc7fcd.jpg	witch	1971-02-14	...	...	...	Maisto gaminimo būrelio mokytoja
 Abigail Rose Collins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1972-07-23	...	...	...	Bibliotekininkė
 Suzuki Kyo Haruka	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1969-10-11	...	...	...	Seselė
 Gertrude Miriam Nicholson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1825-06-03	...	...	...	Sodininkė
