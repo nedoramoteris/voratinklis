@@ -1240,26 +1240,7 @@ background-color: rgba(82, 76, 70, 0.3);    display: flex;
 }
 
 /* Update button positioning styles */
-.dark-mode-toggle {
-    position: fixed;
-    bottom: 35px;
-    left: 20px;
-    padding: 10px;
-    border-radius: 7px;
-    cursor: pointer;
-    z-index: 999;
-    font-family: 'archivo', sans-serif;
-    font-size: 20px;
-    color: #6E6761;
-    text-align: center;
-    width: 15px;
-    height: 15px;
-    background-color: rgba(82, 76, 70, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: left 0.3s ease;
-}
+
 
 .character-list[style*="display: none"] ~ .dark-mode-toggle,
 .character-list[style*="display: none"] ~ .hide-list-toggle,
