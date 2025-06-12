@@ -590,7 +590,7 @@ body.dark-mode .character-image {
 
 .character-details {
     font-size: 0.8em;
-    color: #aaa;
+    color: grey;
     display: flex;
     flex-wrap: wrap;
 }
