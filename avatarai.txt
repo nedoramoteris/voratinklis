@@ -201,8 +201,8 @@ Eleazar Silas Denali	https://i.pinimg.com/736x/0d/2e/e0/0d2ee067c63afff3d4c94067
 Tommaso Luca Benedetti	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1970-03-12	...	...	...	Geografijos mokytojas
 Akira Kenji Sato	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1965-11-02	...	...	...	Muzikos mokytoja
 Asterios Nikos Franopoulos	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1725-08-20	...	...	...	Dailės mokytojas
-Sofía Isabel Domínguez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1836-12-04	...	...	...	Fizikos mokytoja
-Valentina Inés Duarte	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1845-07-19	...	...	...	Matematikos mokytoja
+Sofía Isabel Domínguez	https://i.pinimg.com/736x/95/9e/02/959e023a758c61618091677acec16fa0.jpg	vampire	1836-12-04	...	...	...	Fizikos mokytoja
+Valentina Inés Duarte	https://i.pinimg.com/736x/72/c6/9d/72c69d5d77a59cc8c3387339f62edb02.jpg	vampire	1845-07-19	...	...	...	Matematikos mokytoja
 Engel Tobias Müller	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1710-06-30	...	...	...	Chemijos mokytojas
 Kristaps Andris Berzins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1968-08-14	...	...	...	Biologijos mokytojas
 Birutė Elena Žukauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1965-04-27	...	...	...	Pagrindinė virėja
