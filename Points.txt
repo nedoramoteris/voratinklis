@@ -1390,7 +1390,7 @@ Henrik Jürgen Schneider	Abigail Rose Collins	8	8
 Henrik Jürgen Schneider	Suzuki Kyo Haruka	8	8
 Henrik Jürgen Schneider	Gertrude Miriam Nicholson	8	8
 Henrik Jürgen Schneider	William Arthur Atkins	8	8
-Pauline Estelle Morrison	Gaelle Amélie Deveraux	8	8
+Pauline Estelle Morrison	Gaelle Amélie Deveraux	1	1
 Pauline Estelle Morrison	Luisa Carmen Ramirez	8	8
 Pauline Estelle Morrison	Abigail Rose Collins	8	8
 Pauline Estelle Morrison	Suzuki Kyo Haruka	8	8
@@ -1404,14 +1404,13 @@ Gaelle Amélie Deveraux	William Arthur Atkins	8	8
 Luisa Carmen Ramirez	Abigail Rose Collins	8	8
 Luisa Carmen Ramirez	Suzuki Kyo Haruka	8	8
 Luisa Carmen Ramirez	Gertrude Miriam Nicholson	8	8
-Luisa Carmen Ramirez	William Arthur Atkins	8	8
+William Arthur Atkins	Luisa Carmen Ramirez	1	1
 Abigail Rose Collins	Suzuki Kyo Haruka	8	8
 Abigail Rose Collins	Gertrude Miriam Nicholson	8	8
 Abigail Rose Collins	William Arthur Atkins	8	8
 Suzuki Kyo Haruka	Gertrude Miriam Nicholson	8	8
 Suzuki Kyo Haruka	William Arthur Atkins	8	8
-Gertrude Miriam Nicholson	William Arthur Atkins	8	8
-
+Gertrude Miriam Nicholson	William Arthur Atkins	4	4
 
 
 
