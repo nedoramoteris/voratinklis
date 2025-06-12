@@ -1168,3 +1168,19 @@ body.dark-mode .friendship-filter select {
 .dark-mode .clear-filters-button:hover {
     background-color: #f0f0f0;
 }
+
+
+.statistika {
+  text-decoration:none;
+  position: fixed;
+  bottom: 290px;
+  right: 20px;
+  padding: 8px;
+  width: 154px !important;
+  font-family: 'Lemon/Milk light', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+text-align:center;
+  color: white;
+background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);  border-radius: 7px;
+}
