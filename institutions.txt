@@ -1,12 +1,12 @@
-Demetria Nadira Harlow	Citadel	Dreschler Academy	Paws for Purpose
+Demetria Nadira Harlow	Citadel Commons	Dreschler Academy	Paws for Purpose
 Demetri Lorenzo Volturi	The Duskborn Legion	Dreschler Academy
-Oscar Alejandro Cadorna	Citadel	Reserve Hunters
-Florence Elise Winslow	Citadel	Dreschler Academy
-Camille Lillian Boucher	Citadel	Dreschler Academy	Reserve Hunters
+Oscar Alejandro Cadorna	Citadel Commons	Reserve Hunters
+Florence Elise Winslow	Citadel Commons	Dreschler Academy
+Camille Lillian Boucher	Citadel Commons	Dreschler Academy	Reserve Hunters
 Arya Natalie Davenport	Reserve Hunters	Paws for Purpose	Westminster Heights University
-Katrina Deva Bianchi	Citadel	Westminster Heights University
+Katrina Deva Bianchi	Citadel Commons	Westminster Heights University
 Felix Constantine Volturi	Dreschler Academy	The Duskborn Legion
-Michael Romeo Harlow	Reserve Hunters	Celestial Haven
+Michael Romeo Harlow	Reserve Hunters	Celestial Haven	Dreschler Academy
 
 
 Veronique Helena Dreschler	Celestial Haven
@@ -71,7 +71,6 @@ Duncan Hayes	Reserve Hunters
 
 
 Jonathan Fort Harlow	Dreschler Academy
-Michael Romeo Harlow	Dreschler Academy
 Randall Frank Dreschler	Dreschler Academy
 Daniel Apollo Dreschler	Dreschler Academy
 Leonardo Marco Belmonte	Dreschler Academy
