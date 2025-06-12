@@ -208,7 +208,7 @@ Kristaps Andris Berzins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205
 Birutė Elena Žukauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1965-04-27	...	...	...	Pagrindinė virėja
 Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1963-11-11	...	...	...	Virėja
 Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1967-02-03	...	...	...	Virėja
-Juniper Mae Forrester	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1888-10-07	...	...	...	Fotografijos būrelio mokytoja
+Juniper Mae Forrester	https://i.pinimg.com/736x/28/8f/32/288f32213755845398d68d932e550004.jpg	vampire	1888-10-07	...	...	...	Fotografijos būrelio mokytoja
 Damian Lee Roberts	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1973-09-21	...	...	...	Drabužių dizaino ir modeliavimo būrelio mokytojas
 Lavinia Grace Hendricks	https://i.pinimg.com/736x/9f/87/35/9f8735c534114b72dabe625d8eaad253.jpg	hybrid	1745-03-18	...	...	...	Keramikos būrelio mokytoja
 Virginie Claire Moulin	https://i.pinimg.com/736x/86/07/f8/8607f8927043aaf2aeb53d79165fb07c.jpg	werewolf	1961-12-30	...	...	...	Piešimo ir tapybos būrelio mokytoja
@@ -219,7 +219,7 @@ Gaelle Amélie Deveraux	https://i.pinimg.com/736x/c8/88/8a/c8888a94ee916b68e3309
 Luisa Carmen Ramirez	https://i.pinimg.com/736x/72/73/f2/7273f224e93999fef70572a86dcc7fcd.jpg	witch	1971-02-14	...	...	...	Maisto gaminimo būrelio mokytoja
 Abigail Rose Collins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1972-07-23	...	...	...	Bibliotekininkė
 Suzuki Kyo Haruka	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1969-10-11	...	...	...	Seselė
-Gertrude Miriam Nicholson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire	1825-06-03	...	...	...	Sodininkė
+Gertrude Miriam Nicholson	https://i.pinimg.com/736x/b5/46/52/b54652dd888dc776a37ccb19c9d4ac00.jpg	vampire	1825-06-03	...	...	...	Sodininkė
 William Arthur Atkins	https://i.pinimg.com/736x/4c/b0/0c/4cb00c28525bb092620fc87dd8b957fe.jpg	werewolf	1966-09-05	...	...	...	Ūkvedys
 
 
