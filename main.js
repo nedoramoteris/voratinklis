@@ -22,6 +22,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (localStorage.getItem("listVisible") === "false") {
         document.querySelector('.character-list').style.display = "none";
         listToggle.innerText = "☰";
+        // Move buttons to the left
+        document.querySelectorAll('.dark-mode-toggle, .hide-list-toggle, .scroll-up-button, .scroll-down-button')
+            .forEach(button => {
+                button.style.left = "20px";
+            });
     }
 
     toggle.addEventListener("click", function () {
@@ -44,10 +49,22 @@ document.addEventListener("DOMContentLoaded", function () {
             characterList.style.display = "none";
             localStorage.setItem("listVisible", "false");
             listToggle.innerText = "☰";
+            
+            // Move buttons to the left
+            document.querySelectorAll('.dark-mode-toggle, .hide-list-toggle, .scroll-up-button, .scroll-down-button')
+                .forEach(button => {
+                    button.style.left = "20px";
+                });
         } else {
             characterList.style.display = "block";
             localStorage.setItem("listVisible", "true");
             listToggle.innerText = "☰";
+            
+            // Move buttons back to their original positions
+            document.querySelectorAll('.dark-mode-toggle').forEach(btn => btn.style.left = "268px");
+            document.querySelectorAll('.hide-list-toggle').forEach(btn => btn.style.left = "268px");
+            document.querySelectorAll('.scroll-up-button').forEach(btn => btn.style.left = "268px");
+            document.querySelectorAll('.scroll-down-button').forEach(btn => btn.style.left = "268px");
         }
     });
 });
