@@ -214,8 +214,8 @@ Lavinia Grace Hendricks	https://i.pinimg.com/736x/9f/87/35/9f8735c534114b72dabe6
 Virginie Claire Moulin	https://i.pinimg.com/736x/86/07/f8/8607f8927043aaf2aeb53d79165fb07c.jpg	werewolf	1961-12-30	...	...	...	Piešimo ir tapybos būrelio mokytoja
 Bernard Lucien Hopkins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1955-06-08	...	...	...	Dainavimo būrelio mokytojas
 Henrik Jürgen Schneider	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1962-05-24	...	...	...	Choro vadovas
-Pauline Estelle Morrison	https://i.pinimg.com/736x/c8/88/8a/c8888a94ee916b68e3309d47a60467fc.jpg	hybrid	1730-11-29	...	...	...	Šokių mokytoja
-Gaelle Amélie Deveraux	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter	1950-04-17	...	...	...	Baleto mokytoja
+Pauline Estelle Morrison	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1730-11-29	...	...	...	Šokių mokytoja
+Gaelle Amélie Deveraux	https://i.pinimg.com/736x/c8/88/8a/c8888a94ee916b68e3309d47a60467fc.jpg	hunter	1950-04-17	...	...	...	Baleto mokytoja
 Luisa Carmen Ramirez	https://i.pinimg.com/736x/72/73/f2/7273f224e93999fef70572a86dcc7fcd.jpg	witch	1971-02-14	...	...	...	Maisto gaminimo būrelio mokytoja
 Abigail Rose Collins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1972-07-23	...	...	...	Bibliotekininkė
 Suzuki Kyo Haruka	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1969-10-11	...	...	...	Seselė
