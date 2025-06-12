@@ -1,3 +1,4 @@
+
 .prilipdytas {position: absolute;
 background:#292725;
 margin-top:-25px;
@@ -953,7 +954,7 @@ body.dark-mode .clear-search:hover {
 .node.selected .node-circle {
     stroke-width: 4px !important;
 }
-
+.scroll-up-button {bottom:111px !important;}
 .scroll-up-button, .scroll-down-button {
     position: fixed;
     left: 268px;
@@ -1168,8 +1169,6 @@ body.dark-mode .friendship-filter select {
 .dark-mode .clear-filters-button:hover {
     background-color: #f0f0f0;
 }
-
-
 .statistika {
   text-decoration:none;
   position: fixed;
@@ -1186,4 +1185,56 @@ border-radius: 7px;
   background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84); 
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+/* Toggle container styles */
+/* Mygtukai container styles */
+.mygtukai-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+/* Hide/show list toggle button */
+.hide-list-toggle {
+    position: fixed;
+    bottom: 73px;
+    left: 268px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    z-index: 999;
+    font-family: 'archivo', sans-serif;
+    font-size: 20px;
+    color: #6E6761;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+background-color: rgba(82, 76, 70, 0.2);    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide-list-toggle:hover {
+    color: #aba19e;
+}
+
+.dark-mode .hide-list-toggle {
+    background-color: #f5f5f5;
+    color: #6E6761;
+}
+
+.dark-mode .hide-list-toggle:hover {
+    color: #333;
+}
+
+.scroll-up-button,
+.scroll-down-button,
+.dark-mode-toggle,
+.hide-list-toggle {
+    transition: left 0.3s ease !important;
+    position: fixed !important;
 }
