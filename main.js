@@ -898,7 +898,6 @@ function populateCharacterList() {
     detailsDivs.append("span")
     .attr("class", "job")
     .text(d => d.job || "")
-    .style("color", "grey") // Changing color to grey
     .style("margin-top", "5px"); // Adding margin-top of 5 pixels
     // Set up race filter to work with institution filter
     d3.select("#race-filter").on("change", function() {
