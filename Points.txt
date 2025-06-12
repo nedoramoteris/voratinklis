@@ -1592,7 +1592,6 @@ Nikolai Ivan Petrov	Ethan James Carter	1	1
 Nikolai Ivan Petrov	Isabelle Marie Carter	6	6
 Nikolai Ivan Petrov	Leonard Friedrich Bauer	3	3
 Yennifer Katarína Horváth	Lars Kristian Sørensen	0	0
-Ethan James Carter	Isabelle Marie Carter	7	7
 Ethan James Carter	Leonard Friedrich Bauer	1	1
 Isabelle Marie Carter	Lars Kristian Sørensen	6	6
 Lars Kristian Sørensen	Leonard Friedrich Bauer	4	4
