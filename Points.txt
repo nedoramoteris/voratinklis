@@ -1557,7 +1557,16 @@ Leonard Friedrich Bauer	Vasilios Dimitriou Papadopoulos	1	1
 Nikolai Ivan Petrov	Silvia Claire Dubois	4	4
 Silvia Claire Dubois	Yennifer Katarína Horváth	4	4
 Vasilios Dimitriou Papadopoulos	Henry William Thompson	1	1
-
+Henry William Thompson	Dominic Alexandru Popescu	1	1
+Isabelle Marie Carter	Silvia Claire Dubois	4	4
+Kaya Elina Virtanen	Nikolai Ivan Petrov	7	7
+Leonard Friedrich Bauer	Yennifer Katarína Horváth	1	1
+Nikolai Ivan Petrov	Vasilios Dimitriou Papadopoulos	4	4
+Silvia Claire Dubois	Dominic Alexandru Popescu	1	1
+Vasilios Dimitriou Papadopoulos	Yennifer Katarína Horváth	0	0
+Lars Kristian Sørensen	Nikolai Ivan Petrov	7	7
+Isabelle Marie Carter	Leonard Friedrich Bauer	1	1
+Dominic Alexandru Popescu	Vasilios Dimitriou Papadopoulos	4	4
 
 Hubert Frank Bernhard	Emery Herman Bernhard	2	2
 Hubert Frank Bernhard	Declan Aidan Bernhard	2	2
