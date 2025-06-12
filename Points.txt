@@ -1550,7 +1550,7 @@ Yennifer Katarína Horváth	Ethan James Carter	1	1
 
 
 Hubert Frank Bernhard	Emery Herman Bernhard	2	2
-Declan Aidan	Bernhard	Hubert Frank Bernhard	2	2
+Hubert Frank Bernhard	Declan Aidan Bernhard	2	2
 Hubert Frank Bernhard	Hera Melody Harlow	6	6
 Hubert Frank Bernhard	Søren Ragnar Lindström	1	1
 
