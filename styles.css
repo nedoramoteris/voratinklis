@@ -1181,6 +1181,9 @@ body.dark-mode .friendship-filter select {
   font-size: 10px;
   letter-spacing: 0.5px;
 text-align:center;
-  color: white;
-background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);  border-radius: 7px;
+  color: #6E6761;
+border-radius: 7px;
+  background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84); 
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
