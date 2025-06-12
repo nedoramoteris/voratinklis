@@ -1238,3 +1238,65 @@ background-color: rgba(82, 76, 70, 0.3);    display: flex;
     transition: left 0.3s ease !important;
     position: fixed !important;
 }
+
+/* Update button positioning styles */
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 35px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    z-index: 999;
+    font-family: 'archivo', sans-serif;
+    font-size: 20px;
+    color: #6E6761;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(82, 76, 70, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease;
+}
+
+.character-list[style*="display: none"] ~ .dark-mode-toggle,
+.character-list[style*="display: none"] ~ .hide-list-toggle,
+.character-list[style*="display: none"] ~ .scroll-up-button,
+.character-list[style*="display: none"] ~ .scroll-down-button {
+    left: 20px !important;
+}
+
+.hide-list-toggle {
+    position: fixed;
+    bottom: 73px;
+    left: 268px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    z-index: 999;
+    font-family: 'archivo', sans-serif;
+    font-size: 20px;
+    color: #6E6761;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(82, 76, 70, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease;
+}
+
+.scroll-up-button {
+    bottom: 111px;
+    left: 268px;
+    transition: left 0.3s ease;
+}
+
+.scroll-down-button {
+    bottom: 10px;
+    left: 268px;
+    transition: left 0.3s ease;
+}
