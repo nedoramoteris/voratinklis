@@ -745,6 +745,13 @@ Nijolė Laima Davolienė	Sandra Maria Núñez	7	7
 Barbara Eugenia Franks	Sandra Maria Núñez	4	4
 Nijolė Laima Davolienė	Barbara Eugenia Franks	1	1
 Sandra Maria Núñez	Tessa Louise Johnson	7	7
+Matteo Alberto Lombardi	Esmeralda Isabella Rodriguez	1	1
+Sandra Maria Núñez	Lila Grace Thompson	7	7
+Nico Ross Matthews	Lila Grace Thompson	1	1
+Elias Gabriel Costa	Lila Grace Thompson	1	1
+Aisha Fatima Khan	Esmeralda Isabella Rodriguez	1	1
+
+
 
 
 Leonardo Marco Belmonte	Dreschler Academy	8	8
