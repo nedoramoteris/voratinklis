@@ -1377,7 +1377,6 @@ Virginie Claire Moulin	Gertrude Miriam Nicholson	8	8
 Virginie Claire Moulin	William Arthur Atkins	8	8
 Bernard Lucien Hopkins	Henrik Jürgen Schneider	8	8
 Bernard Lucien Hopkins	Pauline Estelle Morrison	8	8
-Bernard Lucien Hopkins	Gaelle Amélie Deveraux	8	8
 Bernard Lucien Hopkins	Luisa Carmen Ramirez	8	8
 Bernard Lucien Hopkins	Abigail Rose Collins	8	8
 Bernard Lucien Hopkins	Suzuki Kyo Haruka	8	8
@@ -1411,6 +1410,7 @@ Abigail Rose Collins	William Arthur Atkins	8	8
 Suzuki Kyo Haruka	Gertrude Miriam Nicholson	8	8
 Suzuki Kyo Haruka	William Arthur Atkins	8	8
 Gertrude Miriam Nicholson	William Arthur Atkins	4	4
+Bernard Lucien Hopkins	Gaelle Amélie Deveraux	3	3
 
 
 
