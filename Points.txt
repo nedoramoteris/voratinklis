@@ -732,7 +732,6 @@ Lila Grace Thompson	Citadel Commons	8	8
 Selene Elena Dimitriou	Citadel Commons	8	8
 Edward William Richmond	Citadel Commons	8	8
 
-Nijolė Laima Davolienė	Barbara Eugenia Franks	8	8
 Nijolė Laima Davolienė	Matilda Sophia Andersen	8	8
 Nijolė Laima Davolienė	Stella Maria Santos	8	8
 Nijolė Laima Davolienė	Leah Marie Clearwater	8	8
@@ -746,7 +745,6 @@ Nijolė Laima Davolienė	Zara Elizabeth Lennox	8	8
 Nijolė Laima Davolienė	Aisha Fatima Khan	8	8
 Nijolė Laima Davolienė	Matteo Alberto Lombardi	8	8
 Nijolė Laima Davolienė	Esmeralda Isabella Rodriguez	8	8
-Nijolė Laima Davolienė	Sandra Maria Núñez	8	8
 Nijolė Laima Davolienė	Anders Erik Nilsson	8	8
 Nijolė Laima Davolienė	Maya Sofia Patel	8	8
 Nijolė Laima Davolienė	Julian Sebastian Garcia	8	8
@@ -771,7 +769,6 @@ Barbara Eugenia Franks	Zara Elizabeth Lennox	8	8
 Barbara Eugenia Franks	Aisha Fatima Khan	8	8
 Barbara Eugenia Franks	Matteo Alberto Lombardi	8	8
 Barbara Eugenia Franks	Esmeralda Isabella Rodriguez	8	8
-Barbara Eugenia Franks	Sandra Maria Núñez	8	8
 Barbara Eugenia Franks	Anders Erik Nilsson	8	8
 Barbara Eugenia Franks	Maya Sofia Patel	8	8
 Barbara Eugenia Franks	Julian Sebastian Garcia	8	8
@@ -1020,7 +1017,6 @@ Esmeralda Isabella Rodriguez	Edward William Richmond	8	8
 Sandra Maria Núñez	Anders Erik Nilsson	8	8
 Sandra Maria Núñez	Maya Sofia Patel	8	8
 Sandra Maria Núñez	Julian Sebastian Garcia	8	8
-Sandra Maria Núñez	Tessa Louise Johnson	8	8
 Sandra Maria Núñez	Rosita Maria Alvarez	8	8
 Sandra Maria Núñez	Haruto Hiroshi Adachi	8	8
 Sandra Maria Núñez	Elias Gabriel Costa	8	8
@@ -1083,6 +1079,12 @@ Nico Ross Matthews	Edward William Richmond	8	8
 Lila Grace Thompson	Selene Elena Dimitriou	8	8
 Lila Grace Thompson	Edward William Richmond	8	8
 Selene Elena Dimitriou	Edward William Richmond	8	8
+
+
+Nijolė Laima Davolienė	Sandra Maria Núñez	7	7
+Barbara Eugenia Franks	Sandra Maria Núñez	4	4
+Nijolė Laima Davolienė	Barbara Eugenia Franks	1	1
+Sandra Maria Núñez	Tessa Louise Johnson	7	7
 
 
 Leonardo Marco Belmonte	Dreschler Academy	8	8
