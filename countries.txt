@@ -3,7 +3,7 @@ Louis Alexander Bonnet	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45f
 Evan Gabriel Dubois	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Lena Frida Lund (née Müller)	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Klaus Jakob Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
-Anastasia Clara Blackwell
+Anastasia Clara Blackwell	https://i.pinimg.com/736x/37/9c/35/379c351732f5c6b6db9e4f9725c5a3a7.jpg	Bulgaria
 Arya Natalie Davenport	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Aurora Vivienne Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Bernadetta Ottavia Conti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
@@ -12,7 +12,7 @@ Daniel Apollo Dreschler	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b
 Declan Aidan Bernhard	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Deianeira Cecilia Lund
 Felicity Gemma Montgomery
-Harper Adriana Esposito
+Harper Adriana Esposito	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
 Harrison James Whitmore
 Hera Melody Harlow	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Katrina Deva Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
@@ -36,20 +36,20 @@ Emery Herman Bernhard	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8
 Camille Lillian Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Charlotte Iris Dreschler	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Hazel Adeline Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
-Søren Ragnar Lindström
-Danila Halle Lindström
-Michael Romeo Harlow
-Cassandra Willa Dreschler	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
+Søren Ragnar Lindström	https://i.pinimg.com/736x/a6/7a/f9/a67af9c593ba25a687b95e35d294dc18.jpg	Sweden
+Danila Halle Lindström	https://i.pinimg.com/736x/a6/7a/f9/a67af9c593ba25a687b95e35d294dc18.jpg	Sweden
+Michael Romeo Harlow	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Cassandra Willa Dreschler	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
 Randall Frank Dreschler	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
-Nathaniel Dean Harlow
-Demetri Lorenzo Volturi
+Nathaniel Dean Harlow	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Demetri Lorenzo Volturi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Veronique Helena Dreschler	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Alexis Feiyu King
-Jonathan Fort Harlow
+Jonathan Fort Harlow	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
 Felix Constantine Volturi
-Myrtle Maeve Gray
-Bianca Juliett Harlow-Bakir
-Oliver Noah Harlow
+Myrtle Maeve Gray	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Bianca Juliett Harlow-Bakir	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Oliver Noah Harlow	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
 Reinhardt Gustav Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Leonard Bastian Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Isadora Vanessa Dragoumis-Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
@@ -59,7 +59,7 @@ Atticus Orfeas Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc
 Alastar Zander Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Samir Bakir
 Thomas Léon Harlow	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
-Matthew Lúcio Harlow
+Matthew Lúcio Harlow	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
 Damir Harlow	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Olivia Harriet Calloway
 Mariana Lucía Gonzalez
@@ -67,7 +67,7 @@ Kurt Hartwin Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b
 Beatrice Johanna Wolf	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Scarlett Rosemary Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Venetia Irida Dragoumis	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
-Matteo Rossi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
+Matteo Rossi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Jeremiah Rhys Sinclair
 Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
 Niccolò Davide Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
@@ -78,9 +78,9 @@ Maxime Julien Delacroix
 Gabriella Harper Rhodes
 Layla Eman Bakir	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Delilah Grace Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
-Zophia Giulia Barone / Zosė
+Zophia Giulia Barone / Zosė	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Magdalena Judi Cadorna	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Theodosius Valerian Barca
+Theodosius Valerian Barca	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Sophia Alessia Belotti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Fiona Giselle Rochefort	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Gladys Agatha Archdale	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
@@ -112,7 +112,7 @@ Reksas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	T
 Triušiai	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Vištos	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Antanas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
-Barnabas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Barnabas	https://i.pinimg.com/736x/3d/c2/d6/3dc2d6e6628fb67b6c6975cf17ef4b94.jpg	Romania
 Hubertas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Juozas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Katinas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
