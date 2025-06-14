@@ -25,11 +25,11 @@ West Elliot Harlow	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2f
 Rodrigo Abeyta
 Alessandro Elio Rossi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Coralie Francesca Romano	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Demetria Nadira Harlow
-Zachariah Gideon Lund
-Joshua William Lund
-Dante Konstantin Lund
-Florence Elise Winslow
+Demetria Nadira Harlow	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Zachariah Gideon Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Joshua William Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Dante Konstantin Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Florence Elise Winslow	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Carmen Iscariot Denali
 Juliette Claire Lefèvre	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Emery Herman Bernhard
@@ -52,11 +52,11 @@ Bianca Juliett Harlow-Bakir
 Oliver Noah Harlow
 Reinhardt Gustav Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Leonard Bastian Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
-Isadora Vanessa Dragoumis-Lund
-Theofania Maria Caras-Dragoumis
-Eleni Karissa Aetós-Lund
-Atticus Orfeas Lund
-Alastar Zander Lund
+Isadora Vanessa Dragoumis-Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Theofania Maria Caras-Dragoumis	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Eleni Karissa Aetós-Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Atticus Orfeas Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Alastar Zander Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Samir Bakir
 Thomas Léon Harlow	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Matthew Lúcio Harlow
@@ -66,7 +66,7 @@ Mariana Lucía Gonzalez
 Kurt Hartwin Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Beatrice Johanna Wolf	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Scarlett Rosemary Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
-Venetia Irida Dragoumis
+Venetia Irida Dragoumis	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Matteo Rossi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
 Jeremiah Rhys Sinclair
 Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
@@ -178,17 +178,17 @@ Haruto Hiroshi Adachi
 Elias Gabriel Costa
 Nico Ross Matthews
 Lila Grace Thompson
-Selene Elena Dimitriou
+Selene Elena Dimitriou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Edward William Richmond
-Savannah Luna Blanchard
+Savannah Luna Blanchard	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Leonardo Marco Belmonte	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Eleazar Silas Denali
 Tommaso Luca Benedetti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Akira Kenji Sato
-Asterios Nikos Franopoulos
+Asterios Nikos Franopoulos	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Sofía Isabel Domínguez
 Valentina Inés Duarte
-Engel Tobias Müller
+Engel Tobias Müller	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Kristaps Andris Berzins
 Birutė Elena Žukauskienė
 Danutė Jadvyga Jankauskienė
@@ -248,11 +248,11 @@ Duncan Hayes
 Malik Bennett
 Kaiya Fletcher
 Giovanni "Gio" Rinaldi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Gustav "Gus" Kaiser
+Gustav "Gus" Kaiser	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Luke Collins
 Livia Costa	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Paul Robinson
-Mariska Schmidt
+Mariska Schmidt	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Archibald "Archie" Lennox
 Horacio "Horcrux" Rodriguez
 Kenji Takahashi
@@ -263,19 +263,19 @@ Quinn O'Leary
 William "Wil.I.Am" Harper
 William "Will.I.Can't" Cavendish
 Zhen Liu
-Irida Anastasia Papadopoulos
+Irida Anastasia Papadopoulos	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Robert James Johnson
 Albert Edward Smith
 Bernadette Elizabeth Jones
 Charlie William Brown
 Sabrina Louise Clarke
-Theodora Eleftheria Constantinou
-Despina Eleni Papadakis
-Andreas Nikolaos Papadopoulos
-Maria Christina Georgiou
-Ioanna Sophia Antoniou
-Georgios Panagiotis Ioannou
-Dominic Alexandru Popescu
+Theodora Eleftheria Constantinou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Despina Eleni Papadakis	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Andreas Nikolaos Papadopoulos	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Maria Christina Georgiou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Ioanna Sophia Antoniou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Georgios Panagiotis Ioannou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Dominic Alexandru Popescu	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Ethan James Carter
 Henry William Thompson
 Frank Hubert Bernhard
