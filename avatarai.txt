@@ -236,7 +236,7 @@ William Arthur Atkins	https://i.pinimg.com/736x/4c/b0/0c/4cb00c28525bb092620fc87
 Katrinos Draugai	https://i.pinimg.com/736x/af/77/a3/af77a3d9a745ab788b48ae6fb624cabb.jpg
 Aisha Aadhya Malik	https://i.pinimg.com/736x/37/a6/e0/37a6e0b16886822e413cf7dd259964be.jpg	human	1997-03-08
 Esihle Amara Ndlovu	https://i.pinimg.com/736x/7d/e0/81/7de081ac005831950f5b78027c00f995.jpg	witch	2000-04-08
-Amelia Clarke	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Amelia Clarke	https://i.pinimg.com/736x/07/e9/43/07e9432cca5a4ae6efe2691987256e3b.jpg	human
 Antonio „Toni“ Greco	https://i.pinimg.com/736x/e1/e0/d9/e1e0d920c8bb229858880915c970cc9a.jpg	hybrid
 Chiara Fontana	https://i.pinimg.com/736x/83/15/9b/83159b8b7b5b196a8d6a7d842b1e7ce4.jpg	human
 Clara Moretti	https://i.pinimg.com/736x/93/6d/81/936d817a8340134e49e137fd73a77f32.jpg	human
@@ -246,20 +246,20 @@ Elena Moretti	https://i.pinimg.com/736x/52/4c/3a/524c3affa9b721adc9f34cfad825f0a
 Emanuela „Ella“ Fiore	https://i.pinimg.com/736x/54/da/96/54da966a214bae931cbfa718ccf271ba.jpg	human
 Enzo Marchetti	https://i.pinimg.com/736x/4e/25/c6/4e25c6e4e4369f8142e03b8acca24964.jpg	human
 Fabio Neri	https://i.pinimg.com/736x/f5/c4/96/f5c496c54c9731407823046f5ef71c63.jpg	human
-Giulia Carbone	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Hanna Lindström	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch
-Henry Mills	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Giulia Carbone	https://i.pinimg.com/736x/b8/e7/56/b8e756591fb9d8dbf8a15be5bddd394a.jpg	human
+Hanna Lindström	https://i.pinimg.com/736x/c3/d3/d5/c3d3d542146d4533940b8dbb84b4e4a8.jpg	witch
+Henry Mills	https://i.pinimg.com/736x/c6/40/f2/c640f217a44b0f4406b0614aa8e88736.jpg	human
 James „Jamie“ Edwards	https://i.pinimg.com/736x/c5/0a/e3/c50ae361030a3b39174e0b193db5602d.jpg	human
-Katarzyna Zielińska	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Luca Ferraro	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Luisa De Luca	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Marta Valli	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Matteo „Teo“ Ricci	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Natalia Vargas	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Oliver „Ollie“ Brown	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Ravi Kapoor	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Simone Pellegrini	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Vittoria Mancini	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Katarzyna Zielińska	https://i.pinimg.com/736x/8a/06/c8/8a06c8b156f58be6168ca71cbe23dc93.jpg	human
+Luca Ferraro	https://i.pinimg.com/736x/a6/fd/b5/a6fdb5de2169959836482416fb529c46.jpg	human
+Luisa De Luca	https://i.imgur.com/GGhTxOb.jpeg	human
+Marta Valli	https://i.pinimg.com/736x/29/2d/32/292d3242ba88003692bd4e896f1e9209.jpg	human
+Matteo „Teo“ Ricci	https://i.imgur.com/848Rzf7.png	human
+Natalia Vargas	https://i.pinimg.com/736x/f0/41/d4/f041d445eee2d342a4d9900d89fa887c.jpg	human
+Oliver „Ollie“ Brown	https://i.pinimg.com/736x/48/b8/b0/48b8b00db3aa581c430e77c55103d0e2.jpg	human
+Ravi Kapoor	https://i.pinimg.com/736x/4e/29/f8/4e29f8d2d44dec60d2f26fb7920a4c44.jpg	human
+Simone Pellegrini	https://i.pinimg.com/736x/34/3d/47/343d477f334ea5ba96d86d0c47a48228.jpg	human
+Vittoria Mancini	https://i.pinimg.com/736x/dc/39/9b/dc399b9e39a8e8c4733c6bf571c41c17.jpg	human
 Charlotte „Charlie“ Woods	https://i.pinimg.com/736x/d6/55/8d/d6558dcf6b45309cd0c1bca8671167af.jpg	human
 
 
