@@ -1,83 +1,83 @@
-Aisha Malik	Katrina's Friends
-Amara Ndlovu	Katrina's Friends
-Amelia Clarke	Katrina's Friends
-Antonio „Toni“ Greco	Katrina's Friends
-Chiara Fontana	Katrina's Friends
-Clara Moretti	Katrina's Friends
-Claudio Vitale	Katrina's Friends
-Diego Caruso	Katrina's Friends
-Elena Moretti	Katrina's Friends
-Emanuela „Ella“ Fiore	Katrina's Friends
-Enzo Marchetti	Katrina's Friends
-Fabio Neri	Katrina's Friends
-Giulia Carbone	Katrina's Friends
-Hanna Lindström	Katrina's Friends
-Henry Mills	Katrina's Friends
-James „Jamie“ Edwards	Katrina's Friends
-Katarzyna Zielińska	Katrina's Friends
-Luca Ferraro	Katrina's Friends
-Luisa De Luca	Katrina's Friends
-Marta Valli	Katrina's Friends
-Matteo „Teo“ Ricci	Katrina's Friends
-Natalia Vargas	Katrina's Friends
-Oliver „Ollie“ Brown	Katrina's Friends
-Ravi Kapoor	Katrina's Friends
-Simone Pellegrini	Katrina's Friends
-Vittoria Mancini	Katrina's Friends
-Charlotte „Charlie“ Woods	Katrina's Friends
-Evelyn Brown	Katrina's Friends
+Aisha Malik	Katrina's friends
+Amara Ndlovu	Katrina's friends
+Amelia Clarke	Katrina's friends
+Antonio „Toni“ Greco	Katrina's friends
+Chiara Fontana	Katrina's friends
+Clara Moretti	Katrina's friends
+Claudio Vitale	Katrina's friends
+Diego Caruso	Katrina's friends
+Elena Moretti	Katrina's friends
+Emanuela „Ella“ Fiore	Katrina's friends
+Enzo Marchetti	Katrina's friends
+Fabio Neri	Katrina's friends
+Giulia Carbone	Katrina's friends
+Hanna Lindström	Katrina's friends
+Henry Mills	Katrina's friends
+James „Jamie“ Edwards	Katrina's friends
+Katarzyna Zielińska	Katrina's friends
+Luca Ferraro	Katrina's friends
+Luisa De Luca	Katrina's friends
+Marta Valli	Katrina's friends
+Matteo „Teo“ Ricci	Katrina's friends
+Natalia Vargas	Katrina's friends
+Oliver „Ollie“ Brown	Katrina's friends
+Ravi Kapoor	Katrina's friends
+Simone Pellegrini	Katrina's friends
+Vittoria Mancini	Katrina's friends
+Charlotte „Charlie“ Woods	Katrina's friends
+Evelyn Brown	Katrina's friends
 
 
-Archie Hayes	Leone's Friends
-Clara Santini	Leone's Friends
-Davide Russo	Leone's Friends
-Enzo Mazzetti	Leone's Friends
-Finn O’Connor	Leone's Friends
-Francesco Ferri	Leone's Friends
-Giulia Rinaldi	Leone's Friends
-James Carter	Leone's Friends
+Archie Hayes	Leone's friends
+Clara Santini	Leone's friends
+Davide Russo	Leone's friends
+Enzo Mazzetti	Leone's friends
+Finn O’Connor	Leone's friends
+Francesco Ferri	Leone's friends
+Giulia Rinaldi	Leone's friends
+James Carter	Leone's friends
 
 
-Amara Evers	Lennon's Friends
-Evie Hartwell	Lennon's Friends
-Diego Montoya	Lennon's Friends
-Duncan Hayes	Lennon's Friends
-Malik Bennett	Lennon's Friends
-Kaiya Fletcher	Lennon's Friends
-
-
-
-Giovanni "Gio" Rinaldi	West's Friends
-Gustav "Gus" Kaiser	West's Friends
-Luke Collins	West's Friends
-Livia Costa	West's Friends
-Paul Robinson	West's Friends
-Mariska Schmidt	West's Friends
+Amara Evers	Lennon's friends
+Evie Hartwell	Lennon's friends
+Diego Montoya	Lennon's friends
+Duncan Hayes	Lennon's friends
+Malik Bennett	Lennon's friends
+Kaiya Fletcher	Lennon's friends
 
 
 
-Archibald "Archie" Lennox	Arya's Friends
-Horacio "Horcrux" Rodriguez	Arya's Friends
-Kenji Takahashi	Arya's Friends
-Layla Massoud	Arya's Friends
-Morgan Bellamy	Arya's Friends
-Noor Rahmant	Arya's Friends
-Quinn O'Leary	Arya's Friends
-William "Wil.I.Am" Harper	Arya's Friends
-William "Will.I.Can't" Cavendish	Arya's Friends
-Zhen Liu	Arya's Friends
+Giovanni "Gio" Rinaldi	West's friends
+Gustav "Gus" Kaiser	West's friends
+Luke Collins	West's friends
+Livia Costa	West's friends
+Paul Robinson	West's friends
+Mariska Schmidt	West's friends
 
 
 
-Irida Anastasia Papadopoulos	Demetria's Friends
-Robert James Johnson	Demetria's Friends
-Albert Edward Smith	Demetria's Friends
-Bernadette Elizabeth Jones	Demetria's Friends
-Charlie William Brown	Demetria's Friends
-Sabrina Louise Clarke	Demetria's Friends
-Theodora Eleftheria Constantinou	Demetria's Friends	Florence's Friends
-Despina Eleni Papadakis	Demetria's Friends	Florence's Friends
-Andreas Nikolaos Papadopoulos	Demetria's Friends	Florence's Friends
-Maria Christina Georgiou	Demetria's Friends	Florence's Friends
-Ioanna Sophia Antoniou	Demetria's Friends	Florence's Friends
-Georgios Panagiotis Ioannou	Demetria's Friends	Florence's Friends
+Archibald "Archie" Lennox	Arya's friends
+Horacio "Horcrux" Rodriguez	Arya's friends
+Kenji Takahashi	Arya's friends
+Layla Massoud	Arya's friends
+Morgan Bellamy	Arya's friends
+Noor Rahmant	Arya's friends
+Quinn O'Leary	Arya's friends
+William "Wil.I.Am" Harper	Arya's friends
+William "Will.I.Can't" Cavendish	Arya's friends
+Zhen Liu	Arya's friends
+
+
+
+Irida Anastasia Papadopoulos	Demetria's friends
+Robert James Johnson	Demetria's friends
+Albert Edward Smith	Demetria's friends
+Bernadette Elizabeth Jones	Demetria's friends
+Charlie William Brown	Demetria's friends
+Sabrina Louise Clarke	Demetria's friends
+Theodora Eleftheria Constantinou	Demetria's friends	Florence's friends
+Despina Eleni Papadakis	Demetria's friends	Florence's friends
+Andreas Nikolaos Papadopoulos	Demetria's friends	Florence's friends
+Maria Christina Georgiou	Demetria's friends	Florence's friends
+Ioanna Sophia Antoniou	Demetria's friends	Florence's friends
+Georgios Panagiotis Ioannou	Demetria's friends	Florence's friends
