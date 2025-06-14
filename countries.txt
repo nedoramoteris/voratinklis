@@ -6,7 +6,7 @@ Klaus Jakob Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b6
 Anastasia Clara Blackwell	https://i.pinimg.com/736x/37/9c/35/379c351732f5c6b6db9e4f9725c5a3a7.jpg	Bulgaria
 Arya Natalie Davenport	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Aurora Vivienne Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
-Bernadetta Ottavia Conti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
+Bernadetta Ottavia Conti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Chiara Ilaria Lombardi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Daniel Apollo Dreschler	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Declan Aidan Bernhard	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
@@ -69,8 +69,8 @@ Scarlett Rosemary Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea
 Venetia Irida Dragoumis	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Matteo Rossi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Jeremiah Rhys Sinclair
-Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
-Niccolò Davide Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
+Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
+Niccolò Davide Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 The British Royal Family	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Sabrina Miranda Volturi	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Dominic Lucien Harrington
@@ -264,26 +264,26 @@ William "Wil.I.Am" Harper
 William "Will.I.Can't" Cavendish
 Zhen Liu
 Irida Anastasia Papadopoulos	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
-Robert James Johnson
-Albert Edward Smith
-Bernadette Elizabeth Jones
-Charlie William Brown
-Sabrina Louise Clarke
+Robert James Johnson	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Albert Edward Smith	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Bernadette Elizabeth Jones	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Charlie William Brown	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Sabrina Louise Clarke	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Theodora Eleftheria Constantinou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Despina Eleni Papadakis	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Andreas Nikolaos Papadopoulos	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Maria Christina Georgiou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Ioanna Sophia Antoniou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Georgios Panagiotis Ioannou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
-Dominic Alexandru Popescu	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
-Ethan James Carter
-Henry William Thompson
-Frank Hubert Bernhard
-Isabelle Marie Carter
-Kaya Elina Virtanen
-Lars Kristian Sørensen
-Leonard Friedrich Bauer
-Nikolai Ivan Petrov
+Dominic Alexandru Popescu	https://i.pinimg.com/736x/3d/c2/d6/3dc2d6e6628fb67b6c6975cf17ef4b94.jpg	Romania
+Ethan James Carter	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Henry William Thompson	https://i.pinimg.com/736x/bd/1c/d0/bd1cd0eb0b7380d5d4c6407f6240b6f8.jpg	Australia
+Frank Hubert Bernhard	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
+Isabelle Marie Carter	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Kaya Elina Virtanen	https://i.pinimg.com/736x/6a/2e/89/6a2e8901ff6d6a041b8d9628010e6fdf.jpg	Finland
+Lars Kristian Sørensen	https://i.pinimg.com/736x/e2/cb/21/e2cb218ae39efe6700a5aab19650568a.jpg	Denmark
+Leonard Friedrich Bauer	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
+Nikolai Ivan Petrov	https://i.pinimg.com/736x/37/9c/35/379c351732f5c6b6db9e4f9725c5a3a7.jpg	Bulgaria
 Silvia Claire Dubois	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
-Vasilios Dimitriou Papadopoulos
-Yennifer Katarína Horváth
+Vasilios Dimitriou Papadopoulos	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
+Yennifer Katarína Horváth	https://i.pinimg.com/736x/11/ae/0f/11ae0fc5ee3350665fb13059b86b6597.jpg	Slovakia
