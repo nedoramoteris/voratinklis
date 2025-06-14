@@ -69,7 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 // Initialize all global variables first
 const width = window.innerWidth;
 const height = window.innerHeight;
@@ -85,6 +84,7 @@ let institutionsData = {}; // name -> [institutions] (now supports multiple)
 let institutionsList = new Set(); // unique institutions
 let friendshipsData = {}; // name -> [friendships] (supports multiple)
 let friendshipsList = new Set(); // unique friendships
+let countriesData = {}; // name -> country code
 
 // Race color mapping
 const raceColors = {
@@ -138,46 +138,46 @@ function calculateAge(dob, dod) {
     }
     
     // Try to parse other date formats
-   const parseDate = (dateStr) => {
-    if (!dateStr) return null;
+    const parseDate = (dateStr) => {
+        if (!dateStr) return null;
 
-    // Normalize string (e.g., trim, uppercase)
-    const trimmed = dateStr.trim().toUpperCase();
+        // Normalize string (e.g., trim, uppercase)
+        const trimmed = dateStr.trim().toUpperCase();
 
-    // Check for BC
-    const bcMatch = trimmed.match(/^(\d+)\s*BC$/);
-    if (bcMatch) {
-        return { year: -parseInt(bcMatch[1], 10) };
-    }
+        // Check for BC
+        const bcMatch = trimmed.match(/^(\d+)\s*BC$/);
+        if (bcMatch) {
+            return { year: -parseInt(bcMatch[1], 10) };
+        }
 
-    // Check for AD (optional suffix)
-    const adMatch = trimmed.match(/^(\d+)\s*(AD)?$/);
-    if (adMatch) {
-        return { year: parseInt(adMatch[1], 10) };
-    }
+        // Check for AD (optional suffix)
+        const adMatch = trimmed.match(/^(\d+)\s*(AD)?$/);
+        if (adMatch) {
+            return { year: parseInt(adMatch[1], 10) };
+        }
 
-    // Check for MM/DD/YYYY
-    const usDate = trimmed.match(/^(\d{1,2})\/(\d{1,2})\/(\d{1,4})$/);
-    if (usDate) {
-        return {
-            year: parseInt(usDate[3], 10),
-            month: parseInt(usDate[1], 10),
-            day: parseInt(usDate[2], 10)
-        };
-    }
+        // Check for MM/DD/YYYY
+        const usDate = trimmed.match(/^(\d{1,2})\/(\d{1,2})\/(\d{1,4})$/);
+        if (usDate) {
+            return {
+                year: parseInt(usDate[3], 10),
+                month: parseInt(usDate[1], 10),
+                day: parseInt(usDate[2], 10)
+            };
+        }
 
-    // Check for YYYY-MM-DD
-    const isoDate = trimmed.match(/^(\d{1,4})-(\d{1,2})-(\d{1,2})$/);
-    if (isoDate) {
-        return {
-            year: parseInt(isoDate[1], 10),
-            month: parseInt(isoDate[2], 10),
-            day: parseInt(isoDate[3], 10)
-        };
-    }
+        // Check for YYYY-MM-DD
+        const isoDate = trimmed.match(/^(\d{1,4})-(\d{1,2})-(\d{1,2})$/);
+        if (isoDate) {
+            return {
+                year: parseInt(isoDate[1], 10),
+                month: parseInt(isoDate[2], 10),
+                day: parseInt(isoDate[3], 10)
+            };
+        }
 
-    return null;
-};
+        return null;
+    };
     
     const birthInfo = parseDate(dob);
     if (!birthInfo) return '...';
@@ -245,10 +245,9 @@ function processData(pointsText, linksText) {
         const race = parts[2]?.trim().toLowerCase();
         const dob = parts[3] || '...';
         const dod = parts[5] || '...'; 
-      // Changed from parts[5] to parts[4]
-        const personality = parts[4] || '...';  // Changed from parts[4] to parts[5]
-        const additional = parts[6] || '...'; // New additional field from column 6
-const job = parts[7] || '';
+        const personality = parts[4] || '...';
+        const additional = parts[6] || '...';
+        const job = parts[7] || '';
 
         const age = calculateAge(dob, dod);
         
@@ -263,8 +262,7 @@ const job = parts[7] || '';
             dod: dod,
             age: age,
             additional: additional,
-            job: job// Added as the last field
-
+            job: job
         };
     });
 
@@ -443,44 +441,43 @@ function createVisualization() {
         .data(nodes)
         .join("g")
         .attr("class", "node")
-       .on("click", function(event, d) {
-    event.stopPropagation();
+        .on("click", function(event, d) {
+            event.stopPropagation();
 
-    if (selectedNode === d) {
-        selectedNode = null;
-        resetNodeStates();
-        hideTooltip();
-        d3.selectAll(".character-card").classed("selected", false);
-        applyFilters(); // Reapply filters instead of clearing search
-    } else {
-        selectedNode = d;
-        highlightNodeAndConnections(d);
-        centerOnNode(d);
-        hideTooltip();
+            if (selectedNode === d) {
+                selectedNode = null;
+                resetNodeStates();
+                hideTooltip();
+                d3.selectAll(".character-card").classed("selected", false);
+                applyFilters(); // Reapply filters instead of clearing search
+            } else {
+                selectedNode = d;
+                highlightNodeAndConnections(d);
+                centerOnNode(d);
+                hideTooltip();
 
-        // Highlight the matching character card
-        d3.selectAll(".character-card").classed("selected", card => card.name === d.name);
+                // Highlight the matching character card
+                d3.selectAll(".character-card").classed("selected", card => card.name === d.name);
 
-        // Scroll the selected card into view
- document.querySelectorAll(".character-card").forEach(card => {
-            const nameEl = card.querySelector(".character-name");
-             if (nameEl && nameEl.textContent.trim() === d.name) {
-        const rect = card.getBoundingClientRect();
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const offset = rect.top + scrollTop - 250; // Scroll so the element is 260px from the top
-        window.scrollTo({ top: offset, behavior: "smooth" });
+                // Scroll the selected card into view
+                document.querySelectorAll(".character-card").forEach(card => {
+                    const nameEl = card.querySelector(".character-name");
+                    if (nameEl && nameEl.textContent.trim() === d.name) {
+                        const rect = card.getBoundingClientRect();
+                        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                        const offset = rect.top + scrollTop - 250; // Scroll so the element is 260px from the top
+                        window.scrollTo({ top: offset, behavior: "smooth" });
+                    }
+                });
+
+                // Update the search input with the selected name
+                const input = document.querySelector('.search-input');
+                if (input) {
+                    input.value = d.name;
+                    input.dispatchEvent(new Event('input', { bubbles: true }));
+                }
             }
-        });
-
-        // Update the search input with the selected name
-        const input = document.querySelector('.search-input');
-        if (input) {
-            input.value = d.name;
-            input.dispatchEvent(new Event('input', { bubbles: true }));
-        }
-    }
-})
-  
+        })
         .on("mouseover", function(event, d) {
             if (!selectedNode) { // Only show hover effects if no node is selected
                 const connectedNodes = new Set([d.id]);
@@ -547,17 +544,16 @@ function createVisualization() {
 
     // Add click handler to SVG to deselect when clicking elsewhere
     svg.on("click", function () {
-    if (selectedNode) {
-        selectedNode = null;
-        resetNodeStates();
-        hideTooltip();
-        applyFilters(); // Reapply filters instead of clearing search
+        if (selectedNode) {
+            selectedNode = null;
+            resetNodeStates();
+            hideTooltip();
+            applyFilters(); // Reapply filters instead of clearing search
 
-        // Remove highlight from character cards
-        d3.selectAll(".character-card").classed("selected", false);
-    }
-});
-
+            // Remove highlight from character cards
+            d3.selectAll(".character-card").classed("selected", false);
+        }
+    });
 
     // Update the simulation's tick handler with curved links for multiple connections
     simulation.on("tick", () => {
@@ -686,7 +682,7 @@ function showTooltip(d, event) {
     if (d.personality && d.personality !== '...') {
         tooltipContent += `<div class="tooltip-row"><strong>Personality type:</strong> ${d.personality}</div>`;
     }
-  if (d.additional && d.additional !== '...') {
+    if (d.additional && d.additional !== '...') {
         tooltipContent += `<div class="tooltip-row"><strong><div class="styled-line"></div></strong><div class="additional-content">${d.additional}</div>`;
     }
     
@@ -710,8 +706,9 @@ Promise.all([
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/Points.txt'),
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/aprasymai.txt'),
     d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/institutions.txt'),
-    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/sort%20by%20friends.txt')
-]).then(function([pointsText, linksText, descriptionText, institutionsText, friendshipsText]) {
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/sort%20by%20friends.txt'),
+    d3.text('https://raw.githubusercontent.com/nedoramoteris/voratinklis/refs/heads/main/countries.txt')
+]).then(function([pointsText, linksText, descriptionText, institutionsText, friendshipsText, countriesText]) {
     // Process descriptions
     const descLines = descriptionText.split('\n').filter(line => line.trim());
     descLines.forEach(line => {
@@ -750,6 +747,15 @@ Promise.all([
             });
         }
     });
+
+    // Process country data
+    const countryLines = countriesText.split('\n').filter(line => line.trim());
+countryLines.forEach(line => {
+    const [name, flagUrl] = line.split('\t');
+    if (name && flagUrl) {
+        countriesData[name.trim()] = flagUrl.trim(); // Store the full URL
+    }
+});
 
     processData(pointsText, linksText);
     populateCharacterList();
@@ -898,9 +904,46 @@ function populateCharacterList() {
     const infoDivs = characterCards.append("div")
         .attr("class", "character-info");
     
-    infoDivs.append("div")
+    // Add name and flag container
+    const nameFlagDiv = infoDivs.append("div")
+        .attr("class", "name-flag-container")
+        .style("display", "flex")
+        .style("align-items", "center")
+        .style("gap", "5px");
+    
+    // Add character name
+    nameFlagDiv.append("div")
         .attr("class", "character-name")
         .text(d => d.name);
+    
+    // Add country flag if available
+    nameFlagDiv.each(function(d) {
+    if (countriesData[d.name]) {
+        const flagContainer = d3.select(this).append("div")
+            .attr("class", "flag-container")
+            .style("display", "inline-block")
+            .style("width", "16px")
+            .style("height", "12px")
+            .style("position", "relative");
+
+        flagContainer.append("img")
+            .attr("class", "country-flag")
+            .attr("src", countriesData[d.name])
+            .attr("alt", "Country flag")
+            .style("width", "100%")
+            .style("height", "100%")
+            .style("object-fit", "cover")
+            .style("position", "absolute")
+            .style("top", "0")
+            .style("left", "0")
+            .on("error", function() {
+                // If image fails to load, show a generic flag placeholder
+                d3.select(this)
+                    .attr("src", "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2RkZCIgZD0iTTAgMGgxNnYxMkgweiIvPjwvc3ZnPg==")
+                    .style("opacity", "0.5");
+            });
+    }
+});
     
     const detailsDivs = infoDivs.append("div")
         .attr("class", "character-details");
@@ -911,18 +954,6 @@ function populateCharacterList() {
         .text(d => d.race || "unknown")
         .style("background-color", d => raceColors[d.race] || "#666")
         .style("color", "white");
-    
-   /* // Add institution(s) if available
-    detailsDivs.each(function(d) {
-        const details = d3.select(this);
-        if (institutionsData[d.name] && institutionsData[d.name].length > 0) {
-            details.append("span")
-                .attr("class", "character-institution")
-                .text(institutionsData[d.name].join(", "))
-                .style("margin-left", "8px")
-                .style("font-style", "italic");
-        }
-    });*/
     
     // Add age display with deceased indicator if applicable
     const ageSpans = detailsDivs.append("span")
@@ -940,11 +971,13 @@ function populateCharacterList() {
                 .text(`Age: ${d.age}`);
         }
     });
+    
     // Add job
     detailsDivs.append("span")
-    .attr("class", "job")
-    .text(d => d.job || "")
-    .style("margin-top", "5px"); // Adding margin-top of 5 pixels
+        .attr("class", "job")
+        .text(d => d.job || "")
+        .style("margin-top", "5px");
+    
     // Set up race filter to work with institution filter
     d3.select("#race-filter").on("change", function() {
         applyFilters();
@@ -1228,3 +1261,4 @@ document.addEventListener("click", function(event) {
         }
     }
 });
+
