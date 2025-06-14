@@ -4,11 +4,11 @@ Evan Gabriel Dubois	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe32
 Lena Frida Lund (née Müller)	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Klaus Jakob Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Anastasia Clara Blackwell
-Arya Natalie Davenport
+Arya Natalie Davenport	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Aurora Vivienne Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Bernadetta Ottavia Conti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
 Chiara Ilaria Lombardi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Daniel Apollo Dreschler
+Daniel Apollo Dreschler	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Declan Aidan Bernhard	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Deianeira Cecilia Lund
 Felicity Gemma Montgomery
@@ -16,7 +16,7 @@ Harper Adriana Esposito
 Harrison James Whitmore
 Hera Melody Harlow	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Katrina Deva Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Lennon Therasia Windsor
+Lennon Therasia Windsor	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Leone Battista Dalmonte	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Salvatore Edoardo Moretti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Theodore Percival Hayes
@@ -32,9 +32,9 @@ Dante Konstantin Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627
 Florence Elise Winslow	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Carmen Iscariot Denali
 Juliette Claire Lefèvre	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
-Emery Herman Bernhard
+Emery Herman Bernhard	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Camille Lillian Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
-Charlotte Iris Dreschler
+Charlotte Iris Dreschler	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Hazel Adeline Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Søren Ragnar Lindström
 Danila Halle Lindström
@@ -60,7 +60,7 @@ Alastar Zander Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc
 Samir Bakir
 Thomas Léon Harlow	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Matthew Lúcio Harlow
-Damir Harlow
+Damir Harlow	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Olivia Harriet Calloway
 Mariana Lucía Gonzalez
 Kurt Hartwin Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
@@ -71,19 +71,19 @@ Matteo Rossi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92
 Jeremiah Rhys Sinclair
 Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
 Niccolò Davide Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy	Italy
-The British Royal Family
-Sabrina Miranda Volturi
+The British Royal Family	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Sabrina Miranda Volturi	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Dominic Lucien Harrington
 Maxime Julien Delacroix
 Gabriella Harper Rhodes
-Layla Eman Bakir
+Layla Eman Bakir	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Delilah Grace Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Zophia Giulia Barone / Zosė
 Magdalena Judi Cadorna	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Theodosius Valerian Barca
 Sophia Alessia Belotti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Fiona Giselle Rochefort	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
-Gladys Agatha Archdale
+Gladys Agatha Archdale	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Sophia Martelli	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Luca de Santis	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Emma Celestine Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
@@ -95,31 +95,31 @@ Marcus Volturi
 Jane Volturi
 Athenodora Thea Volturi
 Alfons Janczewski
-Evelyn Brown
+Evelyn Brown	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Franklin Hughes	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Alessio the Undressio	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Zigmas
+Zigmas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Emilia Leonie Richter	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Monique Seraphine Marlowe	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Kenneth James Sinclair	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Adam Christopher Miller
-Tomas Aurimas Vaičekauskas
-Kael Asher Everhart
-Miss Catherine Eleanor Earnshaw Bianchi Harlow
-Leopoldas
-Obsidianas
-Reksas
-Triušiai
-Vištos
-Antanas
-Barnabas
-Hubertas
-Juozas
-Katinas
-Konstantinas
-Liusilė
-Natanielis Jaunesnysis
-Rozmarinas
+Tomas Aurimas Vaičekauskas	https://i.pinimg.com/736x/98/60/f9/9860f9cbd686e39cf0be9fb916e3c05b.jpg	Lithuania
+Kael Asher Everhart	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Miss Catherine Eleanor Earnshaw Bianchi Harlow	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Leopoldas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Obsidianas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Reksas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Triušiai	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Vištos	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Antanas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Barnabas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Hubertas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Juozas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Katinas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Konstantinas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Liusilė	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Natanielis Jaunesnysis	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Rozmarinas	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Paslaptingoji NJ panelė iš kitapus tvoros	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Miso
 Chilli
@@ -129,7 +129,7 @@ Pupa
 Volfgangas
 Jazminas / Žakas	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Pogo
-Fusillo
+Fusillo	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Don Canino
 Svetlana
 Rupertas
@@ -153,7 +153,7 @@ Aurelio Andrea Bergamaschi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b1
 Riccardo Fabrizio Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Giada Marcella Bianchi (née Allegretti)	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Lorenzo Amadeo Bellini	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Nijolė Laima Davolienė
+Nijolė Laima Davolienė	https://i.pinimg.com/736x/98/60/f9/9860f9cbd686e39cf0be9fb916e3c05b.jpg	Lithuania
 Barbara Eugenia Franks
 Matilda Sophia Andersen
 Stella Maria Santos
@@ -177,7 +177,7 @@ Rosita Maria Alvarez
 Haruto Hiroshi Adachi
 Elias Gabriel Costa
 Nico Ross Matthews
-Lila Grace Thompson
+Lila Grace Thompson	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Selene Elena Dimitriou	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Edward William Richmond
 Savannah Luna Blanchard	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
@@ -190,14 +190,14 @@ Sofía Isabel Domínguez
 Valentina Inés Duarte
 Engel Tobias Müller	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Kristaps Andris Berzins
-Birutė Elena Žukauskienė
-Danutė Jadvyga Jankauskienė
-Violeta Emilija Kazlauskienė
+Birutė Elena Žukauskienė	https://i.pinimg.com/736x/98/60/f9/9860f9cbd686e39cf0be9fb916e3c05b.jpg	Lithuania
+Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/98/60/f9/9860f9cbd686e39cf0be9fb916e3c05b.jpg	Lithuania
+Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/98/60/f9/9860f9cbd686e39cf0be9fb916e3c05b.jpg	Lithuania
 Juniper Mae Forrester
 Damian Lee Roberts
 Lavinia Grace Hendricks
 Virginie Claire Moulin
-Bernard Lucien Hopkins
+Bernard Lucien Hopkins	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Henrik Jürgen Schneider
 Pauline Estelle Morrison
 Gaelle Amélie Deveraux
@@ -205,7 +205,7 @@ Luisa Carmen Ramirez
 Abigail Rose Collins
 Suzuki Kyo Haruka
 Gertrude Miriam Nicholson
-William Arthur Atkins
+William Arthur Atkins	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Aisha Aadhya Malik
 Esihle Amara Ndlovu
 Amelia Clarke
@@ -220,8 +220,8 @@ Enzo Marchetti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d
 Fabio Neri	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Giulia Carbone	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Hanna Lindström
-Henry Mills
-James „Jamie“ Edwards
+Henry Mills	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+James „Jamie“ Edwards	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Katarzyna Zielińska
 Luca Ferraro	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Luisa De Luca	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
@@ -233,7 +233,7 @@ Ravi Kapoor
 Simone Pellegrini	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Vittoria Mancini	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Charlotte „Charlie“ Woods
-Archie Hayes
+Archie Hayes	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Clara Santini	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Davide Russo	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Enzo Mazzetti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
