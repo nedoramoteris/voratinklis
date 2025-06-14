@@ -1608,10 +1608,10 @@ Ethan James Carter	Leonard Friedrich Bauer	1	1
 Isabelle Marie Carter	Lars Kristian Sørensen	6	6
 Lars Kristian Sørensen	Leonard Friedrich Bauer	4	4
 
-Hubert Frank Bernhard	Emery Herman Bernhard	2	2
-Hubert Frank Bernhard	Declan Aidan Bernhard	2	2
-Hubert Frank Bernhard	Hera Melody Harlow	6	6
-Hubert Frank Bernhard	Søren Ragnar Lindström	1	1
+Frank Hubert Bernhard	Emery Herman Bernhard	2	2
+Frank Hubert Bernhard	Declan Aidan Bernhard	2	2
+Frank Hubert Bernhard	Hera Melody Harlow	6	6
+Frank Hubert Bernhard	Søren Ragnar Lindström	1	1
 
 
 Ethan James Carter	Isabelle Marie Carter	2	2
