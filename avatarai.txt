@@ -329,7 +329,7 @@ Ethan James Carter	https://i.pinimg.com/736x/cf/67/2b/cf672bb5356ce5ff69065916ce
 Henry William Thompson	https://i.pinimg.com/736x/79/a6/88/79a688468e996a9f088ffb1c9d92f59c.jpg	hybrid	2007-07-22
 Frank Hubert Bernhard	https://i.pinimg.com/736x/d7/0e/e2/d70ee2db89c8734872964e12155ec16c.jpg	hybrid	2008-01-30
 Isabelle Marie Carter	https://i.pinimg.com/736x/c3/2d/d5/c32dd5ee342ddc80458b0ccde6888c52.jpg	hybrid	2007-09-05
-Kaya Elina Virtanenhttps://i.pinimg.com/736x/6b/6d/3d/6b6d3db0a9c88f20c251f8a31e9853e4.jpg	witch	2008-04-18
+Kaya Elina Virtanen	https://i.pinimg.com/736x/6b/6d/3d/6b6d3db0a9c88f20c251f8a31e9853e4.jpg	witch	2008-04-18
 Lars Kristian Sørensen	https://i.pinimg.com/736x/ef/81/a6/ef81a6c9da67b255f4524ed5a4638a1f.jpg	werewolf	2007-12-25
 Leonard Friedrich Bauer	https://i.pinimg.com/736x/e9/ea/94/e9ea94afb809e5f8119ad1908f003b88.jpg	hybrid	2008-02-11
 Nikolai Ivan Petrov	https://i.pinimg.com/736x/61/6d/22/616d227fdc76e56801c1ca1e989f1793.jpg	werewolf	2007-10-31
