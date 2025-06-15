@@ -249,7 +249,7 @@ Fabio Neri	https://i.pinimg.com/736x/f5/c4/96/f5c496c54c9731407823046f5ef71c63.j
 Giulia Carbone	https://i.pinimg.com/736x/b8/e7/56/b8e756591fb9d8dbf8a15be5bddd394a.jpg	human
 Hanna Lindström	https://i.pinimg.com/736x/c3/d3/d5/c3d3d542146d4533940b8dbb84b4e4a8.jpg	witch
 Henry Mills	https://i.pinimg.com/736x/c6/40/f2/c640f217a44b0f4406b0614aa8e88736.jpg	human
-James „Jamie“ Edwards	https://i.pinimg.com/736x/c5/0a/e3/c50ae361030a3b39174e0b193db5602d.jpg	human
+James „Jamie“ Edwards	https://i.pinimg.com/736x/c5/0a/e3/c50ae361030a3b39174e0b193db5602d.jpg	human	...
 Katarzyna Zielińska	https://i.pinimg.com/736x/8a/06/c8/8a06c8b156f58be6168ca71cbe23dc93.jpg	human
 Luca Ferraro	https://i.pinimg.com/736x/a6/fd/b5/a6fdb5de2169959836482416fb529c46.jpg	human
 Luisa De Luca	https://i.imgur.com/GGhTxOb.jpeg	human
@@ -260,7 +260,7 @@ Oliver „Ollie“ Brown	https://i.pinimg.com/736x/48/b8/b0/48b8b00db3aa581c430e
 Ravi Kapoor	https://i.pinimg.com/736x/4e/29/f8/4e29f8d2d44dec60d2f26fb7920a4c44.jpg	human
 Simone Pellegrini	https://i.pinimg.com/736x/34/3d/47/343d477f334ea5ba96d86d0c47a48228.jpg	human
 Vittoria Mancini	https://i.pinimg.com/736x/dc/39/9b/dc399b9e39a8e8c4733c6bf571c41c17.jpg	human
-Charlotte „Charlie“ Woods	https://i.pinimg.com/736x/d6/55/8d/d6558dcf6b45309cd0c1bca8671167af.jpg	human
+Charlotte „Charlie“ Woods	https://i.pinimg.com/736x/d6/55/8d/d6558dcf6b45309cd0c1bca8671167af.jpg	human	...
 
 
 Leono Draugai	https://i.pinimg.com/736x/af/77/a3/af77a3d9a745ab788b48ae6fb624cabb.jpg
