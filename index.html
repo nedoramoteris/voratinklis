@@ -2,7 +2,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
      
-<div class="credit">base code by <a href="https://github.com/grumpynight/d3network">grumpynight</a></div>.
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +10,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  
     <div class="container">
+      
         <div class="character-list">
             <div class="prilipdytas"><h2>Personažų katalogas</h2>
             <div class="search-container">
@@ -53,7 +54,7 @@
         <div class="visualization-container">
             <svg></svg>
         </div>
-  
+
     </div>
    <div class="search-container">
     <input type="text" class="search-input" placeholder="IEŠKOTI">
@@ -107,7 +108,19 @@
     <div class="scroll-down-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" style="width: 1em; height: 1em; vertical-align: middle; fill: currentColor; overflow: hidden;" viewBox="0 0 1024 1024" version="1.1">
       <path d="M972.8 248.414815c-18.962963-18.962963-43.614815-28.444444-70.162963-28.444445-24.651852 0-47.407407 11.377778-64.474074 28.444445L512 576.474074 183.940741 248.414815c-18.962963-18.962963-43.614815-28.444444-70.162963-28.444445-24.651852 0-47.407407 11.377778-64.474074 28.444445-18.962963 18.962963-28.444444 43.614815-28.444445 70.162963 0 24.651852 11.377778 47.407407 28.444445 64.474074L443.733333 777.481481c17.066667 17.066667 41.718519 28.444444 68.266667 28.444445h1.896296c24.651852 0 47.407407-11.377778 64.474074-28.444445l396.325926-398.222222c17.066667-17.066667 26.548148-41.718519 26.548148-64.474074 0-24.651852-9.481481-47.407407-28.444444-66.37037z"/>
     </svg></div>
-<a href="https://nedoramoteris.github.io/forksstats/" class="statistika">Forksoverse statistika <i>čia</i></a>
+   <div class="relationship-container"><div class="relationship-circles">
+        <div class="relationship-circle" data-type="1" style="background: #7d697e;" title="Show Friends"></div>
+        <div class="relationship-circle" data-type="8" style="background: #80938e;" title="Show Colleagues"></div>
+        <div class="relationship-circle" data-type="4" style="background: #786fad;" title="Show Frenemies"></div>
+        <div class="relationship-circle" data-type="7" style="background: #00858b;" title="Show Enemies"></div>
+        <div class="relationship-circle" data-type="2" style="background: #4b6052;" title="Show Family"></div>
+        <div class="relationship-circle" data-type="3" style="background: #934343;" title="Show Romantic Partners"></div>
+        <div class="relationship-circle" data-type="5" style="background: #c57090;" title="Show Friends with Benefits"></div>
+        <div class="relationship-circle" data-type="0" style="background: #91796e;" title="Show Former Partners"></div>
+        <div class="relationship-circle" data-type="6" style="background: white; border: 1px solid #ccc;" title="Show ONS"></div>
+    </div>
+    <a href="https://nedoramoteris.github.io/forksstats/" class="statistika">peržiūrėti statistiką <i><b>čia</b></i></a>
+
     <script src="main.js"></script>
  
 </body>
