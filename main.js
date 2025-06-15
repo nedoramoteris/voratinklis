@@ -1262,3 +1262,62 @@ document.addEventListener("click", function(event) {
     }
 });
 
+// Function to highlight relationships by type
+function highlightRelationships(type) {
+    // First, reset everything to normal
+    resetNodeStates();
+    
+    // Highlight links of the selected type
+    link.classed("highlighted", d => d.type == type)
+        .classed("faded", d => d.type != type);
+
+    // Find all nodes connected by these relationships
+    const connectedNodes = new Set();
+    links.forEach(link => {
+        if (link.type == type) {
+            connectedNodes.add(link.source.id);
+            connectedNodes.add(link.target.id);
+        }
+    });
+
+    // Highlight connected nodes
+    node.classed("highlighted", d => connectedNodes.has(d.id))
+        .classed("faded", d => !connectedNodes.has(d.id));
+
+    // Show labels for highlighted nodes
+    labelGroups.classed("visible", d => connectedNodes.has(d.id));
+}
+
+// Make the relationship circles clickable
+document.querySelectorAll('.relationship-circle').forEach(circle => {
+    circle.addEventListener('click', function(event) {
+        event.stopPropagation(); // Don't let the click affect other elements
+        
+        const type = parseInt(this.getAttribute('data-type'));
+        
+        // Remove active class from all circles
+        document.querySelectorAll('.relationship-circle').forEach(c => {
+            c.classList.remove('active');
+        });
+        
+        // Add active class to clicked circle
+        this.classList.add('active');
+        
+        // Highlight the relationships
+        highlightRelationships(type);
+    });
+});
+
+// Click anywhere else to reset
+document.addEventListener('click', function(event) {
+    if (!event.target.closest('.relationship-circle') &&
+        !event.target.closest('.legend-item') &&
+        !event.target.closest('.node') &&
+        !event.target.closest('.character-card')) {
+        
+        resetNodeStates();
+        document.querySelectorAll('.relationship-circle').forEach(c => {
+            c.classList.remove('active');
+        });
+    }
+});
