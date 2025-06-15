@@ -58,13 +58,13 @@ Eleni Karissa Aetós-Lund	https://i.imgur.com/KAeRwqP.png	human	1988-10-08	extro
 Atticus Orfeas Lund	https://i.pinimg.com/236x/7d/72/91/7d7291649696cc92ee8650e46fdb3850.jpg	human	2022-07-01	extrovert
 Alastar Zander Lund	https://i.pinimg.com/236x/be/38/49/be384935c52c0e1314cabe6e9bd02489.jpg	human	2022-07-01	introvert
 Samir Bakir	https://i.pinimg.com/474x/79/14/31/791431dbd5f2d394e2078e00ed4b3f59.jpg	human	1987-10-08	extrovert
-Thomas Léon Harlow	https://i.pinimg.com/236x/22/89/d9/2289d9dbf8e565df71221ada1bd3b2d3.jpg	vampire
+Thomas Léon Harlow	https://i.pinimg.com/236x/22/89/d9/2289d9dbf8e565df71221ada1bd3b2d3.jpg	vampire	...
 Matthew Lúcio Harlow	https://i.pinimg.com/236x/05/bb/e2/05bbe25b32769fbd6343d88f3ac81e76.jpg	hunter	1993-10-12
 Damir Harlow	https://i.imgur.com/2HyxmHi.jpeg	human	2023-01-21	introvert
 Olivia Harriet Calloway	https://64.media.tumblr.com/d16c09cd46eaea87ad6bad318047a89f/5a448bfc9aad951a-4a/s500x750/481d65ea15683327bb52d5839f95a3aea1810e75.png	vampirewitch	1919-10-31	extrovert
 Mariana Lucía Gonzalez	https://i.pinimg.com/736x/f9/6c/82/f96c829785c96845252cec4dd3d6ec11.jpg	witch	1990-11-04	extrovert
-Kurt Hartwin Lund	https://i.imgur.com/mOeiTM8.png	human
-Beatrice Johanna Wolf	https://i.pinimg.com/474x/50/93/fd/5093fdf41ffc507091e284eae53634e0.jpg	human
+Kurt Hartwin Lund	https://i.imgur.com/mOeiTM8.png	human	...
+Beatrice Johanna Wolf	https://i.pinimg.com/474x/50/93/fd/5093fdf41ffc507091e284eae53634e0.jpg	human	...
 Scarlett Rosemary Lund	https://i.imgur.com/SDPziMT.png	human
 Venetia Irida Dragoumis	https://64.media.tumblr.com/ae5ca8f2d447ec9dbc195993e26ff6a2/8af4728b5f8769de-af/s400x600/d37938d50feeb64a94db7d5e2dc77fc5a1e9aca1.png	human	1996-07-18	ambivert
 Matteo Rossi	https://i.pinimg.com/736x/28/0f/b1/280fb1f9042e1fd1f39b26e8c67c8f5f.jpg	human	2000-03-17	introvert
