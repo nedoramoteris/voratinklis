@@ -1,12 +1,12 @@
 
 .prilipdytas {position: absolute !important;
 background:#292725;
-margin-top:-25px;
+margin-top:-5px;
   padding-top:15px;
 width:220px;
 z-index: 9999 !important;} 
 .dark-mode .prilipdytas {background:#f5f5f5;}
-#characters-container{margin-top:250px;}
+#characters-container{margin-top:270px;}
 
 .styled-line {
       width: 100%;
