@@ -212,17 +212,17 @@ Akira Kenji Sato	https://i.pinimg.com/736x/fc/48/3a/fc483a8d6389b2e424b5491f2800
 Asterios Nikos Franopoulos	https://i.pinimg.com/736x/9b/b8/e0/9bb8e0ccac957aaad2f9c738800377b7.jpg	hybrid	1725-08-20	...	...	...	Dailės mokytojas
 Sofía Isabel Domínguez	https://i.pinimg.com/736x/95/9e/02/959e023a758c61618091677acec16fa0.jpg	vampire	1836-12-04	...	...	...	Fizikos mokytoja
 Valentina Inés Duarte	https://i.pinimg.com/736x/72/c6/9d/72c69d5d77a59cc8c3387339f62edb02.jpg	vampire	1845-07-19	...	...	...	Matematikos mokytoja
-Engel Tobias Müller	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1710-06-30	...	...	...	Chemijos mokytojas
-Kristaps Andris Berzins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1968-08-14	...	...	...	Biologijos mokytojas
+Engel Tobias Müller	https://i.pinimg.com/736x/a1/e8/68/a1e868d53a70c41bc612ced5add04e48.jpg	hybrid	1710-06-30	...	...	...	Chemijos mokytojas
+Kristaps Andris Berzins	https://i.pinimg.com/736x/44/ea/ba/44eabac680e3abf1eedec38eb26e8016.jpg	werewolf	1968-08-14	...	...	...	Biologijos mokytojas
 Birutė Elena Žukauskienė	https://i.pinimg.com/736x/35/68/f1/3568f128f7f151a8cb6e7797c20a7868.jpg	werewolf	1965-04-27	...	...	...	Pagrindinė virėja
 Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/0e/07/36/0e07366902732a4ee1790129d4912459.jpg	werewolf	1963-11-11	...	...	...	Virėja
 Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/e3/41/53/e341534a76f25b999e69a5b78047492c.jpg	werewolf	1967-02-03	...	...	...	Virėja
 Juniper Mae Forrester	https://i.pinimg.com/736x/28/8f/32/288f32213755845398d68d932e550004.jpg	vampire	1888-10-07	...	...	...	Fotografijos būrelio mokytoja
-Damian Lee Roberts	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1973-09-21	...	...	...	Drabužių dizaino ir modeliavimo būrelio mokytojas
+Damian Lee Roberts	https://i.pinimg.com/736x/05/4d/93/054d93aac8109247e1afd89caf8c6e16.jpg	witch	1973-09-21	...	...	...	Drabužių dizaino ir modeliavimo būrelio mokytojas
 Lavinia Grace Hendricks	https://i.pinimg.com/736x/9f/87/35/9f8735c534114b72dabe625d8eaad253.jpg	hybrid	1745-03-18	...	...	...	Keramikos būrelio mokytoja
 Virginie Claire Moulin	https://i.pinimg.com/736x/86/07/f8/8607f8927043aaf2aeb53d79165fb07c.jpg	werewolf	1961-12-30	...	...	...	Piešimo ir tapybos būrelio mokytoja
 Bernard Lucien Hopkins	https://i.pinimg.com/736x/fd/6c/a3/fd6ca31240574e0cc2b1e40bc80ae6c1.jpg	hunter	1955-06-08	...	...	...	Dainavimo būrelio mokytojas
-Henrik Jürgen Schneider	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1962-05-24	...	...	...	Choro vadovas
+Henrik Jürgen Schneider	https://i.pinimg.com/736x/13/7a/11/137a11a15074cc52934696ad61f8a658.jpg	werewolf	1962-05-24	...	...	...	Choro vadovas
 Pauline Estelle Morrison	https://i.pinimg.com/736x/44/47/5f/44475f0a6cc8f4025888dd4f5cf5e1de.jpg	hybrid	1730-11-29	...	...	...	Šokių mokytoja
 Gaelle Amélie Deveraux	https://i.pinimg.com/736x/c8/88/8a/c8888a94ee916b68e3309d47a60467fc.jpg	hunter	1950-04-17	...	...	...	Baleto mokytoja
 Luisa Carmen Ramirez	https://i.pinimg.com/736x/72/73/f2/7273f224e93999fef70572a86dcc7fcd.jpg	witch	1971-02-14	...	...	...	Maisto gaminimo būrelio mokytoja
