@@ -1618,24 +1618,8 @@ document.addEventListener("DOMContentLoaded", function() {
             );
         });
         
-        // Show labels for highlighted nodes
-        labelGroups.classed("visible", n => nodeIds.has(n.id));
         
-        // Center on the path
-        centerOnPath(path);
-    }
-
-    // Center view on the path
-    function centerOnPath(path) {
-        if (!path) return;
-        
-        const nodeIds = new Set();
-        nodeIds.add(fromNode.id);
-        nodeIds.add(toNode.id);
-        path.forEach(step => nodeIds.add(step.to));
-        
-        const pathNodes = nodes.filter(n => nodeIds.has(n.id));
-        
+      
         // Calculate bounding box
         let minX = Infinity, maxX = -Infinity;
         let minY = Infinity, maxY = -Infinity;
@@ -1694,6 +1678,6 @@ document.addEventListener("DOMContentLoaded", function() {
             '7': "Enemies",
             '8': "Colleagues"
         };
-        return typeNames[type] || `knows ↓`;
+        return typeNames[type] || "↓";
     }
 });
