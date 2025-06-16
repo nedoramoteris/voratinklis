@@ -1525,6 +1525,8 @@ right:15px;}
 
 .relationship-type {
     color: #6E6761;
+  font-size:9px;
+  letter-spacing:1px;
 }
 
 .relationship-detail {
