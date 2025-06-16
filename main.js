@@ -1321,3 +1321,379 @@ document.addEventListener('click', function(event) {
         });
     }
 });
+
+
+// Six Degrees of Separation Tool
+document.addEventListener("DOMContentLoaded", function() {
+    // Create the tool container
+    const sixDegreesTool = document.createElement('div');
+    sixDegreesTool.id = 'six-degrees-tool';
+    sixDegreesTool.className = 'six-degrees-tool';
+    sixDegreesTool.innerHTML = `
+        <div class="six-degrees-header">
+            <span>Degrees of Separation</span>
+            <button class="close-tool">×</button>
+        </div>
+        <div class="six-degrees-body">
+            <div class="input-container">
+                <div class="input-group">
+                    <label>From:</label>
+                    <div class="search-wrapper">
+                        <input type="text" class="search-input from-input" placeholder="Select character">
+                        <button class="clear-input clear-from">×</button>
+                    </div>
+                    <div class="search-results from-results"></div>
+                </div>
+                <div class="input-group">
+                    <label>To:</label>
+                    <div class="search-wrapper">
+                        <input type="text" class="search-input to-input" placeholder="Select character">
+                        <button class="clear-input clear-to">×</button>
+                    </div>
+                    <div class="search-results to-results"></div>
+                </div>
+            </div>
+            <button class="find-path-button">Find Path</button>
+            <div class="path-results"></div>
+        </div>
+    `;
+    document.body.appendChild(sixDegreesTool);
+
+    // Create the toggle button
+    const sixDegreesButton = document.createElement('button');
+    sixDegreesButton.id = 'six-degrees-button';
+    sixDegreesButton.className = 'six-degrees-button';
+    sixDegreesButton.innerHTML = `
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1">
+    <path d="M886.51776 799.66208l-139.93984-139.93984c-10.50624-10.50624-23.90016-16.13824-37.60128-17.44896 42.16832-52.59264 67.54304-119.1936 67.54304-191.6928 0-169.39008-137.80992-307.2-307.2-307.2s-307.2 137.80992-307.2 307.2 137.80992 307.2 307.2 307.2c63.91808 0 123.31008-19.6608 172.52352-53.18656 0.34816 15.23712 6.22592 30.37184 17.85856 42.00448l139.93984 139.93984c11.9808 12.00128 27.72992 18.00192 43.43808 18.00192s31.45728-6.00064 43.43808-18.00192C910.52032 862.55616 910.52032 823.66464 886.51776 799.66208zM469.31968 655.38048c-112.92672 0-204.8-91.87328-204.8-204.8s91.87328-204.8 204.8-204.8 204.8 91.87328 204.8 204.8S582.2464 655.38048 469.31968 655.38048z"/>
+  </svg>
+`;
+    document.body.appendChild(sixDegreesButton);
+
+    // Variables to store selected nodes
+    let fromNode = null;
+    let toNode = null;
+
+    // Toggle tool visibility
+    sixDegreesButton.addEventListener('click', function() {
+        sixDegreesTool.style.display = sixDegreesTool.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Close tool
+    sixDegreesTool.querySelector('.close-tool').addEventListener('click', function() {
+        sixDegreesTool.style.display = 'none';
+    });
+
+    // Clear input fields
+    sixDegreesTool.querySelectorAll('.clear-input').forEach(button => {
+        button.addEventListener('click', function() {
+            const input = this.parentNode.querySelector('.search-input');
+            input.value = '';
+            input.dispatchEvent(new Event('input'));
+            if (this.classList.contains('clear-from')) {
+                fromNode = null;
+            } else {
+                toNode = null;
+            }
+            resetPathHighlight();
+        });
+    });
+
+    // Handle search input for "From" field
+    sixDegreesTool.querySelector('.from-input').addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase();
+        const resultsContainer = sixDegreesTool.querySelector('.from-results');
+        
+        if (!query) {
+            resultsContainer.innerHTML = '';
+            resultsContainer.style.display = 'none';
+            return;
+        }
+        
+        const matches = nodes.filter(node => 
+            node.name.toLowerCase().includes(query)
+        ).slice(0, 10);
+        
+        if (matches.length > 0) {
+            resultsContainer.innerHTML = matches.map(node => 
+                `<div class="search-result-item" data-id="${node.id}">${node.name}</div>`
+            ).join('');
+            resultsContainer.style.display = 'block';
+        } else {
+            resultsContainer.innerHTML = '<div class="no-results">No matches found</div>';
+            resultsContainer.style.display = 'block';
+        }
+    });
+
+    // Handle search input for "To" field
+    sixDegreesTool.querySelector('.to-input').addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase();
+        const resultsContainer = sixDegreesTool.querySelector('.to-results');
+        
+        if (!query) {
+            resultsContainer.innerHTML = '';
+            resultsContainer.style.display = 'none';
+            return;
+        }
+        
+        const matches = nodes.filter(node => 
+            node.name.toLowerCase().includes(query)
+        ).slice(0, 10);
+        
+        if (matches.length > 0) {
+            resultsContainer.innerHTML = matches.map(node => 
+                `<div class="search-result-item" data-id="${node.id}">${node.name}</div>`
+            ).join('');
+            resultsContainer.style.display = 'block';
+        } else {
+            resultsContainer.innerHTML = '<div class="no-results">No matches found</div>';
+            resultsContainer.style.display = 'block';
+        }
+    });
+
+    // Handle selection from search results
+    sixDegreesTool.querySelectorAll('.search-results').forEach(container => {
+        container.addEventListener('click', function(e) {
+            if (e.target.classList.contains('search-result-item')) {
+                const nodeId = e.target.getAttribute('data-id');
+                const node = nodes.find(n => n.id === nodeId);
+                const isFrom = this.classList.contains('from-results');
+                
+                if (isFrom) {
+                    fromNode = node;
+                    sixDegreesTool.querySelector('.from-input').value = node.name;
+                } else {
+                    toNode = node;
+                    sixDegreesTool.querySelector('.to-input').value = node.name;
+                }
+                
+                this.style.display = 'none';
+                
+                // Highlight the selected node
+                resetNodeStates();
+                if (isFrom) {
+                    node.classed("highlighted", n => n.id === fromNode.id);
+                } else {
+                    node.classed("highlighted", n => n.id === toNode.id);
+                }
+                
+                // Center on the selected node
+                centerOnNode(node);
+            }
+        });
+    });
+
+    // Find path button
+    sixDegreesTool.querySelector('.find-path-button').addEventListener('click', function() {
+        if (!fromNode || !toNode) {
+            alert('Please select both characters');
+            return;
+        }
+        
+        if (fromNode.id === toNode.id) {
+            alert('Please select two different characters');
+            return;
+        }
+        
+        const path = findShortestPath(fromNode, toNode);
+        displayPathResults(path);
+        highlightPath(path);
+    });
+
+    // Find shortest path using BFS
+    function findShortestPath(startNode, endNode) {
+        // Create adjacency list
+        const adjacencyList = {};
+        nodes.forEach(node => {
+            adjacencyList[node.id] = [];
+        });
+        
+        links.forEach(link => {
+            adjacencyList[link.source.id].push({ 
+                node: link.target.id, 
+                relationship: link.relationship,
+                type: link.type
+            });
+            adjacencyList[link.target.id].push({ 
+                node: link.source.id, 
+                relationship: link.relationship,
+                type: link.type
+            });
+        });
+        
+        // BFS implementation
+        const queue = [[startNode.id]];
+        const visited = new Set();
+        visited.add(startNode.id);
+        
+        while (queue.length > 0) {
+            const path = queue.shift();
+            const node = path[path.length - 1];
+            
+            if (node === endNode.id) {
+                // Reconstruct the path with relationship info
+                const fullPath = [];
+                for (let i = 0; i < path.length - 1; i++) {
+                    const current = path[i];
+                    const next = path[i + 1];
+                    const link = adjacencyList[current].find(conn => conn.node === next);
+                    fullPath.push({
+                        from: current,
+                        to: next,
+                        relationship: link.relationship,
+                        type: link.type
+                    });
+                }
+                return fullPath;
+            }
+            
+            adjacencyList[node].forEach(neighbor => {
+                if (!visited.has(neighbor.node)) {
+                    visited.add(neighbor.node);
+                    const newPath = [...path, neighbor.node];
+                    queue.push(newPath);
+                }
+            });
+        }
+        
+        return null; // No path found
+    }
+
+    // Display path results
+    function displayPathResults(path) {
+        const resultsContainer = sixDegreesTool.querySelector('.path-results');
+        
+        if (!path) {
+            resultsContainer.innerHTML = '<div class="no-path">No connection found between these characters</div>';
+            return;
+        }
+        
+        let html = '<div class="path-header">Connection found:</div>';
+        html += `<div class="path-step"><span class="path-name">${fromNode.name}</span></div>`;
+        
+        path.forEach((step, index) => {
+            const node = nodes.find(n => n.id === step.to);
+            const relationshipType = getRelationshipTypeName(step.type);
+            html += `
+                <div class="path-relationship">
+                    <span class="relationship-type">${relationshipType}</span>
+                    ${step.relationship ? `<span class="relationship-detail">(${step.relationship})</span>` : ''}
+                </div>
+                <div class="path-step">
+                    <span class="path-name">${node.name}</span>
+                </div>
+            `;
+        });
+        
+        html += `<div class="path-stats">Degrees of separation: ${path.length}</div>`;
+        resultsContainer.innerHTML = html;
+    }
+
+    // Highlight the path on the graph
+    function highlightPath(path) {
+        if (!path) return;
+        
+        resetNodeStates();
+        
+        // Get all node IDs in the path
+        const nodeIds = new Set();
+        nodeIds.add(fromNode.id);
+        nodeIds.add(toNode.id);
+        path.forEach(step => nodeIds.add(step.to));
+        
+        // Highlight nodes
+        node.classed("highlighted", n => nodeIds.has(n.id))
+            .classed("faded", n => !nodeIds.has(n.id));
+        
+        // Highlight links in the path
+        link.classed("highlighted", l => {
+            return path.some(step => 
+                (step.from === l.source.id && step.to === l.target.id) ||
+                (step.from === l.target.id && step.to === l.source.id)
+            );
+        }).classed("faded", l => {
+            return !path.some(step => 
+                (step.from === l.source.id && step.to === l.target.id) ||
+                (step.from === l.target.id && step.to === l.source.id)
+            );
+        });
+        
+        // Show labels for highlighted nodes
+        labelGroups.classed("visible", n => nodeIds.has(n.id));
+        
+        // Center on the path
+        centerOnPath(path);
+    }
+
+    // Center view on the path
+    function centerOnPath(path) {
+        if (!path) return;
+        
+        const nodeIds = new Set();
+        nodeIds.add(fromNode.id);
+        nodeIds.add(toNode.id);
+        path.forEach(step => nodeIds.add(step.to));
+        
+        const pathNodes = nodes.filter(n => nodeIds.has(n.id));
+        
+        // Calculate bounding box
+        let minX = Infinity, maxX = -Infinity;
+        let minY = Infinity, maxY = -Infinity;
+        
+        pathNodes.forEach(node => {
+            minX = Math.min(minX, node.x);
+            maxX = Math.max(maxX, node.x);
+            minY = Math.min(minY, node.y);
+            maxY = Math.max(maxY, node.y);
+        });
+        
+        // Add padding
+        const padding = 150;
+        minX -= padding;
+        maxX += padding;
+        minY -= padding;
+        maxY += padding;
+        
+        // Calculate scale and translation
+        const boxWidth = maxX - minX;
+        const boxHeight = maxY - minY;
+        const scale = Math.min(
+            Math.max(0.2, Math.min(width / boxWidth, height / boxHeight)),
+            0.8
+        );
+        
+        const centerX = (minX + maxX) / 2;
+        const centerY = (minY + maxY) / 2;
+        const x = width/2 - centerX * scale;
+        const y = height/2 - centerY * scale;
+        
+        // Animate to the new view
+        svg.transition()
+            .duration(1000)
+            .call(zoom.transform, d3.zoomIdentity
+                .translate(x, y)
+                .scale(scale));
+    }
+
+    // Reset path highlighting
+    function resetPathHighlight() {
+        resetNodeStates();
+        sixDegreesTool.querySelector('.path-results').innerHTML = '';
+    }
+
+    // Helper function to get relationship type name
+    function getRelationshipTypeName(type) {
+        const typeNames = {
+            '0': "It's complicated",
+            '1': "Friends",
+            '2': "Family",
+            '3': "Romantic partners",
+            '4': "Frenemies",
+            '5': "Friends with benefits",
+            '6': "One night stand",
+            '7': "Enemies",
+            '8': "Colleagues"
+        };
+        return typeNames[type] || `knows ↓`;
+    }
+});
