@@ -1678,6 +1678,6 @@ document.addEventListener("DOMContentLoaded", function() {
             '7': "Enemies",
             '8': "Colleagues"
         };
-        return typeNames[type] || "↓";
+        return typeNames[type] || "knows";
     }
 });
