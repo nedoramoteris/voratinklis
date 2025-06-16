@@ -214,9 +214,9 @@ Sofía Isabel Domínguez	https://i.pinimg.com/736x/95/9e/02/959e023a758c61618091
 Valentina Inés Duarte	https://i.pinimg.com/736x/72/c6/9d/72c69d5d77a59cc8c3387339f62edb02.jpg	vampire	1845-07-19	...	...	...	Matematikos mokytoja
 Engel Tobias Müller	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid	1710-06-30	...	...	...	Chemijos mokytojas
 Kristaps Andris Berzins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1968-08-14	...	...	...	Biologijos mokytojas
-Birutė Elena Žukauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1965-04-27	...	...	...	Pagrindinė virėja
-Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1963-11-11	...	...	...	Virėja
-Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	werewolf	1967-02-03	...	...	...	Virėja
+Birutė Elena Žukauskienė	https://i.pinimg.com/736x/35/68/f1/3568f128f7f151a8cb6e7797c20a7868.jpg	werewolf	1965-04-27	...	...	...	Pagrindinė virėja
+Danutė Jadvyga Jankauskienė	https://i.pinimg.com/736x/0e/07/36/0e07366902732a4ee1790129d4912459.jpg	werewolf	1963-11-11	...	...	...	Virėja
+Violeta Emilija Kazlauskienė	https://i.pinimg.com/736x/e3/41/53/e341534a76f25b999e69a5b78047492c.jpg	werewolf	1967-02-03	...	...	...	Virėja
 Juniper Mae Forrester	https://i.pinimg.com/736x/28/8f/32/288f32213755845398d68d932e550004.jpg	vampire	1888-10-07	...	...	...	Fotografijos būrelio mokytoja
 Damian Lee Roberts	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch	1973-09-21	...	...	...	Drabužių dizaino ir modeliavimo būrelio mokytojas
 Lavinia Grace Hendricks	https://i.pinimg.com/736x/9f/87/35/9f8735c534114b72dabe625d8eaad253.jpg	hybrid	1745-03-18	...	...	...	Keramikos būrelio mokytoja
