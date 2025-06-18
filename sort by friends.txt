@@ -1,83 +1,110 @@
-Aisha Malik	Katrina's friends
-Amara Ndlovu	Katrina's friends
-Amelia Clarke	Katrina's friends
-Antonio „Toni“ Greco	Katrina's friends
-Chiara Fontana	Katrina's friends
-Clara Moretti	Katrina's friends
-Claudio Vitale	Katrina's friends
-Diego Caruso	Katrina's friends
-Elena Moretti	Katrina's friends
-Emanuela „Ella“ Fiore	Katrina's friends
-Enzo Marchetti	Katrina's friends
-Fabio Neri	Katrina's friends
-Giulia Carbone	Katrina's friends
-Hanna Lindström	Katrina's friends
-Henry Mills	Katrina's friends
-James „Jamie“ Edwards	Katrina's friends
-Katarzyna Zielińska	Katrina's friends
-Luca Ferraro	Katrina's friends
-Luisa De Luca	Katrina's friends
-Marta Valli	Katrina's friends
-Matteo „Teo“ Ricci	Katrina's friends
-Natalia Vargas	Katrina's friends
-Oliver „Ollie“ Brown	Katrina's friends
-Ravi Kapoor	Katrina's friends
-Simone Pellegrini	Katrina's friends
-Vittoria Mancini	Katrina's friends
-Charlotte „Charlie“ Woods	Katrina's friends
-Evelyn Brown	Katrina's friends
+Aisha Malik	Katrinos draugai
+Amara Ndlovu	Katrinos draugai
+Amelia Clarke	Katrinos draugai
+Antonio „Toni“ Greco	Katrinos draugai
+Chiara Fontana	Katrinos draugai
+Clara Moretti	Katrinos draugai
+Claudio Vitale	Katrinos draugai
+Diego Caruso	Katrinos draugai
+Elena Moretti	Katrinos draugai
+Emanuela „Ella“ Fiore	Katrinos draugai
+Enzo Marchetti	Katrinos draugai
+Fabio Neri	Katrinos draugai
+Giulia Carbone	Katrinos draugai
+Hanna Lindström	Katrinos draugai
+Henry Mills	Katrinos draugai
+James „Jamie“ Edwards	Katrinos draugai
+Katarzyna Zielińska	Katrinos draugai
+Luca Ferraro	Katrinos draugai
+Luisa De Luca	Katrinos draugai
+Marta Valli	Katrinos draugai
+Matteo „Teo“ Ricci	Katrinos draugai
+Natalia Vargas	Katrinos draugai
+Oliver „Ollie“ Brown	Katrinos draugai
+Ravi Kapoor	Katrinos draugai
+Simone Pellegrini	Katrinos draugai
+Vittoria Mancini	Katrinos draugai
+Charlotte „Charlie“ Woods	Katrinos draugai
+Evelyn Brown	Katrinos draugai
 
 
-Archie Hayes	Leone's friends
-Clara Santini	Leone's friends
-Davide Russo	Leone's friends
-Enzo Mazzetti	Leone's friends
-Finn O’Connor	Leone's friends
-Francesco Ferri	Leone's friends
-Giulia Rinaldi	Leone's friends
-James Carter	Leone's friends
+Archie Hayes	Leono draugai
+Clara Santini	Leono draugai
+Davide Russo	Leono draugai
+Enzo Mazzetti	Leono draugai
+Finn O’Connor	Leono draugai
+Francesco Ferri	Leono draugai
+Giulia Rinaldi	Leono draugai
+James Carter	Leono draugai
 
 
-Amara Evers	Lennon's friends
-Evie Hartwell	Lennon's friends
-Diego Montoya	Lennon's friends
-Duncan Hayes	Lennon's friends
-Malik Bennett	Lennon's friends
-Kaiya Fletcher	Lennon's friends
-
-
-
-Giovanni "Gio" Rinaldi	West's friends
-Gustav "Gus" Kaiser	West's friends
-Luke Collins	West's friends
-Livia Costa	West's friends
-Paul Robinson	West's friends
-Mariska Schmidt	West's friends
+Amara Evers	Lenon draugai
+Evie Hartwell	Lenon draugai
+Diego Montoya	Lenon draugai
+Duncan Hayes	Lenon draugai
+Malik Bennett	Lenon draugai
+Kaiya Fletcher	Lenon draugai
 
 
 
-Archibald "Archie" Lennox	Arya's friends
-Horacio "Horcrux" Rodriguez	Arya's friends
-Kenji Takahashi	Arya's friends
-Layla Massoud	Arya's friends
-Morgan Bellamy	Arya's friends
-Noor Rahmant	Arya's friends
-Quinn O'Leary	Arya's friends
-William "Wil.I.Am" Harper	Arya's friends
-William "Will.I.Can't" Cavendish	Arya's friends
-Zhen Liu	Arya's friends
+Giovanni "Gio" Rinaldi	Vesto draugai
+Gustav "Gus" Kaiser	Vesto draugai
+Luke Collins	Vesto draugai
+Livia Costa	Vesto draugai
+Paul Robinson	Vesto draugai
+Mariska Schmidt	Vesto draugai
 
 
 
-Irida Anastasia Papadopoulos	Demetria's friends
-Robert James Johnson	Demetria's friends
-Albert Edward Smith	Demetria's friends
-Bernadette Elizabeth Jones	Demetria's friends
-Charlie William Brown	Demetria's friends
-Sabrina Louise Clarke	Demetria's friends
-Theodora Eleftheria Constantinou	Demetria's friends	Florence's friends
-Despina Eleni Papadakis	Demetria's friends	Florence's friends
-Andreas Nikolaos Papadopoulos	Demetria's friends	Florence's friends
-Maria Christina Georgiou	Demetria's friends	Florence's friends
-Ioanna Sophia Antoniou	Demetria's friends	Florence's friends
-Georgios Panagiotis Ioannou	Demetria's friends	Florence's friends
+Archibald "Archie" Lennox	Arijos draugai
+Horacio "Horcrux" Rodriguez	Arijos draugai
+Kenji Takahashi	Arijos draugai
+Layla Massoud	Arijos draugai
+Morgan Bellamy	Arijos draugai
+Noor Rahmant	Arijos draugai
+Quinn O'Leary	Arijos draugai
+William "Wil.I.Am" Harper	Arijos draugai
+William "Will.I.Can't" Cavendish	Arijos draugai
+Zhen Liu	Arijos draugai
+
+
+
+Irida Anastasia Papadopoulos	Demetrijos draugai
+Robert James Johnson	Demetrijos draugai
+Albert Edward Smith	Demetrijos draugai
+Bernadette Elizabeth Jones	Demetrijos draugai
+Charlie William Brown	Demetrijos draugai
+Sabrina Louise Clarke	Demetrijos draugai
+Theodora Eleftheria Constantinou	Demetrijos draugai	Florencijos draugai
+Despina Eleni Papadakis	Demetrijos draugai	Florencijos draugai
+Andreas Nikolaos Papadopoulos	Demetrijos draugai	Florencijos draugai
+Maria Christina Georgiou	Demetrijos draugai	Florencijos draugai
+Ioanna Sophia Antoniou	Demetrijos draugai	Florencijos draugai
+Georgios Panagiotis Ioannou	Demetrijos draugai	Florencijos draugai
+
+Demetria Nadira Harlow	Zosės galvos skausmas
+Nathaniel Dean Harlow	Zosės galvos skausmas
+Veronique Helena Dreschler	Zosės galvos skausmas
+Joshua William Lund	Zosės galvos skausmas
+Michael Romeo Harlow	Zosės galvos skausmas
+Florence Elise Winslow	Zosės galvos skausmas
+
+Katrina Deva Bianchi	Londono chebra	The OG6
+West Elliot Harlow	Londono chebra	The OG6
+Aurora Vivienne Boucher	Londono chebra	The OG6
+Arya Natalie Davenport	Londono chebra	The OG6
+Leone Battista Dalmonte	Londono chebra	The OG6
+Salvatore Edoardo Moretti	Londono chebra	The OG6
+Lennon Therasia Windsor	Londono chebra
+Coralie Francesca Romano	Londono chebra
+Valeria Euphemia Greco-Whitmore	Londono chebra
+Alessandro Elio Rossi	Londono chebra
+Anastasia Clara Blackwell	Londono chebra
+Bernadetta Ottavia Conti	Londono chebra
+Hera Melody Harlow	Londono chebra
+Daniel Apollo Dreschler	Londono chebra
+Deianeira Cecilia Lund	Londono chebra
+Declan Aidan Bernhard	Londono chebra
+Harper Adriana Esposito	Londono chebra
+Theodore Percival Hayes	Londono chebra
+
