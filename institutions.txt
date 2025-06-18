@@ -1,29 +1,29 @@
-Demetria Nadira Harlow	Citadel Commons	Dreschler Academy	Paws for Purpose
-Demetri Lorenzo Volturi	The Duskborn Legion	Dreschler Academy
+Demetria Nadira Harlow	Citadel Commons	Dreschler Academy (Staff)	Paws for Purpose
+Demetri Lorenzo Volturi	The Duskborn Legion	Dreschler Academy (Staff)
 Oscar Alejandro Cadorna	Citadel Commons	Reserve Hunters
-Florence Elise Winslow	Citadel Commons	Dreschler Academy
-Camille Lillian Boucher	Citadel Commons	Dreschler Academy	Reserve Hunters
-Arya Natalie Davenport	Reserve Hunters	Paws for Purpose	Westminster Heights University
-Katrina Deva Bianchi	Citadel Commons	Westminster Heights University
-Felix Constantine Volturi	Dreschler Academy	The Duskborn Legion
-Michael Romeo Harlow	Reserve Hunters	Celestial Haven	Dreschler Academy
-
+Florence Elise Winslow	Citadel Commons	Dreschler Academy (Staff)
+Camille Lillian Boucher	Citadel Commons	Dreschler Academy (Staff)	Reserve Hunters
+Arya Natalie Davenport	Reserve Hunters	Paws for Purpose	Westminster Heights University (Students)
+Katrina Deva Bianchi	Citadel Commons	Westminster Heights University (Students)
+Felix Constantine Volturi	Dreschler Academy (Staff)	The Duskborn Legion
+Michael Romeo Harlow	Reserve Hunters	Celestial Haven	Dreschler Academy (Staff)
+Scarlett Rosemary Lund	Westminster Heights University (Staff)
 
 Veronique Helena Dreschler	Celestial Haven
 
 
-Rodrigo Abeyta	Westminster Heights University
-Sabrina Miranda Volturi	Westminster Heights University
-Anastasia Clara Blackwell	Westminster Heights University
-Aurora Vivienne Boucher	Westminster Heights University
-Declan Aidan Bernhard	Westminster Heights University
-Harper Adriana Esposito	Westminster Heights University
-Theodore Percival Hayes	Westminster Heights University
-Amelia Clarke	Westminster Heights University
-Ravi Kapoor	Westminster Heights University
-Charlotte „Charlie“ Woods	Westminster Heights University
-James „Jamie“ Edwards	Westminster Heights University
-Quinn O'Leary	Westminster Heights University
+Rodrigo Abeyta	Westminster Heights University (Students)
+Sabrina Miranda Volturi	Westminster Heights University (Students)
+Anastasia Clara Blackwell	Westminster Heights University (Students)
+Aurora Vivienne Boucher	Westminster Heights University (Students)
+Declan Aidan Bernhard	Westminster Heights University (Students)
+Harper Adriana Esposito	Westminster Heights University (Students)
+Theodore Percival Hayes	Westminster Heights University (Students)
+Amelia Clarke	Westminster Heights University (Students)
+Ravi Kapoor	Westminster Heights University (Students)
+Charlotte „Charlie“ Woods	Westminster Heights University (Students)
+James „Jamie“ Edwards	Westminster Heights University (Students)
+Quinn O'Leary	Westminster Heights University (Students)
 
 
 
@@ -70,35 +70,53 @@ Duncan Hayes	Reserve Hunters
 
 
 
-Jonathan Fort Harlow	Dreschler Academy
-Randall Frank Dreschler	Dreschler Academy
-Daniel Apollo Dreschler	Dreschler Academy
-Leonardo Marco Belmonte	Dreschler Academy
-Eleazar Matteo Denali	Dreschler Academy
-Tommaso Luca Benedetti	Dreschler Academy
-Akira Kenji Sato	Dreschler Academy
-Asterios Nikos Franopoulos	Dreschler Academy
-Sofía Isabel Domínguez	Dreschler Academy
-Valentina Inés Duarte	Dreschler Academy
-Engel Tobias Müller	Dreschler Academy
-Kristaps Andris Berzins	Dreschler Academy
-Birutė Elena Žukauskienė	Dreschler Academy
-Danutė Jadvyga Jankauskienė	Dreschler Academy
-Violeta Emilija Kazlauskienė	Dreschler Academy
-Juniper Mae Forrester	Dreschler Academy
-Damian Lee Roberts	Dreschler Academy
-Lavinia Grace Hendricks	Dreschler Academy
-Virginie Claire Moulin	Dreschler Academy
-Bernard Lucien Hopkins	Dreschler Academy
-Henrik Jürgen Schneider	Dreschler Academy
-Pauline Estelle Morrison	Dreschler Academy
-Gaelle Amélie Deveraux	Dreschler Academy
-Luisa Carmen Ramirez	Dreschler Academy
-Abigail Rose Collins	Dreschler Academy
-Suzuki Kyo Haruka	Dreschler Academy
-Gertrude Miriam Nicholson	Dreschler Academy
-William Arthur Atkins	Dreschler Academy
+Jonathan Fort Harlow	Dreschler Academy (Staff)
+Randall Frank Dreschler	Dreschler Academy (Staff)
+Daniel Apollo Dreschler	Dreschler Academy (Staff)
+Leonardo Marco Belmonte	Dreschler Academy (Staff)
+Eleazar Matteo Denali	Dreschler Academy (Staff)
+Tommaso Luca Benedetti	Dreschler Academy (Staff)
+Akira Kenji Sato	Dreschler Academy (Staff)
+Asterios Nikos Franopoulos	Dreschler Academy (Staff)
+Sofía Isabel Domínguez	Dreschler Academy (Staff)
+Valentina Inés Duarte	Dreschler Academy (Staff)
+Engel Tobias Müller	Dreschler Academy (Staff)
+Kristaps Andris Berzins	Dreschler Academy (Staff)
+Birutė Elena Žukauskienė	Dreschler Academy (Staff)
+Danutė Jadvyga Jankauskienė	Dreschler Academy (Staff)
+Violeta Emilija Kazlauskienė	Dreschler Academy (Staff)
+Juniper Mae Forrester	Dreschler Academy (Staff)
+Damian Lee Roberts	Dreschler Academy (Staff)
+Lavinia Grace Hendricks	Dreschler Academy (Staff)
+Virginie Claire Moulin	Dreschler Academy (Staff)
+Bernard Lucien Hopkins	Dreschler Academy (Staff)
+Henrik Jürgen Schneider	Dreschler Academy (Staff)
+Pauline Estelle Morrison	Dreschler Academy (Staff)
+Gaelle Amélie Deveraux	Dreschler Academy (Staff)
+Luisa Carmen Ramirez	Dreschler Academy (Staff)
+Abigail Rose Collins	Dreschler Academy (Staff)
+Suzuki Kyo Haruka	Dreschler Academy (Staff)
+Gertrude Miriam Nicholson	Dreschler Academy (Staff)
+William Arthur Atkins	Dreschler Academy (Staff)
 Dreschler Academy Class of 2025	Dreschler Academy
+
+Hera Melody Harlow	Dreschler Academy (Students)
+Søren Ragnar Lindström	Dreschler Academy (Students)
+Cassandra Willa Dreschler	Dreschler Academy (Students)
+Archibald Otto Williams	Dreschler Academy (Students)
+Frank Hubert Bernhard	Dreschler Academy (Students)
+Dominic Alexandru Popescu	Dreschler Academy (Students)
+Ethan James Carter	Dreschler Academy (Students)
+Henry William Thompson	Dreschler Academy (Students)
+Frank Hubert Bernhard	Dreschler Academy (Students)
+Isabelle Marie Carter	Dreschler Academy (Students)
+Kaya Elina Virtanen	Dreschler Academy (Students)
+Lars Kristian Sørensen	Dreschler Academy (Students)
+Leonard Friedrich Bauer	Dreschler Academy (Students)
+Nikolai Ivan Petrov	Dreschler Academy (Students)
+Silvia Claire Dubois	Dreschler Academy (Students)
+Vasilios Dimitriou Papadopoulos	Dreschler Academy (Students)
+Yennifer Katarína Horváth	Dreschler Academy (Students)
 
 
 
