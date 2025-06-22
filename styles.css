@@ -1601,3 +1601,29 @@ position: fixed;
 .veidai:hover {
     color: #aba19e;
 }
+
+.famous {
+position: fixed;
+   top: 50px;
+    right: 134px;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #292725;
+    color: #6E6761;
+    border: none;
+    font-family: 'Lemon/Milk light', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dark-mode .famous {
+    background-color: #f5f5f5;
+}
+
+.famous:hover {
+    color: #aba19e;
+}
