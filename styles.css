@@ -1627,3 +1627,29 @@ position: fixed;
 .famous:hover {
     color: #aba19e;
 }
+
+.gimtadieniai {
+position: fixed;
+   top: 50px;
+    right: 170px;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #292725;
+    color: #6E6761;
+    border: none;
+    font-family: 'Lemon/Milk light', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dark-mode .gimtadieniai {
+    background-color: #f5f5f5;
+}
+
+.gimtadieniai:hover {
+    color: #aba19e;
+}
