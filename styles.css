@@ -499,6 +499,7 @@ font-weight:bold;
     font-family: 'Montserrat', sans-serif;
 font-size:11px;}
 .character-name {
+  font-weight:bold;
   max-width: 220px;
   max-height:80px;
   margin-bottom:5px;
