@@ -1,3 +1,9 @@
+:root {
+  --baby-gradient: linear-gradient(to right, #444b44, #9c8672);
+}
+:root {
+  --daddy-gradient: linear-gradient(to right, #444b44, #9c8672, #444b44);}
+
 
 .prilipdytas {position: absolute !important;
 background:#292725;
@@ -43,7 +49,7 @@ additionalinfo {font-size:8px;margin-top:5px;}
     margin-bottom: 8px;
     color: #fff;
   letter-spacing:1px;
-   background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+   background-image: var(--daddy-gradient);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -380,7 +386,7 @@ svg {
     font-family: 'Lemon/Milk light', sans-serif;
   letter-spacing:1px;
     font-weight: 400;
-background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+background-image: var(--daddy-gradient);
 color:white;
 }
 .search-input::placeholder {
@@ -414,7 +420,7 @@ background:#292725;
 }
 
 .search-result-item:hover {
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
 }
 
 .legend {
@@ -476,7 +482,7 @@ font-weight:bold;
   right: 0; /* <-- this aligns it to the right */
   padding-right: 10px; /* optional, for spacing */color:#6E6761;
 }
-.credit a {background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+.credit a {background-image: var(--daddy-gradient);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;}
 
@@ -518,7 +524,7 @@ body.dark-mode .character-list {
     transition: color 0.3s ease, border-color 0.3s ease;
     font-family: 'Lemon/Milk light', sans-serif;
     letter-spacing: 1px;
-background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+background-image: var(--daddy-gradient);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
@@ -551,7 +557,7 @@ body.dark-mode .character-card:hover {
 }
 
 .character-card.selected {
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
   color:white;
 }
 .character-card.selected .character-details {
@@ -680,7 +686,7 @@ body.dark-mode .search-result-item.selected {
 
 .race-filter {
     margin-bottom: 15px;
-  background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  background-image: var(--daddy-gradient);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -694,7 +700,7 @@ body.dark-mode .search-result-item.selected {
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
     transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-  background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+  background-image: var(--daddy-gradient);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -712,7 +718,7 @@ body.dark-mode .search-result-item.selected {
 body.dark-mode .race-filter select {
     background-color: white;
     border-color: #ddd;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -1037,7 +1043,7 @@ body.dark-mode .clear-search:hover {
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
     transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1055,15 +1061,15 @@ body.dark-mode .clear-search:hover {
 body.dark-mode .institution-filter select {
     background-color: white;
     border-color: #ddd;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
-    -webkit-background-clip: text;
+  background-image: var(--baby-gradient);
+  -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 /* In styles.css, add this after the .race-filter styles */
 .institution-filter {
     margin-bottom: 15px;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1076,7 +1082,7 @@ body.dark-mode .institution-filter select {
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
     transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1094,7 +1100,7 @@ body.dark-mode .institution-filter select {
 body.dark-mode .institution-filter select {
     background-color: white;
     border-color: #ddd;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1104,7 +1110,7 @@ body.dark-mode .institution-filter select {
 /* In styles.css, add this after the .institution-filter styles */
 .friendship-filter {
     margin-bottom: 15px;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1118,7 +1124,7 @@ body.dark-mode .institution-filter select {
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
     transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1136,7 +1142,7 @@ body.dark-mode .institution-filter select {
 body.dark-mode .friendship-filter select {
     background-color: white;
     border-color: #ddd;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1362,7 +1368,7 @@ right:15px;}
     margin-bottom: 15px;
     font-size: 13px;
     letter-spacing: 1px;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1504,7 +1510,7 @@ right:15px;}
 .path-header {
     font-weight: bold;
     margin-bottom: 10px;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1539,7 +1545,7 @@ right:15px;}
 .path-stats {
     margin-top: 10px;
     font-weight: bold;
-    background-image: linear-gradient(to right, #A8B9BF, #BFA980, #b58d84);
+    background-image: var(--daddy-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
