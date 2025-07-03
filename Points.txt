@@ -532,9 +532,6 @@ Marcus Volturi	Demetri Lorenzo Volturi	2	2
 Marcus Volturi	Jane Volturi	2	2
 Jane	Volturi	Charlotte Iris Dreschler	2	2
 Jane Volturi	Demetri Lorenzo Volturi	2	2
-Archibald Otto Williams	Hera Melody Harlow	1	1
-Archibald Otto Williams	Søren Ragnar Lindström	1	1
-Archibald Otto Williams	Cassandra Willa Dreschler	1	1
 Alfons Janczewski	Michael Romeo Harlow	7	7
 Franklin Hughes	West Elliot Harlow	1	1
 Franklin Hughes	Valeria Euphemia Greco-Whitmore	1	1
@@ -1562,6 +1559,7 @@ Nikolai Ivan Petrov	Dreschler Academy Class of 2025	8	8
 Silvia Claire Dubois	Dreschler Academy Class of 2025	8	8
 Vasilios Dimitriou Papadopoulos	Dreschler Academy Class of 2025	8	8
 Yennifer Katarína Horváth	Dreschler Academy Class of 2025	8	8
+Archibald Otto Williams	Dreschler Academy Class of 2025	8	8
 
 Dominic Alexandru Popescu	Yennifer Katarína Horváth	3	3
 Henry William Thompson	Silvia Claire Dubois	5	5
