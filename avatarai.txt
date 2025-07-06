@@ -295,7 +295,7 @@ Giovanni "Gio" Rinaldi	https://i.pinimg.com/736x/0d/68/bd/0d68bdef6f9123228b2f0f
 Gustav "Gus" Kaiser	https://i.pinimg.com/736x/a1/9b/a0/a19ba0bf2762db644e2e71d67b3d1343.jpg	human
 Luke Collins	https://i.pinimg.com/736x/71/00/5e/71005e41420909b5e935edd021fc5787.jpg	human
 Livia Costa	https://i.pinimg.com/736x/89/4c/c8/894cc8cf13e0a1963e99b8b9084d25d9.jpg	human
-Paul Robinson	https://i.pinimg.com/736x/9f/89/98/9f8998f16b9cddde1d416f68ea311a63.jpg	hybrid
+Paul Robinson	https://i.pinimg.com/736x/9f/89/98/9f8998f16b9cddde1d416f68ea311a63.jpgg	hybrid
 Mariska Schmidt	https://i.pinimg.com/736x/19/b8/dc/19b8dc1b4c5de1d1f4a1df58bd1bcd3e.jpg	human
 
 
