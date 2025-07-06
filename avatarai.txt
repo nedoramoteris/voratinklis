@@ -304,7 +304,7 @@ Arijos Draugai	https://i.pinimg.com/736x/af/77/a3/af77a3d9a745ab788b48ae6fb624ca
 Archibald "Archie" Lennox	https://i.pinimg.com/736x/d5/82/e0/d582e038323db282dbaa39e16915f894.jpg	hunter
 Horacio "Horcrux" Rodriguez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire
 Kenji Takahashi	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Layla Massoud	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Layla Massoud	https://i.pinimg.com/736x/a7/2b/9b/a72b9b25d63b355449da278f70017178.jpg	human
 Morgan Bellamy	https://i.pinimg.com/736x/87/7d/30/877d30ee3bffdbfab75c8ae6d36b9c0e.jpg	human
 Noor Rahmant	https://i.pinimg.com/736x/44/01/44/440144fc00897933790bbeffb4e6735d.jpg	hybrid
 Quinn O'Leary	https://i.pinimg.com/736x/6d/bd/49/6dbd49ed73ea155c0e0dd625c92a5d3e.jpg	hybrid
