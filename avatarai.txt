@@ -293,7 +293,7 @@ Kaiya Fletcher	https://i.pinimg.com/736x/18/4f/90/184f90215a88b477276683b1e47448
 Vesto Draugai	https://i.pinimg.com/736x/af/77/a3/af77a3d9a745ab788b48ae6fb624cabb.jpg
 Giovanni "Gio" Rinaldi	https://i.pinimg.com/736x/0d/68/bd/0d68bdef6f9123228b2f0f5f9f6ccbe8.jpg	human
 Gustav "Gus" Kaiser	https://i.pinimg.com/736x/a1/9b/a0/a19ba0bf2762db644e2e71d67b3d1343.jpg	human
-Luke Collins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Luke Collins	https://i.pinimg.com/736x/89/4c/c8/894cc8cf13e0a1963e99b8b9084d25d9.jpg	human
 Livia Costa	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
 Paul Robinson	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid
 Mariska Schmidt	https://i.pinimg.com/736x/19/b8/dc/19b8dc1b4c5de1d1f4a1df58bd1bcd3e.jpg	human
@@ -301,13 +301,13 @@ Mariska Schmidt	https://i.pinimg.com/736x/19/b8/dc/19b8dc1b4c5de1d1f4a1df58bd1bc
 
 
 Arijos Draugai	https://i.pinimg.com/736x/af/77/a3/af77a3d9a745ab788b48ae6fb624cabb.jpg
-Archibald "Archie" Lennox	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hunter
+Archibald "Archie" Lennox	https://i.pinimg.com/736x/d5/82/e0/d582e038323db282dbaa39e16915f894.jpg	hunter
 Horacio "Horcrux" Rodriguez	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	vampire
 Kenji Takahashi	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
 Layla Massoud	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
-Morgan Bellamy	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Morgan Bellamy	https://i.pinimg.com/736x/87/7d/30/877d30ee3bffdbfab75c8ae6d36b9c0e.jpg	human
 Noor Rahmant	https://i.pinimg.com/736x/44/01/44/440144fc00897933790bbeffb4e6735d.jpg	hybrid
-Quinn O'Leary	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	hybrid
+Quinn O'Leary	https://i.pinimg.com/736x/6d/bd/49/6dbd49ed73ea155c0e0dd625c92a5d3e.jpg	hybrid
 William "Wil.I.Am" Harper	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
 William "Will.I.Can't" Cavendish	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
 Zhen Liu	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	witch
