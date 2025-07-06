@@ -291,7 +291,7 @@ Kaiya Fletcher	https://i.pinimg.com/736x/18/4f/90/184f90215a88b477276683b1e47448
 
 
 Vesto Draugai	https://i.pinimg.com/736x/af/77/a3/af77a3d9a745ab788b48ae6fb624cabb.jpg
-Giovanni "Gio" Rinaldi	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
+Giovanni "Gio" Rinaldi	https://i.pinimg.com/736x/0d/68/bd/0d68bdef6f9123228b2f0f5f9f6ccbe8.jpg	human
 Gustav "Gus" Kaiser	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
 Luke Collins	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
 Livia Costa	https://i.pinimg.com/736x/1b/40/77/1b40771d55e80df549205b85df7c4620.jpg	human
