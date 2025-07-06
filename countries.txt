@@ -1,3 +1,7 @@
+Jennifer Eleanor Lockwood	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Sebastian Alastair Davenport	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Claudia Miriam Davenport (née Rosenthal)	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
+Teresa Layla Hendricks	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Yvette Ophelia Boucher	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Louis Alexander Bonnet	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
 Evan Gabriel Dubois	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
@@ -11,15 +15,15 @@ Chiara Ilaria Lombardi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7
 Daniel Apollo Dreschler	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Declan Aidan Bernhard	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Deianeira Cecilia Lund	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
-Felicity Gemma Montgomery
+Felicity Gemma Montgomery https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Harper Adriana Esposito	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
-Harrison James Whitmore
+Harrison James Whitmore 
 Hera Melody Harlow	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Katrina Deva Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Lennon Therasia Windsor	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Leone Battista Dalmonte	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Salvatore Edoardo Moretti	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Theodore Percival Hayes
+Theodore Percival Hayes https://i.pinimg.com/originals/af/48/89/af4889ec8b8ffb99765c01e4c720bb87.jpg	South Korea
 Valeria Euphemia Greco-Whitmore	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 West Elliot Harlow	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Rodrigo Abeyta
@@ -68,14 +72,14 @@ Beatrice Johanna Wolf	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8
 Scarlett Rosemary Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Venetia Irida Dragoumis	https://i.pinimg.com/736x/66/ff/6e/66ff6e70d4ca29c89055627bc098f56e.jpg	Greece
 Matteo Rossi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
-Jeremiah Rhys Sinclair
+Jeremiah Rhys Sinclair	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 Niccolò Davide Bianchi	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
 The British Royal Family	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Sabrina Miranda Volturi	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
-Dominic Lucien Harrington
-Maxime Julien Delacroix
-Gabriella Harper Rhodes
+Dominic Lucien Harrington	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
+Maxime Julien Delacroix	https://i.pinimg.com/736x/d7/a3/a8/d7a3a85cfa6a1c6d48b45fe3271b0655.jpg	France
+Gabriella Harper Rhodes	https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg	The United States
 Layla Eman Bakir	https://i.pinimg.com/736x/4c/e2/64/4ce2648628d548197071ac095953a7fd.jpg	The United Kingdom
 Delilah Grace Lund	https://i.pinimg.com/736x/19/b0/9d/19b09d7635d7490c50e4ea8363b602b9.jpg	Germany
 Zophia Giulia Barone / Zosė	https://i.pinimg.com/736x/d3/98/4f/d3984f814c657479b195b7fa2fbe4d92.jpg	Italy
