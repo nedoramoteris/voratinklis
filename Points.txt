@@ -587,6 +587,7 @@ AUGINTINIAI
 -------------------------------------------------------------------------
 
 Miss Catherine Eleanor Earnshaw Bianchi Harlow	Leopoldas	2	2
+Miss Catherine Eleanor Earnshaw Bianchi Harlow	Lucifur	3	3
 Natanielis Jaunesnysis	Vištos	0	0
 Natanielis Jaunesnysis	Paslaptingoji NJ panelė iš kitapus tvoros	3	3
 Antanas	Katinas	2	2
