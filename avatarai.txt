@@ -25,7 +25,7 @@ Hera Melody Harlow	https://i.imgur.com/y35qSYX.png	hunter	2007-09-06	extrovert
 Katrina Deva Bianchi	https://i.imgur.com/tKbNVV4.jpeg	hunter	2002-12-03	extrovert
 Lennon Therasia Windsor	https://i.pinimg.com/236x/ad/15/e3/ad15e36a3bd4ceb6d8a2abb6fb34abce.jpg	hunter	2000-12-27	extrovert
 Leone Battista Dalmonte	https://i.pinimg.com/236x/c6/28/91/c6289156d4baf30320b787a9930caeee.jpg	hunter	2000-11-14	introvert
-Salvatore Edoardo Moretti	https://i.pinimg.com/enabled/236x/93/eb/a1/93eba16e0a7fc094a7f32584f0eab832.jpg	werewolf	1998-01-18	extrovert
+Salvatore Edoardo Moretti	https://i.pinimg.com/736x/10/01/61/1001616ecbe11895c297badc1e10a349.jpg	werewolf	1998-01-18	extrovert
 Theodore Percival Hayes	https://64.media.tumblr.com/4dd01d173b2940a3c3454c3a0460cd28/2f0201845eb7784d-7a/s500x750/0d957964038360793272a899e4d76b6b87a25896.png	human	2000-02-24	ambivert
 Valeria Euphemia Greco-Whitmore	https://i.imgur.com/EE5k5Gk.png	vampire	1992-01-20	ambivert
 West Elliot Harlow	https://i.imgur.com/no0B1Ii.png	hunter	2002-11-17	introvert
@@ -355,3 +355,4 @@ Nikolai Ivan Petrov	https://i.pinimg.com/736x/61/6d/22/616d227fdc76e56801c1ca1e9
 Silvia Claire Dubois	https://i.pinimg.com/736x/ba/6a/ef/ba6aefbf131260b734607dbd527ea3a6.jpg	werewolf	2008-05-07
 Vasilios Dimitriou Papadopoulos	https://i.pinimg.com/736x/46/cf/35/46cf35d860a0fb4c62dee2a85f1854db.jpg	hybrid	2007-08-19
 Yennifer Katarína Horváth	https://i.pinimg.com/736x/34/67/15/3467154a66aa31c07af5c0f54b972aa4.jpg	witch	2008-06-21
+
