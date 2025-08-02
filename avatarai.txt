@@ -75,7 +75,7 @@ Beatrice Johanna Wolf	https://i.pinimg.com/474x/50/93/fd/5093fdf41ffc507091e284e
 Scarlett Rosemary Lund	https://i.imgur.com/SDPziMT.png	human	1994-03-21	...	...	...	Choreografė / šokių mokytoja
 Venetia Irida Dragoumis	https://i.imgur.com/JkZVbG4.png	human	1996-07-18	ambivert
 Matteo Rossi	https://i.pinimg.com/736x/28/0f/b1/280fb1f9042e1fd1f39b26e8c67c8f5f.jpg	human	2000-03-17	introvert
-Jeremiah Rhys Sinclair	https://i.imgur.com/CoUlsJF.png	human	1995-01-10	ambivert
+Jeremiah Rhys Sinclair	https://i.imgur.com/CoUlsJF.png	human	2000-01-10	ambivert
 Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/99/3c/02/993c023dee96c7d524c07e3850e3c84d.jpg	hunter	1974-09-30	ambivert
 Niccolò Davide Bianchi	https://i.pinimg.com/236x/e7/64/6c/e7646caeeec6256c7d6314aab684d9fa.jpg	hunter	1973-04-21	ambivert
 The British Royal Family	https://i.pinimg.com/736x/68/1b/60/681b60aa5b2909317d5701dfc52492e3.jpg	human	1066	unnecessarily pompous
@@ -108,7 +108,7 @@ Alessio the Undressio	https://i.pinimg.com/736x/f5/e8/86/f5e886b9e6718c93cbf170e
 Zigmas	https://i.pinimg.com/736x/38/a0/ae/38a0aef869221b573ebaa65337598867.jpg	human	1943-06-06	ambivert
 Emilia Leonie Richter	https://i.imgur.com/Mjm8svZ.png	witch	1990-11-11	ambivert
 Monique Seraphine Marlowe	https://i.pinimg.com/736x/02/eb/b8/02ebb881597416f317773c840483f2e5.jpg	hybrid	1874-08-07	introvert
-Kenneth James Sinclair	https://i.pinimg.com/736x/9e/52/83/9e528330c23348bd5da0d6d60b84cc0c.jpg	human	1982-08-14
+Kenneth James Sinclair	https://i.pinimg.com/736x/9e/52/83/9e528330c23348bd5da0d6d60b84cc0c.jpg	human	1979-08-14
 Adam Christopher Miller	https://i.pinimg.com/736x/58/d8/5c/58d85c7bba44da69f6cde24da5defbf7.jpg	human	1980-06-08
 Tomas Aurimas Vaičekauskas	https://i.pinimg.com/736x/92/19/b9/9219b9ef7fbcb3eee853f005ecaa733d.jpg	human	1980-12-15
 Kael Asher Everhart	https://i.pinimg.com/736x/ac/cc/09/accc09b55fd96146b8904e23b537c142.jpg	hunter	2006-01-06
@@ -355,4 +355,5 @@ Nikolai Ivan Petrov	https://i.pinimg.com/736x/61/6d/22/616d227fdc76e56801c1ca1e9
 Silvia Claire Dubois	https://i.pinimg.com/736x/ba/6a/ef/ba6aefbf131260b734607dbd527ea3a6.jpg	werewolf	2008-05-07
 Vasilios Dimitriou Papadopoulos	https://i.pinimg.com/736x/46/cf/35/46cf35d860a0fb4c62dee2a85f1854db.jpg	hybrid	2007-08-19
 Yennifer Katarína Horváth	https://i.pinimg.com/736x/34/67/15/3467154a66aa31c07af5c0f54b972aa4.jpg	witch	2008-06-21
+
 
