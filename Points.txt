@@ -17,7 +17,6 @@ Arya Natalie Davenport	Archibald Elijah Davenport	2	2
 Sebastian Alastair Davenport	Archibald Elijah Davenport	2	2
 Claudia Miriam Davenport (née Rosenthal)	Archibald Elijah Davenport	2	2
 Eleazar Silas Denali	Randall Frank Dreschler	1	1
-Venetia Irida Dragoumis	Michael Romeo Harlow	5	5
 Venetia Irida Dragoumis	Katrina Deva Bianchi	1	1
 Venetia Irida Dragoumis	Florence Elise Winslow	1	1
 Auroros Draugai	Aurora Vivienne Boucher	1	1
@@ -1678,5 +1677,6 @@ Aisha Fatima Khan	Pauline Estelle Morrison	0	0
 Matilda Sophia Andersen	Asterios Nikos Franopoulos	1	1
 Matilda Sophia Andersen	Leonardo Marco Belmonte	1	1
 Matilda Sophia Andersen	Leonardo Marco Belmonte	6	6
+
 
 
