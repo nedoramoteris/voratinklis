@@ -1,3 +1,4 @@
+Nicholas Blackwell	https://i.pinimg.com/736x/d1/a6/cb/d1a6cbf58711a56f462007a99705ef0f.jpg	hunter	1977-05-16	extrovert
 Archibald Elijah Davenport	https://i.imgur.com/gn4w81A.png	hunter	2002-02-24	ambivert
 Leticia Catalina Yamada	https://i.pinimg.com/736x/6e/34/ba/6e34ba67b9e0080124f3718472982fbd.jpg	vampire
 Frederick Elias Adler	https://i.pinimg.com/736x/d5/81/fb/d581fbb9939bbfe74579386bcf513c19.jpg	human
@@ -356,6 +357,7 @@ Nikolai Ivan Petrov	https://i.pinimg.com/736x/61/6d/22/616d227fdc76e56801c1ca1e9
 Silvia Claire Dubois	https://i.pinimg.com/736x/ba/6a/ef/ba6aefbf131260b734607dbd527ea3a6.jpg	werewolf	2008-05-07
 Vasilios Dimitriou Papadopoulos	https://i.pinimg.com/736x/46/cf/35/46cf35d860a0fb4c62dee2a85f1854db.jpg	hybrid	2007-08-19
 Yennifer Katarína Horváth	https://i.pinimg.com/736x/34/67/15/3467154a66aa31c07af5c0f54b972aa4.jpg	witch	2008-06-21
+
 
 
 
