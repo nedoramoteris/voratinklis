@@ -86,14 +86,6 @@ let friendshipsData = {}; // name -> [friendships] (supports multiple)
 let friendshipsList = new Set(); // unique friendships
 let countriesData = {}; // name -> country code
 
-// ================================
-// PERFORMANCE OPTIMIZED SECTION
-// ================================
-
-let linkGroups = {};
-let adjacency = {};
-let ticking = false;
-
 // Race color mapping
 const raceColors = {
     'hunter': '#94655D',
@@ -240,94 +232,88 @@ function calculateAge(dob, dod) {
     return '...';
 }
 
-// Build link groups ONCE
-function buildLinkGroups() {
-    linkGroups = {};
-    links.forEach(link => {
-        const key = [link.source.id, link.target.id].sort().join('-');
-        if (!linkGroups[key]) linkGroups[key] = [];
-        linkGroups[key].push(link);
-    });
-}
-
-// Build adjacency map ONCE
-function buildAdjacency() {
-    adjacency = {};
-    links.forEach(l => {
-        if (!adjacency[l.source.id]) adjacency[l.source.id] = new Set();
-        if (!adjacency[l.target.id]) adjacency[l.target.id] = new Set();
-        adjacency[l.source.id].add(l.target.id);
-        adjacency[l.target.id].add(l.source.id);
-    });
-}
-
+// Separate function for data processing
 function processData(pointsText, linksText) {
     const pointsLines = pointsText.split('\n').filter(line => line.trim());
     console.log("Number of points:", pointsLines.length);
 
+    // Process nodes - now including date of birth, personality, and date of death
     nodes = pointsLines.map(line => {
         const parts = line.split('\t');
         const name = parts[0];
         const image = parts[1];
         const race = parts[2]?.trim().toLowerCase();
         const dob = parts[3] || '...';
+        const dod = parts[5] || '...'; 
         const personality = parts[4] || '...';
-        const dod = parts[5] || '...';
         const additional = parts[6] || '...';
         const job = parts[7] || '';
 
+        const age = calculateAge(dob, dod);
+        
         validNodeNames.add(name);
-
-        return {
-            id: name,
-            name,
-            image,
-            race,
-            dob,
-            personality,
-            dod,
-            additional,
-            job,
-            age: calculateAge(dob, dod)
+        return { 
+            id: name, 
+            name: name, 
+            image: image, 
+            race: race, 
+            dob: dob,
+            personality: personality,
+            dod: dod,
+            age: age,
+            additional: additional,
+            job: job
         };
     });
 
+    // Process links
     const linksLines = linksText.split('\n').filter(line => line.trim());
-
     links = linksLines.map(line => {
         const [source, target, relationship, type] = line.split('\t');
         return { source, target, relationship, type };
-    }).filter(link =>
-        validNodeNames.has(link.source) &&
-        validNodeNames.has(link.target)
-    );
+    }).filter(link => {
+        const isValid = validNodeNames.has(link.source) && validNodeNames.has(link.target);
+        if (!isValid) {
+            console.warn('Skipping invalid link:', link);
+        }
+        return isValid;
+    });
 
-    // LIGHTER SIMULATION
+    // Initialize simulation with less force for smoother movement
     simulation = d3.forceSimulation(nodes)
-        .force("link",
-            d3.forceLink(links)
-                .id(d => d.id)
-                .distance(350)
-                .strength(0.3)
-        )
-        .force("charge",
-            d3.forceManyBody()
-                .strength(-400)
-        )
-        .force("collision",
-            d3.forceCollide()
-                .radius(90)
-                .strength(0.7)
-        )
-        .alphaDecay(0.08)
-        .velocityDecay(0.4);
+        .force("link", d3.forceLink(links).id(d => d.id).distance(500).strength(0.1)) // Reduced strength
+        .force("charge", d3.forceManyBody().strength(-1500).distanceMin(200)) // Reduced strength
+        .force("collision", d3.forceCollide().radius(150).strength(0.3)) // Reduced strength
+        .alphaDecay(0.02); // Slower decay for smoother settling
 
-    buildLinkGroups();
-    buildAdjacency();
-    createVisualization();
+    // Initialize drag behavior after simulation exists
+    drag = d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended);
+
+    function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.2).restart(); // Reduced alpha target
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
 
     console.log("Processed nodes:", nodes);
     console.log("Processed links:", links);
+    
+    // Create visualization elements here
+    createVisualization();
 }
 
 function createVisualization() {
@@ -494,15 +480,22 @@ function createVisualization() {
         })
         .on("mouseover", function(event, d) {
             if (!selectedNode) { // Only show hover effects if no node is selected
-                const connected = adjacency[d.id] || new Set();
+                const connectedNodes = new Set([d.id]);
+                links.forEach(link => {
+                    if (link.source.id === d.id) connectedNodes.add(link.target.id);
+                    if (link.target.id === d.id) connectedNodes.add(link.source.id);
+                });
 
-                node.classed("faded", n =>
-                    n.id !== d.id && !connected.has(n.id)
-                );
-
-                link.classed("faded", l =>
-                    l.source.id !== d.id && l.target.id !== d.id
-                );
+                labelGroups.classed("visible", n => connectedNodes.has(n.id));
+                node.classed("highlighted", n => connectedNodes.has(n.id))
+                    .classed("faded", n => !connectedNodes.has(n.id));
+                link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id)
+                    .classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
+                
+                // Highlight the label on hover
+                d3.select(this).select(".node-label")
+                    .style("font-weight", "bold")
+                    .style("font-size", "1.2em");
                 
                 // Show tooltip on hover
                 showTooltip(d, event);
@@ -510,8 +503,11 @@ function createVisualization() {
         })
         .on("mouseout", function(event, d) {
             if (!selectedNode) { // Only reset if no node is selected
-                node.classed("faded", false);
-                link.classed("faded", false);
+                resetNodeStates();
+                // Reset the label style
+                d3.select(this).select(".node-label")
+                    .style("font-weight", "normal")
+                    .style("font-size", "1em");
                 
                 // Hide tooltip
                 hideTooltip();
@@ -544,22 +540,7 @@ function createVisualization() {
         .style("fill", "none");
 
     // Add drag behavior
-    node.call(d3.drag()
-        .on("start", (event, d) => {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
-        })
-        .on("drag", (event, d) => {
-            d.fx = event.x;
-            d.fy = event.y;
-        })
-        .on("end", (event, d) => {
-            if (!event.active) simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
-        })
-    );
+    node.call(drag);
 
     // Add click handler to SVG to deselect when clicking elsewhere
     svg.on("click", function () {
@@ -574,36 +555,38 @@ function createVisualization() {
         }
     });
 
-    // ========================
-    // THROTTLED TICK
-    // ========================
-
+    // Update the simulation's tick handler with curved links for multiple connections
     simulation.on("tick", () => {
-        if (!ticking) {
-            requestAnimationFrame(() => {
-                updatePositions();
-                ticking = false;
-            });
-            ticking = true;
-        }
-    });
+        // Group links by source-target pairs to handle multiple links
+        const linkGroups = {};
+        links.forEach(link => {
+            const key = [link.source.id, link.target.id].sort().join('-');
+            if (!linkGroups[key]) {
+                linkGroups[key] = [];
+            }
+            linkGroups[key].push(link);
+        });
 
-    function updatePositions() {
+        // Update link positions with offsets for multiple links
         link.each(function(d) {
             const key = [d.source.id, d.target.id].sort().join('-');
             const group = linkGroups[key];
             const index = group.indexOf(d);
             const total = group.length;
-
+            
+            // Calculate offset based on position in group
             const offset = (index - (total - 1) / 2) * 10;
-
+            
+            // Calculate angle between nodes
             const dx = d.target.x - d.source.x;
             const dy = d.target.y - d.source.y;
             const angle = Math.atan2(dy, dx);
-
+            
+            // Calculate perpendicular offset
             const offsetX = Math.sin(angle) * offset;
             const offsetY = -Math.cos(angle) * offset;
-
+            
+            // Apply offset to line positions
             d3.select(this)
                 .attr("x1", d.source.x + offsetX)
                 .attr("y1", d.source.y + offsetY)
@@ -618,7 +601,7 @@ function createVisualization() {
             const pos = calculateLabelPosition(d, nodes, []);
             return `translate(${d.x + pos.x},${d.y + pos.y})`;
         });
-    }
+    });
 }
 
 function resetNodeStates() {
@@ -767,12 +750,12 @@ Promise.all([
 
     // Process country data
     const countryLines = countriesText.split('\n').filter(line => line.trim());
-    countryLines.forEach(line => {
-        const [name, flagUrl] = line.split('\t');
-        if (name && flagUrl) {
-            countriesData[name.trim()] = flagUrl.trim(); // Store the full URL
-        }
-    });
+countryLines.forEach(line => {
+    const [name, flagUrl] = line.split('\t');
+    if (name && flagUrl) {
+        countriesData[name.trim()] = flagUrl.trim(); // Store the full URL
+    }
+});
 
     processData(pointsText, linksText);
     populateCharacterList();
@@ -935,32 +918,32 @@ function populateCharacterList() {
     
     // Add country flag if available
     nameFlagDiv.each(function(d) {
-        if (countriesData[d.name]) {
-            const flagContainer = d3.select(this).append("div")
-                .attr("class", "flag-container")
-                .style("display", "inline-block")
-                .style("width", "16px")
-                .style("height", "12px")
-                .style("position", "relative");
+    if (countriesData[d.name]) {
+        const flagContainer = d3.select(this).append("div")
+            .attr("class", "flag-container")
+            .style("display", "inline-block")
+            .style("width", "16px")
+            .style("height", "12px")
+            .style("position", "relative");
 
-            flagContainer.append("img")
-                .attr("class", "country-flag")
-                .attr("src", countriesData[d.name])
-                .attr("alt", "Country flag")
-                .style("width", "100%")
-                .style("height", "100%")
-                .style("object-fit", "cover")
-                .style("position", "absolute")
-                .style("top", "0")
-                .style("left", "0")
-                .on("error", function() {
-                    // If image fails to load, show a generic flag placeholder
-                    d3.select(this)
-                        .attr("src", "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2RkZCIgZD0iTTAgMGgxNnYxMkgweiIvPjwvc3ZnPg==")
-                        .style("opacity", "0.5");
-                });
-        }
-    });
+        flagContainer.append("img")
+            .attr("class", "country-flag")
+            .attr("src", countriesData[d.name])
+            .attr("alt", "Country flag")
+            .style("width", "100%")
+            .style("height", "100%")
+            .style("object-fit", "cover")
+            .style("position", "absolute")
+            .style("top", "0")
+            .style("left", "0")
+            .on("error", function() {
+                // If image fails to load, show a generic flag placeholder
+                d3.select(this)
+                    .attr("src", "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2RkZCIgZD0iTTAgMGgxNnYxMkgweiIvPjwvc3ZnPg==")
+                    .style("opacity", "0.5");
+            });
+    }
+});
     
     const detailsDivs = infoDivs.append("div")
         .attr("class", "character-details");
@@ -1618,9 +1601,6 @@ document.addEventListener("DOMContentLoaded", function() {
         nodeIds.add(toNode.id);
         path.forEach(step => nodeIds.add(step.to));
         
-        // Get node objects for bounding box calculation
-        const pathNodes = nodes.filter(n => nodeIds.has(n.id));
-        
         // Highlight nodes
         node.classed("highlighted", n => nodeIds.has(n.id))
             .classed("faded", n => !nodeIds.has(n.id));
@@ -1638,6 +1618,8 @@ document.addEventListener("DOMContentLoaded", function() {
             );
         });
         
+        
+      
         // Calculate bounding box
         let minX = Infinity, maxX = -Infinity;
         let minY = Infinity, maxY = -Infinity;
