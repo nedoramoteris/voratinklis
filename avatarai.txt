@@ -76,7 +76,7 @@ Mariana Lucía Gonzalez	https://i.pinimg.com/736x/f9/6c/82/f96c829785c96845252ce
 Kurt Hartwin Lund	https://i.imgur.com/mOeiTM8.png	human	...
 Beatrice Johanna Wolf	https://i.pinimg.com/474x/50/93/fd/5093fdf41ffc507091e284eae53634e0.jpg	human	...
 Scarlett Rosemary Lund	https://i.imgur.com/SDPziMT.png	human	1994-03-21	...	...	...	Choreografė / šokių mokytoja
-Venetia Irida Dragoumis	https://i.imgur.com/JkZVbG4.png	human	1996-07-18	ambivert
+Venetia Irida Dragoumis	https://i.pinimg.com/1200x/b6/8e/a8/b68ea83844e0af33a2bf51f11e0c0894.jpg	human	1996-07-18	ambivert
 Matteo Rossi	https://i.pinimg.com/736x/28/0f/b1/280fb1f9042e1fd1f39b26e8c67c8f5f.jpg	human	2000-03-17	introvert
 Jeremiah Rhys Sinclair	https://i.imgur.com/CoUlsJF.png	human	2000-01-10	ambivert
 Alessandra Maria Mancini-Bianchi	https://i.pinimg.com/736x/99/3c/02/993c023dee96c7d524c07e3850e3c84d.jpg	hunter	1974-09-30	ambivert
@@ -358,6 +358,7 @@ Nikolai Ivan Petrov	https://i.pinimg.com/736x/61/6d/22/616d227fdc76e56801c1ca1e9
 Silvia Claire Dubois	https://i.pinimg.com/736x/ba/6a/ef/ba6aefbf131260b734607dbd527ea3a6.jpg	werewolf	2008-05-07
 Vasilios Dimitriou Papadopoulos	https://i.pinimg.com/736x/46/cf/35/46cf35d860a0fb4c62dee2a85f1854db.jpg	hybrid	2007-08-19
 Yennifer Katarína Horváth	https://i.pinimg.com/736x/34/67/15/3467154a66aa31c07af5c0f54b972aa4.jpg	witch	2008-06-21
+
 
 
 
