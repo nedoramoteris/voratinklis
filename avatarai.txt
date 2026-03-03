@@ -1,3 +1,6 @@
+Catherine Melnyk	https://i.pinimg.com/736x/d8/1b/ae/d81bae40c29c1aed4c7f8983fec6eb01.jpg	human	1997-06-18
+Augustus Nightingale	https://i.pinimg.com/originals/5a/d6/96/5ad6965dd30f40e4e8612ced8677baa7.png	human	1993-09-22
+Jeroslav Beaumont	https://i.pinimg.com/1200x/f0/7b/0c/f07b0cafff47948e8099c2cc60e6c7bd.jpg	human	1987-02-05
 Milo Asmodeus Cross	https://i.ibb.co/9Lfv3g0/tumblr-d39a60969e61096c50ee2f840b7eb046-0c723141-500.jpg	Demon	31 August 1 BC
 Salma Imara Shehata	https://i.pinimg.com/736x/ec/e7/4a/ece74a675ac31ce502eb0fd8ec52ed7a.jpg	supernaturalhuman	1992-02-14	extrovert
 Nicholas Blackwell	https://i.pinimg.com/736x/d1/a6/cb/d1a6cbf58711a56f462007a99705ef0f.jpg	human	1977-05-16	extrovert
@@ -359,6 +362,7 @@ Nikolai Ivan Petrov	https://i.pinimg.com/736x/61/6d/22/616d227fdc76e56801c1ca1e9
 Silvia Claire Dubois	https://i.pinimg.com/736x/ba/6a/ef/ba6aefbf131260b734607dbd527ea3a6.jpg	werewolf	2008-05-07
 Vasilios Dimitriou Papadopoulos	https://i.pinimg.com/736x/46/cf/35/46cf35d860a0fb4c62dee2a85f1854db.jpg	hybrid	2007-08-19
 Yennifer Katarína Horváth	https://i.pinimg.com/736x/34/67/15/3467154a66aa31c07af5c0f54b972aa4.jpg	witch	2008-06-21
+
 
 
 
