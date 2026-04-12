@@ -74,7 +74,7 @@ Jonathan Fort Harlow	Dreschler Academy (Staff)
 Randall Frank Dreschler	Dreschler Academy (Staff)
 Daniel Apollo Dreschler	Dreschler Academy (Staff)
 Leonardo Marco Belmonte	Dreschler Academy (Staff)
-Eleazar Matteo Denali	Dreschler Academy (Staff)
+Eleazar Levi Denali	Dreschler Academy (Staff)
 Tommaso Luca Benedetti	Dreschler Academy (Staff)
 Akira Kenji Sato	Dreschler Academy (Staff)
 Asterios Nikos Franopoulos	Dreschler Academy (Staff)
@@ -118,7 +118,3 @@ Silvia Claire Dubois	Dreschler Academy (Students)
 Vasilios Dimitriou Papadopoulos	Dreschler Academy (Students)
 Yennifer Katarína Horváth	Dreschler Academy (Students)
 
-
-
-Nathaniel Dean Harlow	The Duskborn Legion
-Marcus Volturi	The Duskborn Legion
