@@ -27,7 +27,7 @@ Archibald Elijah Davenport	Leone Battista Dalmonte	1	1
 Arya Natalie Davenport	Archibald Elijah Davenport	2	2
 Sebastian Alastair Davenport	Archibald Elijah Davenport	2	2
 Claudia Miriam Davenport (née Rosenthal)	Archibald Elijah Davenport	2	2
-Eleazar Silas Denali	Randall Frank Dreschler	1	1
+Eleazar Levi Denali	Randall Frank Dreschler	1	1
 Venetia Irida Dragoumis	Katrina Deva Bianchi	1	1
 Venetia Irida Dragoumis	Florence Elise Winslow	1	1
 Auroros Draugai	Aurora Vivienne Boucher	1	1
@@ -187,7 +187,7 @@ Carmen Iscariot Denali	Randall Frank Dreschler	1	1
 Carmen Iscariot Denali	Demetri Lorenzo Volturi	0	0
 Carmen Iscariot Denali	Nathaniel Dean Harlow	4	4
 Carmen Iscariot Denali	Demetria Nadira Harlow	4	4
-Carmen Iscariot Denali	Eleazar Silas Denali	0	0
+Carmen Iscariot Denali	Eleazar Levi Denali	0	0
 Declan Aidan Bernhard	Emery Herman Bernhard	2	2
 Emery Herman Bernhard	Florence Elise Winslow	1	1
 Emery Herman Bernhard	Juliette Claire Lefèvre	1	1
@@ -1160,7 +1160,7 @@ Rosita Maria Alvarez	Lila Grace Thompson	4	4
 
 
 Leonardo Marco Belmonte	Dreschler Academy	8	8
-Eleazar Silas Denali	Dreschler Academy	8	8
+Eleazar Levi Denali	Dreschler Academy	8	8
 Tommaso Luca Benedetti	Dreschler Academy	8	8
 Akira Kenji Sato	Dreschler Academy	8	8
 Asterios Nikos Franopoulos	Dreschler Academy	8	8
@@ -1185,7 +1185,7 @@ Suzuki Kyo Haruka	Dreschler Academy	8	8
 Gertrude Miriam Nicholson	Dreschler Academy	8	8
 William Arthur Atkins	Dreschler Academy	8	8
 
-Leonardo Marco Belmonte	Eleazar Silas Denali	8	8
+Leonardo Marco Belmonte	Eleazar Levi Denali	8	8
 Leonardo Marco Belmonte	Tommaso Luca Benedetti	8	8
 Leonardo Marco Belmonte	Akira Kenji Sato	8	8
 Leonardo Marco Belmonte	Asterios Nikos Franopoulos	8	8
@@ -1209,29 +1209,29 @@ Leonardo Marco Belmonte	Abigail Rose Collins	8	8
 Leonardo Marco Belmonte	Suzuki Kyo Haruka	8	8
 Leonardo Marco Belmonte	Gertrude Miriam Nicholson	8	8
 Leonardo Marco Belmonte	William Arthur Atkins	8	8
-Eleazar Silas Denali	Tommaso Luca Benedetti	8	8
-Eleazar Silas Denali	Akira Kenji Sato	8	8
-Eleazar Silas Denali	Asterios Nikos Franopoulos	8	8
-Eleazar Silas Denali	Sofía Isabel Domínguez	8	8
-Eleazar Silas Denali	Valentina Inés Duarte	8	8
-Eleazar Silas Denali	Engel Tobias Müller	8	8
-Eleazar Silas Denali	Kristaps Andris Berzins	8	8
-Eleazar Silas Denali	Birutė Elena Žukauskienė	8	8
-Eleazar Silas Denali	Danutė Jadvyga Jankauskienė	8	8
-Eleazar Silas Denali	Violeta Emilija Kazlauskienė	8	8
-Eleazar Silas Denali	Juniper Mae Forrester	8	8
-Eleazar Silas Denali	Damian Lee Roberts	8	8
-Eleazar Silas Denali	Lavinia Grace Hendricks	8	8
-Eleazar Silas Denali	Virginie Claire Moulin	8	8
-Eleazar Silas Denali	Bernard Lucien Hopkins	8	8
-Eleazar Silas Denali	Henrik Jürgen Schneider	8	8
-Eleazar Silas Denali	Pauline Estelle Morrison	8	8
-Eleazar Silas Denali	Gaelle Amélie Deveraux	8	8
-Eleazar Silas Denali	Luisa Carmen Ramirez	8	8
-Eleazar Silas Denali	Abigail Rose Collins	8	8
-Eleazar Silas Denali	Suzuki Kyo Haruka	8	8
-Eleazar Silas Denali	Gertrude Miriam Nicholson	8	8
-Eleazar Silas Denali	William Arthur Atkins	8	8
+Eleazar Levi Denali	Tommaso Luca Benedetti	8	8
+Eleazar Levi Denali	Akira Kenji Sato	8	8
+Eleazar Levi Denali	Asterios Nikos Franopoulos	8	8
+Eleazar Levi Denali	Sofía Isabel Domínguez	8	8
+Eleazar Levi Denali	Valentina Inés Duarte	8	8
+Eleazar Levi Denali	Engel Tobias Müller	8	8
+Eleazar Levi Denali	Kristaps Andris Berzins	8	8
+Eleazar Levi Denali	Birutė Elena Žukauskienė	8	8
+Eleazar Levi Denali	Danutė Jadvyga Jankauskienė	8	8
+Eleazar Levi Denali	Violeta Emilija Kazlauskienė	8	8
+Eleazar Levi Denali	Juniper Mae Forrester	8	8
+Eleazar Levi Denali	Damian Lee Roberts	8	8
+Eleazar Levi Denali	Lavinia Grace Hendricks	8	8
+Eleazar Levi Denali	Virginie Claire Moulin	8	8
+Eleazar Levi Denali	Bernard Lucien Hopkins	8	8
+Eleazar Levi Denali	Henrik Jürgen Schneider	8	8
+Eleazar Levi Denali	Pauline Estelle Morrison	8	8
+Eleazar Levi Denali	Gaelle Amélie Deveraux	8	8
+Eleazar Levi Denali	Luisa Carmen Ramirez	8	8
+Eleazar Levi Denali	Abigail Rose Collins	8	8
+Eleazar Levi Denali	Suzuki Kyo Haruka	8	8
+Eleazar Levi Denali	Gertrude Miriam Nicholson	8	8
+Eleazar Levi Denali	William Arthur Atkins	8	8
 Tommaso Luca Benedetti	Akira Kenji Sato	8	8
 Tommaso Luca Benedetti	Asterios Nikos Franopoulos	8	8
 Tommaso Luca Benedetti	Sofía Isabel Domínguez	8	8
