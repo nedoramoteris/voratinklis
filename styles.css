@@ -143,7 +143,7 @@ font-size:8px;
 
 /* FRIENDS */
 .dark-mode .relationship-1 {
-    stroke: #C7A569;  /* Brightened for friendship */
+    stroke: #505975;  /* Brightened for friendship */
 }
 /* COLLEAGUES */
 .relationship-8 {
@@ -246,7 +246,7 @@ svg {
 }
 /*FRIENDS*/
 .relationship-1 {
-    stroke: #C7A569;  /* Green for friendship */
+    stroke: #505975;  /* Green for friendship */
 }
 /*FRENEMIES*/
 .relationship-4 {
@@ -254,7 +254,7 @@ svg {
 }
 /* Coven / Klanas */
 .relationship-9 {
-    stroke: #505975;
+    stroke: #C7A569;
 }
 
 /*FRIENDS WITH BENEFITS*/
