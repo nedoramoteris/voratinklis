@@ -1676,7 +1676,8 @@ document.addEventListener("DOMContentLoaded", function() {
             '5': "Friends with benefits",
             '6': "One night stand",
             '7': "Enemies",
-            '8': "Colleagues"
+            '8': "Colleagues",
+            '9': "Coven"
         };
         return typeNames[type] || "knows";
     }
