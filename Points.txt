@@ -1,3 +1,23 @@
+Danila Halle Lindström	Xavier Sharma	8	8
+Danila Halle Lindström	Bobby Williams	8	8
+Danila Halle Lindström	Tessa Roberts	8	8
+
+Charlotte Iris Dreschler	Maggie Rosewood	1	1
+Charlotte Iris Dreschler	George Bellafiore	1	1
+Charlotte Iris Dreschler	Alistair Bellafiore	1	1
+Charlotte Iris Dreschler	Nathaniel Dean Harlow	1	1
+Charlotte Iris Dreschler	Oliver Noah Harlow	1	1
+Charlotte Iris Dreschler	Oliver Noah Harlow	0	0
+Charlotte Iris Dreschler	Demetri Lorenzo Volturi	1	1
+Charlotte Iris Dreschler	Demetri Lorenzo Volturi	0	0
+
+Chelsea Volturi	Afton Volturi	3	3
+Demetri Lorenzo Volturi	Corin Aleksandrea Volturi	5	5
+Chelsea Volturi	Afton Volturi	3	3
+Marcus Volturi Athenodora Volturi	3	3
+
+
+
 Dakota Frédéric Dreschler	Veronique Helena Dreschler	2	2
 Dakota Frédéric Dreschler	Randall Frank Dreschler	2	2
 Dakota Frédéric Dreschler	Cassandra Willa Dreschler	2	2
@@ -209,7 +229,7 @@ Hazel Adeline Boucher	Florence Elise Winslow	1	1
 Søren Ragnar Lindström	Hera Melody Harlow	1	1
 Søren Ragnar Lindström	Cassandra Willa Dreschler	1	1
 Søren Ragnar Lindström	Danila Halle Lindström	2	2
-Joshua William Lund	Danila Halle Lindström	0	0
+Joshua William Lund	Danila Halle Lindström	3	3
 Michael Romeo Harlow	Florence Elise Winslow	1	1
 Michael Romeo Harlow	Deianeira Cecilia Lund	1	1
 Michael Romeo Harlow	Demetria Nadira Harlow	1	1
@@ -577,11 +597,11 @@ Corin Aleksandrea Volturi	Athenodora Thea Volturi	2	2
 Corin Aleksandrea Volturi	Marcus Volturi	2	2
 Corin Aleksandrea Volturi	Jane Volturi	2	2
 Corin Aleksandrea Volturi	Renata Volturi	2	2
-Athenodora Thea Volturi		Charlotte Iris Dreschler	2	2
-Athenodora Thea Volturi	Demetri Lorenzo Volturi	2	2
-Athenodora Thea Volturi	Marcus Volturi	2	2
-Athenodora Thea Volturi	Jane Volturi	2	2
-Athenodora Thea Volturi	Renata Volturi	2	2
+Athenodora Volturi		Charlotte Iris Dreschler	2	2
+Athenodora Volturi	Demetri Lorenzo Volturi	2	2
+Athenodora Volturi	Marcus Volturi	2	2
+Athenodora Volturi	Jane Volturi	2	2
+Athenodora Volturi	Renata Volturi	2	2
 Felix Constantine Volturi	Athenodora Thea Volturi	2	2
 Felix Constantine Volturi	Jane Volturi	2	2
 Felix Constantine Volturi	Renata Volturi	2	2
