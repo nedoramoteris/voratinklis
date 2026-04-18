@@ -1,3 +1,17 @@
+Xavier Sharma	https://i.imgur.com/Oy5L3td.png	human	1993-02-07
+Bobby Williams	https://i.imgur.com/hpO05TW.jpeg	human	1972-07-16
+Tessa Roberts	https://i.imgur.com/1XSqqh7.gif	human	1996-09-15
+
+Chelsea Volturi	https://i.imgur.com/EwSSzm3.png	volturi	1110 BC
+Athenodora Volturi	https://i.ibb.co/dZDRZnQ/tumblr-f59bab2f24d58cd6c1b19d203b529e7a-4f2cc8f6-500.jpg	volturi	2550 BC
+Afton Volturi	https://i.ibb.co/Dff9777s/tumblr-b2cdbf7254fd774a3a49a76c07d818bf-a22b20ce-500.jpg	volturi	500 BC
+Heidi Volturi	https://i.ibb.co/dy49ZLb/tumblr-7103b6e4202487b980d44445a256823d-884f6156-500.jpg	volturi	1550
+Santiago Volturi	https://i.imgur.com/DphdDHe.png	volturi	2025-06-14
+
+Maggie Rosewood	https://i.imgur.com/osC6Ptf.png	vegetarian	1436
+George Bellafiore	https://i.imgur.com/iLqAP9n.png	vegetarian	1527
+Alistair Bellafiore	https://i.imgur.com/3DCrvUh.png	vegetarian	1528
+
 Dakota Frédéric Dreschler	https://2img.net/i.imgur.com/kW3m5PP.jpeg	human	2025-06-14
 Catherine Melnyk	https://i.pinimg.com/736x/d8/1b/ae/d81bae40c29c1aed4c7f8983fec6eb01.jpg	human	1997-06-18
 Augustus Nightingale	https://i.pinimg.com/originals/5a/d6/96/5ad6965dd30f40e4e8612ced8677baa7.png	human	1993-09-22
@@ -59,7 +73,7 @@ Randall Frank Dreschler	https://i.imgur.com/PAdAEcS.png	vampire	October 13 1427 
 Nathaniel Dean Harlow	https://i.ibb.co/bHvRZzP/tumblr-851888ff6d8d4d7d4b10330901ed8e62-a3a37b49-1280.png	hunter	1983-03-12	introvert
 Demetri Lorenzo Volturi	https://i.ibb.co/bBvr44B/pw.jpg	volturi	1000-12-05
 Veronique Helena Dreschler	https://i.ibb.co/gzG8V3h/pookiecutie.jpg	vampirewitch	1922-02-16
-Alexis Feiyu King	https://i.pinimg.com/736x/90/76/dc/9076dc9dac2fd2ede993006c0afff771.jpg	witch	1997-05-20
+Alexis Feiyu King	https://64.media.tumblr.com/0364f5e43317fd15ab6c4d04acdfa281/a1d13b7d898e842c-00/s500x750/b881b9789d66b7a9cb5a1925bbb6af122469d461.jpg	witch	1997-05-20
 Jonathan Fort Harlow	https://i.imgur.com/HAshfY6.jpg	hunter	1960-07-24	introvert
 Felix Constantine Volturi	https://i.pinimg.com/736x/96/13/37/9613370ecbef3f66413e655986484b91.jpg	volturi	1352-04-25
 Myrtle Maeve Gray	https://i.ibb.co/sbMkwj2/mother.jpg	vampire	1962-08-26
