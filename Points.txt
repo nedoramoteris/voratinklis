@@ -676,6 +676,33 @@ Jonathan Fort Harlow	Lennon Therasia Windsor	8	8
 -------------------------------------------------------------------------
 AUGINTINIAI
 -------------------------------------------------------------------------
+Karvutės	Hubertas	2	2
+Karvutės	Katinas	2	2
+Karvutės	Antanas	2	2
+Karvutės	Juozas	2	2
+Karvutės	Maksimilianas	2	2
+Karvutės	Eugenijus	2	2
+Karvutės	Norbertas	2	2
+Maksimilianas	Hubertas	2	2
+Maksimilianas	Katinas	2	2
+Maksimilianas	Antanas	2	2
+Maksimilianas	Juozas	2	2
+Maksimilianas	Eugenijus	2	2
+Maksimilianas	Norbertas	2	2
+Eugenijus	Hubertas	2	2
+Eugenijus	Katinas	2	2
+Eugenijus	Antanas	2	2
+Eugenijus	Juozas	2	2
+Eugenijus	Norbertas	2	2
+Norbertas	Hubertas	2	2
+Norbertas	Katinas	2	2
+Norbertas	Antanas	2	2
+Norbertas	Juozas	2	2
+Leopoldas	Karvutės	1	1
+Leopoldas	Maksimilianas	1	1
+Leopoldas	Eugenijus	1	1
+Leopoldas	Norbertas	1	1
+
 
 Miss Catherine Eleanor Earnshaw Bianchi Harlow	Leopoldas	2	2
 Miss Catherine Eleanor Earnshaw Bianchi Harlow	Lucifur	3	3
