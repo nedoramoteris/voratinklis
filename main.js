@@ -285,7 +285,9 @@ function processData(pointsText, linksText) {
         .force("charge", d3.forceManyBody().strength(-1500).distanceMin(200)) // Reduced strength
         .force("collision", d3.forceCollide().radius(150).strength(0.3)) // Reduced strength
         .alphaDecay(0.02); // Slower decay for smoother settling
-
+simulation.stop();
+for (let i = 0; i < 300; ++i) simulation.tick();
+    
     // Initialize drag behavior after simulation exists
     drag = d3.drag()
         .on("start", dragstarted)
@@ -556,52 +558,39 @@ function createVisualization() {
     });
 
     // Update the simulation's tick handler with curved links for multiple connections
-    simulation.on("tick", () => {
-        // Group links by source-target pairs to handle multiple links
-        const linkGroups = {};
-        links.forEach(link => {
-            const key = [link.source.id, link.target.id].sort().join('-');
-            if (!linkGroups[key]) {
-                linkGroups[key] = [];
-            }
-            linkGroups[key].push(link);
-        });
+    const linkGroups = {};
+links.forEach(linkItem => {
+    const key = [linkItem.source.id, linkItem.target.id].sort().join('-');
+    if (!linkGroups[key]) linkGroups[key] = [];
+    linkGroups[key].push(linkItem);
+});
 
-        // Update link positions with offsets for multiple links
-        link.each(function(d) {
-            const key = [d.source.id, d.target.id].sort().join('-');
-            const group = linkGroups[key];
-            const index = group.indexOf(d);
-            const total = group.length;
-            
-            // Calculate offset based on position in group
-            const offset = (index - (total - 1) / 2) * 10;
-            
-            // Calculate angle between nodes
-            const dx = d.target.x - d.source.x;
-            const dy = d.target.y - d.source.y;
-            const angle = Math.atan2(dy, dx);
-            
-            // Calculate perpendicular offset
-            const offsetX = Math.sin(angle) * offset;
-            const offsetY = -Math.cos(angle) * offset;
-            
-            // Apply offset to line positions
-            d3.select(this)
-                .attr("x1", d.source.x + offsetX)
-                .attr("y1", d.source.y + offsetY)
-                .attr("x2", d.target.x + offsetX)
-                .attr("y2", d.target.y + offsetY);
-        });
+link.each(function(d) {
+    const key = [d.source.id, d.target.id].sort().join('-');
+    const group = linkGroups[key];
+    const index = group.indexOf(d);
+    const total = group.length;
 
-        node.attr("transform", d => `translate(${d.x},${d.y})`);
+    const offset = (index - (total - 1) / 2) * 10;
+    const dx = d.target.x - d.source.x;
+    const dy = d.target.y - d.source.y;
+    const angle = Math.atan2(dy, dx);
+    const offsetX = Math.sin(angle) * offset;
+    const offsetY = -Math.cos(angle) * offset;
 
-        // Update label positions
-        labelGroups.attr("transform", d => {
-            const pos = calculateLabelPosition(d, nodes, []);
-            return `translate(${d.x + pos.x},${d.y + pos.y})`;
-        });
-    });
+    d3.select(this)
+        .attr("x1", d.source.x + offsetX)
+        .attr("y1", d.source.y + offsetY)
+        .attr("x2", d.target.x + offsetX)
+        .attr("y2", d.target.y + offsetY);
+});
+
+node.attr("transform", d => `translate(${d.x},${d.y})`);
+
+labelGroups.attr("transform", d => {
+    const pos = calculateLabelPosition(d, nodes, []);
+    return `translate(${d.x + pos.x},${d.y + pos.y})`;
+});
 }
 
 function resetNodeStates() {
