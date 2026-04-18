@@ -16,6 +16,57 @@ Demetri Lorenzo Volturi	Corin Aleksandrea Volturi	5	5
 Chelsea Volturi	Afton Volturi	3	3
 Marcus Volturi Athenodora Volturi	3	3
 
+Renata Volturi	Marcus Volturi	2	2
+Renata Volturi	Jane Volturi	2	2
+Renata Volturi	Athenodora Volturi	2	2
+Renata Volturi	Chelsea Volturi	2	2
+Renata Volturi	Afton Volturi	2	2
+Renata Volturi	Heidi Volturi	2	2
+Renata Volturi	Santiago Volturi	2	2
+Renata Volturi	Demetri Lorenzo Volturi	2	2
+Renata Volturi	Felix Konstantin Volturi	2	2
+Marcus Volturi	Jane Volturi	2	2
+Marcus Volturi	Chelsea Volturi	2	2
+Marcus Volturi	Afton Volturi	2	2
+Marcus Volturi	Heidi Volturi	2	2
+Marcus Volturi	Santiago Volturi	2	2
+Marcus Volturi	Demetri Lorenzo Volturi	2	2
+Marcus Volturi	Felix Konstantin Volturi	2	2
+Jane Volturi	Athenodora Volturi	2	2
+Jane Volturi	Chelsea Volturi	2	2
+Jane Volturi	Afton Volturi	2	2
+Jane Volturi	Heidi Volturi	2	2
+Jane Volturi	Santiago Volturi	2	2
+Jane Volturi	Demetri Lorenzo Volturi	2	2
+Jane Volturi	Felix Konstantin Volturi	2	2
+Athenodora Volturi	Chelsea Volturi	2	2
+Athenodora Volturi	Afton Volturi	2	2
+Athenodora Volturi	Heidi Volturi	2	2
+Athenodora Volturi	Santiago Volturi	2	2
+Athenodora Volturi	Demetri Lorenzo Volturi	2	2
+Athenodora Volturi	Felix Konstantin Volturi	2	2
+Chelsea Volturi	Heidi Volturi	2	2
+Chelsea Volturi	Santiago Volturi	2	2
+Chelsea Volturi	Demetri Lorenzo Volturi	2	2
+Chelsea Volturi	Felix Konstantin Volturi	2	2
+Afton Volturi	Heidi Volturi	2	2
+Afton Volturi	Santiago Volturi	2	2
+Afton Volturi	Demetri Lorenzo Volturi	2	2
+Afton Volturi	Felix Konstantin Volturi	2	2
+Heidi Volturi	Santiago Volturi	2	2
+Heidi Volturi	Demetri Lorenzo Volturi	2	2
+Heidi Volturi	Felix Konstantin Volturi	2	2
+Santiago Volturi	Demetri Lorenzo Volturi	2	2
+Santiago Volturi	Felix Konstantin Volturi	2	2
+Corin Volturi	Renata Volturi	2	2
+Corin Volturi	Marcus Volturi	2	2
+Corin Volturi	Jane Volturi	2	2
+Corin Volturi	Athenodora Volturi	2	2
+Corin Volturi	Chelsea Volturi	2	2
+Corin Volturi	Afton Volturi	2	2
+Corin Volturi	Heidi Volturi	2	2
+Corin Volturi	Santiago Volturi	2	2
+Corin Volturi	Felix Konstantin Volturi	2	2
 
 
 Dakota Frédéric Dreschler	Veronique Helena Dreschler	2	2
@@ -220,7 +271,6 @@ Emery Herman Bernhard	Camille Lillian Boucher	1	1
 Emery Herman Bernhard	Demetria Nadira Harlow	1	1
 Emery Herman Bernhard	Nathaniel Dean Harlow	1	1
 Charlotte Iris Dreschler	Randall Frank Dreschler	2	2
-Charlotte Iris Dreschler	Demetri Lorenzo Volturi	1	1
 Charlotte Iris Dreschler	Veronique Helena Dreschler	1	1
 Charlotte Iris Dreschler	Felix Constantine Volturi	1	1
 Hazel Adeline Boucher	Veronique Helena Dreschler	2	2
@@ -591,31 +641,7 @@ Zophia Giulia Barone / Zosė	Demetria Nadira Harlow	4	4
 Zophia Giulia Barone / Zosė	Michael Romeo Harlow	4	4
 Zophia Giulia Barone / Zosė	Nathaniel Dean Harlow	4	4
 Zophia Giulia Barone / Zosė	Veronique Helena Dreschler	4	4
-Corin Aleksandrea Volturi	Charlotte Iris Dreschler	2	2
-Corin Aleksandrea Volturi	Demetri Lorenzo Volturi	2	2
-Corin Aleksandrea Volturi	Athenodora Thea Volturi	2	2
-Corin Aleksandrea Volturi	Marcus Volturi	2	2
-Corin Aleksandrea Volturi	Jane Volturi	2	2
-Corin Aleksandrea Volturi	Renata Volturi	2	2
-Athenodora Volturi		Charlotte Iris Dreschler	2	2
-Athenodora Volturi	Demetri Lorenzo Volturi	2	2
-Athenodora Volturi	Marcus Volturi	2	2
-Athenodora Volturi	Jane Volturi	2	2
-Athenodora Volturi	Renata Volturi	2	2
-Felix Constantine Volturi	Athenodora Thea Volturi	2	2
-Felix Constantine Volturi	Jane Volturi	2	2
-Felix Constantine Volturi	Renata Volturi	2	2
-Felix Constantine Volturi	Corin Aleksandrea Volturi	2	2
-Felix Constantine Volturi	Marcus Volturi	2	2
-Renata Volturi	Charlotte Iris Dreschler	2	2
-Renata Volturi	Demetri Lorenzo Volturi	2	2
-Renata Volturi	Marcus Volturi	2	2
-Renata Volturi	Jane Volturi	2	2
-Marcus Volturi	Charlotte Iris Dreschler	2	2
-Marcus Volturi	Demetri Lorenzo Volturi	2	2
-Marcus Volturi	Jane Volturi	2	2
-Jane	Volturi	Charlotte Iris Dreschler	2	2
-Jane Volturi	Demetri Lorenzo Volturi	2	2
+
 Alfons Janczewski	Michael Romeo Harlow	7	7
 Franklin Hughes	West Elliot Harlow	1	1
 Franklin Hughes	Valeria Euphemia Greco-Whitmore	1	1
