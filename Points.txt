@@ -13,7 +13,6 @@ Charlotte Iris Dreschler	Demetri Lorenzo Volturi	0	0
 
 Chelsea Volturi	Afton Volturi	3	3
 Demetri Lorenzo Volturi	Corin Aleksandrea Volturi	5	5
-Chelsea Volturi	Afton Volturi	3	3
 Marcus Volturi Athenodora Volturi	3	3
 
 Renata Volturi	Marcus Volturi	2	2
