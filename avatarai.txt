@@ -1,3 +1,4 @@
+Jasper "Jazz" Oscar Whitby	https://i.pinimg.com/736x/c7/61/9b/c7619b6e05a2cf48a1b685195b1703f7.jpg	human
 Sami Kharib Shehata	https://i.pinimg.com/1200x/ef/8b/91/ef8b91a780468d6a65c8dc342a311b39.jpg	vampire	1988-09-09
 Karim Dakarai Sharif	https://i.pinimg.com/736x/2e/15/a9/2e15a96858b2324b3656e1293b3ca72a.jpg	human	1990-01-11
 
@@ -360,7 +361,6 @@ Georgios Panagiotis Ioannou	https://i.pinimg.com/736x/1a/69/d4/1a69d41e1512e015c
 
 Auroros Draugai	https://i.pinimg.com/736x/af/77/a3/af77a3d9a745ab788b48ae6fb624cabb.jpg
 Allegra "Legs" Victoria Kensington	https://i.pinimg.com/736x/3d/1a/d8/3d1ad809ea626e8b5b3c351defb7649d.jpg	human
-Jasper "Jazz" Oscar Whitby	https://i.pinimg.com/736x/c7/61/9b/c7619b6e05a2cf48a1b685195b1703f7.jpg	human
 Sofia "Sof" Mariana dos Santos	https://i.pinimg.com/736x/8f/fa/65/8ffa65d1031029e914c2fc68922422b4.jpg	werewolf
 Felix "The Fox" Laurent Bouchard	https://i.pinimg.com/736x/ea/bf/a7/eabfa7473126a48994ee35e24b2b3f78.jpg	human
 Priya "Pip" Anjali Kapoor	https://i.pinimg.com/736x/eb/f4/f0/ebf4f0fc6d33b7a4286f5d105d2d42eb.jpg	witch
