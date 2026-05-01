@@ -1,11 +1,12 @@
 Joshua William Lund	Riley Wachowski-Blue	1	1
 Joshua William Lund	Dave Wachowski	1	1
 Joshua William Lund	Theodore Blue	1	1
+Theodore Blue	Dave Wachowski	1	1
 Riley Wachowski-Blue	Dave Wachowski	2	2
 Riley Wachowski-Blue	Theodore Blue	3	3
 Matthew Lúcio Harlow	Riley Wachowski-Blue	1	1
 Matthew Lúcio Harlow	Dave Wachowski	1	1
-Matthew Lúcio Harlow	Theodore Blue	3	3
+Matthew Lúcio Harlow	Theodore Blue	1	1
 Thomas Léon Harlow	Riley Wachowski-Blue	1	1
 Thomas Léon Harlow	Dave Wachowski	1	1
 Thomas Léon Harlow	Theodore Blue	1	1
