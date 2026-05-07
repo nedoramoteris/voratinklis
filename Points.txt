@@ -569,8 +569,8 @@ Anastasia Clara Blackwell	Salvatore Edoardo Moretti	1	1
 Anastasia Clara Blackwell	West Elliot Harlow	1	1
 Anastasia Clara Blackwell	Deianeira Cecilia Lund	1	1
 Anastasia Clara Blackwell	Declan Aidan Bernhard	1	1
-Bernadetta Ottavia Conti	Katrina Deva Bianchi	1	1
-Bernadetta Ottavia Conti	Valeria Euphemia Greco-Whitmore	1	1
+Benedetta Ottavia Conti	Katrina Deva Bianchi	1	1
+Benedetta Ottavia Conti	Valeria Euphemia Greco-Whitmore	1	1
 Chiara Ilaria Lombardi	Katrina Deva Bianchi	1	1
 Daniel Apollo Dreschler	West Elliot Harlow	1	1
 Declan Aidan Bernhard	Deianeira Cecilia Lund	3	3
@@ -657,10 +657,10 @@ Leonard Bastian Lund	Alastar Zander Lund	2	2
 Sophia Alessia Belotti	Demetria Nadira Harlow	1	1
 Gladys Agatha Archdale	Katrina Deva Bianchi	4	4
 Sophia Martelli	Katrina Deva Bianchi	1	1
-Sophia Martelli	Bernadetta Ottavia Conti	1	1
+Sophia Martelli	Benedetta Ottavia Conti	1	1
 Sophia Martelli	Luca de Santis	1	1
 Luca de Santis	Katrina Deva Bianchi	1	1	
-Luca de Santis	Bernadetta Ottavia Conti	1	1
+Luca de Santis	Benedetta Ottavia Conti	1	1
 Emma Celestine Boucher	Hazel Adeline Boucher	2	2
 Emma Celestine Boucher	Veronique Helena Dreschler	2	2
 Emma Celestine Boucher	Camille Lillian Boucher	2	2
