@@ -1,4 +1,6 @@
 Antonio Gaetano Dalmonte	Leone Battista Dalmonte	2	2
+Antonio Gaetano Dalmonte	Verdiana Lucrezia Dalmonte	0	0
+Leone Battista Dalmonte	Verdiana Lucrezia Dalmonte	2	2
 
 Joshua William Lund	Riley Wachowski-Blue	1	1
 Joshua William Lund	Dave Wachowski	1	1
