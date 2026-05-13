@@ -1,4 +1,5 @@
 Saga Ylwa Wikström	https://i.pinimg.com/1200x/4f/08/fe/4f08fe7212c1b7003a2b3e4335bf7f4b.jpg	human	1972-03-26
+Pappa Lindström	https://i.pinimg.com/736x/d0/1d/3a/d01d3a007ecaaa0b179fb55a82959379.jpg	werewolf	1965-04-04
 
 Antonio Gaetano Dalmonte	https://i.pinimg.com/736x/ec/c2/f7/ecc2f709e50b1b2ccaf07eaa27e928fc.jpg	hunter	1963-08-06
 Verdiana Lucrezia Dalmonte	https://i.pinimg.com/736x/b6/b1/3f/b6b13f3acea5a1918713659393e2757d.jpg	human	1947-01-06
