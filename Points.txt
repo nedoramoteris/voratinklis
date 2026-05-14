@@ -2,6 +2,8 @@ Saga Ylwa Wikström	Lars Anders Lindström	0	0
 Saga Ylwa Wikström	Søren Ragnar Lindström	2	2
 Lars Anders Lindström	Søren Ragnar Lindström	2	2
 Lars Anders Lindström	Danila Halle Lindström	2	2
+Soyun Jeong	Danila Halle Lindström	2	2
+Soyun Jeong	Lars Anders Lindström	0	0
 
 
 Antonio Gaetano Dalmonte	Leone Battista Dalmonte	2	2
