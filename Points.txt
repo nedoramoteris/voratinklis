@@ -1862,7 +1862,108 @@ Matilda Sophia Andersen	Leonardo Marco Belmonte	6	6
 
 
 
-
+Matthías Rögnvaldur Vargssen	Sigrún Yrsa Ljósálfson-Vargssen	3	3
+Matthías Rögnvaldur Vargssen	Eiríkur Bergmann Vargssen	2	2
+Matthías Rögnvaldur Vargssen	Katrín Elfa Vargssen-Jónsson	2	2
+Matthías Rögnvaldur Vargssen	Bryndís Sólveig Vargssen	2	2
+Matthías Rögnvaldur Vargssen	Haukur Dagur Vargssen	2	2
+Matthías Rögnvaldur Vargssen	Ástrós Freyja Vargssen-Cacioppo	2	2
+Matthías Rögnvaldur Vargssen	Gísli Logi Vargssen	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Eiríkur Bergmann Vargssen	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Katrín Elfa Vargssen-Jónsson	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Bryndís Sólveig Vargssen	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Haukur Dagur Vargssen	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Ástrós Freyja Vargssen-Cacioppo	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Gísli Logi Vargssen	2	2
+Matthías Rögnvaldur Vargssen	Hrafn Jónsson	2	2
+Matthías Rögnvaldur Vargssen	Lilja Jónsson	2	2
+Matthías Rögnvaldur Vargssen	Rósa Mélanie Vargssen	2	2
+Matthías Rögnvaldur Vargssen	Benedikt Haukur Vargssen	2	2
+Matthías Rögnvaldur Vargssen	Silvia Kristín Cacioppo	2	2
+Matthías Rögnvaldur Vargssen	Marcello Stefán Cacioppo	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Hrafn Jónsson	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Lilja Jónsson	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Rósa Mélanie Vargssen	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Benedikt Haukur Vargssen	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Silvia Kristín Cacioppo	2	2
+Sigrún Yrsa Ljósálfson-Vargssen	Marcello Stefán Cacioppo	2	2
+Eiríkur Bergmann Vargssen	Katrín Elfa Vargssen-Jónsson	2	2
+Eiríkur Bergmann Vargssen	Bryndís Sólveig Vargssen	2	2
+Eiríkur Bergmann Vargssen	Haukur Dagur Vargssen	2	2
+Eiríkur Bergmann Vargssen	Ástrós Freyja Vargssen-Cacioppo	2	2
+Eiríkur Bergmann Vargssen	Gísli Logi Vargssen	2	2
+Katrín Elfa Vargssen-Jónsson	Bryndís Sólveig Vargssen	2	2
+Katrín Elfa Vargssen-Jónsson	Haukur Dagur Vargssen	2	2
+Katrín Elfa Vargssen-Jónsson	Ástrós Freyja Vargssen-Cacioppo	2	2
+Katrín Elfa Vargssen-Jónsson	Gísli Logi Vargssen	2	2
+Bryndís Sólveig Vargssen	Haukur Dagur Vargssen	2	2
+Bryndís Sólveig Vargssen	Ástrós Freyja Vargssen-Cacioppo	2	2
+Bryndís Sólveig Vargssen	Gísli Logi Vargssen	2	2
+Haukur Dagur Vargssen	Ástrós Freyja Vargssen-Cacioppo	2	2
+Haukur Dagur Vargssen	Gísli Logi Vargssen	2	2
+Ástrós Freyja Vargssen-Cacioppo	Gísli Logi Vargssen	2	2
+Hrafn Jónsson	Lilja Jónsson	2	2
+Hrafn Jónsson	Rósa Mélanie Vargssen	2	2
+Hrafn Jónsson	Benedikt Haukur Vargssen	2	2
+Hrafn Jónsson	Silvia Kristín Cacioppo	2	2
+Hrafn Jónsson	Marcello Stefán Cacioppo	2	2
+Lilja Jónsson	Rósa Mélanie Vargssen	2	2
+Lilja Jónsson	Benedikt Haukur Vargssen	2	2
+Lilja Jónsson	Silvia Kristín Cacioppo	2	2
+Lilja Jónsson	Marcello Stefán Cacioppo	2	2
+Rósa Mélanie Vargssen	Benedikt Haukur Vargssen	2	2
+Rósa Mélanie Vargssen	Silvia Kristín Cacioppo	2	2
+Rósa Mélanie Vargssen	Marcello Stefán Cacioppo	2	2
+Benedikt Haukur Vargssen	Silvia Kristín Cacioppo	2	2
+Benedikt Haukur Vargssen	Marcello Stefán Cacioppo	2	2
+Silvia Kristín Cacioppo	Marcello Stefán Cacioppo	2	2
+Katrín Elfa Vargssen-Jónsson	Jón Arnar Jónsson	3	3
+Katrín Elfa Vargssen-Jónsson	Hrafn Jónsson	2	2
+Katrín Elfa Vargssen-Jónsson	Lilja Jónsson	2	2
+Jón Arnar Jónsson	Hrafn Jónsson	2	2
+Jón Arnar Jónsson	Lilja Jónsson	2	2
+Bryndís Sólveig Vargssen	Björn Ulfheðinsson	3	3
+Haukur Dagur Vargssen	Mélanie Héloïse Tremblay-Vargssen	3	3
+Haukur Dagur Vargssen	Rósa Mélanie Vargssen	2	2
+Haukur Dagur Vargssen	Benedikt Haukur Vargssen	2	2
+Mélanie Héloïse Tremblay-Vargssen	Rósa Mélanie Vargssen	2	2
+Mélanie Héloïse Tremblay-Vargssen	Benedikt Haukur Vargssen	2	2
+Ástrós Freyja Vargssen-Cacioppo	Dante Matteo Cacioppo	3	3
+Ástrós Freyja Vargssen-Cacioppo	Silvia Kristín Cacioppo	2	2
+Ástrós Freyja Vargssen-Cacioppo	Marcello Stefán Cacioppo	2	2
+Dante Matteo Cacioppo	Silvia Kristín Cacioppo	2	2
+Dante Matteo Cacioppo	Marcello Stefán Cacioppo	2	2
+Gísli Logi Vargssen	Anna Sólborg Guðmundson-Vargssen	3	3
+Eiríkur Bergmann Vargssen	Hrafn Jónsson	2	2
+Eiríkur Bergmann Vargssen	Lilja Jónsson	2	2
+Eiríkur Bergmann Vargssen	Rósa Mélanie Vargssen	2	2
+Eiríkur Bergmann Vargssen	Benedikt Haukur Vargssen	2	2
+Eiríkur Bergmann Vargssen	Silvia Kristín Cacioppo	2	2
+Eiríkur Bergmann Vargssen	Marcello Stefán Cacioppo	2	2
+Katrín Elfa Vargssen-Jónsson	Rósa Mélanie Vargssen	2	2
+Katrín Elfa Vargssen-Jónsson	Benedikt Haukur Vargssen	2	2
+Katrín Elfa Vargssen-Jónsson	Silvia Kristín Cacioppo	2	2
+Katrín Elfa Vargssen-Jónsson	Marcello Stefán Cacioppo	2	2
+Bryndís Sólveig Vargssen	Hrafn Jónsson	2	2
+Bryndís Sólveig Vargssen	Lilja Jónsson	2	2
+Bryndís Sólveig Vargssen	Rósa Mélanie Vargssen	2	2
+Bryndís Sólveig Vargssen	Benedikt Haukur Vargssen	2	2
+Bryndís Sólveig Vargssen	Silvia Kristín Cacioppo	2	2
+Bryndís Sólveig Vargssen	Marcello Stefán Cacioppo	2	2
+Haukur Dagur Vargssen	Hrafn Jónsson	2	2
+Haukur Dagur Vargssen	Lilja Jónsson	2	2
+Haukur Dagur Vargssen	Silvia Kristín Cacioppo	2	2
+Haukur Dagur Vargssen	Marcello Stefán Cacioppo	2	2
+Ástrós Freyja Vargssen-Cacioppo	Hrafn Jónsson	2	2
+Ástrós Freyja Vargssen-Cacioppo	Lilja Jónsson	2	2
+Ástrós Freyja Vargssen-Cacioppo	Rósa Mélanie Vargssen	2	2
+Ástrós Freyja Vargssen-Cacioppo	Benedikt Haukur Vargssen	2	2
+Gísli Logi Vargssen	Hrafn Jónsson	2	2
+Gísli Logi Vargssen	Lilja Jónsson	2	2
+Gísli Logi Vargssen	Rósa Mélanie Vargssen	2	2
+Gísli Logi Vargssen	Benedikt Haukur Vargssen	2	2
+Gísli Logi Vargssen	Silvia Kristín Cacioppo	2	2
+Gísli Logi Vargssen	Marcello Stefán Cacioppo	2	2
 
 
 
