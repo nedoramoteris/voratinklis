@@ -598,7 +598,7 @@ Lennon Therasia Windsor	West Elliot Harlow	4	4
 Lennon Therasia Windsor	The British Royal Family	2	2
 Lennon Therasia Windsor	Katrina Deva Bianchi	1	1
 Lennon Therasia Windsor	Arya Natalie Davenport	1	1
-Lennon Therasia Windsor	Salvatore Edoardo Moretti	5	5
+Lennon Therasia Windsor	Salvatore Edoardo Moretti	1	1
 Lennon Therasia Windsor	Aurora Vivienne Boucher	5	5
 Valeria Euphemia Greco-Whitmore	West Elliot Harlow	1	1
 Valeria Euphemia Greco-Whitmore	Harrison James Whitmore	3	3
